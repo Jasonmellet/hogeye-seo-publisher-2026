@@ -1,0 +1,35 @@
+# Environment variables (NEVER commit credentials!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Test outputs
+test_output/
