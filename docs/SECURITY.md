@@ -53,6 +53,12 @@ password = "AbCd EfGh IjKl MnOp QrSt UvWx"
 - Only `.env.example` is committed (with placeholder values)
 - Credentials never exposed in version control
 
+### 3b. Google service account protection (SEO planning)
+If you’re pushing SEO planning outputs to Google Sheets, the service account JSON must live in `secrets/` and remain git-ignored:
+
+- `secrets/` is git-ignored
+- Never paste private keys into chat or commit them
+
 ### 4. Application Password Scope
 - Read/write access to posts, pages, media
 - NO access to:
@@ -202,6 +208,12 @@ PUT /wp-json/wp/v2/pages/{id}    # Update pages
 - ✅ Detailed logging of all operations
 - ✅ Confirmation before bulk operations
 
+### Risk 3b: Accidental mutation of sensitive existing content (homepage countdown, etc.)
+**Mitigation:**
+- ✅ Draft-first pipeline (review before publish)
+- ✅ Local JSON backup of the WP object before mutation (`work/wp_backups/`)
+- ✅ Homepage guardrails: the publisher will refuse to update the homepage if it would remove protected countdown markers (`id="countdown"` / `id="year"`)
+
 ### Risk 4: Compromised Application Password
 **Mitigation:**
 - ✅ Easy to revoke in WordPress admin
@@ -240,6 +252,7 @@ Before running the script:
 - [ ] `.env` is in `.gitignore`
 - [ ] Never commit `.env` to git
 - [ ] Test with DRY_RUN=true first
+- [ ] For homepage updates: confirm countdown widget remains intact after update
 
 ---
 

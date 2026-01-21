@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "clientName": "Client Name Here",
+  "expectedWpSiteUrl": "https://your-site.com",
+  "expectedWpSiteHost": "your-site.com",
+  "expectedWpSiteName": "Your Site Name (for humans)",
+  "environment": "production",
+  "linkAliases": {
+    "contact": "https://your-site.com/contact/",
+    "facebook": "https://facebook.com/your-page"
+  },
+  "protectedMarkersBySlug": {
+    "home": ["id=\"countdown\"", "id=\"year\""]
+  }
+}
+

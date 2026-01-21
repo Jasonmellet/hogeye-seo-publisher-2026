@@ -1,0 +1,24 @@
+# Documentation Index
+
+All documentation lives in `docs/`. Start here:
+
+- **Quick start**: `docs/QUICK_START.md`
+- **Monthly execution**: `docs/MONTHLY_PUBLISHING_WORKFLOW.md`
+- **Roadmap**: `docs/ROADMAP.md`
+- **Project status**: `docs/PROJECT_STATUS.md`
+- **Security**: `docs/SECURITY.md`
+- **Troubleshooting WP auth**: `docs/CONNECTION_DIAGNOSTIC.md`
+- **Backup/restore**: `docs/BACKUP_RESTORE.md`
+
+SEO planning (Sheets/Semrush/DataForSEO):
+- **SEO metadata status**: `docs/SEO_METADATA_STATUS.md`
+- **Tech spec (publisher)**: `docs/TECH_SPEC.md`
+
+Benchmarking (present-state baseline):
+- **One-command runner**: `scripts/seo/run_benchmark.py`
+- **Outputs**: `work/seo/benchmark/YYYY-MM-DD/` pushed into sheet tabs:
+  - `Benchmark_Summary`
+  - `Benchmark_GSC_LandingPages`
+  - `Benchmark_GSC_QueriesByPage`
+  - `Benchmark_GA4_LandingPages`
+  - `Benchmark_DataForSEO_RankSnapshot`

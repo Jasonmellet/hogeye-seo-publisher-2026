@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClientConfig",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "clientName", "expectedWpSiteUrl", "expectedWpSiteHost", "environment"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "clientName": { "type": "string", "minLength": 1 },
+    "expectedWpSiteUrl": { "type": "string", "minLength": 1 },
+    "expectedWpSiteHost": { "type": "string", "minLength": 1 },
+    "expectedWpSiteName": { "type": "string" },
+    "environment": { "type": "string", "enum": ["production", "staging", "development"] },
+    "linkAliases": {
+      "type": "object",
+      "description": "Optional slug -> absolute URL mapping for link placeholder resolution ({{link:slug}}).",
+      "additionalProperties": { "type": "string" }
+    },
+    "protectedMarkersBySlug": {
+      "type": "object",
+      "description": "Optional safety markers to preserve per slug during page updates.",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    }
+  }
+}

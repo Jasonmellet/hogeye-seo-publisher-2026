@@ -1,0 +1,15 @@
+{
+  "title": "Example Blog Post",
+  "slug": "example-blog-post",
+  "content": "<h2>10 Amazing Things About Summer Camp</h2>\n<p>This is an example blog post. Replace with your actual content.</p>\n<p>You can reference other pages using: {{link:example-landing-page|Check out our programs}}</p>",
+  "status": "draft",
+  "excerpt": "Discover the top 10 things that make summer camp unforgettable",
+  "meta_title": "10 Amazing Things About Summer Camp - Camp Lakota",
+  "meta_description": "Discover what makes summer camp at Camp Lakota an unforgettable experience for kids.",
+  "categories": [],
+  "tags": [],
+  "featured_image": "example-featured.jpg",
+  "featured_image_alt": "Kids enjoying summer camp activities",
+  "author_name": "Camp Lakota Staff",
+  "date": "2026-01-12T10:00:00"
+}

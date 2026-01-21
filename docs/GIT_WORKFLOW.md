@@ -5,8 +5,10 @@
 ### Main Branches
 
 #### `main` (Production-Ready)
+
 **Purpose:** Stable, tested, production-ready code
 **Contains:**
+
 - ✅ All documentation (README, ROADMAP, TECH_SPEC, SECURITY)
 - ✅ Finalized Python modules
 - ✅ Configuration templates (env.example, .gitignore)
@@ -14,13 +16,16 @@
 - ✅ Tested and working scripts
 
 **Protected Rules:**
+
 - All code must be tested before merging
 - Must pass validation checks
 - Documentation must be up-to-date
 
 #### `develop` (Active Development)
+
 **Purpose:** Integration branch for features
 **Contains:**
+
 - 🚧 Work-in-progress features
 - 🚧 Integrated modules being tested together
 - 🚧 Latest development code
@@ -33,43 +38,57 @@
 ### Feature Branches
 
 #### `feature/authentication` 
+
 Authentication module development
+
 - WordPress REST API connection
 - Application password handling
 - Connection testing
 
 #### `feature/content-processor`
+
 Content parsing and validation
+
 - JSON/Markdown parsing
 - Content validation
 - HTML conversion
 
 #### `feature/image-uploader`
+
 Media management
+
 - Image upload to WordPress
 - Metadata handling
 - Media library integration
 
 #### `feature/pages-publisher`
+
 Landing page publishing
+
 - Page creation via API
 - Page-specific metadata
 - Schema injection for pages
 
 #### `feature/posts-publisher`
+
 Blog post publishing
+
 - Post creation via API
 - Categories and tags
 - Post-specific metadata
 
 #### `feature/internal-linking`
+
 Internal link management
+
 - Link mapping
 - URL replacement
 - Link verification
 
 #### `feature/schema-seo`
+
 Schema and SEO optimization
+
 - JSON-LD schema generation
 - OpenGraph metadata
 - SEO plugin integration
@@ -79,6 +98,7 @@ Schema and SEO optimization
 ## 📋 What Goes Where
 
 ### Always Commit to `main`:
+
 ```
 ✅ Documentation files (*.md)
 ✅ Configuration templates (env.example)
@@ -90,6 +110,7 @@ Schema and SEO optimization
 ```
 
 ### NEVER Commit to Any Branch:
+
 ```
 ❌ .env (actual credentials)
 ❌ logs/ directory
@@ -101,6 +122,7 @@ Schema and SEO optimization
 ```
 
 ### Commit to Feature Branches:
+
 ```
 🚧 Work-in-progress modules
 🚧 Experimental code
@@ -113,6 +135,7 @@ Schema and SEO optimization
 ## 🔄 Git Workflow Process
 
 ### Phase 1: Initial Setup (Now)
+
 ```bash
 # Initialize and push documentation
 git init
@@ -129,6 +152,7 @@ git push -u origin develop
 ```
 
 ### Phase 2: Feature Development
+
 ```bash
 # Start new feature
 git checkout develop
@@ -144,6 +168,7 @@ git push -u origin feature/authentication
 ```
 
 ### Phase 3: Merge Feature to Develop
+
 ```bash
 # After testing feature
 git checkout develop
@@ -156,6 +181,7 @@ git push origin --delete feature/authentication
 ```
 
 ### Phase 4: Release to Main
+
 ```bash
 # When develop is stable and tested
 git checkout main
@@ -169,6 +195,7 @@ git push origin main --tags
 ## 📝 Commit Message Convention
 
 ### Format
+
 ```
 <type>(<scope>): <subject>
 
@@ -178,6 +205,7 @@ git push origin main --tags
 ```
 
 ### Types
+
 - **feat:** New feature
 - **fix:** Bug fix
 - **docs:** Documentation only
@@ -187,6 +215,7 @@ git push origin main --tags
 - **chore:** Build process, dependencies
 
 ### Examples
+
 ```bash
 # Good commit messages
 git commit -m "feat(auth): add WordPress application password authentication"
@@ -211,6 +240,7 @@ git commit -m "wip"
 - **PATCH:** Bug fixes (1.0.1)
 
 ### Project Milestones
+
 ```
 v0.1.0 - Initial documentation and structure
 v0.2.0 - Authentication module complete
@@ -229,6 +259,7 @@ v1.0.0 - First production release
 ## 🚀 Development Timeline with Git
 
 ### Week 1: Foundation
+
 ```
 main ← docs: initial setup (v0.1.0)
   ↓
@@ -240,6 +271,7 @@ develop ← merge: authentication complete (v0.2.0)
 ```
 
 ### Week 2: Core Modules
+
 ```
 develop
   ↓
@@ -251,6 +283,7 @@ develop ← all core modules (v0.4.0)
 ```
 
 ### Week 3: Publishing
+
 ```
 develop
   ↓
@@ -262,6 +295,7 @@ develop ← publishing complete (v0.6.0)
 ```
 
 ### Week 4: Polish & Release
+
 ```
 develop
   ↓
@@ -279,6 +313,7 @@ main ← release v1.0.0 🎉
 ## 🔒 Protected Files Checklist
 
 Before any commit, verify:
+
 - [ ] `.env` is in `.gitignore`
 - [ ] No hardcoded credentials in code
 - [ ] No personal information in comments
@@ -291,12 +326,14 @@ Before any commit, verify:
 ## 🤝 Collaboration Guidelines
 
 ### For Solo Development (You + AI Assistant)
+
 1. Work primarily on `develop` branch
 2. Create feature branches for major modules
 3. Merge to `main` when stable
 4. Tag releases for milestones
 
 ### If Adding Team Members Later
+
 1. Require pull requests for `main` and `develop`
 2. Code review before merging
 3. Automated testing on pull requests

@@ -1,0 +1,14 @@
+{
+  "title": "Example Landing Page",
+  "slug": "example-landing-page",
+  "content": "<h2>Welcome to Camp Lakota</h2>\n<p>This is an example landing page. Replace this with your actual content.</p>\n<p>You can use HTML markup in the content field.</p>",
+  "status": "draft",
+  "excerpt": "This is a short excerpt describing the page",
+  "meta_title": "Example Landing Page - Camp Lakota",
+  "meta_description": "This is a meta description for SEO. Keep it under 160 characters.",
+  "featured_image": "example-hero.jpg",
+  "featured_image_alt": "Camp Lakota summer activities",
+  "meta": {
+    "custom_field_1": "value1"
+  }
+}

@@ -1,74 +1,111 @@
-# Camp Lakota - WordPress Content Publisher
+# SEO Content Publisher Template
 
-A streamlined tool to publish landing pages and blog posts to WordPress via the REST API.
+Two tightly-connected systems (per client repo):
+
+- **WordPress Publishing Engine**: publish/update pages + posts to WordPress via REST API, draft-first, with validation gates.
+- **SEO Planning Engine**: build a data-driven monthly plan in Google Sheets (Semrush normalization, sitemap inventory, DataForSEO enrichment, execution checklists).
 
 ## Project Overview
 
-This project publishes pre-created content for Camp Lakota to WordPress, including:
-- **4 Landing Pages** with full metadata and schema
-- **6 Blog Posts** with images, internal links, and SEO optimization
+This repo is a GitHub template intended to be the source-of-truth + automation toolkit for each client:
+
+- **Publishing**: JSON “source of truth” → transforms/validators → WordPress drafts/updates.
+- **Planning**: Semrush exports + DataForSEO → clustered plan → briefs → checklists → measurement tabs in Sheets.
 
 ## Quick Start
 
-1. Install dependencies:
+### WordPress publisher (local, per client)
+
+New client? Start with `CLIENT_SETUP.md`.
+
+1. Create a local virtualenv (recommended on macOS/Homebrew Python):
+
 ```bash
-pip install -r requirements.txt
+python3 -m venv .venv
+./.venv/bin/python -m pip install -r requirements.txt
 ```
 
 2. Configure environment:
+
 ```bash
-cp .env.example .env
+cp env.example .env
 # Edit .env with your WordPress credentials
 ```
 
-3. Add your content to the `/content` directory
+3. Test connection:
 
-4. Run the publisher:
 ```bash
-python publish.py
+./.venv/bin/python test_connection.py
 ```
+
+4. Publish content (canonical pipeline; draft-first by default):
+
+```bash
+# Publish a single item (recommended)
+./.venv/bin/python publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts
+
+# Or publish a batch directory
+./.venv/bin/python publish_batch.py /absolute/path/to/content/posts --type posts
+```
+
+### SEO planning engine (Sheets)
+
+We maintain planning artifacts under `work/seo/` and push them to your Google Sheet via scripts in `scripts/seo/`.
+
+- **Key script**: `scripts/seo/push_seo_csvs_to_sheet.py`
+- **Example execution tab**: `Feb_2026_execution_checklists` (generated from `Feb_2026_plan_final` + `Feb_2026_briefs`)
 
 ## Project Structure
 
 ```
-AGT_Camp_Lakota/
+repo_root/
 ├── README.md                 # This file
-├── ROADMAP.md               # Development roadmap
-├── TECH_SPEC.md             # Technical specifications
+├── DOCS.md                  # Documentation index (see docs/)
 ├── requirements.txt         # Python dependencies
-├── .env.example            # Environment variables template
+├── env.example              # Environment variables template
 ├── .env                    # Your credentials (git-ignored)
 ├── config.py               # Configuration handler
-├── publish.py              # Main publishing script
+├── publish_content_item.py # Canonical: publish/update ONE item
+├── publish_batch.py        # Canonical: publish/update a batch
+├── resolve_internal_links.py# Optional: resolve {{link:...}} placeholders across existing WP content
 ├── content/
 │   ├── pages/             # Landing pages (JSON/Markdown)
 │   ├── posts/             # Blog posts (JSON/Markdown)
 │   └── images/            # Image files
 ├── modules/
 │   ├── auth.py            # WordPress authentication
-│   ├── content.py         # Content processor
-│   ├── images.py          # Image uploader
-│   ├── metadata.py        # Meta & schema handler
-│   └── links.py           # Internal linking
-└── logs/                   # Execution logs
+│   ├── publish_pipeline.py # Canonical pipeline (draft-first)
+│   ├── images.py           # Image uploader
+│   ├── metadata.py         # Yoast meta helpers
+│   └── links.py            # Internal linking
+├── scripts/
+│   ├── seo/                # SEO planning scripts (Semrush/DataForSEO/Sheets)
+│   └── legacy/             # Deprecated one-offs (avoid for monthly publishing)
+└── logs/                   # Execution logs (git-ignored)
 
 ```
 
 ## Status Tracking
 
-- [ ] Project setup complete
-- [ ] Content files added
-- [ ] WordPress credentials configured
-- [ ] Landing pages published
-- [ ] Blog posts published
-- [ ] Internal links verified
-- [ ] Schema markup validated
+- **Publisher**
+  - [x] WordPress auth + permissions verified (`test_connection.py`)
+  - [x] Draft-first canonical pipeline in place
+  - [x] Homepage safety guardrails (protect countdown markers)
+  - [ ] Feb Wave 1 + Wave 2 execution (draft → review → publish)
+- **SEO planning**
+  - [x] Sitemap inventory
+  - [x] Semrush OTI normalization + non-brand filtering + cannibalization
+  - [x] Feb 2026 plan: constraints → clusters → final 10 → briefs → checklists → measurement scaffolding
 
 ## Documentation
 
-- [ROADMAP.md](ROADMAP.md) - Development phases and timeline
-- [TECH_SPEC.md](TECH_SPEC.md) - Technical specifications and requirements
-- [CONTENT_REQUIREMENTS.md](CONTENT_REQUIREMENTS.md) - What we need from you
+See `DOCS.md` for the full documentation index.
+
+## Git workflow
+
+Recommended branches:
+- `main`: stable
+- `develop`: active development
 
 ## Support
 

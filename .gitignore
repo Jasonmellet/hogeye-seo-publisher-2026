@@ -1,5 +1,9 @@
 # Environment variables (NEVER commit credentials!)
 .env
+.secrets/
+secrets/
+*.secret.json
+*.service-account.json
 
 # Python
 __pycache__/
@@ -10,6 +14,7 @@ __pycache__/
 venv/
 env/
 ENV/
+.venv/
 .venv
 
 # Logs
@@ -31,5 +36,23 @@ temp/
 tmp/
 *.tmp
 
+# Local work artifacts (batch outputs, agent tracking, exports)
+work/
+archive/
+backups/
+temp_images_for_analysis/
+image_batch_*_for_analysis.json
+image_metadata_generated*.json
+image_metadata_generated*.csv
+
 # Test outputs
 test_output/
+
+# Raw content (before conversion)
+raw_content/pages/*
+raw_content/posts/*
+raw_content/images/*
+!raw_content/pages/.gitkeep
+!raw_content/posts/.gitkeep
+!raw_content/images/.gitkeep
+!raw_content/README.md
