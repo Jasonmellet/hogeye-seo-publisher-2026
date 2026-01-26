@@ -33,7 +33,7 @@ This repo has two engines:
   - `publish_content_item.py` (one file)
   - `publish_batch.py` (directory or list of files)
 
-2) **SEO Planning Engine (optional)**
+2) **SEO Planning Engine (optional / enabled when configured)**
 
 - Input: CSVs under `work/seo/...` (Semrush/GSC/GA4/DataForSEO)
 - Output: a Google Sheet planning spreadsheet via `scripts/seo/*`
@@ -213,7 +213,7 @@ Present-state benchmark (recommended first):
 Notes:
 
 - GA4 is optional (`GA4_PROPERTY_ID`).
-- DataForSEO is optional (`DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD`).
+- DataForSEO is optional but recommended. Configure `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` in `.env` to run DataForSEO scripts (Keywords/SERP + Backlinks; AI Optimization optional).
 
 ---
 

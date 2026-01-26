@@ -33,7 +33,7 @@ If you want to use `scripts/seo/*`, you’ll need:
 - **GSC_SITE_URL**: Search Console property, recommended domain property  
   Example: `sc-domain:example.com`
 - **GA4_PROPERTY_ID** (optional): numeric GA4 property id
-- **DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD** (optional): DataForSEO API creds
+- **DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD** (optional): DataForSEO API creds (paid plan recommended; Backlinks + AI Optimization optional)
 - (optional) **BRAND_TERMS**: comma-separated brand tokens to exclude in query lists
 
 ## After you provide those, the agent should do this (in order)

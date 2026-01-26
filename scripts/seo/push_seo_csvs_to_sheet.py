@@ -203,6 +203,13 @@ def benchmark_paths(benchmark_dir: str) -> Dict[str, str]:
         "Benchmark_GSC_QueriesByPage": os.path.join(benchmark_dir, "Benchmark_GSC_QueriesByPage.csv"),
         "Benchmark_GA4_LandingPages": os.path.join(benchmark_dir, "Benchmark_GA4_LandingPages.csv"),
         "Benchmark_DataForSEO_RankSnapshot": os.path.join(benchmark_dir, "Benchmark_DataForSEO_RankSnapshot.csv"),
+        "Benchmark_Sitemap_Inventory": os.path.join(benchmark_dir, "Benchmark_Sitemap_Inventory.csv"),
+        "Benchmark_SERP_TopResults": os.path.join(benchmark_dir, "Benchmark_SERP_TopResults.csv"),
+        "Benchmark_SERP_FeatureCounts": os.path.join(benchmark_dir, "Benchmark_SERP_FeatureCounts.csv"),
+        "Benchmark_OnPage_Summary": os.path.join(benchmark_dir, "Benchmark_OnPage_Summary.csv"),
+        "Benchmark_OnPage_IssueCounts": os.path.join(benchmark_dir, "Benchmark_OnPage_IssueCounts.csv"),
+        "Benchmark_OnPage_Pages": os.path.join(benchmark_dir, "Benchmark_OnPage_Pages.csv"),
+        "Benchmark_OnPage_NonIndexable": os.path.join(benchmark_dir, "Benchmark_OnPage_NonIndexable.csv"),
     }
 
 
@@ -231,6 +238,11 @@ def main() -> int:
     )
     ap.add_argument("--skip-big", action="store_true", help="Skip semrush_queries_by_page (largest tab)")
     ap.add_argument("--benchmark-dir", default="", help="Optional benchmark directory to also push (work/seo/benchmark/YYYY-MM-DD)")
+    ap.add_argument(
+        "--only-benchmark",
+        action="store_true",
+        help="Only push benchmark tabs (ignore Semrush/plan datasets). Requires --benchmark-dir.",
+    )
     ap.add_argument("--chunk-size", type=int, default=500, help="Rows per Sheets update request")
     args = ap.parse_args()
 
@@ -245,17 +257,25 @@ def main() -> int:
             f"(got: {args.service_account_json or '(empty)'})"
         )
 
-    paths = dataset_paths(project_root=args.project_root, semrush_dir=args.semrush_dir, plan_dir=args.plan_dir)
-    if args.skip_big:
-        paths.pop("semrush_queries_by_page", None)
-
-    if args.benchmark_dir:
+    paths: Dict[str, str]
+    if args.only_benchmark:
+        if not args.benchmark_dir:
+            raise SystemExit("--only-benchmark requires --benchmark-dir.")
         if not os.path.isdir(args.benchmark_dir):
             raise SystemExit(f"--benchmark-dir not found: {args.benchmark_dir}")
-        # Merge benchmark datasets; only push files that exist
-        for tab, path in benchmark_paths(args.benchmark_dir).items():
-            if os.path.isfile(path):
-                paths[tab] = path
+        paths = {tab: path for tab, path in benchmark_paths(args.benchmark_dir).items() if os.path.isfile(path)}
+    else:
+        paths = dataset_paths(project_root=args.project_root, semrush_dir=args.semrush_dir, plan_dir=args.plan_dir)
+        if args.skip_big:
+            paths.pop("semrush_queries_by_page", None)
+
+        if args.benchmark_dir:
+            if not os.path.isdir(args.benchmark_dir):
+                raise SystemExit(f"--benchmark-dir not found: {args.benchmark_dir}")
+            # Merge benchmark datasets; only push files that exist
+            for tab, path in benchmark_paths(args.benchmark_dir).items():
+                if os.path.isfile(path):
+                    paths[tab] = path
 
     creds = service_account.Credentials.from_service_account_file(args.service_account_json, scopes=SCOPES)
     sheets = build("sheets", "v4", credentials=creds, cache_discovery=False)

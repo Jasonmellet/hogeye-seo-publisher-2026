@@ -101,9 +101,10 @@ This will validate:
 
 ---
 
-## 📈 SEO planning (optional, Feb 2026+)
+## 📈 SEO planning (Sheets/Semrush/DataForSEO)
 
-If you’re running the SEO planning pipeline (Sheets/Semrush/DataForSEO), the scripts live under `scripts/seo/`.
+If you’re running the SEO planning pipeline, the scripts live under `scripts/seo/`.
+If you have a paid DataForSEO plan (Keywords/SERP + Backlinks; AI Optimization optional), put credentials in `.env` (`DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD`).
 
 Typical workflow:
 

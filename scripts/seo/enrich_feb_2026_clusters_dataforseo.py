@@ -107,7 +107,31 @@ def dfs_search_volume_live(
     if not results:
         return out
 
-    # DataForSEO typically returns result[0].items
+    # DataForSEO can return either:
+    # - result[0].items (legacy/alternate shape), OR
+    # - result as a list of per-keyword metric objects (common for search_volume/live).
+    #
+    # We support both shapes to keep the pipeline resilient.
+
+    # Shape A: per-keyword objects directly in result list
+    direct_like = any(isinstance(r, dict) and (r.get("keyword") or r.get("key")) for r in results)
+    if direct_like:
+        for r0 in results:
+            if not isinstance(r0, dict):
+                continue
+            kw = (r0.get("keyword") or r0.get("key") or "").strip()
+            if not kw:
+                continue
+            out[kw.lower()] = {
+                "keyword": kw,
+                "search_volume": r0.get("search_volume") or r0.get("keyword_info", {}).get("search_volume"),
+                "cpc": r0.get("cpc") or r0.get("keyword_info", {}).get("cpc"),
+                "competition": r0.get("competition") or r0.get("keyword_info", {}).get("competition"),
+                "competition_level": r0.get("competition_level") or r0.get("keyword_info", {}).get("competition_level"),
+            }
+        return out
+
+    # Shape B: result[0].items
     items = (results[0].get("items") or results[0].get("keywords") or [])
     if isinstance(items, dict):
         items = list(items.values())

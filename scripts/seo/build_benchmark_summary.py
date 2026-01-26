@@ -65,29 +65,29 @@ def main() -> int:
     ga4_path = os.path.join(args.output_dir, "Benchmark_GA4_LandingPages.csv")
     dfs_path = os.path.join(args.output_dir, "Benchmark_DataForSEO_RankSnapshot.csv")
 
-    if not os.path.isfile(gsc_pages_path) or not os.path.isfile(gsc_qbp_path):
-        raise SystemExit("Missing GSC benchmark CSVs. Expected Benchmark_GSC_LandingPages.csv and Benchmark_GSC_QueriesByPage.csv")
-
-    pages = read_csv_dicts(gsc_pages_path)
-    qbp = read_csv_dicts(gsc_qbp_path)
+    pages: List[Dict[str, str]] = []
+    qbp: List[Dict[str, str]] = []
+    has_gsc = os.path.isfile(gsc_pages_path) and os.path.isfile(gsc_qbp_path)
+    if has_gsc:
+        pages = read_csv_dicts(gsc_pages_path)
+        qbp = read_csv_dicts(gsc_qbp_path)
 
     range_start = pages[0].get("range_start", "") if pages else ""
     range_end = pages[0].get("range_end", "") if pages else ""
 
-    total_clicks = sum(to_float(r.get("clicks")) for r in pages)
-    total_impr = sum(to_float(r.get("impressions")) for r in pages)
+    total_clicks = sum(to_float(r.get("clicks")) for r in pages) if has_gsc else 0.0
+    total_impr = sum(to_float(r.get("impressions")) for r in pages) if has_gsc else 0.0
     total_ctr = (total_clicks / total_impr) if total_impr else 0.0
     avg_pos_weighted = 0.0
     if total_impr:
         avg_pos_weighted = sum(to_float(r.get("avg_position")) * to_float(r.get("impressions")) for r in pages) / total_impr
 
-    # Top pages by clicks
-    pages_sorted = sorted(pages, key=lambda r: to_float(r.get("clicks")), reverse=True)
-    top_pages = pages_sorted[: max(1, int(args.top_pages))]
+    # Top pages/queries only when GSC data exists
+    pages_sorted = sorted(pages, key=lambda r: to_float(r.get("clicks")), reverse=True) if has_gsc else []
+    top_pages = pages_sorted[: max(1, int(args.top_pages))] if has_gsc else []
 
-    # Top queries by clicks (sitewide across the selected pages)
-    q_sorted = sorted(qbp, key=lambda r: to_float(r.get("clicks")), reverse=True)
-    top_queries = q_sorted[: max(1, int(args.top_queries))]
+    q_sorted = sorted(qbp, key=lambda r: to_float(r.get("clicks")), reverse=True) if has_gsc else []
+    top_queries = q_sorted[: max(1, int(args.top_queries))] if has_gsc else []
 
     # Optional GA4 rollup
     ga4_sessions = ""
@@ -113,12 +113,22 @@ def main() -> int:
 
     # Summary table as key/value rows (simple for exec consumption)
     out_rows: List[Dict[str, object]] = []
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "range_start", "value": range_start, "fetched_at": fetched_at})
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "range_end", "value": range_end, "fetched_at": fetched_at})
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "clicks", "value": round(total_clicks, 2), "fetched_at": fetched_at})
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "impressions", "value": round(total_impr, 2), "fetched_at": fetched_at})
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "ctr", "value": round(total_ctr, 4), "fetched_at": fetched_at})
-    out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "avg_position_weighted", "value": round(avg_pos_weighted, 2), "fetched_at": fetched_at})
+    if has_gsc:
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "range_start", "value": range_start, "fetched_at": fetched_at})
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "range_end", "value": range_end, "fetched_at": fetched_at})
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "clicks", "value": round(total_clicks, 2), "fetched_at": fetched_at})
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "impressions", "value": round(total_impr, 2), "fetched_at": fetched_at})
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "ctr", "value": round(total_ctr, 4), "fetched_at": fetched_at})
+        out_rows.append({"section": "GSC Totals (Top Pages)", "metric": "avg_position_weighted", "value": round(avg_pos_weighted, 2), "fetched_at": fetched_at})
+    else:
+        out_rows.append(
+            {
+                "section": "GSC Totals (Top Pages)",
+                "metric": "note",
+                "value": "GSC benchmark CSVs missing; enable Search Console API + grant service account access, then re-run benchmark.",
+                "fetched_at": fetched_at,
+            }
+        )
 
     if ga4_sessions != "":
         out_rows.append({"section": "GA4 Totals (Top Landing Pages)", "metric": "sessions", "value": ga4_sessions, "fetched_at": fetched_at})

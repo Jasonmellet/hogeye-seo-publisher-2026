@@ -71,7 +71,7 @@ If you’re using the SEO scripts under `scripts/seo/`, you typically set:
 - `GOOGLE_APPLICATION_CREDENTIALS`
 - `GSC_SITE_URL`
 - `GA4_PROPERTY_ID` (optional)
-- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` (optional)
+- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` (required for DataForSEO scripts)
 
 Then run (example):
 

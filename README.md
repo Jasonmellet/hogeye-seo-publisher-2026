@@ -25,20 +25,20 @@ python3 -m venv .venv
 ./.venv/bin/python -m pip install -r requirements.txt
 ```
 
-2. Configure environment:
+1. Configure environment:
 
 ```bash
 cp env.example .env
 # Edit .env with your WordPress credentials
 ```
 
-3. Test connection:
+1. Test connection:
 
 ```bash
 ./.venv/bin/python test_connection.py
 ```
 
-4. Publish content (canonical pipeline; draft-first by default):
+1. Publish content (canonical pipeline; draft-first by default):
 
 ```bash
 # Publish a single item (recommended)
@@ -54,10 +54,11 @@ We maintain planning artifacts under `work/seo/` and push them to your Google Sh
 
 - **Key script**: `scripts/seo/push_seo_csvs_to_sheet.py`
 - **Example execution tab**: `Feb_2026_execution_checklists` (generated from `Feb_2026_plan_final` + `Feb_2026_briefs`)
+- **Note**: This repo assumes a paid DataForSEO plan is available (Keywords/SERP + Backlinks; AI Optimization optional). Keep credentials in `.env` (git-ignored).
 
 ## Project Structure
 
-```
+```text
 repo_root/
 ├── README.md                 # This file
 ├── DOCS.md                  # Documentation index (see docs/)
@@ -104,6 +105,7 @@ See `DOCS.md` for the full documentation index.
 ## Git workflow
 
 Recommended branches:
+
 - `main`: stable
 - `develop`: active development
 
