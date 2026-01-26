@@ -206,6 +206,11 @@ def benchmark_paths(benchmark_dir: str) -> Dict[str, str]:
         "Benchmark_Sitemap_Inventory": os.path.join(benchmark_dir, "Benchmark_Sitemap_Inventory.csv"),
         "Benchmark_SERP_TopResults": os.path.join(benchmark_dir, "Benchmark_SERP_TopResults.csv"),
         "Benchmark_SERP_FeatureCounts": os.path.join(benchmark_dir, "Benchmark_SERP_FeatureCounts.csv"),
+        # Optional, but useful for a "full" baseline:
+        "Benchmark_SERP_CompetitorDomains": os.path.join(benchmark_dir, "Benchmark_SERP_CompetitorDomains.csv"),
+        "Benchmark_Backlinks_RefDomains_Target": os.path.join(benchmark_dir, "Benchmark_Backlinks_RefDomains_Target.csv"),
+        "Benchmark_Backlinks_RefDomains_Competitors": os.path.join(benchmark_dir, "Benchmark_Backlinks_RefDomains_Competitors.csv"),
+        "Benchmark_Backlinks_GapDomains": os.path.join(benchmark_dir, "Benchmark_Backlinks_GapDomains.csv"),
         "Benchmark_OnPage_Summary": os.path.join(benchmark_dir, "Benchmark_OnPage_Summary.csv"),
         "Benchmark_OnPage_IssueCounts": os.path.join(benchmark_dir, "Benchmark_OnPage_IssueCounts.csv"),
         "Benchmark_OnPage_Pages": os.path.join(benchmark_dir, "Benchmark_OnPage_Pages.csv"),
