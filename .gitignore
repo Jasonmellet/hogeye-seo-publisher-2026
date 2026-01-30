@@ -39,6 +39,12 @@ tmp/
 
 # Local work artifacts (batch outputs, agent tracking, exports)
 work/
+!work/
+work/*
+!work/seo/
+work/seo/*
+!work/seo/hogeye/
+!work/seo/hogeye/**
 archive/
 backups/
 temp_images_for_analysis/
