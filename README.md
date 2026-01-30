@@ -1,9 +1,19 @@
-# SEO Content Publisher Template
+# Hogeye SEO Content Publisher (2026)
 
-Two tightly-connected systems (per client repo):
+This is the **Hogeye** client repo built from the SEO publisher template. It contains two tightly-connected systems:
 
 - **WordPress Publishing Engine**: publish/update pages + posts to WordPress via REST API, draft-first, with validation gates.
 - **SEO Planning Engine**: build a data-driven monthly plan in Google Sheets (Semrush normalization, sitemap inventory, DataForSEO enrichment, execution checklists).
+
+## Hogeye fast-track (BB-level workflow)
+
+Start here for a “checklist-first” setup path:
+
+- `work/seo/hogeye/RUNBOOK.md`
+- `work/seo/hogeye/SAFETY_WORKFLOW.md`
+- `work/seo/hogeye/PROGRESS_TRACKER.md`
+- `work/seo/hogeye/EXECUTION_STATUS.md`
+- `work/seo/hogeye/PROJECT_CONFIG.json` (fill in taxonomy/linking/blacklist decisions)
 
 ## Project Overview
 
@@ -92,11 +102,11 @@ repo_root/
   - [x] WordPress auth + permissions verified (`test_connection.py`)
   - [x] Draft-first canonical pipeline in place
   - [x] Homepage safety guardrails (protect countdown markers)
-  - [ ] Feb Wave 1 + Wave 2 execution (draft → review → publish)
+  - [ ] Month 1 execution (draft → review → publish)
 - **SEO planning**
   - [x] Sitemap inventory
   - [x] Semrush OTI normalization + non-brand filtering + cannibalization
-  - [x] Feb 2026 plan: constraints → clusters → final 10 → briefs → checklists → measurement scaffolding
+  - [x] Planning scripts available (Sheets + DataForSEO enrichment)
 
 ## Documentation
 
