@@ -8,6 +8,18 @@ This runbook turns “discovery” into **tasks you can check off**. The goal is
 
 ---
 
+## BB → Hogeye checklist (quick)
+
+- [ ] Fill `work/seo/hogeye/PROJECT_CONFIG.json` (site URL, categories, internal link targets, blacklist)
+- [ ] Run `python3 scripts/seo/hogeye_preflight.py` and fix any missing config/env values
+- [ ] Run smoke tests (WP + DataForSEO)
+- [ ] Pull baseline datasets (GSC/GA4 where available + Screaming Frog crawl export)
+- [ ] Pick Month 1: **5 new + 5 updates** and record choices in `work/seo/hogeye/EXECUTION_STATUS.md`
+- [ ] Write 10 briefs, then generate drafts **locally only**
+- [ ] Publish to WordPress as **drafts**, **one piece at a time**, with human review each step
+
+---
+
 ## 0) Environment setup
 
 1) Create `.env`:
