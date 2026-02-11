@@ -1,0 +1,26 @@
+{
+  "ran_at": "2026-01-30 22:08:23Z",
+  "wp_site_url": "https://hogeyecameras.com",
+  "username": "Jason Mellet",
+  "created_post": {
+    "id": 500298,
+    "status": "draft",
+    "link": "https://hogeyecameras.com/?p=500298"
+  },
+  "updated_post": {
+    "status_code": 200,
+    "body_prefix": "{\"id\":500298,\"date\":\"2026-01-30T22:08:25\",\"date_gmt\":\"2026-01-30T22:08:25\",\"guid\":{\"rendered\":\"https:\\/\\/hogeyecameras.com\\/?p=500298\",\"raw\":\"https:\\/\\/hogeyecameras.com\\/?p=500298\"},\"modified\":\"2026-"
+  },
+  "fetched_post": {
+    "id": 500298,
+    "status": "draft",
+    "slug": "",
+    "has_aioseo_head": true,
+    "has_aioseo_head_json": true,
+    "has_aioseo_meta_data": true
+  },
+  "deleted": true,
+  "deleted_status_code": 200,
+  "aioseo_supported": true,
+  "notes": []
+}

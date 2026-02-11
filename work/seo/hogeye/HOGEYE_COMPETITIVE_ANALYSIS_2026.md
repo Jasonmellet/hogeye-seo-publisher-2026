@@ -1,76 +1,104 @@
-## HogEye — Competitive Landscape (Trap Monitoring + Remote Closure) — 2026 Baseline
+## HogEye — Competitive Landscape
 
-Last updated: **2026-01-30**  
-Sources:
+### Camera SERPs, Marketplaces & Backlinks (February 2026 Baseline)
 
-- Trap-focused planning docs in `work/seo/hogeye/`
-- GSC deep export evidence in `work/seo/gsc_deep/2026-01-30_last_365d/`
-- Backlink gap baseline in `work/seo/benchmark/2026-01-26/`
+Last updated: **2026-02-11**
 
----
+## Baseline Sources (rerun)
 
-### Competitive reality: where we win
-
-Generic camera SERPs are marketplace and brand dominated. HogEye should not compete as a general security camera brand.
-
-**Winning lane:** operational trap outcomes.
-
-- monitor trap status remotely
-- verify full-sounder presence before closure
-- trigger closure/release at the right moment
-- reduce missed captures and wasted trips
+- `work/seo/plan/hogeye_serp_competitor_domains.csv`
+- `work/seo/plan/hogeye_backlinks_referring_domains_target.csv`
+- `work/seo/plan/hogeye_backlinks_referring_domains_competitors.csv`
+- `work/seo/plan/hogeye_backlinks_gap_domains.csv`
+- `work/seo/benchmark/2026-02-10/Benchmark_SERP_TopResults.csv`
+- `work/seo/benchmark/2026-02-10/Benchmark_SERP_FeatureCounts.csv`
+- `work/seo/gsc_deep/2026-02-10_last_365d/`
 
 ---
 
-### Content pattern that supports HogEye's lane
+## SERP Competitive Reality
 
-- Trap operators need workflow certainty, not generic camera feature lists.
-- Best-performing HogEye narratives are operational:
-  - baiting and conditioning workflows
-  - trigger timing decisions
-  - reliability during active trap windows
-  - multi-user handoff and backup triggering
+From the refreshed SERP snapshot (25 keywords, top 10 depth):
 
----
+- Total organic result rows captured: **250**
+- HogEye-owned rows: **5**
+- Total competitor domains surfaced: **42**
 
-### Comparison content guidance
+Most frequent domains in camera/trap SERPs:
 
-Competitor comparison pages should be reframed around:
+- `youtube.com` (27)
+- `farmranchstore.com` (18)
+- `facebook.com` (18)
+- `gamechangertraps.com` (16)
+- `jagerpro.com` (13)
+- `pigbrig.com` (12)
+- `bigpigtrap.com` (12)
+- `thatsahogtrap.com` (11)
+- `wildpiginfo.msstate.edu` (10)
+- `tractorsupply.com` (8)
 
-- trap-closure timing reliability
-- missed-sounder risk
-- field support and warranty continuity
-- workflow fit for trappers and land managers
+Marketplaces in this baseline are present but not dominant:
 
-Do not frame comparisons as broad "security camera shootouts."
+- `amazon.com`: 7 appearances
+- `tractorsupply.com`: 8 appearances
 
----
-
-### Keyword strategy guardrails
-
-Prioritize trap-operation terms and avoid broad security-first terms.
-
-- Preferred: hog trap camera with remote trigger, trap gate trigger, sounder capture timing, remote trap monitoring and closure.
-- Avoid as primaries: security camera, off-grid security, gate surveillance, driveway monitoring.
+Interpretation: direct trap-brand and educational domains currently occupy the core competitive space more than broad consumer marketplaces.
 
 ---
 
-### Backlinks: what to pursue
+## SERP Feature Pressure
 
-Use relevance-first outreach:
+Top modules captured:
 
-- hog management and wildlife damage control communities
-- land management and agricultural operations resources
-- practical trapping education outlets
+- `organic`: 429
+- `popular_products`: 55
+- `related_searches`: 50
+- `images`: 33
+- `video`: 17
+- `people_also_ask`: 16
+- `knowledge_graph`: 12
+- `ai_overview`: 2
 
-Avoid low-quality directories and generic SEO link farms.
+Implication: content must win both classic organic rankings and blended SERP layouts (video, PAA, product modules).
 
 ---
 
-### Competitive takeaways (actionable)
+## Backlinks Gap (Refreshed)
 
-- Differentiate on workflow and capture outcomes, not surveillance features.
-- Keep every page tied to the monitor -> verify -> trigger sequence.
-- Reinforce support/warranty and field reliability as operational risk controls.
-- Use internal links to route informational intent to trap-system conversion pages.
+- Target domain sampled: `hogeyecameras.com`
+- Competitors sampled: **8**
+  - `farmranchstore.com`
+  - `gamechangertraps.com`
+  - `jagerpro.com`
+  - `pigbrig.com`
+  - `bigpigtrap.com`
+  - `wildpiginfo.msstate.edu`
+  - `thatsahogtrap.com`
+  - `tractorsupply.com`
+- Target referring domains in sample: **46**
+- Gap domains identified: **678**
+
+Important caveat: top raw gap rows include obvious low-quality/link-farm artifacts. Treat this list as a prospect pool requiring QA, not as direct outreach targets.
+
+---
+
+## Strategic Direction (North Star Aligned)
+
+HogEye wins by owning operational trap outcomes, not generic camera positioning:
+
+- remote trap monitoring
+- full-sounder verification before closure
+- low-latency trigger timing execution
+- fewer missed captures and fewer wasted trips
+
+Use comparison content to evaluate workflow reliability, trigger confidence, and support continuity in real trap operations.
+
+---
+
+## Action Plan for Next Refresh
+
+- Re-run this competitive baseline monthly with the same script set.
+- Add a QA filter pass to remove low-quality backlink-gap domains before outreach.
+- Expand keyword set from 25 to 60 when API latency allows.
+- Keep all new comparative content mapped to monitor -> verify -> trigger outcomes.
 

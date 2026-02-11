@@ -1,0 +1,629 @@
+{
+  "backup_created_at_utc": "2026-02-11T01:45:04.816827+00:00",
+  "source": "live_wp_rest_api",
+  "site_url": "https://hogeyecameras.com",
+  "post": {
+    "id": 500011,
+    "date": "2025-10-24T14:57:39",
+    "date_gmt": "2025-10-24T14:57:39",
+    "guid": {
+      "rendered": "http://hogeyecameras.com/?p=500011",
+      "raw": "http://hogeyecameras.com/?p=500011"
+    },
+    "modified": "2026-02-10T20:34:48",
+    "modified_gmt": "2026-02-10T20:34:48",
+    "password": "",
+    "slug": "blog-how-to-spot-feral-hog-damage",
+    "status": "draft",
+    "type": "post",
+    "link": "https://hogeyecameras.com/?p=500011",
+    "title": {
+      "raw": "How to Spot Feral Hog Damage Before It’s Too Late",
+      "rendered": "How to Spot Feral Hog Damage Before It’s Too Late"
+    },
+    "content": {
+      "raw": "<!-- wp:fl-builder/layout -->\r\n<p>Feral hog damage costs billions to American farms, ranches, and wildlands every year. Early detection is the single most effective way to limit their costly impact and prevent hard-to-repair destruction. This guide from HogEye walks landowners through proven signs to look for, how to confirm hog activity, and next steps for on-the-ground action-with photo checklists and before/after examples.</p>\r\n<h2><b>What Feral Hog Damage Looks Like</b></h2>\r\n<h3>Rooting:</h3>\r\n<p>The most common tell-tale sign-feral hogs dig or \"root\" shallow and deep holes, overturning turf, soil, and leaf litter in irregular patches. Area rooting can range from small pits to acres of torn ground, often in a single night. These signs are your first and most urgent warning signal.</p>\r\n<h3>Wallowing:</h3>\r\n<p>Look for crescent-shaped, muddy shallow pools near creeks, ponds, or low areas. Hogs create these \"wallows\" to cool off and hide from predators. Muddy tracks and bristles may be found nearby. Wallows are usually surrounded by additional rooting and grazing evidence.</p>\r\n<h3>Rubbing:</h3>\r\n<p>After wallowing, feral hogs rub against fence posts, trees, and poles to clean off mud or remove parasites. Look for bark/plaster rubbed away, slick muddy bands 5-40\" above ground, and even bristles stuck on wood or fencing. Major rubs can kill trees over time.</p>\r\n<h3>Tracks and Trails:</h3>\r\n<p>Hog tracks are round or oval, with cloven hooves and blunt \"W\" shaped toes, wider than deer. Tracks are usually 2-3 inches long and found on trails leading from bedding areas to water, food plots, and wallows. Hogs often create low tunnels through brush-a sign of repeated travel by the herd.</p>\r\n<h3>Beds:</h3>\r\n<p>Look for large circular depressions, often hidden in thick vegetation or woods. These are usually cleared of plants and may look freshly turned.</p>\r\n<h3>Scat:</h3>\r\n<p>Due to an omnivorous diet, hog droppings vary but are often cylindrical, dark, and similar to dog feces. Scat may contain crop remains, roots, and animal hair depending on recent meals.</p>\r\n<h3>Feeding Damage:</h3>\r\n<p>Beyond rooting, hogs devastate crops by trampling, knocking over stalks (corn, sorghum, rice), eating garden produce, and damaging pasture grass. They dig into decaying logs and uproot seedlings searching for insects or roots.</p>\r\n<h3>Fence Crossings:</h3>\r\n<p>Hogs create arched openings under or through wire fences and leave bristles snagged on barbs-a clear sign of their strength and presence.</p>\r\n<h2><b>Photo Checklist: Know the Signs of Feral Hog Damage</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Before: Healthy pasture, crops standing, fence intact</li>\r\n<li aria-level=\"1\">After: Deep pit rooting patches, trampled rows, muddy wallows, bark-rubbed trees, broken fences with tufts of bristles, hoof prints in mud, scattered scat with crop residue</li>\r\n</ul>\r\n<p><img src=\"http://hogeyecameras.com/wp-content/uploads/2025/10/field-before-andafter-300x94.jpg\" alt=\"field-before and after\" width=\"686\" height=\"215\" /></p>\r\n<h2><b>When to Act: Timing is Everything</b></h2>\r\n<p>If you spot fresh rooting, wallows, or more than a few tracks, act within 24-48 hours. Hogs can double field damage overnight. Immediate monitoring and trapping are essential with any sign of herd presence-especially in spring and early summer when breeding and foraging spike.</p>\r\n<h2><b>Fast Action Checklist</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Set up HogEye cameras at all active sites and trails</li>\r\n<li aria-level=\"1\">Mark new rooting and wallow locations with GPS or phone photos</li>\r\n<li aria-level=\"1\">Repair or reinforce fence crossings immediately</li>\r\n<li aria-level=\"1\">Notify neighbors or local ag extension offices if damage spreads</li>\r\n<li aria-level=\"1\">Begin trapping/hunting protocols ASAP</li>\r\n</ul>\r\n<h2><b>How Monitoring Feral Hog Damage Reduces Cost</b></h2>\r\n<p>HogEye's AI-enabled cameras rapidly detect motion, classify animals, and track herd patterns-giving you real-time alerts, clear video captures, and actionable data. Accurate monitoring means faster decision-making and less guesswork, allowing landowners to reclaim control and prevent major losses.</p>\r\n<ul>\r\n<li aria-level=\"1\"><a href=\"/blog/category/feral-hog-monitoring\">Feral Hog Monitoring </a></li>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/blog-ultimate-guide-setting-up-hogeye-camera-trap/\">The Ultimate Guide to Setting Up a HogEye Camera Trap</a></li>\r\n</ul>\r\n<p><strong>Ready to stop feral hog damage before it hits your bottom line? Set up HogEye monitoring today, and take back control of your land.</strong></p>\r\n<!-- /wp:fl-builder/layout -->",
+      "rendered": "\r\n<p>Feral hog damage costs billions to American farms, ranches, and wildlands every year. Early detection is the single most effective way to limit their costly impact and prevent hard-to-repair destruction. This guide from HogEye walks landowners through proven signs to look for, how to confirm hog activity, and next steps for on-the-ground action-with photo checklists and before/after examples.</p>\r\n<h2><b>What Feral Hog Damage Looks Like</b></h2>\r\n<h3>Rooting:</h3>\r\n<p>The most common tell-tale sign-feral hogs dig or &#8220;root&#8221; shallow and deep holes, overturning turf, soil, and leaf litter in irregular patches. Area rooting can range from small pits to acres of torn ground, often in a single night. These signs are your first and most urgent warning signal.</p>\r\n<h3>Wallowing:</h3>\r\n<p>Look for crescent-shaped, muddy shallow pools near creeks, ponds, or low areas. Hogs create these &#8220;wallows&#8221; to cool off and hide from predators. Muddy tracks and bristles may be found nearby. Wallows are usually surrounded by additional rooting and grazing evidence.</p>\r\n<h3>Rubbing:</h3>\r\n<p>After wallowing, feral hogs rub against fence posts, trees, and poles to clean off mud or remove parasites. Look for bark/plaster rubbed away, slick muddy bands 5-40&#8243; above ground, and even bristles stuck on wood or fencing. Major rubs can kill trees over time.</p>\r\n<h3>Tracks and Trails:</h3>\r\n<p>Hog tracks are round or oval, with cloven hooves and blunt &#8220;W&#8221; shaped toes, wider than deer. Tracks are usually 2-3 inches long and found on trails leading from bedding areas to water, food plots, and wallows. Hogs often create low tunnels through brush-a sign of repeated travel by the herd.</p>\r\n<h3>Beds:</h3>\r\n<p>Look for large circular depressions, often hidden in thick vegetation or woods. These are usually cleared of plants and may look freshly turned.</p>\r\n<h3>Scat:</h3>\r\n<p>Due to an omnivorous diet, hog droppings vary but are often cylindrical, dark, and similar to dog feces. Scat may contain crop remains, roots, and animal hair depending on recent meals.</p>\r\n<h3>Feeding Damage:</h3>\r\n<p>Beyond rooting, hogs devastate crops by trampling, knocking over stalks (corn, sorghum, rice), eating garden produce, and damaging pasture grass. They dig into decaying logs and uproot seedlings searching for insects or roots.</p>\r\n<h3>Fence Crossings:</h3>\r\n<p>Hogs create arched openings under or through wire fences and leave bristles snagged on barbs-a clear sign of their strength and presence.</p>\r\n<h2><b>Photo Checklist: Know the Signs of Feral Hog Damage</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Before: Healthy pasture, crops standing, fence intact</li>\r\n<li aria-level=\"1\">After: Deep pit rooting patches, trampled rows, muddy wallows, bark-rubbed trees, broken fences with tufts of bristles, hoof prints in mud, scattered scat with crop residue</li>\r\n</ul>\r\n<p><img loading=\"lazy\" decoding=\"async\" src=\"http://hogeyecameras.com/wp-content/uploads/2025/10/field-before-andafter-300x94.jpg\" alt=\"field-before and after\" width=\"686\" height=\"215\" /></p>\r\n<h2><b>When to Act: Timing is Everything</b></h2>\r\n<p>If you spot fresh rooting, wallows, or more than a few tracks, act within 24-48 hours. Hogs can double field damage overnight. Immediate monitoring and trapping are essential with any sign of herd presence-especially in spring and early summer when breeding and foraging spike.</p>\r\n<h2><b>Fast Action Checklist</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Set up HogEye cameras at all active sites and trails</li>\r\n<li aria-level=\"1\">Mark new rooting and wallow locations with GPS or phone photos</li>\r\n<li aria-level=\"1\">Repair or reinforce fence crossings immediately</li>\r\n<li aria-level=\"1\">Notify neighbors or local ag extension offices if damage spreads</li>\r\n<li aria-level=\"1\">Begin trapping/hunting protocols ASAP</li>\r\n</ul>\r\n<h2><b>How Monitoring Feral Hog Damage Reduces Cost</b></h2>\r\n<p>HogEye&#8217;s AI-enabled cameras rapidly detect motion, classify animals, and track herd patterns-giving you real-time alerts, clear video captures, and actionable data. Accurate monitoring means faster decision-making and less guesswork, allowing landowners to reclaim control and prevent major losses.</p>\r\n<ul>\r\n<li aria-level=\"1\"><a href=\"/blog/category/feral-hog-monitoring\">Feral Hog Monitoring </a></li>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/blog-ultimate-guide-setting-up-hogeye-camera-trap/\">The Ultimate Guide to Setting Up a HogEye Camera Trap</a></li>\r\n</ul>\r\n<p><strong>Ready to stop feral hog damage before it hits your bottom line? Set up HogEye monitoring today, and take back control of your land.</strong></p>\r\n",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Feral hog damage costs billions to American farms, ranches, and wildlands every year. Early detection is the single most effective [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 500084,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "site-sidebar-layout": "right-sidebar",
+      "site-content-layout": "",
+      "ast-site-content-layout": "normal-width-container",
+      "site-content-style": "unboxed",
+      "site-sidebar-style": "boxed",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "disabled",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "disabled",
+      "site-post-title": "disabled",
+      "ast-breadcrumbs-content": "disabled",
+      "ast-featured-img": "disabled",
+      "footer-sml-layout": "disabled",
+      "theme-transparent-header-meta": "disabled",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "set",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": ""
+    },
+    "categories": [
+      100003,
+      100002
+    ],
+    "tags": [],
+    "permalink_template": "https://hogeyecameras.com/%postname%/",
+    "generated_slug": "how-to-spot-feral-hog-damage-before-its-too-late",
+    "class_list": [
+      "post-500011",
+      "post",
+      "type-post",
+      "status-draft",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-cellular-security-cameras",
+      "category-feral-hog-monitoring"
+    ],
+    "aioseo_notices": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.9.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"author\" content=\"Casey\"/>\n\t<meta name=\"google-site-verification\" content=\"XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM\" />\n\t<link rel=\"canonical\" href=\"https://hogeyecameras.com/?p=500011\" />\n\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.9.3\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"HogEye Cameras - A Live-Video Camera System\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"How to Spot Feral Hog Damage Before It’s Too Late\" />\n\t\t<meta property=\"og:description\" content=\"Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.\" />\n\t\t<meta property=\"og:url\" content=\"https://hogeyecameras.com/?p=500011\" />\n\t\t<meta property=\"og:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"og:image:secure_url\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"article:published_time\" content=\"2025-10-24T14:57:39+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2026-02-10T20:34:48+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"How to Spot Feral Hog Damage Before It’s Too Late\" />\n\t\t<meta name=\"twitter:description\" content=\"Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.\" />\n\t\t<meta name=\"twitter:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BlogPosting\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#blogposting\",\"name\":\"How to Spot Feral Hog Damage Before It\\u2019s Too Late\",\"headline\":\"How to Spot Feral Hog Damage Before It\\u2019s Too Late\",\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/10\\/1-scaled.jpg\",\"width\":2560,\"height\":1440},\"datePublished\":\"2025-10-24T14:57:39+00:00\",\"dateModified\":\"2026-02-10T20:34:48+00:00\",\"inLanguage\":\"en-US\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#webpage\"},\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#webpage\"},\"articleSection\":\"Cellular Security Cameras, Feral Hog Monitoring\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/hogeyecameras.com\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"position\":2,\"name\":\"Feral Hog Monitoring\",\"item\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#listItem\",\"name\":\"How to Spot Feral Hog Damage Before It\\u2019s Too Late\"},\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#listItem\",\"position\":3,\"name\":\"How to Spot Feral Hog Damage Before It\\u2019s Too Late\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}}]},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"http:\\/\\/staging.hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/09\\/Texas-Wildlife-Management-18.jpg\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011\\/#organizationLogo\"},\"image\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011\\/#organizationLogo\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\",\"url\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/\",\"name\":\"Casey\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#authorImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/6fe672fcc22379bed420e3e3ca492fcc54e344cad0fda381f5d1de1074e942f1?s=96&d=mm&r=g\",\"width\":96,\"height\":96,\"caption\":\"Casey\"}},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#webpage\",\"url\":\"https:\\/\\/hogeyecameras.com\\/?p=500011\",\"name\":\"How to Spot Feral Hog Damage Before It\\u2019s Too Late\",\"description\":\"Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#breadcrumblist\"},\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"creator\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/10\\/1-scaled.jpg\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011\\/#mainImage\",\"width\":2560,\"height\":1440},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500011#mainImage\"},\"datePublished\":\"2025-10-24T14:57:39+00:00\",\"dateModified\":\"2026-02-10T20:34:48+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>How to Spot Feral Hog Damage Before It’s Too Late</title>\n\n",
+    "aioseo_head_json": {
+      "title": "How to Spot Feral Hog Damage Before It’s Too Late",
+      "description": "Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.",
+      "canonical_url": "https://hogeyecameras.com/?p=500011",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://hogeyecameras.com/?p=500011#blogposting",
+            "name": "How to Spot Feral Hog Damage Before It’s Too Late",
+            "headline": "How to Spot Feral Hog Damage Before It’s Too Late",
+            "author": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/1-scaled.jpg",
+              "width": 2560,
+              "height": 1440
+            },
+            "datePublished": "2025-10-24T14:57:39+00:00",
+            "dateModified": "2026-02-10T20:34:48+00:00",
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500011#webpage"
+            },
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/?p=500011#webpage"
+            },
+            "articleSection": "Cellular Security Cameras, Feral Hog Monitoring"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://hogeyecameras.com/?p=500011#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://hogeyecameras.com",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                "position": 2,
+                "name": "Feral Hog Monitoring",
+                "item": "https://hogeyecameras.com/category/feral-hog-monitoring/",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/?p=500011#listItem",
+                  "name": "How to Spot Feral Hog Damage Before It’s Too Late"
+                },
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com#listItem",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/?p=500011#listItem",
+                "position": 3,
+                "name": "How to Spot Feral Hog Damage Before It’s Too Late",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://hogeyecameras.com/#organization",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "url": "https://hogeyecameras.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "http://staging.hogeyecameras.com/wp-content/uploads/2025/09/Texas-Wildlife-Management-18.jpg",
+              "@id": "https://hogeyecameras.com/?p=500011/#organizationLogo"
+            },
+            "image": {
+              "@id": "https://hogeyecameras.com/?p=500011/#organizationLogo"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://hogeyecameras.com/author/casey/#author",
+            "url": "https://hogeyecameras.com/author/casey/",
+            "name": "Casey",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://hogeyecameras.com/?p=500011#authorImage",
+              "url": "https://secure.gravatar.com/avatar/6fe672fcc22379bed420e3e3ca492fcc54e344cad0fda381f5d1de1074e942f1?s=96&d=mm&r=g",
+              "width": 96,
+              "height": 96,
+              "caption": "Casey"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://hogeyecameras.com/?p=500011#webpage",
+            "url": "https://hogeyecameras.com/?p=500011",
+            "name": "How to Spot Feral Hog Damage Before It’s Too Late",
+            "description": "Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://hogeyecameras.com/?p=500011#breadcrumblist"
+            },
+            "author": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "creator": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/1-scaled.jpg",
+              "@id": "https://hogeyecameras.com/?p=500011/#mainImage",
+              "width": 2560,
+              "height": 1440
+            },
+            "primaryImageOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500011#mainImage"
+            },
+            "datePublished": "2025-10-24T14:57:39+00:00",
+            "dateModified": "2026-02-10T20:34:48+00:00"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://hogeyecameras.com/#website",
+            "url": "https://hogeyecameras.com/",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            }
+          }
+        ]
+      },
+      "og:locale": "en_US",
+      "og:site_name": "HogEye Cameras - A Live-Video Camera System",
+      "og:type": "article",
+      "og:title": "How to Spot Feral Hog Damage Before It’s Too Late",
+      "og:description": "Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.",
+      "og:url": "https://hogeyecameras.com/?p=500011",
+      "og:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "og:image:secure_url": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "article:published_time": "2025-10-24T14:57:39+00:00",
+      "article:modified_time": "2026-02-10T20:34:48+00:00",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "How to Spot Feral Hog Damage Before It’s Too Late",
+      "twitter:description": "Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.",
+      "twitter:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp"
+    },
+    "aioseo_meta_data": {
+      "post_id": "500011",
+      "title": "#post_title",
+      "description": "Identify feral hog damage fast with photo checklists, monitoring tips, and expert advice from HogEye.",
+      "keywords": null,
+      "keyphrases": {
+        "focus": {
+          "keyphrase": "Feral Hog Damage",
+          "score": 82,
+          "analysis": {
+            "keyphraseInTitle": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInDescription": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseLength": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0,
+              "length": 3
+            },
+            "keyphraseInURL": {
+              "score": 5,
+              "maxScore": 5,
+              "error": 0
+            },
+            "keyphraseInIntroduction": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInSubHeadings": {
+              "score": 3,
+              "maxScore": 9,
+              "error": 1
+            },
+            "keyphraseInImageAlt": {
+              "score": 3,
+              "maxScore": 9,
+              "error": 1
+            },
+            "keywordDensity": {
+              "type": "best",
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            }
+          }
+        },
+        "additional": []
+      },
+      "primary_term": null,
+      "canonical_url": null,
+      "og_title": null,
+      "og_description": null,
+      "og_object_type": "default",
+      "og_image_type": "default",
+      "og_image_url": null,
+      "og_image_width": null,
+      "og_image_height": null,
+      "og_image_custom_url": null,
+      "og_image_custom_fields": null,
+      "og_video": "",
+      "og_custom_url": null,
+      "og_article_section": null,
+      "og_article_tags": null,
+      "twitter_use_og": false,
+      "twitter_card": "default",
+      "twitter_image_type": "default",
+      "twitter_image_url": null,
+      "twitter_image_custom_url": null,
+      "twitter_image_custom_fields": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "schema": {
+        "blockGraphs": [],
+        "customGraphs": [],
+        "default": {
+          "data": {
+            "Article": [],
+            "Course": [],
+            "Dataset": [],
+            "FAQPage": [],
+            "Movie": [],
+            "Person": [],
+            "Product": [],
+            "ProductReview": [],
+            "Car": [],
+            "Recipe": [],
+            "Service": [],
+            "SoftwareApplication": [],
+            "WebPage": []
+          },
+          "graphName": "BlogPosting",
+          "isEnabled": true
+        },
+        "graphs": []
+      },
+      "schema_type": "default",
+      "schema_type_options": null,
+      "pillar_content": false,
+      "robots_default": true,
+      "robots_noindex": false,
+      "robots_noarchive": false,
+      "robots_nosnippet": false,
+      "robots_nofollow": false,
+      "robots_noimageindex": false,
+      "robots_noodp": false,
+      "robots_notranslate": false,
+      "robots_max_snippet": "-1",
+      "robots_max_videopreview": "-1",
+      "robots_max_imagepreview": "large",
+      "priority": null,
+      "frequency": "default",
+      "local_seo": null,
+      "seo_analyzer_scan_date": null,
+      "breadcrumb_settings": null,
+      "limit_modified_date": false,
+      "reviewed_by": "0",
+      "open_ai": null,
+      "ai": {
+        "faqs": [],
+        "keyPoints": [],
+        "titles": [],
+        "descriptions": [],
+        "socialPosts": {
+          "email": [],
+          "linkedin": [],
+          "twitter": [],
+          "facebook": [],
+          "instagram": []
+        }
+      },
+      "created": "2025-10-24 13:56:34",
+      "updated": "2026-02-10 20:34:49"
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com/category/feral-hog-monitoring/\" title=\"Feral Hog Monitoring\">Feral Hog Monitoring</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tHow to Spot Feral Hog Damage Before It’s Too Late\n</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://hogeyecameras.com"
+      },
+      {
+        "label": "Feral Hog Monitoring",
+        "link": "https://hogeyecameras.com/category/feral-hog-monitoring/"
+      },
+      {
+        "label": "How to Spot Feral Hog Damage Before It’s Too Late",
+        "link": "https://hogeyecameras.com/?p=500011"
+      }
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/comments?post=500011"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 10,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 500289,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011/revisions/500289"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media/500084"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media?parent=500011"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/categories?post=500011"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/tags?post=500011"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-sticky": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-assign-author": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-create-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-assign-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-create-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "wp:action-assign-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500011"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+}

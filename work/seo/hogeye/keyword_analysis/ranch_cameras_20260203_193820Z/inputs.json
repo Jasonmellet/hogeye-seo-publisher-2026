@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    "ranch camera",
+    "ranch cameras",
+    "ranch security camera",
+    "security cameras for ranch",
+    "cellular ranch camera",
+    "4g ranch camera",
+    "lte ranch camera",
+    "solar ranch camera",
+    "off grid ranch camera",
+    "ranch gate camera"
+  ],
+  "expanded": true,
+  "expand_sort_by": "search_volume",
+  "expand_limit": 200,
+  "analysis_limit": 50,
+  "gsc_limit": 50,
+  "merged_keywords_count": 12,
+  "scored_keywords_count": 12,
+  "location_code": 2840,
+  "language_code": "en",
+  "with_gsc": true,
+  "gsc_days": 365
+}

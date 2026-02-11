@@ -9,6 +9,14 @@ This runbook turns “discovery” into **tasks you can check off**. The goal is
 
 ---
 
+## Non-negotiables (alignment + safety)
+
+- **North Star**: every plan/brief/draft must align to the “wild hog trap release camera system” positioning in `work/seo/hogeye/NORTH_STAR_POSITIONING.md`.
+- **Verified links only**:
+  - HTML pages must come from a sitemap inventory (no guessing).
+  - PDFs are allowed only when explicitly provided/approved (exception to sitemap rule).
+- **Human review format**: when something is “ready for the team”, export a `.docx` so headings/lists/spacing survive Google Docs import.
+
 ## BB -> HogEye checklist (quick)
 
 - [ ] Fill `work/seo/hogeye/PROJECT_CONFIG.json` (site URL, internal links, blacklist, north star terms)
@@ -112,6 +120,18 @@ Every item must pass the North Star test in `work/seo/hogeye/NORTH_STAR_POSITION
 See `work/seo/hogeye/SAFETY_WORKFLOW.md`.
 
 ---
+
+## 6.5) Export “important docs” to `.docx` for team review
+
+This converts a curated set of alignment docs (README/runbooks/plans/North Star) into Google-Docs-friendly `.docx`.
+
+```bash
+./.venv/bin/python scripts/seo/export_alignment_docx.py
+```
+
+Edit the curated list here (keep it tight):
+
+- `work/seo/hogeye/IMPORTANT_DOCS_MANIFEST.txt`
 
 ## 7) Staged WordPress drafts
 

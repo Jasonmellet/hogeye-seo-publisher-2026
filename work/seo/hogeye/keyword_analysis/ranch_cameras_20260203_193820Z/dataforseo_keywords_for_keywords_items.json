@@ -1,0 +1,393 @@
+[
+  {
+    "keyword": "ranch security camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 100,
+    "search_volume": 30,
+    "low_top_of_page_bid": 1.26,
+    "high_top_of_page_bid": 6.85,
+    "cpc": 4.22,
+    "monthly_searches": [
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 40
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 40
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 30
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "search_volume": 50
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "ranch camera system",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 100,
+    "search_volume": 20,
+    "low_top_of_page_bid": 1.78,
+    "high_top_of_page_bid": 6.78,
+    "cpc": 5.27,
+    "monthly_searches": [
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "search_volume": 20
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": [
+        {
+          "name": "Non-Brands",
+          "concept_group": {
+            "name": "Non-Brands",
+            "type": "NON_BRAND"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "keyword": "ranch eyes camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 84,
+    "search_volume": 10,
+    "low_top_of_page_bid": 3.88,
+    "high_top_of_page_bid": 12.23,
+    "cpc": null,
+    "monthly_searches": [
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 0
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 2,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 1,
+        "search_volume": 10
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": [
+        {
+          "name": "Non-Brands",
+          "concept_group": {
+            "name": "Non-Brands",
+            "type": "NON_BRAND"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "keyword": "ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "ranch cameras",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "security cameras for ranch",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "cellular ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "4g ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "lte ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "solar ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "off grid ranch camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "ranch gate camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  }
+]

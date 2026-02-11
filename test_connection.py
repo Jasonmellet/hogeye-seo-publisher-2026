@@ -4,6 +4,7 @@ Quick test script to verify WordPress connection
 Run this before doing a full publish to ensure credentials are correct
 """
 
+import argparse
 import sys
 from rich.console import Console
 from rich.panel import Panel
@@ -18,6 +19,14 @@ console = Console()
 
 def main():
     """Test WordPress connection"""
+    ap = argparse.ArgumentParser(description="Test WordPress REST connection")
+    ap.add_argument(
+        "--readonly",
+        action="store_true",
+        help="Read-only test (skip permission checks that create/delete draft content).",
+    )
+    args = ap.parse_args()
+
     console.print(Panel.fit(
         "[bold cyan]WordPress Connection Test[/bold cyan]\n"
         "[dim]Testing authentication and permissions[/dim]",
@@ -88,52 +97,67 @@ def main():
         
         console.print(info_table)
         console.print()
-    
-    # Check permissions
+
+    if args.readonly:
+        console.print(
+            Panel(
+                "[bold green]✅ Read-only connection test complete[/bold green]\n"
+                "Auth looks good. Permissions test was skipped (read-only mode).",
+                border_style="green",
+            )
+        )
+        console.print()
+        return
+
+    # Check permissions (creates + deletes draft post/page)
     console.print("[bold]Checking permissions...[/bold]")
     permissions = auth.check_permissions()
-    
+
     perm_table = Table(show_header=True, box=None)
     perm_table.add_column("Permission", style="cyan")
     perm_table.add_column("Status", justify="center")
-    
+
     perm_table.add_row(
         "Publish Posts",
-        "[green]✓[/green]" if permissions['can_publish_posts'] else "[red]✗[/red]"
+        "[green]✓[/green]" if permissions["can_publish_posts"] else "[red]✗[/red]",
     )
     perm_table.add_row(
         "Publish Pages",
-        "[green]✓[/green]" if permissions['can_publish_pages'] else "[red]✗[/red]"
+        "[green]✓[/green]" if permissions["can_publish_pages"] else "[red]✗[/red]",
     )
     perm_table.add_row(
         "Upload Files",
-        "[green]✓[/green]" if permissions['can_upload_files'] else "[red]✗[/red]"
+        "[green]✓[/green]" if permissions["can_upload_files"] else "[red]✗[/red]",
     )
     perm_table.add_row(
         "Manage Categories",
-        "[green]✓[/green]" if permissions['can_manage_categories'] else "[red]✗[/red]"
+        "[green]✓[/green]" if permissions["can_manage_categories"] else "[red]✗[/red]",
     )
-    
+
     console.print()
     console.print(perm_table)
     console.print()
-    
+
     # Summary
     all_good = all(permissions.values())
-    
+
     if all_good:
-        console.print(Panel(
-            "[bold green]✅ All systems ready![/bold green]\n"
-            "You're ready to publish content to WordPress.",
-            border_style="green"
-        ))
+        console.print(
+            Panel(
+                "[bold green]✅ All systems ready![/bold green]\n"
+                "You're ready to publish content to WordPress.",
+                border_style="green",
+            )
+        )
     else:
-        console.print(Panel(
-            "[bold yellow]⚠️  Limited permissions detected[/bold yellow]\n"
-            "Some operations may not work. Contact your WordPress admin.",
-            border_style="yellow"
-        ))
-    
+        console.print(
+            Panel(
+                "[bold yellow]⚠️  Limited permissions detected[/bold yellow]\n"
+                "Some operations may not work. Contact your WordPress admin.",
+                border_style="yellow",
+            )
+        )
+
     console.print()
 
 

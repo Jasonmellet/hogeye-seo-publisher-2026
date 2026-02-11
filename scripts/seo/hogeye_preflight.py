@@ -4,9 +4,12 @@ import json
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PROJECT_CONFIG_PATH = REPO_ROOT / "work" / "seo" / "hogeye" / "PROJECT_CONFIG.json"
+DOTENV_PATH = REPO_ROOT / ".env"
 
 
 def _is_set(env_key: str) -> bool:
@@ -15,6 +18,10 @@ def _is_set(env_key: str) -> bool:
 
 
 def main() -> int:
+    # Load .env if present so this works for local-first workflows.
+    if DOTENV_PATH.exists():
+        load_dotenv(DOTENV_PATH, override=False)
+
     print("Hogeye preflight")
     print(f"- repo_root: {REPO_ROOT}")
     print(f"- config: {PROJECT_CONFIG_PATH}")
@@ -54,14 +61,26 @@ def main() -> int:
         # Optional but common for planning:
         "SEO_SPREADSHEET_ID",
         "GOOGLE_APPLICATION_CREDENTIALS",
-        # Optional for AI drafting:
-        "ANTHROPIC_API_KEY",
     ]
 
     print("\nEnvironment checks (.env)")
     for k in required_env:
         status = "SET" if _is_set(k) else "missing"
         print(f"- {k}: {status}")
+
+    # AI is optional at this phase, but we still want a clear signal about readiness.
+    # Hogeye preference is OpenAI, but allow either to keep compatibility across repos.
+    print("\nAI drafting (optional)")
+    openai_set = _is_set("OPENAI_API_KEY")
+    anthropic_set = _is_set("ANTHROPIC_API_KEY")
+    if openai_set:
+        print("- OPENAI_API_KEY: SET")
+        print(f"- OPENAI_MODEL: {'SET' if _is_set('OPENAI_MODEL') else 'missing (defaults ok)'}")
+    elif anthropic_set:
+        print("- ANTHROPIC_API_KEY: SET (fallback/legacy)")
+    else:
+        print("- OPENAI_API_KEY: missing")
+        print("- ANTHROPIC_API_KEY: missing")
 
     print("\nNext")
     print("- Fill missing config/env values")

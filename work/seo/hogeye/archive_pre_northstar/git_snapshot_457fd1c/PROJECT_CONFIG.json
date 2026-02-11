@@ -1,0 +1,23 @@
+{
+  "client": {
+    "name": "Hogeye",
+    "site_url": "",
+    "notes": ""
+  },
+  "month_1_targets": {
+    "new_count": 5,
+    "update_count": 5
+  },
+  "wordpress": {
+    "default_status": "draft",
+    "default_category_id": null,
+    "category_map": {}
+  },
+  "internal_links": {
+    "targets": [],
+    "aliases": {}
+  },
+  "keyword_blacklist": {
+    "terms": []
+  }
+}

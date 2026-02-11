@@ -1,0 +1,23 @@
+{
+  "ran_at": "2026-02-04T18:17:18Z",
+  "wp_site_url": "https://hogeyecameras.com",
+  "username": "Jason Mellet",
+  "filters": {
+    "status": "any",
+    "per_page": 100
+  },
+  "outputs": {
+    "posts": "work/seo/hogeye/source_of_truth/wp/posts_metadata.jsonl",
+    "pages": "work/seo/hogeye/source_of_truth/wp/pages_metadata.jsonl",
+    "taxonomies": "work/seo/hogeye/source_of_truth/wp/taxonomies.json"
+  },
+  "counts": {
+    "posts": 37,
+    "pages": 14,
+    "total": 51
+  },
+  "notes": [
+    "These exports include metadata and (optionally) copy as plain text (HTML stripped).",
+    "Re-run this exporter after publishing/updating content to refresh the local source of truth."
+  ]
+}

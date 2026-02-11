@@ -1,0 +1,627 @@
+{
+  "backup_created_at_utc": "2026-02-11T01:43:41.326415+00:00",
+  "source": "live_wp_rest_api",
+  "site_url": "https://hogeyecameras.com",
+  "post": {
+    "id": 500076,
+    "date": "2025-10-24T18:10:18",
+    "date_gmt": "2025-10-24T18:10:18",
+    "guid": {
+      "rendered": "https://hogeyecameras.com/?p=500076",
+      "raw": "https://hogeyecameras.com/?p=500076"
+    },
+    "modified": "2026-02-10T20:34:36",
+    "modified_gmt": "2026-02-10T20:34:36",
+    "password": "",
+    "slug": "thermal-vs-night-vision-vs-live-feed-which-hog-camera-performs-best",
+    "status": "draft",
+    "type": "post",
+    "link": "https://hogeyecameras.com/?p=500076",
+    "title": {
+      "raw": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?",
+      "rendered": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?"
+    },
+    "content": {
+      "raw": "<!-- wp:fl-builder/layout -->\r\n<p>Thermal vs. Night Vision vs. Live Feed: Monitoring feral hogs is no longer a one-size-fits-all job. With technological advances, landowners can now select from thermal, night vision, and live feed cameras, each with unique advantages in the fight to protect crops, livestock, and property. This in-depth guide compares these top monitoring technologies in real-world field scenarios, breaking down how each works, where they excel (or struggle), and which HogEye system is best for a range of properties and budgets.</p>\r\n<h2><b>1. Thermal vs. Night Vision vs. Live Feed How Each Camera Technology Works</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Thermal imaging cameras:</b> Detect heat signatures, capturing animals that may be completely invisible to the naked eye, especially at night or in thick brush.</li>\r\n<li aria-level=\"1\"><b>Night vision (IR) cameras:</b> Amplify ambient light (like moonlight or starlight), offering classic green/gray video even in darkness.</li>\r\n<li aria-level=\"1\"><b>Live feed (high-def) cameras:</b> Stream live video, day or night, using IR illuminators or LED arrays for night footage, with instant mobile alerts and cloud storage.</li>\r\n</ul>\r\n<h2><b>2. Pros &amp; Cons Table  - Thermal vs. Night Vision vs. Live Feed</b></h2>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<td>\r\n<p>Feature</p>\r\n</td>\r\n<td>\r\n<p>Thermal</p>\r\n</td>\r\n<td>\r\n<p>Night Vision</p>\r\n</td>\r\n<td>\r\n<p>Live Feed HD</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Detection in total dark</b></p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n<td>\r\n<p>Good</p>\r\n</td>\r\n<td>\r\n<p>Good (with IR/LEDs)</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Sees through brush</b></p>\r\n</td>\r\n<td>\r\n<p>Very good</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Animal ID clarity</b></p>\r\n</td>\r\n<td>\r\n<p>Moderate</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Daytime use</b></p>\r\n</td>\r\n<td>\r\n<p>Limited</p>\r\n</td>\r\n<td>\r\n<p>Limited, grainy</p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Cost</b></p>\r\n</td>\r\n<td>\r\n<p>$$$$</p>\r\n</td>\r\n<td>\r\n<p>$$</p>\r\n</td>\r\n<td>\r\n<p>$$-$$$</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Live alerts</b></p>\r\n</td>\r\n<td>\r\n<p>Sometimes</p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Yes (HogEye, etc.)</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Remote access</b></p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Common</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Best for</b></p>\r\n</td>\r\n<td>\r\n<p>Tracking, dense cover</p>\r\n</td>\r\n<td>\r\n<p>Night defense</p>\r\n</td>\r\n<td>\r\n<p>Real-time trapping</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<h2><b>3. Real Field Results: Rancher &amp; Landowner Comparisons</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Thermal:</b> Detection rates are highest for hogs in brush or at thermal contrast points (pre-dawn or cool ground). Ranchers report finding hidden animals missed by daylight or IR cameras, but animal identification is less precise, and video rarely provides facial detail.</li>\r\n<li aria-level=\"1\"><b>Night Vision:</b> Great for relatively open fields with some ambient light. Works well on clear nights but can struggle on cloudy/new-moon nights. Can be less effective in thick woods or when hogs approach from shaded angles.</li>\r\n<li aria-level=\"1\"><b>Live Feed:</b> Best overall for \"trapping\" applications, real-time alerts, and remote monitoring. With proper placement and IR illuminators, HogEye cameras give sharp, actionable video. Ranch teams report quick response to herds in daylight or dark, actionable for both trapping and harassment strategies.</li>\r\n</ul>\r\n<h2><b>4. Visual Examples</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Thermal: Sample images show glowing heat blobs, clearly differentiating animals from the background, but detail can be indistinct.</li>\r\n<li aria-level=\"1\">Night Vision: Green or gray outlines, can show herd size and movement but limited facial/feature detail.</li>\r\n<li aria-level=\"1\">Live Feed: HD color in daylight, clear IR images at night, easily distinguishing hogs from deer or cattle. Stored footage can be used for permanent record or shared with neighbors.</li>\r\n</ul>\r\n<h2><b>5. Choosing the Right Hog Camera for Your Needs</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Dense brush, minimal light:</b> Thermal cameras have a clear edge for detection but at a higher price and lower detail.</li>\r\n<li aria-level=\"1\"><b>Typical pasture or crop field:</b> Live feed systems provide the best clarity, alerts, and remote access.</li>\r\n<li aria-level=\"1\"><b>Budget-focused setups:</b> Night vision/IR and live feed systems (like HogEye) deliver most value for money, especially where real-time action is critical.</li>\r\n</ul>\r\n<h2><b>6. Product Feature Comparison</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">\r\n<h3>HogEye Camera Live Feed:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Unlimited live streaming, mobile push alerts</li>\r\n<li aria-level=\"2\">HD day/night (with IR) video</li>\r\n<li aria-level=\"2\">Cloud event storage and sharing</li>\r\n<li aria-level=\"2\">Weatherproof, solar/battery powered</li>\r\n<li aria-level=\"2\">Simple app setup, multi-user access</li>\r\n</ul>\r\n</li>\r\n<li aria-level=\"1\">\r\n<h3>Thermal Camera System:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Passive detection (no alerts)</li>\r\n<li aria-level=\"2\">No ID or remote app features</li>\r\n<li aria-level=\"2\">High initial cost, niche for specialty users</li>\r\n</ul>\r\n</li>\r\n<li aria-level=\"1\">\r\n<h3>Night Vision Cam:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Less reliable in full dark/new moon</li>\r\n<li aria-level=\"2\">No live app or cloud access</li>\r\n<li aria-level=\"2\">Moderate clarity, basic evidence capture</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<h2><b>Important Links</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/blog-how-to-spot-feral-hog-damage/\">How to Spot Feral Hog Damage Before It's Too Late</a></li>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/category/feral-hog-monitoring/\">Feral Hog Monitoring</a></li>\r\n</ul>\r\n<p><strong>Still struggling to spot the hogs before they cause expensive damage?</strong></p>\r\n<p>Upgrade to <a href=\"https://hogeyecameras.com/\">HogEye Mini</a> and monitor your land in real-time, day or night, with tech that gets results and keeps you in control.</p>\r\n<p>Ready to compare or order? Contact us for expert recommendations or view the full specs in our Monitoring Guide.</p>\r\n<p>&nbsp;</p>\r\n<!-- /wp:fl-builder/layout -->",
+      "rendered": "\r\n<p>Thermal vs. Night Vision vs. Live Feed: Monitoring feral hogs is no longer a one-size-fits-all job. With technological advances, landowners can now select from thermal, night vision, and live feed cameras, each with unique advantages in the fight to protect crops, livestock, and property. This in-depth guide compares these top monitoring technologies in real-world field scenarios, breaking down how each works, where they excel (or struggle), and which HogEye system is best for a range of properties and budgets.</p>\r\n<h2><b>1. Thermal vs. Night Vision vs. Live Feed How Each Camera Technology Works</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Thermal imaging cameras:</b> Detect heat signatures, capturing animals that may be completely invisible to the naked eye, especially at night or in thick brush.</li>\r\n<li aria-level=\"1\"><b>Night vision (IR) cameras:</b> Amplify ambient light (like moonlight or starlight), offering classic green/gray video even in darkness.</li>\r\n<li aria-level=\"1\"><b>Live feed (high-def) cameras:</b> Stream live video, day or night, using IR illuminators or LED arrays for night footage, with instant mobile alerts and cloud storage.</li>\r\n</ul>\r\n<h2><b>2. Pros &amp; Cons Table  &#8211; Thermal vs. Night Vision vs. Live Feed</b></h2>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<td>\r\n<p>Feature</p>\r\n</td>\r\n<td>\r\n<p>Thermal</p>\r\n</td>\r\n<td>\r\n<p>Night Vision</p>\r\n</td>\r\n<td>\r\n<p>Live Feed HD</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Detection in total dark</b></p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n<td>\r\n<p>Good</p>\r\n</td>\r\n<td>\r\n<p>Good (with IR/LEDs)</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Sees through brush</b></p>\r\n</td>\r\n<td>\r\n<p>Very good</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Animal ID clarity</b></p>\r\n</td>\r\n<td>\r\n<p>Moderate</p>\r\n</td>\r\n<td>\r\n<p>Fair</p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Daytime use</b></p>\r\n</td>\r\n<td>\r\n<p>Limited</p>\r\n</td>\r\n<td>\r\n<p>Limited, grainy</p>\r\n</td>\r\n<td>\r\n<p>Excellent</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Cost</b></p>\r\n</td>\r\n<td>\r\n<p>$$$$</p>\r\n</td>\r\n<td>\r\n<p>$$</p>\r\n</td>\r\n<td>\r\n<p>$$-$$$</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Live alerts</b></p>\r\n</td>\r\n<td>\r\n<p>Sometimes</p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Yes (HogEye, etc.)</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Remote access</b></p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Rare</p>\r\n</td>\r\n<td>\r\n<p>Common</p>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td>\r\n<p><b>Best for</b></p>\r\n</td>\r\n<td>\r\n<p>Tracking, dense cover</p>\r\n</td>\r\n<td>\r\n<p>Night defense</p>\r\n</td>\r\n<td>\r\n<p>Real-time trapping</p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<h2><b>3. Real Field Results: Rancher &amp; Landowner Comparisons</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Thermal:</b> Detection rates are highest for hogs in brush or at thermal contrast points (pre-dawn or cool ground). Ranchers report finding hidden animals missed by daylight or IR cameras, but animal identification is less precise, and video rarely provides facial detail.</li>\r\n<li aria-level=\"1\"><b>Night Vision:</b> Great for relatively open fields with some ambient light. Works well on clear nights but can struggle on cloudy/new-moon nights. Can be less effective in thick woods or when hogs approach from shaded angles.</li>\r\n<li aria-level=\"1\"><b>Live Feed:</b> Best overall for &#8220;trapping&#8221; applications, real-time alerts, and remote monitoring. With proper placement and IR illuminators, HogEye cameras give sharp, actionable video. Ranch teams report quick response to herds in daylight or dark, actionable for both trapping and harassment strategies.</li>\r\n</ul>\r\n<h2><b>4. Visual Examples</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">Thermal: Sample images show glowing heat blobs, clearly differentiating animals from the background, but detail can be indistinct.</li>\r\n<li aria-level=\"1\">Night Vision: Green or gray outlines, can show herd size and movement but limited facial/feature detail.</li>\r\n<li aria-level=\"1\">Live Feed: HD color in daylight, clear IR images at night, easily distinguishing hogs from deer or cattle. Stored footage can be used for permanent record or shared with neighbors.</li>\r\n</ul>\r\n<h2><b>5. Choosing the Right Hog Camera for Your Needs</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><b>Dense brush, minimal light:</b> Thermal cameras have a clear edge for detection but at a higher price and lower detail.</li>\r\n<li aria-level=\"1\"><b>Typical pasture or crop field:</b> Live feed systems provide the best clarity, alerts, and remote access.</li>\r\n<li aria-level=\"1\"><b>Budget-focused setups:</b> Night vision/IR and live feed systems (like HogEye) deliver most value for money, especially where real-time action is critical.</li>\r\n</ul>\r\n<h2><b>6. Product Feature Comparison</b></h2>\r\n<ul>\r\n<li aria-level=\"1\">\r\n<h3>HogEye Camera Live Feed:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Unlimited live streaming, mobile push alerts</li>\r\n<li aria-level=\"2\">HD day/night (with IR) video</li>\r\n<li aria-level=\"2\">Cloud event storage and sharing</li>\r\n<li aria-level=\"2\">Weatherproof, solar/battery powered</li>\r\n<li aria-level=\"2\">Simple app setup, multi-user access</li>\r\n</ul>\r\n</li>\r\n<li aria-level=\"1\">\r\n<h3>Thermal Camera System:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Passive detection (no alerts)</li>\r\n<li aria-level=\"2\">No ID or remote app features</li>\r\n<li aria-level=\"2\">High initial cost, niche for specialty users</li>\r\n</ul>\r\n</li>\r\n<li aria-level=\"1\">\r\n<h3>Night Vision Cam:</h3>\r\n<ul>\r\n<li aria-level=\"2\">Less reliable in full dark/new moon</li>\r\n<li aria-level=\"2\">No live app or cloud access</li>\r\n<li aria-level=\"2\">Moderate clarity, basic evidence capture</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<h2><b>Important Links</b></h2>\r\n<ul>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/blog-how-to-spot-feral-hog-damage/\">How to Spot Feral Hog Damage Before It&#8217;s Too Late</a></li>\r\n<li aria-level=\"1\"><a href=\"https://hogeyecameras.com/category/feral-hog-monitoring/\">Feral Hog Monitoring</a></li>\r\n</ul>\r\n<p><strong>Still struggling to spot the hogs before they cause expensive damage?</strong></p>\r\n<p>Upgrade to <a href=\"https://hogeyecameras.com/\">HogEye Mini</a> and monitor your land in real-time, day or night, with tech that gets results and keeps you in control.</p>\r\n<p>Ready to compare or order? Contact us for expert recommendations or view the full specs in our Monitoring Guide.</p>\r\n<p>&nbsp;</p>\r\n",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Thermal vs. Night Vision vs. Live Feed: Monitoring feral hogs is no longer a one-size-fits-all job. With technological advances, landowners [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 500086,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "theme-transparent-header-meta": "default",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "set",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": ""
+    },
+    "categories": [
+      100003,
+      100002
+    ],
+    "tags": [],
+    "permalink_template": "https://hogeyecameras.com/%postname%/",
+    "generated_slug": "thermal-vs-night-vision-vs-live-feed-which-hog-camera-performs-best",
+    "class_list": [
+      "post-500076",
+      "post",
+      "type-post",
+      "status-draft",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-cellular-security-cameras",
+      "category-feral-hog-monitoring"
+    ],
+    "aioseo_notices": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.9.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"author\" content=\"Casey\"/>\n\t<meta name=\"google-site-verification\" content=\"XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM\" />\n\t<link rel=\"canonical\" href=\"https://hogeyecameras.com/?p=500076\" />\n\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.9.3\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"HogEye Cameras - A Live-Video Camera System\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?\" />\n\t\t<meta property=\"og:description\" content=\"Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.\" />\n\t\t<meta property=\"og:url\" content=\"https://hogeyecameras.com/?p=500076\" />\n\t\t<meta property=\"og:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"og:image:secure_url\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"article:published_time\" content=\"2025-10-24T18:10:18+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2026-02-10T20:34:36+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?\" />\n\t\t<meta name=\"twitter:description\" content=\"Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.\" />\n\t\t<meta name=\"twitter:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BlogPosting\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#blogposting\",\"name\":\"Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?\",\"headline\":\"Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?\",\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/10\\/3-scaled.jpg\",\"width\":2560,\"height\":1440,\"caption\":\"Thermal vs. Night Vision vs. Live Feed\"},\"datePublished\":\"2025-10-24T18:10:18+00:00\",\"dateModified\":\"2026-02-10T20:34:36+00:00\",\"inLanguage\":\"en-US\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#webpage\"},\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#webpage\"},\"articleSection\":\"Cellular Security Cameras, Feral Hog Monitoring\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/hogeyecameras.com\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"position\":2,\"name\":\"Feral Hog Monitoring\",\"item\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#listItem\",\"name\":\"Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?\"},\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#listItem\",\"position\":3,\"name\":\"Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}}]},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"http:\\/\\/staging.hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/09\\/Texas-Wildlife-Management-18.jpg\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076\\/#organizationLogo\"},\"image\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076\\/#organizationLogo\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\",\"url\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/\",\"name\":\"Casey\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#authorImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/6fe672fcc22379bed420e3e3ca492fcc54e344cad0fda381f5d1de1074e942f1?s=96&d=mm&r=g\",\"width\":96,\"height\":96,\"caption\":\"Casey\"}},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#webpage\",\"url\":\"https:\\/\\/hogeyecameras.com\\/?p=500076\",\"name\":\"Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?\",\"description\":\"Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#breadcrumblist\"},\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"creator\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/casey\\/#author\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/10\\/3-scaled.jpg\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076\\/#mainImage\",\"width\":2560,\"height\":1440,\"caption\":\"Thermal vs. Night Vision vs. Live Feed\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500076#mainImage\"},\"datePublished\":\"2025-10-24T18:10:18+00:00\",\"dateModified\":\"2026-02-10T20:34:36+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?</title>\n\n",
+    "aioseo_head_json": {
+      "title": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+      "description": "Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.",
+      "canonical_url": "https://hogeyecameras.com/?p=500076",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://hogeyecameras.com/?p=500076#blogposting",
+            "name": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+            "headline": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?",
+            "author": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/3-scaled.jpg",
+              "width": 2560,
+              "height": 1440,
+              "caption": "Thermal vs. Night Vision vs. Live Feed"
+            },
+            "datePublished": "2025-10-24T18:10:18+00:00",
+            "dateModified": "2026-02-10T20:34:36+00:00",
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500076#webpage"
+            },
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/?p=500076#webpage"
+            },
+            "articleSection": "Cellular Security Cameras, Feral Hog Monitoring"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://hogeyecameras.com/?p=500076#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://hogeyecameras.com",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                "position": 2,
+                "name": "Feral Hog Monitoring",
+                "item": "https://hogeyecameras.com/category/feral-hog-monitoring/",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/?p=500076#listItem",
+                  "name": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?"
+                },
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com#listItem",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/?p=500076#listItem",
+                "position": 3,
+                "name": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://hogeyecameras.com/#organization",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "url": "https://hogeyecameras.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "http://staging.hogeyecameras.com/wp-content/uploads/2025/09/Texas-Wildlife-Management-18.jpg",
+              "@id": "https://hogeyecameras.com/?p=500076/#organizationLogo"
+            },
+            "image": {
+              "@id": "https://hogeyecameras.com/?p=500076/#organizationLogo"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://hogeyecameras.com/author/casey/#author",
+            "url": "https://hogeyecameras.com/author/casey/",
+            "name": "Casey",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://hogeyecameras.com/?p=500076#authorImage",
+              "url": "https://secure.gravatar.com/avatar/6fe672fcc22379bed420e3e3ca492fcc54e344cad0fda381f5d1de1074e942f1?s=96&d=mm&r=g",
+              "width": 96,
+              "height": 96,
+              "caption": "Casey"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://hogeyecameras.com/?p=500076#webpage",
+            "url": "https://hogeyecameras.com/?p=500076",
+            "name": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+            "description": "Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://hogeyecameras.com/?p=500076#breadcrumblist"
+            },
+            "author": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "creator": {
+              "@id": "https://hogeyecameras.com/author/casey/#author"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/3-scaled.jpg",
+              "@id": "https://hogeyecameras.com/?p=500076/#mainImage",
+              "width": 2560,
+              "height": 1440,
+              "caption": "Thermal vs. Night Vision vs. Live Feed"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500076#mainImage"
+            },
+            "datePublished": "2025-10-24T18:10:18+00:00",
+            "dateModified": "2026-02-10T20:34:36+00:00"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://hogeyecameras.com/#website",
+            "url": "https://hogeyecameras.com/",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            }
+          }
+        ]
+      },
+      "og:locale": "en_US",
+      "og:site_name": "HogEye Cameras - A Live-Video Camera System",
+      "og:type": "article",
+      "og:title": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+      "og:description": "Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.",
+      "og:url": "https://hogeyecameras.com/?p=500076",
+      "og:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "og:image:secure_url": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "article:published_time": "2025-10-24T18:10:18+00:00",
+      "article:modified_time": "2026-02-10T20:34:36+00:00",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+      "twitter:description": "Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.",
+      "twitter:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp"
+    },
+    "aioseo_meta_data": {
+      "post_id": "500076",
+      "title": "Thermal vs. Night Vision Cameras vs. Live Feed: Which Hog Camera is Best?",
+      "description": "Compare live, thermal vs. night vision cameras for feral hog monitoring with expert tips and side-by-side results.",
+      "keywords": null,
+      "keyphrases": {
+        "focus": {
+          "keyphrase": "thermal vs. night vision",
+          "score": 75,
+          "analysis": {
+            "keyphraseInTitle": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInDescription": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseLength": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0,
+              "length": 4
+            },
+            "keyphraseInURL": {
+              "score": 5,
+              "maxScore": 5,
+              "error": 0
+            },
+            "keyphraseInIntroduction": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInSubHeadings": {
+              "score": 3,
+              "maxScore": 9,
+              "error": 1
+            },
+            "keyphraseInImageAlt": [],
+            "keywordDensity": {
+              "score": 0,
+              "type": "low",
+              "maxScore": 9,
+              "error": 1
+            }
+          }
+        },
+        "additional": []
+      },
+      "primary_term": null,
+      "canonical_url": null,
+      "og_title": null,
+      "og_description": null,
+      "og_object_type": "default",
+      "og_image_type": "default",
+      "og_image_url": null,
+      "og_image_width": null,
+      "og_image_height": null,
+      "og_image_custom_url": null,
+      "og_image_custom_fields": null,
+      "og_video": "",
+      "og_custom_url": null,
+      "og_article_section": null,
+      "og_article_tags": null,
+      "twitter_use_og": false,
+      "twitter_card": "default",
+      "twitter_image_type": "default",
+      "twitter_image_url": null,
+      "twitter_image_custom_url": null,
+      "twitter_image_custom_fields": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "schema": {
+        "blockGraphs": [],
+        "customGraphs": [],
+        "default": {
+          "data": {
+            "Article": [],
+            "Course": [],
+            "Dataset": [],
+            "FAQPage": [],
+            "Movie": [],
+            "Person": [],
+            "Product": [],
+            "ProductReview": [],
+            "Car": [],
+            "Recipe": [],
+            "Service": [],
+            "SoftwareApplication": [],
+            "WebPage": []
+          },
+          "graphName": "BlogPosting",
+          "isEnabled": true
+        },
+        "graphs": []
+      },
+      "schema_type": "default",
+      "schema_type_options": null,
+      "pillar_content": false,
+      "robots_default": true,
+      "robots_noindex": false,
+      "robots_noarchive": false,
+      "robots_nosnippet": false,
+      "robots_nofollow": false,
+      "robots_noimageindex": false,
+      "robots_noodp": false,
+      "robots_notranslate": false,
+      "robots_max_snippet": "-1",
+      "robots_max_videopreview": "-1",
+      "robots_max_imagepreview": "large",
+      "priority": null,
+      "frequency": "default",
+      "local_seo": null,
+      "seo_analyzer_scan_date": null,
+      "breadcrumb_settings": null,
+      "limit_modified_date": false,
+      "reviewed_by": "0",
+      "open_ai": null,
+      "ai": {
+        "faqs": [],
+        "keyPoints": [],
+        "titles": [],
+        "descriptions": [],
+        "socialPosts": {
+          "email": [],
+          "linkedin": [],
+          "twitter": [],
+          "facebook": [],
+          "instagram": []
+        }
+      },
+      "created": "2025-10-24 18:05:00",
+      "updated": "2026-02-10 20:34:36"
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com/category/feral-hog-monitoring/\" title=\"Feral Hog Monitoring\">Feral Hog Monitoring</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tThermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?\n</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://hogeyecameras.com"
+      },
+      {
+        "label": "Feral Hog Monitoring",
+        "link": "https://hogeyecameras.com/category/feral-hog-monitoring/"
+      },
+      {
+        "label": "Thermal vs. Night Vision vs. Live Feed: Which Hog Camera Performs Best?",
+        "link": "https://hogeyecameras.com/?p=500076"
+      }
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/comments?post=500076"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 7,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 500294,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076/revisions/500294"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media/500086"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media?parent=500076"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/categories?post=500076"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/tags?post=500076"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-sticky": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-assign-author": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-create-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-assign-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-create-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "wp:action-assign-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500076"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+}

@@ -201,6 +201,7 @@ def benchmark_paths(benchmark_dir: str) -> Dict[str, str]:
         "Benchmark_Summary": os.path.join(benchmark_dir, "Benchmark_Summary.csv"),
         "Benchmark_GSC_LandingPages": os.path.join(benchmark_dir, "Benchmark_GSC_LandingPages.csv"),
         "Benchmark_GSC_QueriesByPage": os.path.join(benchmark_dir, "Benchmark_GSC_QueriesByPage.csv"),
+        "Benchmark_GSC_QueriesByPage_Brand": os.path.join(benchmark_dir, "Benchmark_GSC_QueriesByPage_Brand.csv"),
         "Benchmark_GA4_LandingPages": os.path.join(benchmark_dir, "Benchmark_GA4_LandingPages.csv"),
         "Benchmark_DataForSEO_RankSnapshot": os.path.join(benchmark_dir, "Benchmark_DataForSEO_RankSnapshot.csv"),
         "Benchmark_Sitemap_Inventory": os.path.join(benchmark_dir, "Benchmark_Sitemap_Inventory.csv"),

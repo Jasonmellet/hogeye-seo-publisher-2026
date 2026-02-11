@@ -1,0 +1,23 @@
+{
+  "rows": {
+    "ranch camera": {
+      "keyword": "ranch camera",
+      "range_start": "2025-02-02",
+      "range_end": "2026-02-02",
+      "clicks": 2.0,
+      "impressions": 20.0,
+      "ctr": 0.1,
+      "avg_position": 6.9
+    },
+    "ranch cameras": {
+      "keyword": "ranch cameras",
+      "range_start": "2025-02-02",
+      "range_end": "2026-02-02",
+      "clicks": 0.0,
+      "impressions": 29.0,
+      "ctr": 0.0,
+      "avg_position": 25.724137931034484
+    }
+  },
+  "notes": []
+}

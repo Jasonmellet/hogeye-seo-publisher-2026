@@ -4,7 +4,8 @@ Pull a present-state benchmark from Google Search Console (GSC).
 
 Outputs (CSV):
   - Benchmark_GSC_LandingPages.csv
-  - Benchmark_GSC_QueriesByPage.csv
+  - Benchmark_GSC_QueriesByPage.csv (non-brand)
+  - Benchmark_GSC_QueriesByPage_Brand.csv (brand)
 
 Requires:
   - Service account JSON with access to the property
@@ -16,14 +17,17 @@ from __future__ import annotations
 import argparse
 import csv
 import os
+from pathlib import Path
 from datetime import date, datetime, timedelta, timezone
 from typing import Dict, List, Optional
 
+from dotenv import load_dotenv
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def is_brand_query(q: str, brand_terms: List[str]) -> bool:
@@ -45,13 +49,20 @@ def ymd(d: date) -> str:
 
 
 def main() -> int:
+    # Load local .env for CLI runs from repo root (keeps secrets out of git).
+    load_dotenv(REPO_ROOT / ".env", override=False)
+
     ap = argparse.ArgumentParser(description="Pull GSC benchmark (landing pages + queries-by-page).")
     ap.add_argument("--site-url", default=os.environ.get("GSC_SITE_URL", ""), help="GSC property, e.g. sc-domain:example.com")
     ap.add_argument("--days", type=int, default=28, help="Lookback window length")
     ap.add_argument("--end-date", default="", help="YYYY-MM-DD (defaults to yesterday)")
     ap.add_argument("--top-pages", type=int, default=50, help="Top pages to pull sitewide")
     ap.add_argument("--top-queries-per-page", type=int, default=100, help="Queries per page")
-    ap.add_argument("--brand-terms", default=os.environ.get("BRAND_TERMS", ""), help="Comma-separated brand tokens to exclude")
+    ap.add_argument(
+        "--brand-terms",
+        default=os.environ.get("BRAND_TERMS", ""),
+        help="Comma-separated brand tokens. Used to split queries into brand vs non-brand outputs.",
+    )
     ap.add_argument(
         "--service-account-json",
         default=os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", ""),
@@ -119,8 +130,9 @@ def main() -> int:
             }
         )
 
-    # 2) Queries per page (non-brand)
-    qbp_rows: List[Dict[str, object]] = []
+    # 2) Queries per page (split into non-brand + brand)
+    qbp_nonbrand_rows: List[Dict[str, object]] = []
+    qbp_brand_rows: List[Dict[str, object]] = []
     for page in pages:
         if not page:
             continue
@@ -147,9 +159,10 @@ def main() -> int:
         for row in resp2.get("rows", []) or []:
             keys = row.get("keys") or []
             query = keys[0] if keys else ""
-            if not query or is_brand_query(query, brand_terms):
+            if not query:
                 continue
-            qbp_rows.append(
+            out_list = qbp_brand_rows if is_brand_query(query, brand_terms) else qbp_nonbrand_rows
+            out_list.append(
                 {
                     "range_start": ymd(start),
                     "range_end": ymd(end),
@@ -164,7 +177,8 @@ def main() -> int:
             )
 
     out_pages = os.path.join(args.output_dir, "Benchmark_GSC_LandingPages.csv")
-    out_qbp = os.path.join(args.output_dir, "Benchmark_GSC_QueriesByPage.csv")
+    out_qbp_nonbrand = os.path.join(args.output_dir, "Benchmark_GSC_QueriesByPage.csv")
+    out_qbp_brand = os.path.join(args.output_dir, "Benchmark_GSC_QueriesByPage_Brand.csv")
 
     write_csv(
         out_pages,
@@ -172,12 +186,22 @@ def main() -> int:
         page_rows,
     )
     write_csv(
-        out_qbp,
+        out_qbp_nonbrand,
         ["range_start", "range_end", "page_url", "query", "clicks", "impressions", "ctr", "avg_position", "fetched_at"],
-        qbp_rows,
+        qbp_nonbrand_rows,
+    )
+    write_csv(
+        out_qbp_brand,
+        ["range_start", "range_end", "page_url", "query", "clicks", "impressions", "ctr", "avg_position", "fetched_at"],
+        qbp_brand_rows,
     )
 
-    print(f"Wrote GSC benchmark -> {out_pages} ({len(page_rows)} rows), {out_qbp} ({len(qbp_rows)} rows)")
+    print(
+        "Wrote GSC benchmark -> "
+        f"{out_pages} ({len(page_rows)} rows), "
+        f"{out_qbp_nonbrand} ({len(qbp_nonbrand_rows)} rows), "
+        f"{out_qbp_brand} ({len(qbp_brand_rows)} rows)"
+    )
     return 0
 
 

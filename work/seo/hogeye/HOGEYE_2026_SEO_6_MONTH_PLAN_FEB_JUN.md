@@ -1,7 +1,7 @@
 ## HogEye — Feb–Jun 2026 SEO Publishing Plan (North Star Aligned)
 
 Status: **Planning only (no execution in this phase)**  
-Last updated: **2026-02-04**
+Last updated: **2026-02-11**
 
 ## North Star
 

@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    "ranch camera",
+    "ranch cameras",
+    "ranch security camera",
+    "security cameras for ranch",
+    "cellular ranch camera",
+    "4g ranch camera",
+    "lte ranch camera",
+    "solar ranch camera",
+    "off grid ranch camera",
+    "ranch gate camera"
+  ],
+  "location_code": 2840,
+  "language_code": "en",
+  "with_gsc": true,
+  "gsc_days": 365
+}

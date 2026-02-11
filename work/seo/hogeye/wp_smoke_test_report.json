@@ -1,0 +1,20 @@
+{
+  "ran_at": "2026-01-30 21:55:15Z",
+  "wp_site_url": "https://hogeyecameras.com",
+  "username": "Jason Mellet",
+  "created_post": {
+    "id": 500297,
+    "status": "draft",
+    "link": "https://hogeyecameras.com/?p=500297"
+  },
+  "fetched_post": {
+    "id": 500297,
+    "status": "draft",
+    "slug": "",
+    "title": "SMOKE TEST \u2014 DELETE ME \u2014 2026-01-30 21:55:15Z",
+    "has_meta": true
+  },
+  "deleted": true,
+  "deleted_status_code": 200,
+  "notes": []
+}

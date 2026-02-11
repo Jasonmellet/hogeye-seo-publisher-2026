@@ -167,6 +167,21 @@ def main() -> int:
         help="Also expand using keywords_for_keywords/live using top site keywords as seeds.",
     )
     ap.add_argument(
+        "--seed-keywords",
+        default="",
+        help="Optional comma-separated seed keywords to use for expansion instead of site keywords.",
+    )
+    ap.add_argument(
+        "--seed-csv",
+        default="",
+        help="Optional CSV path containing seed keywords (overrides --seed-keywords).",
+    )
+    ap.add_argument(
+        "--seed-col",
+        default="keyword",
+        help="Column name for --seed-csv (default: keyword).",
+    )
+    ap.add_argument(
         "--expand-seeds",
         type=int,
         default=20,
@@ -257,7 +272,18 @@ def main() -> int:
     # 2) Optional expansion
     expanded_rows: List[dict] = []
     if args.expand:
-        seeds = _dedupe([(r.get("keyword") or "") for r in site_rows])[: max(1, int(args.expand_seeds))]
+        seeds: List[str] = []
+        if (args.seed_csv or "").strip():
+            with open(args.seed_csv, "r", encoding="utf-8", newline="") as f:
+                r = csv.DictReader(f)
+                seeds = _dedupe([(row.get(args.seed_col) or "") for row in r])
+        elif (args.seed_keywords or "").strip():
+            seeds = _dedupe([s for s in args.seed_keywords.split(",")])
+        else:
+            seeds = _dedupe([(r.get("keyword") or "") for r in site_rows])
+
+        # Respect requested cap (keeps API usage predictable)
+        seeds = seeds[: max(1, int(args.expand_seeds))]
         reqs = max(1, int(args.expand_requests))
         seed_batches = list(_chunks(seeds, 20))[:reqs]
         for batch in seed_batches:

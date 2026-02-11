@@ -1,0 +1,285 @@
+{
+  "backup_created_at_utc": "2026-02-10T21:59:53.798544+00:00",
+  "source": "live_wp_rest_api",
+  "site_url": "https://hogeyecameras.com",
+  "post": {
+    "id": 500189,
+    "date": "2025-12-03T20:17:58",
+    "date_gmt": "2025-12-03T20:17:58",
+    "modified": "2026-02-10T20:33:10",
+    "modified_gmt": "2026-02-10T20:33:10",
+    "slug": "reolink-vs-vosker-vs-hogeye-off-grid-camera-comparison",
+    "status": "draft",
+    "link": "https://hogeyecameras.com/?p=500189",
+    "title": {
+      "raw": "2026 Off-Grid Camera Showdown: Reolink vs Vosker vs HogEye",
+      "rendered": "2026 Off-Grid Camera Showdown: Reolink vs Vosker vs HogEye"
+    },
+    "content": {
+      "raw": "<h2><b>The Race for the Best Off-Grid Camera System in 2026</b></h2>\r\n<span style=\"font-weight: 400;\">Off-grid camera security keeps evolving. Ranchers, wildlife managers, and landowners now expect cameras that operate anywhere—without Wi-Fi, without constant charging, and without downtime.</span>\r\n\r\n<span style=\"font-weight: 400;\">Three names lead that conversation: </span><b>Reolink</b><span style=\"font-weight: 400;\">, </span><b>Vosker</b><span style=\"font-weight: 400;\">, and </span><b>HogEye</b><span style=\"font-weight: 400;\">. Each promises dependable remote monitoring, but their performance in real-world ranch conditions varies widely.</span>\r\n\r\n<span style=\"font-weight: 400;\">If you’re choosing a system to protect your acreage in 2026, here’s how they truly compare.</span>\r\n\r\n<b>Reolink Go Ranger PT: Full-Color 4K Video, No Trap Control</b>\r\n\r\n<span style=\"font-weight: 400;\">Reolink’s Go Ranger PT combines a 4K UHD sensor with a 355° pan and 140° tilt range, offering sweeping visibility and smart motion alerts.</span>\r\n\r\n<span style=\"font-weight: 400;\">It connects over 4G LTE, supports microSD and cloud storage, and uses a compact solar kit for power. The app adds AI object recognition for animals, vehicles, and people, reducing false triggers.</span>\r\n\r\n<span style=\"font-weight: 400;\">Still, Reolink is </span><b>video-only</b><span style=\"font-weight: 400;\">—no hardware control or integration. It’s great for observation but stops short of true ranch management.</span>\r\n\r\n<b>Vosker V150: Photo-Based Monitoring for Remote Sites</b>\r\n\r\n<span style=\"font-weight: 400;\">Vosker’s V150 focuses on endurance and simplicity. Its built-in solar panel and 10 Ah battery keep it running for weeks, even in low sunlight. Motion events trigger photos that upload to the Vosker app via its multi-carrier LTE SIM.</span>\r\n\r\n<span style=\"font-weight: 400;\">That makes it ideal for isolated properties or small acreages where long battery life matters more than interactivity. There’s no live video or shared-user access, but the reliability and ease of setup are major pluses.</span>\r\n\r\n<b>HogEye Camera System: Live Streaming and Real-Time Action</b>\r\n\r\n<span style=\"font-weight: 400;\">The </span><b>HogEye Camera System</b><span style=\"font-weight: 400;\"> is purpose-built for working ranches. Powered by a solar panel, charge controller, and </span><b>Group 29 or 31 deep-cycle battery</b><span style=\"font-weight: 400;\"> (min 190 RC or 100 AH lithium), it maintains continuous power far from the grid.</span>\r\n\r\n<span style=\"font-weight: 400;\">Through the </span><b>HogEye Camera Management App</b><span style=\"font-weight: 400;\">, users can:</span>\r\n<ul>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Stream live video in real time</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Trigger connected traps or gates through the integrated relay cable</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Define motion bounds to reduce false alerts</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Share access across ranch teams through the Organization feature</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Store recordings locally for 14 days</span>&nbsp;</li>\r\n</ul>\r\n<span style=\"font-weight: 400;\">This transforms HogEye from a passive camera into an interactive management tool.</span>\r\n<h3><b>Real Stories From the Field</b></h3>\r\n<span style=\"font-weight: 400;\">Across Texas, Louisiana, and Mississippi, ranchers are testing cellular monitoring under real conditions—heat, mud, and long distances—and the results speak for themselves.</span>\r\n\r\n<b>Comparing Reolink, Vosker, and HogEye Side by Side</b>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<td><b>Feature</b></td>\r\n<td><b>HogEye Camera System</b></td>\r\n<td><b>Reolink Go Ranger PT</b></td>\r\n<td><b>Vosker V150</b></td>\r\n</tr>\r\n<tr>\r\n<td><b>Connection</b></td>\r\n<td><span style=\"font-weight: 400;\">4G LTE, 5G-ready (SIM)</span></td>\r\n<td><span style=\"font-weight: 400;\">4G LTE</span></td>\r\n<td><span style=\"font-weight: 400;\">LTE multi-carrier</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Video Capability</b></td>\r\n<td><span style=\"font-weight: 400;\">Full live stream</span></td>\r\n<td><span style=\"font-weight: 400;\">4K UHD recorded</span></td>\r\n<td><span style=\"font-weight: 400;\">Photo-only</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Trigger Control</b></td>\r\n<td><span style=\"font-weight: 400;\">Yes (trap/gate relay)</span></td>\r\n<td><span style=\"font-weight: 400;\">No</span></td>\r\n<td><span style=\"font-weight: 400;\">No</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Power Source</b></td>\r\n<td><span style=\"font-weight: 400;\">Solar + deep-cycle battery</span></td>\r\n<td><span style=\"font-weight: 400;\">Solar + 6 Ah battery</span></td>\r\n<td><span style=\"font-weight: 400;\">Built-in solar + 10 Ah battery</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Detection System</b></td>\r\n<td><span style=\"font-weight: 400;\">Motion Bounds + Object Filters</span></td>\r\n<td><span style=\"font-weight: 400;\">AI motion</span></td>\r\n<td><span style=\"font-weight: 400;\">PIR motion</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Storage</b></td>\r\n<td><span style=\"font-weight: 400;\">14-day on-device</span></td>\r\n<td><span style=\"font-weight: 400;\">microSD + cloud</span></td>\r\n<td><span style=\"font-weight: 400;\">16 GB SD photo storage</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Multi-User Access</b></td>\r\n<td><span style=\"font-weight: 400;\">Yes (Organization sharing)</span></td>\r\n<td><span style=\"font-weight: 400;\">No</span></td>\r\n<td><span style=\"font-weight: 400;\">No</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Primary Use Case</b></td>\r\n<td><span style=\"font-weight: 400;\">Ranch / wildlife control</span></td>\r\n<td><span style=\"font-weight: 400;\">General security</span></td>\r\n<td><span style=\"font-weight: 400;\">Remote photo alerts</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Night Vision</b></td>\r\n<td><span style=\"font-weight: 400;\">IR LED array</span></td>\r\n<td><span style=\"font-weight: 400;\">8 LED IR (33 ft)</span></td>\r\n<td><span style=\"font-weight: 400;\">4 LED IR (80 ft)</span></td>\r\n</tr>\r\n<tr>\r\n<td><b>Integration</b></td>\r\n<td><span style=\"font-weight: 400;\">Trap and gate systems</span></td>\r\n<td><span style=\"font-weight: 400;\">None</span></td>\r\n<td><span style=\"font-weight: 400;\">None</span></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n&nbsp;\r\n\r\n<b>Avoiding Marketing Confusion: Photo Alerts vs Live Video</b>\r\n\r\n<span style=\"font-weight: 400;\">Many off-grid camera ads still call delayed photo uploads “live view.”</span>\r\n\r\n<span style=\"font-weight: 400;\">True live monitoring streams in real time through the network—exactly what HogEye provides. If your goal is to act immediately, not hours later, live streaming is essential.</span>\r\n\r\n<b>Who Each Camera Is Right For</b>\r\n\r\n<b>Reolink Go Ranger PT</b>\r\n\r\n<span style=\"font-weight: 400;\">Best for ranchers who need high-resolution color video with pan/tilt flexibility and AI motion alerts. Ideal for barns, driveways, or smaller fields where observation matters more than automation.</span>\r\n\r\n<b>Vosker V150</b>\r\n\r\n<span style=\"font-weight: 400;\">Great for owners who want simple, long-lasting photo alerts. Works well for gates, cabins, or remote storage where power and bandwidth are limited.</span>\r\n\r\n<b>HogEye Camera System</b>\r\n\r\n<span style=\"font-weight: 400;\">Designed for serious land managers who need real-time visibility, solar reliability, and remote activation of traps or gates. Its deep-cycle setup and live streaming make it a true 2026-grade off-grid control system.</span>\r\n\r\n<b>Integrating Off-Grid Cameras Into a Broader Ranch System</b>\r\n\r\n<span style=\"font-weight: 400;\">The strongest results come when cameras, traps, and perimeter sensors operate together through a single cellular network.</span>\r\n\r\n<span style=\"font-weight: 400;\">Learn how to scale that network in</span><a href=\"https://hogeyecameras.com/off-grid-security-cameras-monitoring-2026/\"> <b>How to Build an Off-Grid Ranch Surveillance System That Actually Works</b></a><span style=\"font-weight: 400;\">.</span>\r\n\r\n<span style=\"font-weight: 400;\">For power insights, see</span><a href=\"https://hogeyecameras.com/blog-solar-power-ranch-cameras-off-grid-monitoring/\"> <b>Solar Power Myths in Ranch Security: What Really Works (and What Doesn’t)</b></a><span style=\"font-weight: 400;\">.</span>\r\n\r\n<b>Take Control of Your Ranch in 2026</b>\r\n\r\n<span style=\"font-weight: 400;\">Off-grid camera technology has entered a new phase.</span>\r\n<ul>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For photo alerts and battery life, Vosker holds its ground.</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For flexible, high-resolution video, Reolink delivers.</span>&nbsp;</li>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For total control, live video, and trap integration, </span><b>HogEye</b><span style=\"font-weight: 400;\"> leads.</span>&nbsp;</li>\r\n</ul>\r\n<span style=\"font-weight: 400;\">As 2026 arrives, the choice for serious acreage management is clear: real-time response beats passive recording every time.</span>\r\n\r\n<span style=\"font-weight: 400;\">Explore </span><b>HogEye’s off-grid camera systems</b><span style=\"font-weight: 400;\"> and see how live video changes ranch security.</span>",
+      "rendered": "<h2><b>The Race for the Best Off-Grid Camera System in 2026</b></h2>\n<p><span style=\"font-weight: 400;\">Off-grid camera security keeps evolving. Ranchers, wildlife managers, and landowners now expect cameras that operate anywhere—without Wi-Fi, without constant charging, and without downtime.</span></p>\n<p><span style=\"font-weight: 400;\">Three names lead that conversation: </span><b>Reolink</b><span style=\"font-weight: 400;\">, </span><b>Vosker</b><span style=\"font-weight: 400;\">, and </span><b>HogEye</b><span style=\"font-weight: 400;\">. Each promises dependable remote monitoring, but their performance in real-world ranch conditions varies widely.</span></p>\n<p><span style=\"font-weight: 400;\">If you’re choosing a system to protect your acreage in 2026, here’s how they truly compare.</span></p>\n<p><b>Reolink Go Ranger PT: Full-Color 4K Video, No Trap Control</b></p>\n<p><span style=\"font-weight: 400;\">Reolink’s Go Ranger PT combines a 4K UHD sensor with a 355° pan and 140° tilt range, offering sweeping visibility and smart motion alerts.</span></p>\n<p><span style=\"font-weight: 400;\">It connects over 4G LTE, supports microSD and cloud storage, and uses a compact solar kit for power. The app adds AI object recognition for animals, vehicles, and people, reducing false triggers.</span></p>\n<p><span style=\"font-weight: 400;\">Still, Reolink is </span><b>video-only</b><span style=\"font-weight: 400;\">—no hardware control or integration. It’s great for observation but stops short of true ranch management.</span></p>\n<p><b>Vosker V150: Photo-Based Monitoring for Remote Sites</b></p>\n<p><span style=\"font-weight: 400;\">Vosker’s V150 focuses on endurance and simplicity. Its built-in solar panel and 10 Ah battery keep it running for weeks, even in low sunlight. Motion events trigger photos that upload to the Vosker app via its multi-carrier LTE SIM.</span></p>\n<p><span style=\"font-weight: 400;\">That makes it ideal for isolated properties or small acreages where long battery life matters more than interactivity. There’s no live video or shared-user access, but the reliability and ease of setup are major pluses.</span></p>\n<p><b>HogEye Camera System: Live Streaming and Real-Time Action</b></p>\n<p><span style=\"font-weight: 400;\">The </span><b>HogEye Camera System</b><span style=\"font-weight: 400;\"> is purpose-built for working ranches. Powered by a solar panel, charge controller, and </span><b>Group 29 or 31 deep-cycle battery</b><span style=\"font-weight: 400;\"> (min 190 RC or 100 AH lithium), it maintains continuous power far from the grid.</span></p>\n<p><span style=\"font-weight: 400;\">Through the </span><b>HogEye Camera Management App</b><span style=\"font-weight: 400;\">, users can:</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Stream live video in real time</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Trigger connected traps or gates through the integrated relay cable</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Define motion bounds to reduce false alerts</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Share access across ranch teams through the Organization feature</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Store recordings locally for 14 days</span>&nbsp;</li>\n</ul>\n<p><span style=\"font-weight: 400;\">This transforms HogEye from a passive camera into an interactive management tool.</span></p>\n<h3><b>Real Stories From the Field</b></h3>\n<p><span style=\"font-weight: 400;\">Across Texas, Louisiana, and Mississippi, ranchers are testing cellular monitoring under real conditions—heat, mud, and long distances—and the results speak for themselves.</span></p>\n<p><b>Comparing Reolink, Vosker, and HogEye Side by Side</b></p>\n<table>\n<tbody>\n<tr>\n<td><b>Feature</b></td>\n<td><b>HogEye Camera System</b></td>\n<td><b>Reolink Go Ranger PT</b></td>\n<td><b>Vosker V150</b></td>\n</tr>\n<tr>\n<td><b>Connection</b></td>\n<td><span style=\"font-weight: 400;\">4G LTE, 5G-ready (SIM)</span></td>\n<td><span style=\"font-weight: 400;\">4G LTE</span></td>\n<td><span style=\"font-weight: 400;\">LTE multi-carrier</span></td>\n</tr>\n<tr>\n<td><b>Video Capability</b></td>\n<td><span style=\"font-weight: 400;\">Full live stream</span></td>\n<td><span style=\"font-weight: 400;\">4K UHD recorded</span></td>\n<td><span style=\"font-weight: 400;\">Photo-only</span></td>\n</tr>\n<tr>\n<td><b>Trigger Control</b></td>\n<td><span style=\"font-weight: 400;\">Yes (trap/gate relay)</span></td>\n<td><span style=\"font-weight: 400;\">No</span></td>\n<td><span style=\"font-weight: 400;\">No</span></td>\n</tr>\n<tr>\n<td><b>Power Source</b></td>\n<td><span style=\"font-weight: 400;\">Solar + deep-cycle battery</span></td>\n<td><span style=\"font-weight: 400;\">Solar + 6 Ah battery</span></td>\n<td><span style=\"font-weight: 400;\">Built-in solar + 10 Ah battery</span></td>\n</tr>\n<tr>\n<td><b>Detection System</b></td>\n<td><span style=\"font-weight: 400;\">Motion Bounds + Object Filters</span></td>\n<td><span style=\"font-weight: 400;\">AI motion</span></td>\n<td><span style=\"font-weight: 400;\">PIR motion</span></td>\n</tr>\n<tr>\n<td><b>Storage</b></td>\n<td><span style=\"font-weight: 400;\">14-day on-device</span></td>\n<td><span style=\"font-weight: 400;\">microSD + cloud</span></td>\n<td><span style=\"font-weight: 400;\">16 GB SD photo storage</span></td>\n</tr>\n<tr>\n<td><b>Multi-User Access</b></td>\n<td><span style=\"font-weight: 400;\">Yes (Organization sharing)</span></td>\n<td><span style=\"font-weight: 400;\">No</span></td>\n<td><span style=\"font-weight: 400;\">No</span></td>\n</tr>\n<tr>\n<td><b>Primary Use Case</b></td>\n<td><span style=\"font-weight: 400;\">Ranch / wildlife control</span></td>\n<td><span style=\"font-weight: 400;\">General security</span></td>\n<td><span style=\"font-weight: 400;\">Remote photo alerts</span></td>\n</tr>\n<tr>\n<td><b>Night Vision</b></td>\n<td><span style=\"font-weight: 400;\">IR LED array</span></td>\n<td><span style=\"font-weight: 400;\">8 LED IR (33 ft)</span></td>\n<td><span style=\"font-weight: 400;\">4 LED IR (80 ft)</span></td>\n</tr>\n<tr>\n<td><b>Integration</b></td>\n<td><span style=\"font-weight: 400;\">Trap and gate systems</span></td>\n<td><span style=\"font-weight: 400;\">None</span></td>\n<td><span style=\"font-weight: 400;\">None</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p><b>Avoiding Marketing Confusion: Photo Alerts vs Live Video</b></p>\n<p><span style=\"font-weight: 400;\">Many off-grid camera ads still call delayed photo uploads “live view.”</span></p>\n<p><span style=\"font-weight: 400;\">True live monitoring streams in real time through the network—exactly what HogEye provides. If your goal is to act immediately, not hours later, live streaming is essential.</span></p>\n<p><b>Who Each Camera Is Right For</b></p>\n<p><b>Reolink Go Ranger PT</b></p>\n<p><span style=\"font-weight: 400;\">Best for ranchers who need high-resolution color video with pan/tilt flexibility and AI motion alerts. Ideal for barns, driveways, or smaller fields where observation matters more than automation.</span></p>\n<p><b>Vosker V150</b></p>\n<p><span style=\"font-weight: 400;\">Great for owners who want simple, long-lasting photo alerts. Works well for gates, cabins, or remote storage where power and bandwidth are limited.</span></p>\n<p><b>HogEye Camera System</b></p>\n<p><span style=\"font-weight: 400;\">Designed for serious land managers who need real-time visibility, solar reliability, and remote activation of traps or gates. Its deep-cycle setup and live streaming make it a true 2026-grade off-grid control system.</span></p>\n<p><b>Integrating Off-Grid Cameras Into a Broader Ranch System</b></p>\n<p><span style=\"font-weight: 400;\">The strongest results come when cameras, traps, and perimeter sensors operate together through a single cellular network.</span></p>\n<p><span style=\"font-weight: 400;\">Learn how to scale that network in</span><a href=\"https://hogeyecameras.com/off-grid-security-cameras-monitoring-2026/\"> <b>How to Build an Off-Grid Ranch Surveillance System That Actually Works</b></a><span style=\"font-weight: 400;\">.</span></p>\n<p><span style=\"font-weight: 400;\">For power insights, see</span><a href=\"https://hogeyecameras.com/blog-solar-power-ranch-cameras-off-grid-monitoring/\"> <b>Solar Power Myths in Ranch Security: What Really Works (and What Doesn’t)</b></a><span style=\"font-weight: 400;\">.</span></p>\n<p><b>Take Control of Your Ranch in 2026</b></p>\n<p><span style=\"font-weight: 400;\">Off-grid camera technology has entered a new phase.</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For photo alerts and battery life, Vosker holds its ground.</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For flexible, high-resolution video, Reolink delivers.</span>&nbsp;</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">For total control, live video, and trap integration, </span><b>HogEye</b><span style=\"font-weight: 400;\"> leads.</span>&nbsp;</li>\n</ul>\n<p><span style=\"font-weight: 400;\">As 2026 arrives, the choice for serious acreage management is clear: real-time response beats passive recording every time.</span></p>\n<p><span style=\"font-weight: 400;\">Explore </span><b>HogEye’s off-grid camera systems</b><span style=\"font-weight: 400;\"> and see how live video changes ranch security.</span></p>\n",
+      "protected": false,
+      "block_version": 0
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>The Race for the Best Off-Grid Camera System in 2026 Off-grid camera security keeps evolving. Ranchers, wildlife managers, and landowners [&hellip;]</p>\n",
+      "protected": false
+    },
+    "meta": {
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "theme-transparent-header-meta": "default",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "set",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": ""
+    },
+    "categories": [
+      100003
+    ],
+    "tags": [],
+    "aioseo_meta_data": {
+      "post_id": "500189",
+      "title": "#post_title",
+      "description": "HogEye, Reolink, and Vosker camera systems, see which off-grid camera delivers true live control, solar reliability, and real-time ranch management in 2026.",
+      "keywords": null,
+      "keyphrases": {
+        "focus": {
+          "keyphrase": "Off-Grid Camera",
+          "score": 100,
+          "analysis": {
+            "keyphraseInTitle": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInDescription": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseLength": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0,
+              "length": 2
+            },
+            "keyphraseInURL": {
+              "score": 5,
+              "maxScore": 5,
+              "error": 0
+            },
+            "keyphraseInIntroduction": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInSubHeadings": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInImageAlt": [],
+            "keywordDensity": {
+              "type": "best",
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            }
+          }
+        },
+        "additional": []
+      },
+      "primary_term": null,
+      "canonical_url": null,
+      "og_title": null,
+      "og_description": null,
+      "og_object_type": "default",
+      "og_image_type": "default",
+      "og_image_url": null,
+      "og_image_width": null,
+      "og_image_height": null,
+      "og_image_custom_url": null,
+      "og_image_custom_fields": null,
+      "og_video": "",
+      "og_custom_url": null,
+      "og_article_section": null,
+      "og_article_tags": null,
+      "twitter_use_og": false,
+      "twitter_card": "default",
+      "twitter_image_type": "default",
+      "twitter_image_url": null,
+      "twitter_image_custom_url": null,
+      "twitter_image_custom_fields": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "schema": {
+        "blockGraphs": [],
+        "customGraphs": [],
+        "default": {
+          "data": {
+            "Article": [],
+            "Course": [],
+            "Dataset": [],
+            "FAQPage": [],
+            "Movie": [],
+            "Person": [],
+            "Product": [],
+            "ProductReview": [],
+            "Car": [],
+            "Recipe": [],
+            "Service": [],
+            "SoftwareApplication": [],
+            "WebPage": []
+          },
+          "graphName": "BlogPosting",
+          "isEnabled": true
+        },
+        "graphs": []
+      },
+      "schema_type": "default",
+      "schema_type_options": null,
+      "pillar_content": false,
+      "robots_default": true,
+      "robots_noindex": false,
+      "robots_noarchive": false,
+      "robots_nosnippet": false,
+      "robots_nofollow": false,
+      "robots_noimageindex": false,
+      "robots_noodp": false,
+      "robots_notranslate": false,
+      "robots_max_snippet": "-1",
+      "robots_max_videopreview": "-1",
+      "robots_max_imagepreview": "large",
+      "priority": null,
+      "frequency": "default",
+      "local_seo": null,
+      "seo_analyzer_scan_date": null,
+      "breadcrumb_settings": null,
+      "limit_modified_date": false,
+      "reviewed_by": null,
+      "open_ai": null,
+      "ai": {
+        "faqs": [],
+        "keyPoints": [],
+        "titles": [],
+        "descriptions": [],
+        "socialPosts": {
+          "email": [],
+          "linkedin": [],
+          "twitter": [],
+          "facebook": [],
+          "instagram": []
+        }
+      },
+      "created": "2025-12-03 19:35:12",
+      "updated": "2026-02-10 20:33:11"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Important alignment docs (human review / team alignment).
+# One path per line, relative to repo root.
+# Keep this list tight: docs we actively use, not generated artifacts.
+
+README.md
+DOCS.md
+
+work/seo/hogeye/NORTH_STAR_POSITIONING.md
+work/seo/hogeye/RUNBOOK.md
+work/seo/hogeye/SAFETY_WORKFLOW.md
+work/seo/hogeye/PROGRESS_TRACKER.md
+work/seo/hogeye/EXECUTION_STATUS.md
+
+work/seo/hogeye/HOGEYE_25_PERCENT_GROWTH_SCORECARD_FEB_MAY_2026.md
+work/seo/hogeye/HOGEYE_COMPETITIVE_ANALYSIS_2026.md
+work/seo/hogeye/HOGEYE_FEB_2026_SEO_PLAN.md
+work/seo/hogeye/HOGEYE_2026_SEO_6_MONTH_PLAN_FEB_JUN.md
+
+work/seo/hogeye/february_package/README.md

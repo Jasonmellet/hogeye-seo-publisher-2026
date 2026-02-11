@@ -1,0 +1,625 @@
+{
+  "backup_created_at_utc": "2026-02-11T01:45:03.595731+00:00",
+  "source": "live_wp_rest_api",
+  "site_url": "https://hogeyecameras.com",
+  "post": {
+    "id": 500222,
+    "date": "2025-12-22T09:00:28",
+    "date_gmt": "2025-12-22T09:00:28",
+    "guid": {
+      "rendered": "https://hogeyecameras.com/?p=500222",
+      "raw": "https://hogeyecameras.com/?p=500222"
+    },
+    "modified": "2026-02-10T20:32:29",
+    "modified_gmt": "2026-02-10T20:32:29",
+    "password": "",
+    "slug": "off-grid-cameras-top-10-installation-mistakes-to-avoid",
+    "status": "draft",
+    "type": "post",
+    "link": "https://hogeyecameras.com/?p=500222",
+    "title": {
+      "raw": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+      "rendered": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid"
+    },
+    "content": {
+      "raw": "<h2>Don’t Let Mistakes with Off-Grid Cameras Cost You Coverage</h2>\r\n<span style=\"font-weight: 400;\">Off-grid cameras can protect miles of ranch land — but only if they’re installed correctly.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Small errors during setup are the biggest reason systems lose power, drop signal, or fail when you need them most.</span>\r\n\r\n<span style=\"font-weight: 400;\">Here’s a checklist of the </span><b>10 most common installation mistakes</b><span style=\"font-weight: 400;\"> and how to avoid them, based on real-world HogEye setups.</span>\r\n\r\nLearn more about the disadvantages and mistakes of <a href=\"https://hogeyecameras.com/diy-trap-trigger-mods-why-they-fail/\">DIY off-grid cameras.</a>\r\n<h2><b>1. Mounting Cameras Too Low</b></h2>\r\n<span style=\"font-weight: 400;\">Low mounting gives hogs, livestock, or debris an easy chance to block or damage equipment.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Mount cameras at </span><b>6–8 feet high</b><span style=\"font-weight: 400;\"> with a clear, unobstructed view of the monitoring zone.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Higher placement improves both range and solar exposure.</span>\r\n<h2><b>2. Ignoring the Sun’s Angle</b></h2>\r\n<span style=\"font-weight: 400;\">Panels that face east or west lose up to 40% efficiency.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Always face solar panels </span><b>true south</b><span style=\"font-weight: 400;\"> and tilt them between </span><b>30° and 45°</b><span style=\"font-weight: 400;\"> depending on latitude.</span>\r\n\r\n<span style=\"font-weight: 400;\">This setup maximizes energy capture and battery performance — a topic covered in more detail in</span><a href=\"https://hogeyecameras.com/solar-powered-cameras-what-works/\"> <b>Solar Power Myths in Ranch Security: What Really Works (and What Doesn’t)</b></a><span style=\"font-weight: 400;\">.</span>\r\n<h2><b>3. Using Undersized Solar Panels</b></h2>\r\n<span style=\"font-weight: 400;\">A 10-watt “trickle” panel can’t sustain 24/7 video or trap control.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Each HogEye system includes a high-output panel engineered to recharge its </span><b>Group 29 or 31 deep-cycle battery</b><span style=\"font-weight: 400;\"> daily.</span>\r\n\r\n<span style=\"font-weight: 400;\">Skimping on wattage is one of the fastest ways to end up with downtime.</span>\r\n<h2><b>4. Running Cables Too Long</b></h2>\r\n<span style=\"font-weight: 400;\">Voltage loss increases dramatically past 10–12 feet.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Keep solar and camera cables as short as possible and use heavy-gauge wiring if extensions are required.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Seal all connections with dielectric grease or waterproof connectors to prevent corrosion.</span>\r\n<h2><b>5. Forgetting to Check LTE Signal Strength</b></h2>\r\n<span style=\"font-weight: 400;\">Coverage can vary by a few yards, especially on uneven terrain.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Before final installation, test your LTE signal on a phone from each camera site. Aim for </span><b>-100 dBm or stronger</b><span style=\"font-weight: 400;\"> on your preferred carrier.</span>\r\n\r\n<span style=\"font-weight: 400;\">If the signal is weak, use HogEye’s </span><b>external omni-directional antenna</b><span style=\"font-weight: 400;\"> or mount higher for line-of-sight access.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">See</span><a href=\"https://hogeyecameras.com/5g-ranch-cameras-rural-coverage-2026/\"> <b>5G Coverage in Rural America: What It Means for Cellular Camera Users</b></a><span style=\"font-weight: 400;\"> for a carrier comparison.</span>\r\n<h2><b>6. Ignoring Shadows From Trees or Fences</b></h2>\r\n<span style=\"font-weight: 400;\">Even partial shade can drop solar output dramatically.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Trim nearby branches and avoid mounting near tall fences or poles that cast midday shadows on panels.</span>\r\n\r\n<span style=\"font-weight: 400;\">Revisit the site once a season — sunlight angles shift throughout the year.</span>\r\n<h2><b>7. Overlooking Cable Security</b></h2>\r\n<span style=\"font-weight: 400;\">Wildlife loves loose wiring.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Always </span><b>zip-tie or conduit-cover</b><span style=\"font-weight: 400;\"> all exposed cable runs, especially near the ground.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">This prevents chewing and accidental unplugging from livestock or hog activity.</span>\r\n<h2><b>8. Not Testing Trigger Functions Before Leaving the Site</b></h2>\r\n<span style=\"font-weight: 400;\">Always test trap, gate, or relay connections while you’re still on-site.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Open the </span><b>HogEye Camera Management App</b><span style=\"font-weight: 400;\">, verify live video, and run a trigger test before you drive away.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">This guarantees every relay port and camera connection is functioning before you rely on it remotely.</span>\r\n\r\n<span style=\"font-weight: 400;\">For more integration help, see</span><a href=\"https://hogeyecameras.com/smart-ranch-technology-cellular-camera-integration/\"> <b>Smart Ranching 2.0: How Cellular Cameras Integrate With Traps, Gates, and Feeders</b></a><span style=\"font-weight: 400;\">.</span>\r\n<h2><b>9. Skipping Monthly Maintenance</b></h2>\r\n<span style=\"font-weight: 400;\">Dust and bird droppings can cut solar efficiency by 15–20%.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Wipe panels clean, inspect cables, and confirm camera firmware updates monthly.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Neglect is the quiet killer of every off-grid setup.</span>\r\n<h2><b>10. Forgetting About Battery Health</b></h2>\r\n<span style=\"font-weight: 400;\">Batteries are the backbone of any off-grid system.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Check voltage levels quarterly, and replace </span><b>deep-cycle batteries</b><span style=\"font-weight: 400;\"> every 3–5 years.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">Keep terminals clean and tight — corrosion causes voltage drops that lead to low power warnings.</span>\r\n\r\n<span style=\"font-weight: 400;\">For guidance on long-term costs and replacement planning, read</span><a href=\"https://hogeyecameras.com/off-grid-camera-cost-guide-2026/\"> <b>The Complete Cost of Running an Off-Grid Camera System in 2026</b></a><span style=\"font-weight: 400;\">.</span>\r\n<h2>Pro Tip: Keep a Simple Installation Log for Off-Grid Cameras</h2>\r\n<span style=\"font-weight: 400;\">Document your setup: panel angles, battery model, LTE strength, and connection dates.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">That quick reference can save hours when troubleshooting power loss or connectivity later.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">HogEye installers log every site detail to ensure maximum uptime — a habit worth copying.</span>\r\n<h2>Off-Grid Cameras Should Be Predictable, Not Painful to Run</h2>\r\n<span style=\"font-weight: 400;\">Avoiding these 10 mistakes means more uptime, less frustration, and a longer lifespan for your entire security system.</span>\r\n\r\n<span style=\"font-weight: 400;\">If you’re ready to build your first setup or upgrade from consumer-grade cameras, start with proven solar and connectivity hardware from </span><a href=\"https://hogeyecameras.com/buy-now/\"><b>HogEye</b><span style=\"font-weight: 400;\">.</span></a>",
+      "rendered": "<h2>Don’t Let Mistakes with Off-Grid Cameras Cost You Coverage</h2>\n<p><span style=\"font-weight: 400;\">Off-grid cameras can protect miles of ranch land — but only if they’re installed correctly.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Small errors during setup are the biggest reason systems lose power, drop signal, or fail when you need them most.</span></p>\n<p><span style=\"font-weight: 400;\">Here’s a checklist of the </span><b>10 most common installation mistakes</b><span style=\"font-weight: 400;\"> and how to avoid them, based on real-world HogEye setups.</span></p>\n<p>Learn more about the disadvantages and mistakes of <a href=\"https://hogeyecameras.com/diy-trap-trigger-mods-why-they-fail/\">DIY off-grid cameras.</a></p>\n<h2><b>1. Mounting Cameras Too Low</b></h2>\n<p><span style=\"font-weight: 400;\">Low mounting gives hogs, livestock, or debris an easy chance to block or damage equipment.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Mount cameras at </span><b>6–8 feet high</b><span style=\"font-weight: 400;\"> with a clear, unobstructed view of the monitoring zone.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Higher placement improves both range and solar exposure.</span></p>\n<h2><b>2. Ignoring the Sun’s Angle</b></h2>\n<p><span style=\"font-weight: 400;\">Panels that face east or west lose up to 40% efficiency.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Always face solar panels </span><b>true south</b><span style=\"font-weight: 400;\"> and tilt them between </span><b>30° and 45°</b><span style=\"font-weight: 400;\"> depending on latitude.</span></p>\n<p><span style=\"font-weight: 400;\">This setup maximizes energy capture and battery performance — a topic covered in more detail in</span><a href=\"https://hogeyecameras.com/solar-powered-cameras-what-works/\"> <b>Solar Power Myths in Ranch Security: What Really Works (and What Doesn’t)</b></a><span style=\"font-weight: 400;\">.</span></p>\n<h2><b>3. Using Undersized Solar Panels</b></h2>\n<p><span style=\"font-weight: 400;\">A 10-watt “trickle” panel can’t sustain 24/7 video or trap control.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Each HogEye system includes a high-output panel engineered to recharge its </span><b>Group 29 or 31 deep-cycle battery</b><span style=\"font-weight: 400;\"> daily.</span></p>\n<p><span style=\"font-weight: 400;\">Skimping on wattage is one of the fastest ways to end up with downtime.</span></p>\n<h2><b>4. Running Cables Too Long</b></h2>\n<p><span style=\"font-weight: 400;\">Voltage loss increases dramatically past 10–12 feet.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Keep solar and camera cables as short as possible and use heavy-gauge wiring if extensions are required.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Seal all connections with dielectric grease or waterproof connectors to prevent corrosion.</span></p>\n<h2><b>5. Forgetting to Check LTE Signal Strength</b></h2>\n<p><span style=\"font-weight: 400;\">Coverage can vary by a few yards, especially on uneven terrain.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Before final installation, test your LTE signal on a phone from each camera site. Aim for </span><b>-100 dBm or stronger</b><span style=\"font-weight: 400;\"> on your preferred carrier.</span></p>\n<p><span style=\"font-weight: 400;\">If the signal is weak, use HogEye’s </span><b>external omni-directional antenna</b><span style=\"font-weight: 400;\"> or mount higher for line-of-sight access.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">See</span><a href=\"https://hogeyecameras.com/5g-ranch-cameras-rural-coverage-2026/\"> <b>5G Coverage in Rural America: What It Means for Cellular Camera Users</b></a><span style=\"font-weight: 400;\"> for a carrier comparison.</span></p>\n<h2><b>6. Ignoring Shadows From Trees or Fences</b></h2>\n<p><span style=\"font-weight: 400;\">Even partial shade can drop solar output dramatically.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Trim nearby branches and avoid mounting near tall fences or poles that cast midday shadows on panels.</span></p>\n<p><span style=\"font-weight: 400;\">Revisit the site once a season — sunlight angles shift throughout the year.</span></p>\n<h2><b>7. Overlooking Cable Security</b></h2>\n<p><span style=\"font-weight: 400;\">Wildlife loves loose wiring.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Always </span><b>zip-tie or conduit-cover</b><span style=\"font-weight: 400;\"> all exposed cable runs, especially near the ground.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">This prevents chewing and accidental unplugging from livestock or hog activity.</span></p>\n<h2><b>8. Not Testing Trigger Functions Before Leaving the Site</b></h2>\n<p><span style=\"font-weight: 400;\">Always test trap, gate, or relay connections while you’re still on-site.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Open the </span><b>HogEye Camera Management App</b><span style=\"font-weight: 400;\">, verify live video, and run a trigger test before you drive away.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">This guarantees every relay port and camera connection is functioning before you rely on it remotely.</span></p>\n<p><span style=\"font-weight: 400;\">For more integration help, see</span><a href=\"https://hogeyecameras.com/smart-ranch-technology-cellular-camera-integration/\"> <b>Smart Ranching 2.0: How Cellular Cameras Integrate With Traps, Gates, and Feeders</b></a><span style=\"font-weight: 400;\">.</span></p>\n<h2><b>9. Skipping Monthly Maintenance</b></h2>\n<p><span style=\"font-weight: 400;\">Dust and bird droppings can cut solar efficiency by 15–20%.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Wipe panels clean, inspect cables, and confirm camera firmware updates monthly.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Neglect is the quiet killer of every off-grid setup.</span></p>\n<h2><b>10. Forgetting About Battery Health</b></h2>\n<p><span style=\"font-weight: 400;\">Batteries are the backbone of any off-grid system.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Check voltage levels quarterly, and replace </span><b>deep-cycle batteries</b><span style=\"font-weight: 400;\"> every 3–5 years.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">Keep terminals clean and tight — corrosion causes voltage drops that lead to low power warnings.</span></p>\n<p><span style=\"font-weight: 400;\">For guidance on long-term costs and replacement planning, read</span><a href=\"https://hogeyecameras.com/off-grid-camera-cost-guide-2026/\"> <b>The Complete Cost of Running an Off-Grid Camera System in 2026</b></a><span style=\"font-weight: 400;\">.</span></p>\n<h2>Pro Tip: Keep a Simple Installation Log for Off-Grid Cameras</h2>\n<p><span style=\"font-weight: 400;\">Document your setup: panel angles, battery model, LTE strength, and connection dates.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">That quick reference can save hours when troubleshooting power loss or connectivity later.</span><span style=\"font-weight: 400;\"><br />\n</span><span style=\"font-weight: 400;\">HogEye installers log every site detail to ensure maximum uptime — a habit worth copying.</span></p>\n<h2>Off-Grid Cameras Should Be Predictable, Not Painful to Run</h2>\n<p><span style=\"font-weight: 400;\">Avoiding these 10 mistakes means more uptime, less frustration, and a longer lifespan for your entire security system.</span></p>\n<p><span style=\"font-weight: 400;\">If you’re ready to build your first setup or upgrade from consumer-grade cameras, start with proven solar and connectivity hardware from </span><a href=\"https://hogeyecameras.com/buy-now/\"><b>HogEye</b><span style=\"font-weight: 400;\">.</span></a></p>\n",
+      "protected": false,
+      "block_version": 0
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Don’t Let Mistakes with Off-Grid Cameras Cost You Coverage Off-grid cameras can protect miles of ranch land — but only [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1002,
+    "featured_media": 500223,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "theme-transparent-header-meta": "default",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "set",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": ""
+    },
+    "categories": [
+      100003,
+      100002
+    ],
+    "tags": [],
+    "permalink_template": "https://hogeyecameras.com/%postname%/",
+    "generated_slug": "off-grid-cameras-top-10-installation-mistakes-to-avoid",
+    "class_list": [
+      "post-500222",
+      "post",
+      "type-post",
+      "status-draft",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-cellular-security-cameras",
+      "category-feral-hog-monitoring"
+    ],
+    "aioseo_notices": [],
+    "aioseo_head": "\n\t\t<!-- All in One SEO Pro 4.9.3 - aioseo.com -->\n\t<meta name=\"description\" content=\"Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.\" />\n\t<meta name=\"robots\" content=\"max-image-preview:large\" />\n\t<meta name=\"author\" content=\"Brittany Marburger\"/>\n\t<meta name=\"google-site-verification\" content=\"XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM\" />\n\t<link rel=\"canonical\" href=\"https://hogeyecameras.com/?p=500222\" />\n\t<meta name=\"generator\" content=\"All in One SEO Pro (AIOSEO) 4.9.3\" />\n\t\t<meta property=\"og:locale\" content=\"en_US\" />\n\t\t<meta property=\"og:site_name\" content=\"HogEye Cameras - A Live-Video Camera System\" />\n\t\t<meta property=\"og:type\" content=\"article\" />\n\t\t<meta property=\"og:title\" content=\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\" />\n\t\t<meta property=\"og:description\" content=\"Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.\" />\n\t\t<meta property=\"og:url\" content=\"https://hogeyecameras.com/?p=500222\" />\n\t\t<meta property=\"og:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"og:image:secure_url\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<meta property=\"article:published_time\" content=\"2025-12-22T09:00:28+00:00\" />\n\t\t<meta property=\"article:modified_time\" content=\"2026-02-10T20:32:29+00:00\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content=\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\" />\n\t\t<meta name=\"twitter:description\" content=\"Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.\" />\n\t\t<meta name=\"twitter:image\" content=\"https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp\" />\n\t\t<script type=\"application/ld+json\" class=\"aioseo-schema\">\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BlogPosting\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#blogposting\",\"name\":\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\",\"headline\":\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\",\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/brittany\\/#author\"},\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/12\\/How-to-Spot-Feral-Hog-Damage-Before-Its-Too-Late-1.png\",\"width\":2240,\"height\":1260},\"datePublished\":\"2025-12-22T09:00:28+00:00\",\"dateModified\":\"2026-02-10T20:32:29+00:00\",\"inLanguage\":\"en-US\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#webpage\"},\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#webpage\"},\"articleSection\":\"Cellular Security Cameras, Feral Hog Monitoring\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/hogeyecameras.com\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"position\":2,\"name\":\"Feral Hog Monitoring\",\"item\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/\",\"nextItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#listItem\",\"name\":\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\"},\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com#listItem\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#listItem\",\"position\":3,\"name\":\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\",\"previousItem\":{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/category\\/feral-hog-monitoring\\/#listItem\",\"name\":\"Feral Hog Monitoring\"}}]},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"http:\\/\\/staging.hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/09\\/Texas-Wildlife-Management-18.jpg\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222\\/#organizationLogo\"},\"image\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222\\/#organizationLogo\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/brittany\\/#author\",\"url\":\"https:\\/\\/hogeyecameras.com\\/author\\/brittany\\/\",\"name\":\"Brittany Marburger\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#authorImage\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/a59ba02a0f32ae8d9ed77edf6c16e2a9e3ffc74e9b42e23799bf8aa454589b19?s=96&d=mm&r=g\",\"width\":96,\"height\":96,\"caption\":\"Brittany Marburger\"}},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#webpage\",\"url\":\"https:\\/\\/hogeyecameras.com\\/?p=500222\",\"name\":\"Off-Grid Cameras: Top 10 Installation Mistakes to Avoid\",\"description\":\"Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#breadcrumblist\"},\"author\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/brittany\\/#author\"},\"creator\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/author\\/brittany\\/#author\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/hogeyecameras.com\\/wp-content\\/uploads\\/2025\\/12\\/How-to-Spot-Feral-Hog-Damage-Before-Its-Too-Late-1.png\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222\\/#mainImage\",\"width\":2240,\"height\":1260},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/?p=500222#mainImage\"},\"datePublished\":\"2025-12-22T09:00:28+00:00\",\"dateModified\":\"2026-02-10T20:32:29+00:00\"},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/hogeyecameras.com\\/#website\",\"url\":\"https:\\/\\/hogeyecameras.com\\/\",\"name\":\"HogEye Cameras\",\"description\":\"A Live-Video Camera System\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https:\\/\\/hogeyecameras.com\\/#organization\"}}]}\n\t\t</script>\n\t\t<!-- All in One SEO Pro -->\r\n\t\t<title>Off-Grid Cameras: Top 10 Installation Mistakes to Avoid</title>\n\n",
+    "aioseo_head_json": {
+      "title": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+      "description": "Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.",
+      "canonical_url": "https://hogeyecameras.com/?p=500222",
+      "robots": "max-image-preview:large",
+      "keywords": "",
+      "webmasterTools": {
+        "google-site-verification": "XG6FeBGmLBz_00putfMe_54KqCtupBkXjTwKo8DPSwM",
+        "miscellaneous": ""
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://hogeyecameras.com/?p=500222#blogposting",
+            "name": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+            "headline": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+            "author": {
+              "@id": "https://hogeyecameras.com/author/brittany/#author"
+            },
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/12/How-to-Spot-Feral-Hog-Damage-Before-Its-Too-Late-1.png",
+              "width": 2240,
+              "height": 1260
+            },
+            "datePublished": "2025-12-22T09:00:28+00:00",
+            "dateModified": "2026-02-10T20:32:29+00:00",
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500222#webpage"
+            },
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/?p=500222#webpage"
+            },
+            "articleSection": "Cellular Security Cameras, Feral Hog Monitoring"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://hogeyecameras.com/?p=500222#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com#listItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://hogeyecameras.com",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                "position": 2,
+                "name": "Feral Hog Monitoring",
+                "item": "https://hogeyecameras.com/category/feral-hog-monitoring/",
+                "nextItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/?p=500222#listItem",
+                  "name": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid"
+                },
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com#listItem",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "@id": "https://hogeyecameras.com/?p=500222#listItem",
+                "position": 3,
+                "name": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+                "previousItem": {
+                  "@type": "ListItem",
+                  "@id": "https://hogeyecameras.com/category/feral-hog-monitoring/#listItem",
+                  "name": "Feral Hog Monitoring"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://hogeyecameras.com/#organization",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "url": "https://hogeyecameras.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "http://staging.hogeyecameras.com/wp-content/uploads/2025/09/Texas-Wildlife-Management-18.jpg",
+              "@id": "https://hogeyecameras.com/?p=500222/#organizationLogo"
+            },
+            "image": {
+              "@id": "https://hogeyecameras.com/?p=500222/#organizationLogo"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://hogeyecameras.com/author/brittany/#author",
+            "url": "https://hogeyecameras.com/author/brittany/",
+            "name": "Brittany Marburger",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://hogeyecameras.com/?p=500222#authorImage",
+              "url": "https://secure.gravatar.com/avatar/a59ba02a0f32ae8d9ed77edf6c16e2a9e3ffc74e9b42e23799bf8aa454589b19?s=96&d=mm&r=g",
+              "width": 96,
+              "height": 96,
+              "caption": "Brittany Marburger"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://hogeyecameras.com/?p=500222#webpage",
+            "url": "https://hogeyecameras.com/?p=500222",
+            "name": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+            "description": "Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@id": "https://hogeyecameras.com/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://hogeyecameras.com/?p=500222#breadcrumblist"
+            },
+            "author": {
+              "@id": "https://hogeyecameras.com/author/brittany/#author"
+            },
+            "creator": {
+              "@id": "https://hogeyecameras.com/author/brittany/#author"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://hogeyecameras.com/wp-content/uploads/2025/12/How-to-Spot-Feral-Hog-Damage-Before-Its-Too-Late-1.png",
+              "@id": "https://hogeyecameras.com/?p=500222/#mainImage",
+              "width": 2240,
+              "height": 1260
+            },
+            "primaryImageOfPage": {
+              "@id": "https://hogeyecameras.com/?p=500222#mainImage"
+            },
+            "datePublished": "2025-12-22T09:00:28+00:00",
+            "dateModified": "2026-02-10T20:32:29+00:00"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://hogeyecameras.com/#website",
+            "url": "https://hogeyecameras.com/",
+            "name": "HogEye Cameras",
+            "description": "A Live-Video Camera System",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://hogeyecameras.com/#organization"
+            }
+          }
+        ]
+      },
+      "og:locale": "en_US",
+      "og:site_name": "HogEye Cameras - A Live-Video Camera System",
+      "og:type": "article",
+      "og:title": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+      "og:description": "Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.",
+      "og:url": "https://hogeyecameras.com/?p=500222",
+      "og:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "og:image:secure_url": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp",
+      "article:published_time": "2025-12-22T09:00:28+00:00",
+      "article:modified_time": "2026-02-10T20:32:29+00:00",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+      "twitter:description": "Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.",
+      "twitter:image": "https://hogeyecameras.com/wp-content/uploads/2025/08/fulllogo-black.png.webp"
+    },
+    "aioseo_meta_data": {
+      "post_id": "500222",
+      "title": "#post_title",
+      "description": "Avoid costly setup errors with off-grid cameras. Learn the top 10 installation mistakes ranchers make and how to set up HogEye the right way.",
+      "keywords": null,
+      "keyphrases": {
+        "focus": {
+          "keyphrase": "off-grid cameras",
+          "score": 90,
+          "analysis": {
+            "keyphraseInTitle": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInDescription": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseLength": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0,
+              "length": 2
+            },
+            "keyphraseInURL": {
+              "score": 5,
+              "maxScore": 5,
+              "error": 0
+            },
+            "keyphraseInIntroduction": {
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            },
+            "keyphraseInSubHeadings": {
+              "score": 3,
+              "maxScore": 9,
+              "error": 1
+            },
+            "keyphraseInImageAlt": [],
+            "keywordDensity": {
+              "type": "best",
+              "score": 9,
+              "maxScore": 9,
+              "error": 0
+            }
+          }
+        },
+        "additional": []
+      },
+      "primary_term": null,
+      "canonical_url": null,
+      "og_title": null,
+      "og_description": null,
+      "og_object_type": "default",
+      "og_image_type": "default",
+      "og_image_url": null,
+      "og_image_width": null,
+      "og_image_height": null,
+      "og_image_custom_url": null,
+      "og_image_custom_fields": null,
+      "og_video": "",
+      "og_custom_url": null,
+      "og_article_section": null,
+      "og_article_tags": null,
+      "twitter_use_og": false,
+      "twitter_card": "default",
+      "twitter_image_type": "default",
+      "twitter_image_url": null,
+      "twitter_image_custom_url": null,
+      "twitter_image_custom_fields": null,
+      "twitter_title": null,
+      "twitter_description": null,
+      "schema": {
+        "blockGraphs": [],
+        "customGraphs": [],
+        "default": {
+          "data": {
+            "Article": [],
+            "Course": [],
+            "Dataset": [],
+            "FAQPage": [],
+            "Movie": [],
+            "Person": [],
+            "Product": [],
+            "ProductReview": [],
+            "Car": [],
+            "Recipe": [],
+            "Service": [],
+            "SoftwareApplication": [],
+            "WebPage": []
+          },
+          "graphName": "BlogPosting",
+          "isEnabled": true
+        },
+        "graphs": []
+      },
+      "schema_type": "default",
+      "schema_type_options": null,
+      "pillar_content": false,
+      "robots_default": true,
+      "robots_noindex": false,
+      "robots_noarchive": false,
+      "robots_nosnippet": false,
+      "robots_nofollow": false,
+      "robots_noimageindex": false,
+      "robots_noodp": false,
+      "robots_notranslate": false,
+      "robots_max_snippet": "-1",
+      "robots_max_videopreview": "-1",
+      "robots_max_imagepreview": "large",
+      "priority": null,
+      "frequency": "default",
+      "local_seo": null,
+      "seo_analyzer_scan_date": null,
+      "breadcrumb_settings": null,
+      "limit_modified_date": false,
+      "reviewed_by": null,
+      "open_ai": null,
+      "ai": {
+        "faqs": [],
+        "keyPoints": [],
+        "titles": [],
+        "descriptions": [],
+        "socialPosts": {
+          "email": [],
+          "linkedin": [],
+          "twitter": [],
+          "facebook": [],
+          "instagram": []
+        }
+      },
+      "created": "2025-12-15 18:55:29",
+      "updated": "2026-02-10 20:32:30"
+    },
+    "aioseo_breadcrumb": "<div class=\"aioseo-breadcrumbs\"><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com\" title=\"Home\">Home</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\t<a href=\"https://hogeyecameras.com/category/feral-hog-monitoring/\" title=\"Feral Hog Monitoring\">Feral Hog Monitoring</a>\n</span><span class=\"aioseo-breadcrumb-separator\">&raquo;</span><span class=\"aioseo-breadcrumb\">\n\tOff-Grid Cameras: Top 10 Installation Mistakes to Avoid\n</span></div>",
+    "aioseo_breadcrumb_json": [
+      {
+        "label": "Home",
+        "link": "https://hogeyecameras.com"
+      },
+      {
+        "label": "Feral Hog Monitoring",
+        "link": "https://hogeyecameras.com/category/feral-hog-monitoring/"
+      },
+      {
+        "label": "Off-Grid Cameras: Top 10 Installation Mistakes to Avoid",
+        "link": "https://hogeyecameras.com/?p=500222"
+      }
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/users/1002"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/comments?post=500222"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 500235,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222/revisions/500235"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media/500223"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/media?parent=500222"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/categories?post=500222"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/tags?post=500222"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-sticky": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-assign-author": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-create-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-assign-categories": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-create-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "wp:action-assign-tags": [
+        {
+          "href": "https://hogeyecameras.com/wp-json/wp/v2/posts/500222"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+}

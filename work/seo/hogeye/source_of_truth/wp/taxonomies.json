@@ -1,0 +1,109 @@
+{
+  "categories": {
+    "endpoint": "categories",
+    "total": 12,
+    "by_id": {
+      "1": {
+        "id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "link": "https://hogeyecameras.com/category/uncategorized/",
+        "parent": 0,
+        "count": 2
+      },
+      "21": {
+        "id": 21,
+        "name": "News",
+        "slug": "news",
+        "link": "https://hogeyecameras.com/category/news/",
+        "parent": 0,
+        "count": 0
+      },
+      "100002": {
+        "id": 100002,
+        "name": "Feral Hog Monitoring",
+        "slug": "feral-hog-monitoring",
+        "link": "https://hogeyecameras.com/category/feral-hog-monitoring/",
+        "parent": 0,
+        "count": 11
+      },
+      "100003": {
+        "id": 100003,
+        "name": "Cellular Security Cameras",
+        "slug": "cellular-security-cameras",
+        "link": "https://hogeyecameras.com/category/cellular-security-cameras/",
+        "parent": 0,
+        "count": 34
+      },
+      "100012": {
+        "id": 100012,
+        "name": "Camera Resources",
+        "slug": "camera-resources",
+        "link": "https://hogeyecameras.com/category/camera-resources/",
+        "parent": 0,
+        "count": 0
+      },
+      "100013": {
+        "id": 100013,
+        "name": "Camera Guides",
+        "slug": "camera-guides",
+        "link": "https://hogeyecameras.com/category/camera-guides/",
+        "parent": 0,
+        "count": 0
+      },
+      "100014": {
+        "id": 100014,
+        "name": "Cellular Cameras",
+        "slug": "cellular-cameras",
+        "link": "https://hogeyecameras.com/category/camera-guides/cellular-cameras/",
+        "parent": 100013,
+        "count": 0
+      },
+      "100015": {
+        "id": 100015,
+        "name": "Solar Cameras",
+        "slug": "solar-cameras",
+        "link": "https://hogeyecameras.com/category/camera-guides/solar-cameras/",
+        "parent": 100013,
+        "count": 0
+      },
+      "100016": {
+        "id": 100016,
+        "name": "Off-Grid Cameras",
+        "slug": "off-grid-cameras",
+        "link": "https://hogeyecameras.com/category/camera-guides/off-grid-cameras/",
+        "parent": 100013,
+        "count": 0
+      },
+      "100017": {
+        "id": 100017,
+        "name": "SIM Card Cameras",
+        "slug": "sim-card-cameras",
+        "link": "https://hogeyecameras.com/category/camera-guides/sim-card-cameras/",
+        "parent": 100013,
+        "count": 0
+      },
+      "100018": {
+        "id": 100018,
+        "name": "Gate &amp; Property Monitoring",
+        "slug": "gate-property-monitoring",
+        "link": "https://hogeyecameras.com/category/camera-guides/gate-property-monitoring/",
+        "parent": 100013,
+        "count": 0
+      },
+      "100019": {
+        "id": 100019,
+        "name": "Feral Hog Educational &amp; Awareness",
+        "slug": "feral-hog-educational-awareness",
+        "link": "https://hogeyecameras.com/category/feral-hog-educational-awareness/",
+        "parent": 0,
+        "count": 0
+      }
+    }
+  },
+  "tags": {
+    "endpoint": "tags",
+    "total": 0,
+    "by_id": {}
+  }
+}

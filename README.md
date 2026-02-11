@@ -5,6 +5,18 @@ This is the **Hogeye** client repo built from the SEO publisher template. It con
 - **WordPress Publishing Engine**: publish/update pages + posts to WordPress via REST API, draft-first, with validation gates.
 - **SEO Planning Engine**: build a data-driven monthly plan in Google Sheets (Semrush normalization, sitemap inventory, DataForSEO enrichment, execution checklists).
 
+## HogEye North Star (non-negotiable)
+
+Canonical positioning:
+
+- HogEye is a **wild hog trap release camera system** for remote trap monitoring and **remote trigger** at the right moment.
+
+If a brief/draft/plan section doesn’t support hog trap monitoring, sounder capture timing, or trap-gate trigger reliability, it fails the North Star test.
+
+Source of truth for language rules:
+
+- `work/seo/hogeye/NORTH_STAR_POSITIONING.md`
+
 ## Hogeye fast-track (BB-level workflow)
 
 Start here for a “checklist-first” setup path:
@@ -14,6 +26,27 @@ Start here for a “checklist-first” setup path:
 - `work/seo/hogeye/PROGRESS_TRACKER.md`
 - `work/seo/hogeye/EXECUTION_STATUS.md`
 - `work/seo/hogeye/PROJECT_CONFIG.json` (fill in taxonomy/linking/blacklist decisions)
+
+## Link policy (don’t guess)
+
+- **HTML pages**: use sitemap-verified URLs only (see the repo’s sitemap inventory outputs under `work/seo/benchmark/`).
+- **PDF assets**: only link PDFs that have been explicitly provided/approved (exception to sitemap rule).
+
+If a link isn’t verified, don’t include it.
+
+## Human review exports (.docx)
+
+Markdown is the source format in-repo, but for “ready to review” docs we export `.docx` so Google Docs preserves real headings, lists, spacing, and bold keywords.
+
+Export the curated “important alignment docs” set:
+
+```bash
+./.venv/bin/python scripts/seo/export_alignment_docx.py
+```
+
+Curated list (keep this tight):
+
+- `work/seo/hogeye/IMPORTANT_DOCS_MANIFEST.txt`
 
 ## Project Overview
 
