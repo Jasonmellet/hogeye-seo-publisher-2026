@@ -1,8 +1,8 @@
 {
   "client": {
-    "name": "Hogeye",
-    "site_url": "",
-    "notes": ""
+    "name": "HogEye",
+    "site_url": "https://hogeyecameras.com",
+    "notes": "North Star: wild hog trap release camera system (monitor + remote closure timing)."
   },
   "month_1_targets": {
     "new_count": 5,
@@ -14,10 +14,53 @@
     "category_map": {}
   },
   "internal_links": {
-    "targets": [],
-    "aliases": {}
+    "targets": [
+      "https://hogeyecameras.com/trap-camera/",
+      "https://hogeyecameras.com/steel-camera/",
+      "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/",
+      "https://hogeyecameras.com/camera-resources/",
+      "https://hogeyecameras.com/camera-login/"
+    ],
+    "aliases": {
+      "trap_camera": "https://hogeyecameras.com/trap-camera/",
+      "steel_camera": "https://hogeyecameras.com/steel-camera/",
+      "net_trap_camera": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/",
+      "camera_resources": "https://hogeyecameras.com/camera-resources/",
+      "camera_login": "https://hogeyecameras.com/camera-login/"
+    }
   },
   "keyword_blacklist": {
-    "terms": []
+    "terms": [
+      "security camera",
+      "off-grid security",
+      "ranch gate camera",
+      "driveway camera",
+      "property security",
+      "perimeter security",
+      "remote security system",
+      "gate access code",
+      "deliveries",
+      "ups",
+      "fedex",
+      "intruder",
+      "theft",
+      "burglary"
+    ]
+  },
+  "north_star_terms": {
+    "primary": [
+      "wild hog trap release camera system",
+      "hog trap camera with remote trigger",
+      "remote trap monitoring and closure",
+      "trap gate trigger camera",
+      "sounder capture timing"
+    ],
+    "secondary": [
+      "landowners",
+      "land managers",
+      "trappers",
+      "ranchers",
+      "farmers (only in hog crop-damage context)"
+    ]
   }
 }

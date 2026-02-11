@@ -1,0 +1,23 @@
+term,replacement,notes
+ground hog,,"intent mismatch (groundhog vs hog)"
+groundhog,,"intent mismatch (groundhog vs hog)"
+helicopter hunting,,"intent mismatch (outfitter/trips vs monitoring + trapping workflow)"
+hunting from helicopter,,"intent mismatch (outfitter/trips vs monitoring + trapping workflow)"
+hunt hogs from helicopter,,"intent mismatch (outfitter/trips vs monitoring + trapping workflow)"
+hunt pigs from helicopter,,"intent mismatch (outfitter/trips vs monitoring + trapping workflow)"
+security camera,hog trap camera with remote trigger,deprecate generic security framing
+off-grid security,remote trap monitoring reliability,deprecate generic security framing
+ranch gate camera,trap gate trigger camera,deprecate gate surveillance framing
+driveway camera,trap gate trigger camera,deprecate non-trap use case framing
+property security,trap monitoring and closure workflow,deprecate generic security framing
+perimeter security,trap monitoring and closure workflow,deprecate generic security framing
+remote security system,wild hog trap release camera system,deprecate generic security framing
+gate access code,,out of scope for HogEye trap positioning
+open the gate,remote trap closure/deployment timing,use trap action language only
+deliveries,,out of scope
+ups,,out of scope
+fedex,,out of scope
+farm & ranch security,hog trapping operations for land managers,deprecate generic security framing
+intruder,,out of scope
+theft,,out of scope
+burglary,,out of scope

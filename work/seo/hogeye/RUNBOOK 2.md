@@ -1,4 +1,4 @@
-# HogEye - Fast Track Runbook (to BB-level execution)
+# Hogeye - Fast Track Runbook (to BB-level execution)
 
 This runbook turns “discovery” into **tasks you can check off**. The goal is to reach:
 
@@ -9,10 +9,9 @@ This runbook turns “discovery” into **tasks you can check off**. The goal is
 
 ---
 
-## BB -> HogEye checklist (quick)
+## BB → Hogeye checklist (quick)
 
-- [ ] Fill `work/seo/hogeye/PROJECT_CONFIG.json` (site URL, internal links, blacklist, north star terms)
-- [ ] Enforce `work/seo/hogeye/NORTH_STAR_POSITIONING.md` before briefs/drafts
+- [ ] Fill `work/seo/hogeye/PROJECT_CONFIG.json` (site URL, categories, internal link targets, blacklist)
 - [ ] Run `python3 scripts/seo/hogeye_preflight.py` and fix any missing config/env values
 - [ ] Run smoke tests (WP + DataForSEO)
 - [ ] Pull baseline datasets (GSC/GA4 where available + Screaming Frog crawl export)
@@ -35,7 +34,7 @@ cp env.example .env
 - WordPress: `WP_SITE_URL`, `WP_USERNAME`, `WP_APP_PASSWORD`
 - Google: `GOOGLE_APPLICATION_CREDENTIALS`, `SEO_SPREADSHEET_ID`
 - DataForSEO: `DATAFORSEO_LOGIN`, `DATAFORSEO_PASSWORD`
-- AI (HogEye): `OPENAI_API_KEY` (optional until drafting phase)
+- AI (Hogeye): `OPENAI_API_KEY` (optional until drafting phase)
 
 ---
 
@@ -93,7 +92,6 @@ python3 scripts/seo/hogeye_wp_clone_metadata.py --project-root "$(pwd)" --includ
   - pages with ranking potential (pos 6–20)
 
 Record the chosen items (title, slug, target keyword, rationale) in `work/seo/hogeye/EXECUTION_STATUS.md`.
-Every item must pass the North Star test in `work/seo/hogeye/NORTH_STAR_POSITIONING.md`.
 
 ---
 
