@@ -249,6 +249,24 @@ class PublishPipeline:
         self.tax = TaxonomyManager(self.wp)
         self.client = client
 
+    def _seo_plugin(self) -> str:
+        if self.client and self.client.seoPlugin:
+            return str(self.client.seoPlugin)
+        return "yoast"
+
+    def _seo_field_warnings(self, item: Dict[str, Any]) -> List[str]:
+        """When client uses AIOSEO, remind operators if JSON is missing fields we map to aioseo_meta_data."""
+        if not self.client or (self.client.seoPlugin or "").strip().lower() != "aioseo":
+            return []
+        out: List[str] = []
+        if not (str(item.get("meta_title") or "").strip()):
+            out.append("AIOSEO: meta_title is empty (SEO title not sent).")
+        if not (str(item.get("meta_description") or "").strip()):
+            out.append("AIOSEO: meta_description is empty (meta description not sent).")
+        if not (str(item.get("focus_keyword") or "").strip()):
+            out.append("AIOSEO: focus_keyword is empty (focus keyphrase not sent).")
+        return out
+
     def _backup_wp_object(self, endpoint: str, object_id: int, slug: str) -> None:
         """
         Save a local JSON backup of the WP object prior to mutation.
@@ -333,9 +351,28 @@ class PublishPipeline:
             content, _ = insert_toc_after_intro(content)
 
         # Links (optional; if not resolving, we keep placeholders but validator will warn)
+        slug_map: Optional[Dict[str, str]] = None
         if options.resolve_links:
             slug_map = self.links.build_slug_map()
             content = self.links.replace_link_placeholders(content, slug_map)
+
+        # FAQ schema text (AIOSEO) may still contain {{link:...}}; resolve to real URLs when present
+        faq_rows = item.get("faq_items")
+        if isinstance(faq_rows, list) and faq_rows:
+            need_faq_links = any(
+                isinstance(r, dict) and "{{link:" in str(r.get("question", "")) + str(r.get("answer", ""))
+                for r in faq_rows
+            )
+            if need_faq_links:
+                if slug_map is None:
+                    slug_map = self.links.build_slug_map()
+                for row in faq_rows:
+                    if not isinstance(row, dict):
+                        continue
+                    for key in ("question", "answer"):
+                        v = row.get(key)
+                        if isinstance(v, str) and "{{link:" in v:
+                            row[key] = self.links.replace_link_placeholders(v, slug_map)
 
         # Featured image selection
         featured_media_id = int(item.get("featured_media_id") or 0)
@@ -390,8 +427,8 @@ class PublishPipeline:
             "status": options.status,
             "content": content,
             "excerpt": item.get("excerpt", "") or "",
-            "meta": self.meta.prepare_yoast_meta(item),
         }
+        payload.update(self.meta.seo_rest_fields(item, plugin=self._seo_plugin()))
 
         # Categories/tags (names in source -> IDs in WP)
         cat_ids: List[int] = []
@@ -423,10 +460,11 @@ class PublishPipeline:
                 max_content_images=options.max_content_images,
                 required_faq_questions=options.required_faq_questions,
             )
+            seo_w = self._seo_field_warnings(item)
             return None, ValidationResult(
                 ok=validation.ok,
                 errors=validation.errors,
-                warnings=["DRY_RUN=true: skipped WordPress write (no post created/updated)."] + validation.warnings,
+                warnings=["DRY_RUN=true: skipped WordPress write (no post created/updated)."] + validation.warnings + seo_w,
             )
 
         # Create or update by slug
@@ -457,7 +495,10 @@ class PublishPipeline:
             max_content_images=options.max_content_images,
             required_faq_questions=options.required_faq_questions,
         )
-        return post_id, validation
+        seo_w = self._seo_field_warnings(item)
+        if not seo_w:
+            return post_id, validation
+        return post_id, ValidationResult(ok=validation.ok, errors=list(validation.errors), warnings=list(validation.warnings) + seo_w)
 
     def _publish_page(self, item: Dict[str, Any], *, options: PublishOptions) -> Tuple[Optional[int], ValidationResult]:
         slug = item.get("slug", "")
@@ -545,9 +586,9 @@ class PublishPipeline:
                 "slug": slug,
                 "status": options.status,
                 "excerpt": item.get("excerpt", "") or "",
-                "meta": self.meta.prepare_yoast_meta(item),
                 **acf_payload,
             }
+            payload.update(self.meta.seo_rest_fields(item, plugin=self._seo_plugin()))
         else:
             payload = {
                 "title": title,
@@ -555,8 +596,8 @@ class PublishPipeline:
                 "status": options.status,
                 "content": content,
                 "excerpt": item.get("excerpt", "") or "",
-                "meta": self.meta.prepare_yoast_meta(item),
             }
+            payload.update(self.meta.seo_rest_fields(item, plugin=self._seo_plugin()))
 
         # Optional per-client protected markers by slug
         preserve_markers: List[str] = []
@@ -569,10 +610,11 @@ class PublishPipeline:
         if Config.DRY_RUN:
             host = (urlparse(Config.WP_SITE_URL).hostname or "").lower()
             validation = validate_landing_page(content=payload.get("content", "") or "", internal_link_host=host)
+            seo_w = self._seo_field_warnings(item)
             return None, ValidationResult(
                 ok=validation.ok,
                 errors=validation.errors,
-                warnings=["DRY_RUN=true: skipped WordPress write (no page updated)."] + validation.warnings,
+                warnings=["DRY_RUN=true: skipped WordPress write (no page updated)."] + validation.warnings + seo_w,
             )
 
         r = self.wp.post_json(f"pages/{page_id}", payload, params={"context": "edit"})
@@ -587,5 +629,8 @@ class PublishPipeline:
 
         host = (urlparse(Config.WP_SITE_URL).hostname or "").lower()
         validation = validate_landing_page(content=content_raw or payload.get("content", ""), internal_link_host=host)
-        return page_id, validation
+        seo_w = self._seo_field_warnings(item)
+        if not seo_w:
+            return page_id, validation
+        return page_id, ValidationResult(ok=validation.ok, errors=list(validation.errors), warnings=list(validation.warnings) + seo_w)
 

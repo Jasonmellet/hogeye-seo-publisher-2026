@@ -6,9 +6,10 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from repo_workspace import workspace_rel_posix, workspace_root
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-PROJECT_CONFIG_PATH = REPO_ROOT / "work" / "seo" / "hogeye" / "PROJECT_CONFIG.json"
+PROJECT_CONFIG_PATH = workspace_root() / "PROJECT_CONFIG.json"
 DOTENV_PATH = REPO_ROOT / ".env"
 
 
@@ -84,7 +85,7 @@ def main() -> int:
 
     print("\nNext")
     print("- Fill missing config/env values")
-    print("- Then run the smoke tests in `work/seo/hogeye/RUNBOOK.md`")
+    print(f"- Then run the smoke tests in `{workspace_rel_posix()}/RUNBOOK.md`")
     return 0
 
 

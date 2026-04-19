@@ -1,0 +1,393 @@
+[
+  {
+    "keyword": "remote hog trap trigger",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 93,
+    "search_volume": 90,
+    "low_top_of_page_bid": 0.22,
+    "high_top_of_page_bid": 1.61,
+    "cpc": 0.66,
+    "monthly_searches": [
+      {
+        "year": 2026,
+        "month": 2,
+        "search_volume": 50
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "search_volume": 90
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 140
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 110
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 110
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 140
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 70
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 50
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 50
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 50
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 70
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 70
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "remote trigger for hog trap",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 69,
+    "search_volume": 20,
+    "low_top_of_page_bid": 0.2,
+    "high_top_of_page_bid": 1.57,
+    "cpc": 0.89,
+    "monthly_searches": [
+      {
+        "year": 2026,
+        "month": 2,
+        "search_volume": 20
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "search_volume": 40
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 20
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 10
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": [
+        {
+          "name": "Non-Brands",
+          "concept_group": {
+            "name": "Non-Brands",
+            "type": "NON_BRAND"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "keyword": "remote activated hog trap",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": "HIGH",
+    "competition_index": 100,
+    "search_volume": 10,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": 2.71,
+    "monthly_searches": [
+      {
+        "year": 2026,
+        "month": 2,
+        "search_volume": 10
+      },
+      {
+        "year": 2026,
+        "month": 1,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 12,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 11,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 7,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "search_volume": 0
+      },
+      {
+        "year": 2025,
+        "month": 5,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 4,
+        "search_volume": 10
+      },
+      {
+        "year": 2025,
+        "month": 3,
+        "search_volume": 0
+      }
+    ],
+    "keyword_annotations": {
+      "concepts": [
+        {
+          "name": "Non-Brands",
+          "concept_group": {
+            "name": "Non-Brands",
+            "type": "NON_BRAND"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "keyword": "wild hog trap monitor",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "hog trap camera with remote trigger",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "remote trap monitoring and closure",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "sounder capture timing",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "net trap camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "drop net hog trap camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "hog trap closure timing",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "trap gate trigger camera",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  },
+  {
+    "keyword": "full sounder capture",
+    "location_code": 2840,
+    "language_code": "en",
+    "search_partners": false,
+    "competition": null,
+    "competition_index": null,
+    "search_volume": null,
+    "low_top_of_page_bid": null,
+    "high_top_of_page_bid": null,
+    "cpc": null,
+    "monthly_searches": null,
+    "keyword_annotations": {
+      "concepts": null
+    }
+  }
+]

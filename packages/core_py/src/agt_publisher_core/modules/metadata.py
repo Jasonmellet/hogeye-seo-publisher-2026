@@ -5,8 +5,66 @@ Handles SEO metadata and schema markup
 
 from __future__ import annotations
 
+import hashlib
 import json
-from typing import Dict
+from typing import Any, Dict, List, Optional
+
+
+def _aioseo_faqpage_graph(*, faq_items: List[Dict[str, str]], slug: str) -> Dict[str, Any]:
+    """
+    One AIOSEO schema graph entry (FAQPage), matching shapes seen in aioseo_meta_data.schema.graphs[].
+    """
+    suf = hashlib.md5((slug or "post").encode("utf-8")).hexdigest()[:10]
+    questions: List[Dict[str, str]] = []
+    for row in faq_items:
+        q = (row.get("question") or "").strip()
+        a = (row.get("answer") or "").strip()
+        if not q or not a:
+            continue
+        questions.append({"question": q, "answer": a})
+    if not questions:
+        return {}
+    return {
+        "id": f"#aioseo-faq-page-{suf}",
+        "slug": "faq-page",
+        "graphName": "FAQPage",
+        "label": "FAQ",
+        "properties": {
+            "name": "#post_title",
+            "description": "",
+            "questions": questions,
+        },
+        "value": "faq-page",
+    }
+
+
+def _aioseo_schema_wrapper_with_faq_graph(faq_graph: Dict[str, Any]) -> Dict[str, Any]:
+    """Minimal schema object so REST accepts FAQ without stripping default BlogPosting context."""
+    empty_lists = {
+        "Article": [],
+        "Course": [],
+        "Dataset": [],
+        "FAQPage": [],
+        "Movie": [],
+        "Person": [],
+        "Product": [],
+        "ProductReview": [],
+        "Car": [],
+        "Recipe": [],
+        "Service": [],
+        "SoftwareApplication": [],
+        "WebPage": [],
+    }
+    return {
+        "blockGraphs": [],
+        "customGraphs": [],
+        "default": {
+            "data": empty_lists,
+            "graphName": "BlogPosting",
+            "isEnabled": True,
+        },
+        "graphs": [faq_graph],
+    }
 
 
 class MetadataHandler:
@@ -157,4 +215,56 @@ class MetadataHandler:
             meta["rank_math_focus_keyword"] = content["focus_keyword"]
 
         return meta
+
+    def prepare_aioseo_meta_data(self, content: Dict) -> Dict:
+        """
+        Minimal AIOSEO REST payload (requires AIOSEO REST API / compatible version).
+        Maps content JSON keys to aioseo_meta_data on POST /wp/v2/posts|pages.
+
+        Optional `faq_items`: [{"question": "...", "answer": "..."}, ...] → FAQPage graph in schema.graphs
+        (shows in AIOSEO Schema / alongside Article BlogPosting).
+        """
+        out: Dict[str, Any] = {}
+        if content.get("meta_title"):
+            out["title"] = content["meta_title"]
+        if content.get("meta_description"):
+            out["description"] = content["meta_description"]
+        if content.get("focus_keyword"):
+            out["keyphrases"] = {"focus": {"keyphrase": content["focus_keyword"]}}
+
+        raw_faq = content.get("faq_items")
+        faq_list: Optional[List[Dict[str, str]]] = None
+        if isinstance(raw_faq, list) and raw_faq:
+            faq_list = []
+            for row in raw_faq:
+                if not isinstance(row, dict):
+                    continue
+                faq_list.append(
+                    {
+                        "question": str(row.get("question") or "").strip(),
+                        "answer": str(row.get("answer") or "").strip(),
+                    }
+                )
+            faq_list = [x for x in faq_list if x["question"] and x["answer"]]
+
+        if faq_list:
+            slug = str(content.get("slug") or "").strip()
+            g = _aioseo_faqpage_graph(faq_items=faq_list, slug=slug)
+            if g:
+                out["schema"] = _aioseo_schema_wrapper_with_faq_graph(g)
+                out["schema_type"] = "default"
+
+        return out
+
+    def seo_rest_fields(self, content: Dict, *, plugin: str = "yoast") -> Dict:
+        """
+        Top-level REST keys for the active SEO plugin (merge into wp/v2 payload).
+        """
+        p = (plugin or "yoast").strip().lower()
+        if p == "aioseo":
+            aio = self.prepare_aioseo_meta_data(content)
+            return {"aioseo_meta_data": aio} if aio else {}
+        if p == "rankmath":
+            return {"meta": self.prepare_rankmath_meta(content)}
+        return {"meta": self.prepare_yoast_meta(content)}
 

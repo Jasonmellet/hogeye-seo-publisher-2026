@@ -31,35 +31,35 @@ Content Files → Parser → Validator → API Client → WordPress
 
 ### Module Breakdown
 
-#### 1. **Authentication Module** (`modules/auth.py`)
+#### 1. **Authentication Module** (`scripts/publisher/modules/auth.py` — legacy re-exports; prefer `agt_publisher_core`)
 
 - Handle WordPress authentication
 - Store and validate credentials
 - Generate authentication headers
 - Test API connectivity
 
-#### 2. **Content Processor** (`modules/content.py`)
+#### 2. **Content Processor** (`scripts/publisher/modules/content.py`)
 
 - Parse content files (JSON/Markdown)
 - Validate required fields
 - Convert markdown to HTML
 - Prepare content for API submission
 
-#### 3. **Image Uploader** (`modules/images.py`)
+#### 3. **Image Uploader** (`scripts/publisher/modules/images.py`)
 
 - Upload images to WordPress media library
 - Set alt text, titles, captions, descriptions
 - Return media IDs for embedding
 - Handle image optimization
 
-#### 4. **Metadata Handler** (`modules/metadata.py`)
+#### 4. **Metadata Handler** (`scripts/publisher/modules/metadata.py`)
 
 - Manage Yoast/RankMath SEO fields
 - Set meta titles and descriptions
 - Configure OpenGraph tags
 - Generate schema JSON-LD markup
 
-#### 5. **Internal Linking** (`modules/links.py`)
+#### 5. **Internal Linking** (`scripts/publisher/modules/links.py`)
 
 - Map content relationships
 - Replace link placeholders with real URLs

@@ -1,8 +1,8 @@
 # Deprecated Scripts (Do Not Use for Monthly Publishing)
 
 The monthly workflow is:
-- `publish_content_item.py` (single item)
-- `publish_batch.py` (batch)
+- `scripts/publisher/publish_content_item.py` (single item)
+- `scripts/publisher/publish_batch.py` (batch)
 
 The scripts listed below were created during troubleshooting and **can reintroduce duplication/drift** if used on new content.
 They are kept for reference only.
@@ -11,7 +11,7 @@ If you *must* run one, set `ALLOW_DEPRECATED_SCRIPTS=1` in your environment.
 
 ## Where they live now / how to run
 
-Legacy scripts are now stored under `scripts/legacy/`.
+Legacy scripts live under **`archive/legacy_wordpress_scripts/`**. For compatibility, **`scripts/legacy`** is a symlink to that folder, so paths and `python -m scripts.legacy.*` behave as before.
 
 To run one safely (from repo root), use module mode:
 

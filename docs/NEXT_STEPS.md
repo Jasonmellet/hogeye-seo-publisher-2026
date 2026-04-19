@@ -8,7 +8,7 @@
 ## 🎯 Where We Are Now
 
 ✅ **COMPLETED:**
-- WordPress connection + permissions verified (`test_connection.py`)
+- WordPress connection + permissions verified (`scripts/publisher/test_connection.py`)
 - Homepage safety guardrails (protect countdown markers) + local backups (`work/wp_backups/`)
 - Feb SEO plan built + pushed to Google Sheets (final 10 + briefs + execution checklists + measurement tabs)
 
@@ -24,7 +24,7 @@
 ### 1. Reconnect and Test (Always start here)
 ```bash
 cd /Users/jasonmellet/Desktop/AGT_Camp_Lakota
-./.venv/bin/python test_connection.py
+./.venv/bin/python scripts/publisher/test_connection.py
 ```
 
 ### 2. Check Current Status
@@ -108,12 +108,12 @@ cd /Users/jasonmellet/Desktop/AGT_Camp_Lakota
 
 ### Testing & Connection
 ```bash
-python test_connection.py              # Test WordPress API connection
+python scripts/publisher/test_connection.py              # Test WordPress API connection
 ```
 
 ### Publishing
 ```bash
-python publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts
+python scripts/publisher/publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts
 python publish_batch.py /absolute/path/to/content/posts --type posts
 python resolve_internal_links.py --dry-run
 python update_landing_page.py /absolute/path/to/content/pages/my-page.json
@@ -122,10 +122,10 @@ python update_landing_page.py /absolute/path/to/content/pages/my-page.json
 ### What Each Script Does
 | Script | Purpose | Safety Level |
 |--------|---------|--------------|
-| `test_connection.py` | Read-only connection test | ✅ 100% Safe |
-| `publish_content_item.py` | Publish/update ONE item via canonical pipeline | ✅ Safe (defaults to draft) |
-| `publish_batch.py` | Publish/update a batch via canonical pipeline | ⚠️ Batch operation (still draft-first) |
-| `resolve_internal_links.py` | Replace `{{link:...}}` placeholders across site | ⚠️ Modifies existing content (use `--dry-run` first) |
+| `scripts/publisher/test_connection.py` | Read-only connection test | ✅ 100% Safe |
+| `scripts/publisher/publish_content_item.py` | Publish/update ONE item via canonical pipeline | ✅ Safe (defaults to draft) |
+| `scripts/publisher/publish_batch.py` | Publish/update a batch via canonical pipeline | ⚠️ Batch operation (still draft-first) |
+| `scripts/publisher/resolve_internal_links.py` | Replace `{{link:...}}` placeholders across site | ⚠️ Modifies existing content (use `--dry-run` first) |
 | `update_landing_page.py` | Update an existing landing page via canonical pipeline | ⚠️ Modifies existing pages (kept as draft for review) |
 
 **Note:** Older one-off “fix” scripts are now under `scripts/legacy/` and should not be used for monthly publishing.
@@ -192,7 +192,7 @@ Before changing any posts from "draft" to "published":
 4. Or: update the JSON file and re-run the script
 
 ### Can't Connect to WordPress
-1. Run `python test_connection.py`
+1. Run `python scripts/publisher/test_connection.py`
 2. Check `.env` file for correct credentials
 3. Verify WordPress site is up
 4. Contact Steph/Mitch if site issue

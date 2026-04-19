@@ -10,17 +10,17 @@ The rule: **use the canonical pipeline** and avoid running old one-off “fix sc
 
 Before you publish, ensure:
 - You created `client.config.json` (from `client.config.example.json`) and it matches your target site
-- You ran `python3 test_connection.py`
+- You ran `python3 scripts/publisher/test_connection.py`
 
 ### Publish one item (recommended)
 
 - **Blog post**
 
-`python3 publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts`
+`python3 scripts/publisher/publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts`
 
 - **Landing page**
 
-`python3 publish_content_item.py /absolute/path/to/content/pages/my-page.json --type pages`
+`python3 scripts/publisher/publish_content_item.py /absolute/path/to/content/pages/my-page.json --type pages`
 
 By default this publishes/updates as **draft** and runs **validation gates** (FAQ count, image rules, placeholders, etc.).
 
@@ -28,11 +28,11 @@ By default this publishes/updates as **draft** and runs **validation gates** (FA
 
 - **Posts**
 
-`python3 publish_batch.py /absolute/path/to/content/posts --type posts`
+`python3 scripts/publisher/publish_batch.py /absolute/path/to/content/posts --type posts`
 
 - **Pages**
 
-`python3 publish_batch.py /absolute/path/to/content/pages --type pages`
+`python3 scripts/publisher/publish_batch.py /absolute/path/to/content/pages --type pages`
 
 ---
 

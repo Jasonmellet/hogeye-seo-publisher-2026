@@ -1,0 +1,41 @@
+keyword,cluster,intent_guess,dfs_search_volume,dfs_cpc,dfs_competition,dfs_competition_level,opportunity_score,status
+ground hog trap,trap_operations,commercial_investigation,12100,0.9,HIGH,,12088.0,candidate
+boar trap,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+feral hog trap,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+feral hog traps,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+ground hog live trap,trap_operations,commercial_investigation,6600,0.46,MEDIUM,,6588.0,candidate
+hog in trap,trap_operations,commercial_investigation,6600,1.16,HIGH,,6588.0,candidate
+hog traps,trap_operations,commercial_investigation,6600,1.16,HIGH,,6588.0,candidate
+hogs in a trap,trap_operations,commercial_investigation,6600,1.16,HIGH,,6588.0,candidate
+trapped hogs,trap_operations,commercial_investigation,6600,1.16,HIGH,,6588.0,candidate
+wild boar trap,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+wild hog traps,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+camera trapper,monitoring_camera,commercial_investigation,5400,1.19,LOW,,5388.0,candidate
+trap camera,monitoring_camera,commercial_investigation,5400,1.19,LOW,,5388.0,candidate
+hog snare,trap_operations,commercial_investigation,1600,1.15,MEDIUM,,1588.0,candidate
+corral hog trap,trap_operations,commercial_investigation,590,3.04,LOW,,578.0,candidate
+hog traps for sale,trap_operations,commercial_investigation,480,0.85,HIGH,,468.0,candidate
+ground hog kill trap,trap_operations,commercial_investigation,390,1,HIGH,,378.0,candidate
+hog trap gate,trap_operations,commercial_investigation,390,1.52,HIGH,,378.0,candidate
+hog traps for sale near me,trap_operations,commercial_investigation,390,0.78,HIGH,,378.0,candidate
+jager hog trap,trap_operations,commercial_investigation,390,3.67,MEDIUM,,378.0,candidate
+jager pro hog trap,trap_operations,commercial_investigation,390,3.67,MEDIUM,,378.0,candidate
+jager pro trap,trap_operations,commercial_investigation,390,3.67,MEDIUM,,378.0,candidate
+animal camera trap,monitoring_camera,commercial_investigation,260,1.55,HIGH,,248.0,candidate
+best ground hog trap,trap_operations,informational,260,0.54,HIGH,,248.0,candidate
+homemade hog trap,trap_operations,commercial_investigation,260,0.23,LOW,,248.0,candidate
+net hog trap,net_trap,commercial_investigation,260,1.79,HIGH,,248.0,candidate
+wildlife camera trap,monitoring_camera,commercial_investigation,260,1.55,HIGH,,248.0,candidate
+boar buster hog trap,trap_operations,commercial_investigation,210,4.09,MEDIUM,,198.0,candidate
+boarbuster hog trap,trap_operations,commercial_investigation,210,3.55,LOW,,198.0,candidate
+bondo ape camera trap,monitoring_camera,commercial_investigation,210,,LOW,,198.0,candidate
+dropping hog trap,trigger_timing,commercial_investigation,210,1.69,HIGH,,198.0,candidate
+ground hog trap for sale,trap_operations,commercial_investigation,210,0.38,HIGH,,198.0,candidate
+hog drop trap,trigger_timing,commercial_investigation,210,1.69,HIGH,,198.0,candidate
+hog trap for sale $260,trap_operations,commercial_investigation,210,0.31,HIGH,,198.0,candidate
+used hog traps for sale,trap_operations,commercial_investigation,210,0.24,HIGH,,198.0,candidate
+hog net trap,net_trap,commercial_investigation,170,2.04,HIGH,,158.0,candidate
+portable hog trap,trap_operations,commercial_investigation,170,0.42,HIGH,,158.0,candidate
+big hog trap,trap_operations,commercial_investigation,140,2.24,HIGH,,128.0,candidate
+box hog trap,trap_operations,commercial_investigation,140,1.56,MEDIUM,,128.0,candidate
+cellular hog trap trigger,trigger_timing,commercial_investigation,140,0.76,LOW,,128.0,candidate

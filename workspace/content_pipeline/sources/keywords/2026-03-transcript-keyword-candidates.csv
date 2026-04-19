@@ -1,0 +1,126 @@
+keyword,cluster,intent,source,brand_safety_notes,status
+wild hog trap monitor,core_positioning,commercial_investigation,"strategy+transcript",approved_core,candidate
+wild hog trap camera system,core_positioning,commercial_investigation,"strategy+transcript",approved_core,candidate
+hog trap camera with remote trigger,core_positioning,commercial_investigation,"strategy+transcript",approved_core,candidate
+remote trap monitoring and closure,core_positioning,informational,"strategy+transcript",approved_core,candidate
+trap gate trigger camera,core_positioning,commercial_investigation,"strategy+transcript",approved_core,candidate
+sounder capture timing,core_positioning,informational,"strategy+transcript",approved_core,candidate
+hog trap monitor setup,setup_installation,informational,transcript,approved,candidate
+hog trap camera setup guide,setup_installation,informational,transcript,approved,candidate
+hog trap camera unboxing,setup_installation,informational,transcript,approved,candidate
+how to set up hog trap camera,setup_installation,informational,transcript,approved,candidate
+hog trap camera field setup,setup_installation,informational,transcript,approved,candidate
+hog trap camera mounting guide,setup_installation,informational,transcript,approved,candidate
+hog trap camera t post mount,setup_installation,informational,transcript,approved,candidate
+hog trap camera post mount 2 inch,setup_installation,informational,transcript,approved,candidate
+hog trap monitor wiring harness setup,setup_installation,informational,transcript,approved,candidate
+hog trap camera moisture protection cap,setup_installation,informational,transcript,approved,candidate
+hog trap camera white dot connector,setup_installation,informational,transcript,approved,candidate
+hog trap camera quick setup checklist,setup_installation,informational,transcript,approved,candidate
+hog trap camera test drop checklist,setup_installation,informational,transcript,approved,candidate
+hog trap camera final connection checklist,setup_installation,informational,transcript,approved,candidate
+hog trap solar panel setup,solar_power,informational,transcript,approved,candidate
+hog trap camera solar panel angle,solar_power,informational,transcript,approved,candidate
+hog trap solar panel face south,solar_power,informational,transcript,approved,candidate
+hog trap camera battery and solar setup,solar_power,informational,transcript,approved,candidate
+hog trap camera charge controller setup,solar_power,informational,transcript,approved,candidate
+hog trap charge controller cable colors,solar_power,informational,transcript,approved,candidate
+hog trap yellow blue black cable,solar_power,informational,transcript,approved,candidate
+hog trap camera battery terminal tightening,solar_power,informational,transcript,approved,candidate
+hog trap battery corrosion prevention,solar_power,informational,transcript,approved,candidate
+hog trap camera power light green,solar_power,informational,transcript,approved,candidate
+75 watt solar panel hog trap camera,solar_power,commercial_investigation,transcript,approved,candidate
+50 ah lithium battery hog trap camera,solar_power,commercial_investigation,transcript,approved,candidate
+hog trap camera battery maintenance,solar_power,informational,transcript,approved,candidate
+hog trap camera low power troubleshooting,solar_power,informational,transcript,approved,candidate
+hog trap camera solar charging best practices,solar_power,informational,transcript,approved,candidate
+remote trap trigger reliability,reliability,informational,"strategy+transcript",approved,candidate
+hog trap trigger reliability checklist,reliability,informational,"strategy+transcript",approved,candidate
+low latency trap trigger response,reliability,informational,strategy,approved,candidate
+weak signal trap trigger protocol,reliability,informational,"strategy+transcript",approved,candidate
+poor coverage trap trigger workflow,reliability,informational,"strategy+transcript",approved,candidate
+hog trap trigger failure prevention,reliability,informational,transcript,approved,candidate
+hog trap camera no miss trigger workflow,reliability,informational,strategy,approved,candidate
+hog trap camera trigger confidence,reliability,informational,strategy,approved,candidate
+hog trap camera backup trigger protocol,reliability,informational,strategy,approved,candidate
+hog trap camera signal fallback procedure,reliability,informational,strategy,approved,candidate
+hog trap closure timing guide,trigger_timing,informational,strategy,approved,candidate
+hog trap release timing best practices,trigger_timing,informational,strategy,approved,candidate
+when to trigger hog trap camera,trigger_timing,informational,strategy,approved,candidate
+how to avoid early trap drop hogs,trigger_timing,informational,"strategy+transcript",approved,candidate
+how to avoid late trap trigger hogs,trigger_timing,informational,"strategy+transcript",approved,candidate
+full sounder capture timing guide,trigger_timing,informational,strategy,approved,candidate
+baiting conditioning trigger timing hog trap,trigger_timing,informational,strategy,approved,candidate
+hog trap trigger readiness checklist,trigger_timing,informational,strategy,approved,candidate
+hog trap closure decision workflow,trigger_timing,informational,strategy,approved,candidate
+hog trap camera timing mistakes,trigger_timing,informational,strategy,approved,candidate
+net trap camera setup,net_trap,informational,"site+transcript",approved,candidate
+net trap camera remote trigger,net_trap,commercial_investigation,"site+transcript",approved,candidate
+net trap remote deployment,net_trap,informational,site,approved,candidate
+drop net hog trap camera,net_trap,commercial_investigation,"site+transcript",approved,candidate
+net trap conditioning mode camera,net_trap,informational,"site+transcript",approved,candidate
+net trap pre bait monitoring camera,net_trap,informational,"site+transcript",approved,candidate
+net trap trigger timing camera,net_trap,informational,"site+transcript",approved,candidate
+net trap hog count before drop,net_trap,informational,site,approved,candidate
+wide angle net trap camera view,net_trap,informational,site,approved,candidate
+net trap camera no second chances,net_trap,informational,site,approved,candidate
+hog trap camera gate cable setup,latch_gate,informational,transcript,approved,candidate
+hog trap latch adapter setup,latch_gate,informational,transcript,approved,candidate
+southco latch hog trap camera,latch_gate,informational,transcript,approved,candidate
+hog trap splitter latch connection,latch_gate,informational,transcript,approved,candidate
+green two pin gate cable hog trap,latch_gate,informational,transcript,approved,candidate
+hog trap gate cable troubleshooting,latch_gate,informational,transcript,approved,candidate
+hog trap latch connection moisture protection,latch_gate,informational,transcript,approved,candidate
+hog trap camera test drop procedure,latch_gate,informational,transcript,approved,candidate
+hog trap camera trigger button setup,latch_gate,informational,transcript,approved,candidate
+hog trap drop verification checklist,latch_gate,informational,transcript,approved,candidate
+hog trap camera transport case,operations,informational,transcript,approved,candidate
+hog trap camera field transport tips,operations,informational,transcript,approved,candidate
+hog trap camera setup at trap site,operations,informational,transcript,approved,candidate
+hog trap equipment pre leave checklist,operations,informational,transcript,approved,candidate
+hog trap camera zip tie cable management,operations,informational,transcript,approved,candidate
+hog trap camera moisture protection setup,operations,informational,transcript,approved,candidate
+hog trap camera connection walkaround,operations,informational,transcript,approved,candidate
+hog trap camera setup sop,operations,informational,strategy,approved,candidate
+hog trap team setup workflow,operations,informational,strategy,approved,candidate
+remote trap monitoring workflow,operations,informational,strategy,approved,candidate
+hog trap camera buyer criteria,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap monitor buyer guide,buyer_guides,commercial_investigation,strategy,approved,candidate
+what to look for in hog trap camera,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap camera compatibility guide,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap camera support and warranty guide,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap camera app features,buyer_guides,commercial_investigation,transcript,approved,candidate
+hog trap camera multi user monitoring,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap camera trigger backup,buyer_guides,commercial_investigation,strategy,approved,candidate
+hog trap camera installation requirements,buyer_guides,commercial_investigation,transcript,approved,candidate
+hog trap camera solar battery included,buyer_guides,commercial_investigation,transcript,approved,candidate
+hog trap camera reliability comparison,comparison,commercial_investigation,strategy,approved,candidate
+trap release reliability comparison,comparison,commercial_investigation,strategy,approved,candidate
+trap trigger latency comparison,comparison,commercial_investigation,strategy,approved,candidate
+hog trap monitor vs modified camera,comparison,commercial_investigation,strategy,approved,candidate
+hog trap camera support lifecycle comparison,comparison,commercial_investigation,strategy,approved,candidate
+hog trap workflow comparison guide,comparison,informational,strategy,approved,candidate
+trap closure readiness standards,comparison,informational,strategy,approved,candidate
+multi user trap closure readiness,comparison,informational,strategy,approved,candidate
+hog trap camera deployment comparison,comparison,commercial_investigation,strategy,approved,candidate
+hog trap outcome focused camera comparison,comparison,commercial_investigation,strategy,approved,candidate
+feral hog trap monitoring camera,audience_intent,commercial_investigation,strategy,approved,candidate
+feral hog trap camera remote trigger,audience_intent,commercial_investigation,strategy,approved,candidate
+feral hog sounder capture camera,audience_intent,commercial_investigation,strategy,approved,candidate
+landowner hog trap monitoring,audience_intent,informational,strategy,approved,candidate
+land manager hog trap monitoring,audience_intent,informational,strategy,approved,candidate
+trapper remote trap monitor,audience_intent,informational,strategy,approved,candidate
+hog damage control trap camera,audience_intent,informational,strategy,approved,candidate
+wild hog control trap monitoring,audience_intent,informational,strategy,approved,candidate
+remote hog trap operation camera,audience_intent,commercial_investigation,strategy,approved,candidate
+hog trap monitor for net traps,audience_intent,commercial_investigation,"site+strategy",approved,candidate
+hog trap camera faq,faq,informational,site,approved,candidate
+hog trap camera battery life faq,faq,informational,site,approved,candidate
+hog trap camera solar panel sunlight faq,faq,informational,site,approved,candidate
+hog trap camera inactive troubleshooting,faq,informational,site,approved,candidate
+hog trap camera notification settings,faq,informational,site,approved,candidate
+hog trap camera organization settings,faq,informational,site,approved,candidate
+hog trap camera multiple users faq,faq,informational,site,approved,candidate
+hog trap camera support contact faq,faq,informational,site,approved,candidate
+hog trap camera app login help,faq,informational,site,approved,candidate
+hog trap camera setup support guide,faq,informational,site,approved,candidate

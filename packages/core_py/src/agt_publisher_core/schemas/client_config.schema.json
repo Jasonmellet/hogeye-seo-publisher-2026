@@ -23,6 +23,11 @@
         "type": "array",
         "items": { "type": "string" }
       }
+    },
+    "seoPlugin": {
+      "type": "string",
+      "description": "Which SEO plugin fields to send on wp/v2 posts|pages: Yoast (meta _yoast_*), AIOSEO (aioseo_meta_data), or Rank Math (meta rank_math_*).",
+      "enum": ["yoast", "aioseo", "rankmath"]
     }
   }
 }

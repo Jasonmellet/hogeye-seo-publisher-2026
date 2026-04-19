@@ -14,7 +14,7 @@ What it does:
 2) Optionally expands seeds via DataForSEO keywords_for_keywords/live
 3) Calls DataForSEO Keywords Data API search_volume/live for the final keyword set
 4) Optionally calls GSC Search Analytics for exact-match query stats (top keywords only)
-5) Writes a small report bundle under work/seo/hogeye/keyword_analysis/
+5) Writes a small report bundle under workspace/keyword_analysis/
 
 Safety:
 - Read-only (no WordPress writes)
@@ -33,6 +33,8 @@ from typing import Any, Dict, Iterable, List, Optional
 
 import requests
 from dotenv import load_dotenv
+
+from repo_workspace import workspace_rel_posix
 
 API_BASE = "https://api.dataforseo.com/v3"
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -80,7 +82,7 @@ def _chunks(seq: List[str], size: int) -> Iterable[List[str]]:
 def default_seed_variations() -> List[str]:
     # 10-ish deliberate trap-operation variants.
     return [
-        "wild hog trap release camera system",
+        "wild hog trap camera system",
         "hog trap camera with remote trigger",
         "remote trap monitoring and closure",
         "trap gate trigger camera",
@@ -334,7 +336,7 @@ def main() -> int:
     )
     ap.add_argument(
         "--output-dir",
-        default="work/seo/hogeye/keyword_analysis",
+        default=f"{workspace_rel_posix()}/keyword_analysis",
         help="Base output directory.",
     )
     ap.add_argument("--location-code", type=int, default=0, help="Override DATAFORSEO_LOCATION_CODE")

@@ -1,5 +1,8 @@
 # Environment variables (NEVER commit credentials!)
 .env
+
+# Local client config (copy from client.config.example.json)
+client.config.json
 .secrets/
 secrets/
 *.secret.json
@@ -18,9 +21,15 @@ ENV/
 .venv/
 .venv
 
+# Node / TypeScript
+node_modules/
+
 # Logs
 logs/
 *.log
+
+# IDE / local agent worktrees (not repo source)
+.claude/
 
 # IDE
 .vscode/
@@ -43,9 +52,14 @@ work/
 work/*
 !work/seo/
 work/seo/*
-!work/seo/hogeye/
-!work/seo/hogeye/**
-archive/
+
+# HogEye workspace at repo root — ignore bulky media, keep README
+workspace/content_pipeline/sources/media_inbox/*
+!workspace/content_pipeline/sources/media_inbox/README.md
+workspace/content_pipeline/sources/transcripts/raw/*.mp3
+workspace/content_pipeline/sources/transcripts/raw/*.wav
+workspace/content_pipeline/sources/transcripts/raw/*.m4a
+# `archive/` at repo root is versioned (superseded docs/scripts); use `backups/` for local-only snapshots
 backups/
 temp_images_for_analysis/
 image_batch_*_for_analysis.json

@@ -19,7 +19,7 @@
 - API routes available
 
 ### ✅ Authentication is Working
-- `test_connection.py` succeeds
+- `scripts/publisher/test_connection.py` succeeds
 - Authenticated access to `/wp-json/wp/v2/users/me`
 - Permissions verified: posts/pages/media/categories
 
@@ -75,7 +75,7 @@ WP_APP_PASSWORD=xxxx xxxx xxxx xxxx xxxx xxxx
 Run:
 ```bash
 cd /Users/jasonmellet/Desktop/AGT_Camp_Lakota
-./.venv/bin/python test_connection.py
+./.venv/bin/python scripts/publisher/test_connection.py
 ```
 
 ---
@@ -153,10 +153,10 @@ Double-check:
 
 ## 💡 Next steps
 
-If `test_connection.py` fails again:
+If `scripts/publisher/test_connection.py` fails again:
 1. Generate a new WP Application Password
 2. Update `.env`
-3. Re-run `./.venv/bin/python test_connection.py`
+3. Re-run `./.venv/bin/python scripts/publisher/test_connection.py`
 
 ---
 

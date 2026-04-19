@@ -8,7 +8,7 @@ What it does:
 1) Auth check (read-only)
 2) Create a single DRAFT post
 3) Fetch it back (context=edit)
-4) Force-delete it (rollback), unless --keep is passed
+4) Force-delete rollback only if WP_ALLOW_DELETE=true; otherwise leaves the draft (or use --keep)
 """
 
 from __future__ import annotations
@@ -24,6 +24,11 @@ import requests
 from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
 
+from agt_publisher_core.config import Config
+from agt_publisher_core.modules.wp_delete_guard import wp_session_delete
+
+from repo_workspace import workspace_rel_posix
+
 
 def _write_report(path: Path, payload: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -34,7 +39,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Create+rollback a WP draft post (smoke test).")
     ap.add_argument("--project-root", default=str(Path.cwd()), help="Project root (to load .env)")
     ap.add_argument("--keep", action="store_true", help="Keep the draft post (do not delete).")
-    ap.add_argument("--report", default="work/seo/hogeye/wp_smoke_test_report.json", help="Write report JSON here.")
+    ap.add_argument(
+        "--report",
+        default=f"{workspace_rel_posix()}/wp_smoke_test_report.json",
+        help="Write report JSON here.",
+    )
     args = ap.parse_args()
 
     load_dotenv(str(Path(args.project_root) / ".env"), override=False)
@@ -75,7 +84,7 @@ def main() -> int:
     }
 
     print("WP Safety Smoke Test")
-    print("- Create a draft post, then rollback (delete)")
+    print("- Create a draft post; rollback delete only if WP_ALLOW_DELETE=true (else --keep behavior)")
     print(f"- Target: {wp_site_url}")
     print()
 
@@ -146,8 +155,18 @@ def main() -> int:
         print(f"Draft post id={post_id}")
         return 0
 
+    if not Config.allow_wp_delete():
+        report["deleted"] = False
+        report["notes"].append(
+            "Rollback delete skipped: WP_ALLOW_DELETE is not true (safe default). Trash the draft in WP admin or set WP_ALLOW_DELETE=true."
+        )
+        _write_report(Path(args.report), report)
+        print("Skipping delete: WP_ALLOW_DELETE is not true (safe default).")
+        print(f"Draft post id={post_id} — remove it manually in WordPress if you do not want it.")
+        return 0
+
     print("Rolling back (force delete)...")
-    resp_del = session.delete(api_url(f"posts/{post_id}"), params={"force": True}, timeout=30)
+    resp_del = wp_session_delete(session, api_url(f"posts/{post_id}"), params={"force": True}, timeout=30)
     report["deleted_status_code"] = resp_del.status_code
     report["deleted"] = resp_del.status_code in (200, 410)
     if resp_del.status_code not in (200, 410):

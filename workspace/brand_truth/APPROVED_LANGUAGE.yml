@@ -1,0 +1,53 @@
+version: 1
+client: HogEye
+last_updated: 2026-04-19
+
+positioning:
+  canonical:
+    - wild hog trap monitor
+    - wild hog trap camera system
+  approved_variations:
+    - hog trap camera with remote trigger
+    - remote trap monitoring and closure
+    - trap gate trigger camera
+    - sounder capture timing
+    - remote-controlled precision for net traps
+    - 24/7 live video feed for trap decisions
+  banned_positioning:
+    - security camera
+    - off-grid security
+    - ranch gate camera
+    - driveway camera
+    - property security
+    - perimeter security
+    - surveillance system
+    - land security
+    - general monitoring solution
+
+audience:
+  approved_terms:
+    - landowners
+    - land managers
+    - trappers
+  banned_terms:
+    - ranchers
+
+claims_policy:
+  allowed_with_support:
+    - product features stated on official HogEye website
+    - factual process descriptions for trap setup and trigger timing
+    - non-promotional external facts with clear source support
+  always_prohibited:
+    - invented performance metrics
+    - invented case studies
+    - invented customer stories
+    - invented testimonials
+    - unsupported comparative claims
+    - unsupported warranty claims
+
+replacement_map:
+  ranchers: landowners, land managers, or trappers
+  security_camera: wild hog trap monitor
+  property_monitoring: remote trap monitoring and closure
+  surveillance: trap monitoring
+  perimeter_security: sounder capture timing and trap operations

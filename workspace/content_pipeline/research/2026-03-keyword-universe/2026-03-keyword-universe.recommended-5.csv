@@ -1,0 +1,6 @@
+keyword,cluster,intent_guess,dfs_search_volume,dfs_cpc,dfs_competition,dfs_competition_level,opportunity_score,status
+ground hog trap,trap_operations,commercial_investigation,12100,0.9,HIGH,,12088.0,candidate
+boar trap,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+feral hog trap,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+feral hog traps,trap_operations,commercial_investigation,6600,1.27,HIGH,,6588.0,candidate
+ground hog live trap,trap_operations,commercial_investigation,6600,0.46,MEDIUM,,6588.0,candidate

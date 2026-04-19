@@ -1,0 +1,36 @@
+keyword,topic_cluster,intent,notes
+feral hog damage,damage-driven,informational,problem-first entry point
+wild hog crop damage,damage-driven,informational,agricultural pain point
+feral pig damage cost,damage-driven,informational,ROI/cost framing
+hog damage per acre,damage-driven,informational,quantified damage angle
+feral hog depredation,damage-driven,informational,professional/agency language
+wild hog destruction,damage-driven,informational,general damage awareness
+feral hog control,hog-management,informational,broad management intent
+wild hog management,hog-management,informational,program-level thinking
+feral hog management program,hog-management,informational,agency/landowner programs
+USDA feral hog control,regulatory,informational,federal program awareness
+hog trapping regulations Texas,regulatory,informational,state-level regulatory context
+feral hog trapping permit,regulatory,informational,compliance/permit searchers
+hog trap monitoring,trap-operations,informational,core use case
+remote hog trap monitoring,trap-operations,informational,HogEye primary positioning
+hog trap camera system,trap-operations,commercial,product-aware buyers
+wild hog trap camera,trap-operations,commercial,product searchers
+sounder capture hogs,trap-operations,informational,outcome language
+catch whole sounder hogs,trap-operations,informational,catch-rate improvement angle
+hog trap setup,trap-operations,informational,operational how-to
+hog trap placement tips,trap-operations,informational,tactical/field deployment
+hog baiting strategy,trap-operations,informational,pre-trap conditioning
+hog trap baiting,trap-operations,informational,baiting specifics
+remote trap release,remote-closure,commercial,core differentiator query
+automatic hog trap,remote-closure,commercial,automation intent
+cellular hog trap release,remote-closure,commercial,technology-aware buyers
+remote hog trap control,remote-closure,commercial,control/monitoring framing
+best hog trap,trap-selection,commercial,comparison/buying intent
+corral trap wild hogs,trap-selection,informational,trap type research
+hog trap comparison,trap-selection,commercial,evaluation stage buyers
+box trap hogs,trap-selection,informational,trap type awareness
+hog trapping techniques,trap-operations,informational,skills/methods content
+how to catch wild hogs,trap-operations,informational,broad entry point
+wild hog behavior,trap-operations,informational,understanding prey behavior for better trapping
+hog trap camera reliability,trap-operations,informational,reliability/trust angle
+multi trap hog operation,trap-operations,informational,scale/workflow content

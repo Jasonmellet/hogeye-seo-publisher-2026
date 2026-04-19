@@ -124,7 +124,7 @@ def load_content_file(source_path: str) -> LoadedContent:
         # Normalize common JSON-escaped sequences inside HTML strings.
         # Some source files include HTML attributes with backslash-escaped quotes (e.g. href=\"...\"),
         # which should be turned into valid HTML quotes (href="...") before publishing.
-        for key in ["title", "slug", "excerpt", "meta_title", "meta_description", "date", "content"]:
+        for key in ["title", "slug", "excerpt", "meta_title", "meta_description", "focus_keyword", "date", "content"]:
             if isinstance(data.get(key), str):
                 data[key] = _unescape_content_string(data[key])
         return LoadedContent(source_path=source_path, data=data, used_fallback=False)
@@ -132,7 +132,7 @@ def load_content_file(source_path: str) -> LoadedContent:
         # Fallback: recover known fields
         recovered: Dict[str, Any] = {}
 
-        for key in ["title", "slug", "excerpt", "meta_title", "meta_description", "date"]:
+        for key in ["title", "slug", "excerpt", "meta_title", "meta_description", "focus_keyword", "date"]:
             val = _extract_json_string_field(raw, key)
             if val is not None:
                 recovered[key] = _unescape_content_string(val)

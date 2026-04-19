@@ -1,0 +1,126 @@
+keyword,cluster,intent,source,brand_safety_notes,status,dfs_search_volume,dfs_cpc,dfs_competition,dfs_competition_level,priority_score,opportunity_tier,fetched_at
+wild hog trap monitor,core_positioning,commercial_investigation,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.612995+00:00
+wild hog trap release camera system,core_positioning,commercial_investigation,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613018+00:00
+hog trap camera with remote trigger,core_positioning,commercial_investigation,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613023+00:00
+remote trap monitoring and closure,core_positioning,informational,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613027+00:00
+trap gate trigger camera,core_positioning,commercial_investigation,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613030+00:00
+sounder capture timing,core_positioning,informational,strategy+transcript,approved_core,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613033+00:00
+hog trap monitor setup,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613036+00:00
+hog trap camera setup guide,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613039+00:00
+hog trap camera unboxing,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613042+00:00
+how to set up hog trap camera,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613045+00:00
+hog trap camera field setup,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613048+00:00
+hog trap camera mounting guide,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613053+00:00
+hog trap camera t post mount,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613056+00:00
+hog trap camera post mount 2 inch,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613059+00:00
+hog trap monitor wiring harness setup,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613062+00:00
+hog trap camera moisture protection cap,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613064+00:00
+hog trap camera white dot connector,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613067+00:00
+hog trap camera quick setup checklist,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613070+00:00
+hog trap camera test drop checklist,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613073+00:00
+hog trap camera final connection checklist,setup_installation,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613076+00:00
+hog trap solar panel setup,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613079+00:00
+hog trap camera solar panel angle,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613082+00:00
+hog trap solar panel face south,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613084+00:00
+hog trap camera battery and solar setup,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613087+00:00
+hog trap camera charge controller setup,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613090+00:00
+hog trap charge controller cable colors,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613093+00:00
+hog trap yellow blue black cable,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613096+00:00
+hog trap camera battery terminal tightening,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613099+00:00
+hog trap battery corrosion prevention,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613102+00:00
+hog trap camera power light green,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613108+00:00
+75 watt solar panel hog trap camera,solar_power,commercial_investigation,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613111+00:00
+50 ah lithium battery hog trap camera,solar_power,commercial_investigation,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613114+00:00
+hog trap camera battery maintenance,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613117+00:00
+hog trap camera low power troubleshooting,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613124+00:00
+hog trap camera solar charging best practices,solar_power,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613127+00:00
+remote trap trigger reliability,reliability,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613130+00:00
+hog trap trigger reliability checklist,reliability,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613133+00:00
+low latency trap trigger response,reliability,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613136+00:00
+weak signal trap trigger protocol,reliability,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613139+00:00
+poor coverage trap trigger workflow,reliability,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613141+00:00
+hog trap trigger failure prevention,reliability,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613144+00:00
+hog trap camera no miss trigger workflow,reliability,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613147+00:00
+hog trap camera trigger confidence,reliability,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613150+00:00
+hog trap camera backup trigger protocol,reliability,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613153+00:00
+hog trap camera signal fallback procedure,reliability,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613156+00:00
+hog trap closure timing guide,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613159+00:00
+hog trap release timing best practices,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613162+00:00
+when to trigger hog trap camera,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613165+00:00
+how to avoid early trap drop hogs,trigger_timing,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613168+00:00
+how to avoid late trap trigger hogs,trigger_timing,informational,strategy+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613171+00:00
+full sounder capture timing guide,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613174+00:00
+baiting conditioning trigger timing hog trap,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613180+00:00
+hog trap trigger readiness checklist,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613183+00:00
+hog trap closure decision workflow,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613186+00:00
+hog trap camera timing mistakes,trigger_timing,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613189+00:00
+net trap camera setup,net_trap,informational,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613191+00:00
+net trap camera remote trigger,net_trap,commercial_investigation,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613194+00:00
+net trap remote deployment,net_trap,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613197+00:00
+drop net hog trap camera,net_trap,commercial_investigation,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613200+00:00
+net trap conditioning mode camera,net_trap,informational,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613203+00:00
+net trap pre bait monitoring camera,net_trap,informational,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613206+00:00
+net trap trigger timing camera,net_trap,informational,site+transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613209+00:00
+net trap hog count before drop,net_trap,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613211+00:00
+wide angle net trap camera view,net_trap,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613214+00:00
+net trap camera no second chances,net_trap,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613217+00:00
+hog trap camera gate cable setup,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613220+00:00
+hog trap latch adapter setup,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613223+00:00
+southco latch hog trap camera,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613226+00:00
+hog trap splitter latch connection,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613229+00:00
+green two pin gate cable hog trap,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613232+00:00
+hog trap gate cable troubleshooting,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613235+00:00
+hog trap latch connection moisture protection,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613238+00:00
+hog trap camera test drop procedure,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613242+00:00
+hog trap camera trigger button setup,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613245+00:00
+hog trap drop verification checklist,latch_gate,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613248+00:00
+hog trap camera transport case,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613251+00:00
+hog trap camera field transport tips,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613254+00:00
+hog trap camera setup at trap site,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613257+00:00
+hog trap equipment pre leave checklist,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613260+00:00
+hog trap camera zip tie cable management,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613263+00:00
+hog trap camera moisture protection setup,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613265+00:00
+hog trap camera connection walkaround,operations,informational,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613268+00:00
+hog trap camera setup sop,operations,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613271+00:00
+hog trap team setup workflow,operations,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613274+00:00
+remote trap monitoring workflow,operations,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613277+00:00
+hog trap camera buyer criteria,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613279+00:00
+hog trap monitor buyer guide,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613282+00:00
+what to look for in hog trap camera,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613285+00:00
+hog trap camera compatibility guide,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613288+00:00
+hog trap camera support and warranty guide,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613290+00:00
+hog trap camera app features,buyer_guides,commercial_investigation,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613293+00:00
+hog trap camera multi user monitoring,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613297+00:00
+hog trap camera trigger backup,buyer_guides,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613300+00:00
+hog trap camera installation requirements,buyer_guides,commercial_investigation,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613303+00:00
+hog trap camera solar battery included,buyer_guides,commercial_investigation,transcript,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613306+00:00
+hog trap camera reliability comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613309+00:00
+trap release reliability comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613312+00:00
+trap trigger latency comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613315+00:00
+hog trap monitor vs modified camera,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613317+00:00
+hog trap camera support lifecycle comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613320+00:00
+hog trap workflow comparison guide,comparison,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613323+00:00
+trap closure readiness standards,comparison,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613326+00:00
+multi user trap closure readiness,comparison,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613329+00:00
+hog trap camera deployment comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613331+00:00
+hog trap outcome focused camera comparison,comparison,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613334+00:00
+feral hog trap monitoring camera,audience_intent,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613337+00:00
+feral hog trap camera remote trigger,audience_intent,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613340+00:00
+feral hog sounder capture camera,audience_intent,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613343+00:00
+landowner hog trap monitoring,audience_intent,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613345+00:00
+land manager hog trap monitoring,audience_intent,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613349+00:00
+trapper remote trap monitor,audience_intent,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613351+00:00
+hog damage control trap camera,audience_intent,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613354+00:00
+wild hog control trap monitoring,audience_intent,informational,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613357+00:00
+remote hog trap operation camera,audience_intent,commercial_investigation,strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613360+00:00
+hog trap monitor for net traps,audience_intent,commercial_investigation,site+strategy,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613363+00:00
+hog trap camera faq,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613365+00:00
+hog trap camera battery life faq,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613368+00:00
+hog trap camera solar panel sunlight faq,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613373+00:00
+hog trap camera inactive troubleshooting,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613375+00:00
+hog trap camera notification settings,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613378+00:00
+hog trap camera organization settings,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613381+00:00
+hog trap camera multiple users faq,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613384+00:00
+hog trap camera support contact faq,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613387+00:00
+hog trap camera app login help,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613389+00:00
+hog trap camera setup support guide,faq,informational,site,approved,candidate,,,,,-12.0,watchlist,2026-03-18T21:00:25.613392+00:00

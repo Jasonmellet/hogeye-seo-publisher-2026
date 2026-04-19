@@ -1,0 +1,27 @@
+{
+  "seeds": [
+    "hog trap camera",
+    "hog trap camera system",
+    "hog trap monitor",
+    "feral hog trap",
+    "feral hog traps",
+    "hog traps",
+    "trap camera",
+    "trap camera with remote trigger",
+    "net trap camera",
+    "remote trap trigger",
+    "hog trap release",
+    "hog trap gate trigger"
+  ],
+  "expanded": true,
+  "expand_sort_by": "search_volume",
+  "expand_limit": 500,
+  "analysis_limit": 300,
+  "gsc_limit": 50,
+  "merged_keywords_count": 352,
+  "scored_keywords_count": 300,
+  "location_code": 2840,
+  "language_code": "en",
+  "with_gsc": false,
+  "gsc_days": 365
+}

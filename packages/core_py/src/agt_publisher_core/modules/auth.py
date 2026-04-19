@@ -81,8 +81,9 @@ class WordPressAuth:
 
     def check_permissions(self):
         """
-        Check what permissions the authenticated user has
-        Returns: dict with permission flags
+        Check what permissions the authenticated user has (read-only: no POST/DELETE).
+
+        Uses `GET /users/me?context=edit` capabilities, role hints, and OPTIONS fallbacks.
         """
         permissions = {
             "can_publish_posts": False,
@@ -92,33 +93,53 @@ class WordPressAuth:
         }
 
         try:
-            # Check if user can create posts (test with draft)
-            test_post = {"title": "Permission Test (Do Not Publish)", "content": "Testing permissions", "status": "draft"}
+            r = self.session.get(
+                f"{Config.WP_SITE_URL}/wp-json/wp/v2/users/me",
+                params={"context": "edit"},
+                timeout=10,
+            )
+            if r.status_code != 200:
+                return permissions
 
-            response = self.session.post(Config.get_api_url("posts"), json=test_post, timeout=10)
+            data = r.json()
+            caps = data.get("capabilities")
+            if isinstance(caps, dict) and caps:
+                permissions["can_publish_posts"] = bool(
+                    caps.get("edit_posts") or caps.get("publish_posts")
+                )
+                permissions["can_publish_pages"] = bool(
+                    caps.get("edit_pages") or caps.get("publish_pages")
+                )
+                permissions["can_upload_files"] = bool(caps.get("upload_files"))
+                permissions["can_manage_categories"] = bool(
+                    caps.get("manage_categories") or caps.get("edit_categories")
+                )
 
-            if response.status_code in [200, 201]:
-                permissions["can_publish_posts"] = True
-                # Delete the test post
-                post_id = response.json().get("id")
-                if post_id:
-                    self.session.delete(Config.get_api_url(f"posts/{post_id}"), params={"force": True})
+            roles = data.get("roles") or []
+            if isinstance(roles, list) and roles:
+                role_set = set(roles)
+                if role_set & {"administrator", "editor", "author"}:
+                    permissions["can_publish_posts"] = permissions["can_publish_posts"] or True
+                    permissions["can_upload_files"] = permissions["can_upload_files"] or True
+                    permissions["can_manage_categories"] = permissions["can_manage_categories"] or True
+                if role_set & {"administrator", "editor"}:
+                    permissions["can_publish_pages"] = permissions["can_publish_pages"] or True
 
-            # Check if user can create pages
-            test_page = {"title": "Permission Test (Do Not Publish)", "content": "Testing permissions", "status": "draft"}
+            if not permissions["can_publish_posts"]:
+                opt = self.session.options(Config.get_api_url("posts"), timeout=10)
+                allow = (opt.headers.get("Allow") or "").upper()
+                permissions["can_publish_posts"] = "POST" in allow
 
-            response = self.session.post(Config.get_api_url("pages"), json=test_page, timeout=10)
+            if not permissions["can_publish_pages"]:
+                optp = self.session.options(Config.get_api_url("pages"), timeout=10)
+                allowp = (optp.headers.get("Allow") or "").upper()
+                permissions["can_publish_pages"] = "POST" in allowp
 
-            if response.status_code in [200, 201]:
-                permissions["can_publish_pages"] = True
-                # Delete the test page
-                page_id = response.json().get("id")
-                if page_id:
-                    self.session.delete(Config.get_api_url(f"pages/{page_id}"), params={"force": True})
+            if not permissions["can_upload_files"] and permissions["can_publish_posts"]:
+                permissions["can_upload_files"] = True
 
-            # Can upload files is usually tied to being able to post
-            permissions["can_upload_files"] = permissions["can_publish_posts"]
-            permissions["can_manage_categories"] = permissions["can_publish_posts"]
+            if not permissions["can_manage_categories"] and permissions["can_publish_posts"]:
+                permissions["can_manage_categories"] = True
 
         except Exception as e:
             print(f"Warning: Could not fully check permissions: {e}")
