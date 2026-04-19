@@ -49,7 +49,7 @@ Definition of done:
 
 ## Current status (as of 2026-01-20)
 
-- [x] WordPress auth + permissions verified (`test_connection.py`)
+- [x] WordPress auth + permissions verified (`scripts/publisher/test_connection.py`)
 - [x] Draft-first canonical publishing pipeline
 - [x] Homepage countdown safety guardrails + local WP backups (`work/wp_backups/`)
 - [x] Feb 2026 plan artifacts pushed into the planning Google Sheet

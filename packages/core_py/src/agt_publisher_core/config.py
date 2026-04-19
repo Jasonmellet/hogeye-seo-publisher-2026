@@ -63,6 +63,11 @@ class Config:
         return cls.DRY_RUN
 
     @classmethod
+    def allow_wp_delete(cls) -> bool:
+        """WordPress REST DELETE (force-delete, etc.) is opt-in; default is deny."""
+        return os.getenv("WP_ALLOW_DELETE", "false").lower() == "true"
+
+    @classmethod
     def get_api_url(cls, endpoint: str) -> str:
         return f"{cls.WP_SITE_URL}/wp-json/wp/v2/{endpoint}"
 

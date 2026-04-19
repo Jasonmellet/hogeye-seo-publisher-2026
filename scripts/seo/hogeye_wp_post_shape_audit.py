@@ -24,6 +24,8 @@ import requests
 from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
 
+from repo_workspace import workspace_rel_posix
+
 
 def _extract_block_types(content: str) -> List[str]:
     # Matches Gutenberg serialized blocks: <!-- wp:paragraph -->, <!-- wp:heading {"level":2} -->, etc.
@@ -38,7 +40,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Read-only audit of WP post structure.")
     ap.add_argument("--project-root", default=str(Path.cwd()), help="Project root (to load .env)")
     ap.add_argument("--count", type=int, default=10, help="How many recent posts to sample (default 10)")
-    ap.add_argument("--output", default="work/seo/hogeye/wp_post_shape_audit.json", help="Where to write report JSON")
+    ap.add_argument(
+        "--output",
+        default=f"{workspace_rel_posix()}/wp_post_shape_audit.json",
+        help="Where to write report JSON",
+    )
     args = ap.parse_args()
 
     load_dotenv(str(Path(args.project_root) / ".env"), override=False)

@@ -43,7 +43,7 @@ All blog posts are live in WordPress as **DRAFTS** with full metadata:
 ## 🔧 Technical Infrastructure Built
 
 ### Python Scripts Created:
-1. **`test_connection.py`** - Tests WordPress API connection
+1. **`scripts/publisher/test_connection.py`** - Tests WordPress API connection
 2. **`test_single_post.py`** - Safely publishes one test post
 3. **`publish_all_blogs.py`** - Bulk publishes all blog posts with duplicate detection
 4. **`update_post_metadata.py`** - Adds categories, tags, and SEO metadata

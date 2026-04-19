@@ -1,0 +1,577 @@
+{
+  "pages": {
+    "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail": {
+      "slug": "hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+      "title": "Hog Trapping Cameras Compared 2026: HogEye vs. Trail",
+      "type": "post",
+      "wp_id": 500319,
+      "permalink_raw": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/"
+    },
+    "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026": {
+      "slug": "year-end-hog-trap-gear-audit-2026",
+      "title": "Year-End Hog Trap Gear Audit (2026): Cameras, Traps, Power, and Trigger Readiness",
+      "type": "post",
+      "wp_id": 500276,
+      "permalink_raw": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026/"
+    },
+    "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization": {
+      "slug": "hog-behavior-data-in-capture-optimization",
+      "title": "Why Hog Behavior Data Matters in Capture Optimization",
+      "type": "post",
+      "wp_id": 500268,
+      "permalink_raw": "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization/"
+    },
+    "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system": {
+      "slug": "smart-ranch-network-how-to-build-a-multi-trap-system",
+      "title": "Smart Trap Network: How to Build a Multi-Trap System",
+      "type": "post",
+      "wp_id": 500260,
+      "permalink_raw": "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system/"
+    },
+    "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates": {
+      "slug": "smart-hog-trap-systems-boosts-capture-rates",
+      "title": "Smart Hog Trap Systems: How Automation Boosts Capture Rates",
+      "type": "post",
+      "wp_id": 500251,
+      "permalink_raw": "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates/"
+    },
+    "https://hogeyecameras.com/blog": {
+      "slug": "blog",
+      "title": "Blog",
+      "type": "page",
+      "wp_id": 500006,
+      "permalink_raw": "https://hogeyecameras.com/blog/"
+    },
+    "https://hogeyecameras.com/buy-now-legacy": {
+      "slug": "buy-now-legacy",
+      "title": "Buy Now &#8211; Legacy Camera Parts",
+      "type": "page",
+      "wp_id": 1134,
+      "permalink_raw": "https://hogeyecameras.com/buy-now-legacy/"
+    },
+    "https://hogeyecameras.com/thank-you": {
+      "slug": "thank-you",
+      "title": "Thank you",
+      "type": "page",
+      "wp_id": 1110,
+      "permalink_raw": "https://hogeyecameras.com/thank-you/"
+    },
+    "https://hogeyecameras.com/hog-traps": {
+      "slug": "hog-traps",
+      "title": "Hog Traps",
+      "type": "page",
+      "wp_id": 1096,
+      "permalink_raw": "https://hogeyecameras.com/hog-traps/"
+    },
+    "https://hogeyecameras.com/camera-resources-copy": {
+      "slug": "camera-resources-copy",
+      "title": "Copy of Hog Trap Camera Resources | HogEye Setup Guide",
+      "type": "page",
+      "wp_id": 1073,
+      "permalink_raw": "https://hogeyecameras.com/camera-resources-copy/"
+    },
+    "https://hogeyecameras.com/terms-and-conditions": {
+      "slug": "terms-and-conditions",
+      "title": "Terms &#038; Conditions",
+      "type": "page",
+      "wp_id": 1007,
+      "permalink_raw": "https://hogeyecameras.com/terms-and-conditions/"
+    },
+    "https://hogeyecameras.com/privacy-policy": {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "type": "page",
+      "wp_id": 1000,
+      "permalink_raw": "https://hogeyecameras.com/privacy-policy/"
+    },
+    "https://hogeyecameras.com/buy-now": {
+      "slug": "buy-now",
+      "title": "Buy Now",
+      "type": "page",
+      "wp_id": 880,
+      "permalink_raw": "https://hogeyecameras.com/buy-now/"
+    },
+    "https://hogeyecameras.com/camera-resources": {
+      "slug": "camera-resources",
+      "title": "Hog Trap Camera Resources | HogEye Setup Guide",
+      "type": "page",
+      "wp_id": 873,
+      "permalink_raw": "https://hogeyecameras.com/camera-resources/"
+    },
+    "https://hogeyecameras.com/camera-login": {
+      "slug": "camera-login",
+      "title": "Camera Login",
+      "type": "page",
+      "wp_id": 863,
+      "permalink_raw": "https://hogeyecameras.com/camera-login/"
+    },
+    "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping": {
+      "slug": "net-camera-trap-remote-hog-trapping",
+      "title": "Net Trap Camera | Remote Hog Trapping &#8211; HogEye",
+      "type": "page",
+      "wp_id": 849,
+      "permalink_raw": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/"
+    },
+    "https://hogeyecameras.com/steel-camera": {
+      "slug": "steel-camera",
+      "title": "Hog Trap Camera | Remote Cage Monitoring &#8211; HogEye",
+      "type": "page",
+      "wp_id": 834,
+      "permalink_raw": "https://hogeyecameras.com/steel-camera/"
+    },
+    "https://hogeyecameras.com/": {
+      "slug": "home",
+      "title": "Home",
+      "type": "page",
+      "wp_id": 790,
+      "permalink_raw": "https://hogeyecameras.com/"
+    },
+    "https://hogeyecameras.com/sample-page": {
+      "slug": "sample-page",
+      "title": "Sample Page",
+      "type": "page",
+      "wp_id": 2,
+      "permalink_raw": "https://hogeyecameras.com/sample-page/"
+    }
+  },
+  "edges": [
+    {
+      "from_url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+      "to_url": "https://hogeyecameras.com/sim-card-performance-for-ranch-cameras-lte-vs-multi-carrier",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+      "to_url": "https://hogeyecameras.com/reolink-trap-mods-vs-hogeye-2026",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+      "to_url": "https://hogeyecameras.com/trap-camera",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+      "to_url": "https://hogeyecameras.com/steel-camera",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+      "to_url": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization",
+      "to_url": "https://hogeyecameras.com/hog-traps",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system",
+      "to_url": "https://hogeyecameras.com/hog-traps",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates",
+      "to_url": "https://hogeyecameras.com/hog-traps",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/blog",
+      "to_url": "https://hogeyecameras.com/how-to-plan-your-dream-home",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/blog",
+      "to_url": "https://hogeyecameras.com/top-trends-in-texas-home-design",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/blog",
+      "to_url": "https://hogeyecameras.com/what-to-expect-during-a-remodel",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/blog",
+      "to_url": "https://hogeyecameras.com/signs-you-need-a-home-renovation",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/blog",
+      "to_url": "https://hogeyecameras.com/hello-world",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/thank-you",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/hog-traps",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources-copy",
+      "to_url": "https://hogeyecameras.com/s/hogeye-quickstart-2a2s.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources-copy",
+      "to_url": "https://hogeyecameras.com/s/boarbuster-quickstart-1.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources-copy",
+      "to_url": "https://hogeyecameras.com/s/he-user-manual.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources-copy",
+      "to_url": "https://hogeyecameras.com/s/bpt-drop-trap-user-manual.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/buy-now",
+      "to_url": "https://hogeyecameras.com/buy-now-legacy",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/wp-content/uploads/2025/12/quick-start-app-guide.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/wp-content/uploads/2025/12/hogeye-mini-user-manual.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/wp-content/uploads/2025/12/he-user-manual-legacy-1.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/wp-content/uploads/2025/10/\ud83d\udee1\ufe0f-hogeye-mini-warranty-overviewshort.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/wp-content/uploads/2025/10/hogeye-mini---3-year-limited-warrantyfull.pdf",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/buy-now-legacy",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/camera-resources",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/steel-camera",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/steel-camera",
+      "to_url": "https://hogeyecameras.com/camera-resources",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/",
+      "to_url": "https://hogeyecameras.com/buy-now",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/",
+      "to_url": "https://hogeyecameras.com/buy-now-legacy",
+      "anchor_context": "in_body"
+    },
+    {
+      "from_url": "https://hogeyecameras.com/sample-page",
+      "to_url": "https://hogeyecameras.com/wp-admin",
+      "anchor_context": "in_body"
+    }
+  ],
+  "summary": {
+    "generated_at": "2026-04-11T13:51:38Z",
+    "site": "https://hogeyecameras.com",
+    "url_normalization": {
+      "canonical_scheme": "https",
+      "canonical_host": "hogeyecameras.com",
+      "www_unification": "same host with or without www maps to canonical_host from WP_SITE_URL",
+      "trailing_slash": "stripped on non-root paths",
+      "fragments": "stripped",
+      "path_segments": "lowercased"
+    },
+    "status_filter": "publish",
+    "page_count": 19,
+    "edge_count": 43,
+    "unique_targets_linked_to": 24,
+    "priority_targets": [
+      "https://hogeyecameras.com/trap-camera",
+      "https://hogeyecameras.com/steel-camera",
+      "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+      "https://hogeyecameras.com/camera-resources",
+      "https://hogeyecameras.com/camera-login"
+    ],
+    "priority_target_coverage": {
+      "https://hogeyecameras.com/trap-camera": {
+        "inbound_count": 1,
+        "from_pages_sample": [
+          "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026"
+        ]
+      },
+      "https://hogeyecameras.com/steel-camera": {
+        "inbound_count": 1,
+        "from_pages_sample": [
+          "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026"
+        ]
+      },
+      "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping": {
+        "inbound_count": 1,
+        "from_pages_sample": [
+          "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026"
+        ]
+      },
+      "https://hogeyecameras.com/camera-resources": {
+        "inbound_count": 6,
+        "from_pages_sample": [
+          "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+          "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization",
+          "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system",
+          "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates",
+          "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+          "https://hogeyecameras.com/steel-camera"
+        ]
+      },
+      "https://hogeyecameras.com/camera-login": {
+        "inbound_count": 0,
+        "from_pages_sample": []
+      }
+    },
+    "hubs_out_degree_top": [
+      {
+        "url": "https://hogeyecameras.com/camera-resources",
+        "out": 7
+      },
+      {
+        "url": "https://hogeyecameras.com/year-end-hog-trap-gear-audit-2026",
+        "out": 5
+      },
+      {
+        "url": "https://hogeyecameras.com/blog",
+        "out": 5
+      },
+      {
+        "url": "https://hogeyecameras.com/camera-resources-copy",
+        "out": 4
+      },
+      {
+        "url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+        "out": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/hog-behavior-data-in-capture-optimization",
+        "out": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/smart-ranch-network-how-to-build-a-multi-trap-system",
+        "out": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/smart-hog-trap-systems-boosts-capture-rates",
+        "out": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+        "out": 2
+      },
+      {
+        "url": "https://hogeyecameras.com/steel-camera",
+        "out": 2
+      },
+      {
+        "url": "https://hogeyecameras.com/",
+        "out": 2
+      },
+      {
+        "url": "https://hogeyecameras.com/thank-you",
+        "out": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/hog-traps",
+        "out": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/buy-now",
+        "out": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/sample-page",
+        "out": 1
+      }
+    ],
+    "authority_in_degree_top": [
+      {
+        "url": "https://hogeyecameras.com/buy-now",
+        "in": 11
+      },
+      {
+        "url": "https://hogeyecameras.com/camera-resources",
+        "in": 6
+      },
+      {
+        "url": "https://hogeyecameras.com/hog-traps",
+        "in": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/buy-now-legacy",
+        "in": 3
+      },
+      {
+        "url": "https://hogeyecameras.com/sim-card-performance-for-ranch-cameras-lte-vs-multi-carrier",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/reolink-trap-mods-vs-hogeye-2026",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/trap-camera",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/steel-camera",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/how-to-plan-your-dream-home",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/top-trends-in-texas-home-design",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/what-to-expect-during-a-remodel",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/signs-you-need-a-home-renovation",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/hello-world",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/s/hogeye-quickstart-2a2s.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/s/boarbuster-quickstart-1.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/s/he-user-manual.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/s/bpt-drop-trap-user-manual.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-content/uploads/2025/12/quick-start-app-guide.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-content/uploads/2025/12/hogeye-mini-user-manual.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-content/uploads/2025/12/he-user-manual-legacy-1.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/\ud83d\udee1\ufe0f-hogeye-mini-warranty-overviewshort.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-content/uploads/2025/10/hogeye-mini---3-year-limited-warrantyfull.pdf",
+        "in": 1
+      },
+      {
+        "url": "https://hogeyecameras.com/wp-admin",
+        "in": 1
+      }
+    ],
+    "orphan_urls_no_in_no_out": [
+      "https://hogeyecameras.com/camera-login",
+      "https://hogeyecameras.com/privacy-policy",
+      "https://hogeyecameras.com/terms-and-conditions"
+    ]
+  }
+}

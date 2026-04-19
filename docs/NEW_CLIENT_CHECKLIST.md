@@ -29,7 +29,7 @@ See `docs/GOOGLE_CLOUD_API_ENABLEMENT.md`.
 - WordPress connectivity:
 
 ```bash
-./.venv/bin/python scripts/test_connection.py
+./.venv/bin/python scripts/publisher/test_connection.py
 ```
 
 - DataForSEO connectivity:

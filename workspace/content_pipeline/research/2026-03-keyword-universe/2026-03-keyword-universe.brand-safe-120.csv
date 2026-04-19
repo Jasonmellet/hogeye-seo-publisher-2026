@@ -1,0 +1,121 @@
+keyword,cluster,dfs_search_volume,dfs_cpc,dfs_competition,dfs_competition_level,opportunity_score,status
+boar trap,trap_operations,6600,1.27,HIGH,,6588.0,candidate
+feral hog trap,trap_operations,6600,1.27,HIGH,,6588.0,candidate
+feral hog traps,trap_operations,6600,1.27,HIGH,,6588.0,candidate
+hog in trap,trap_operations,6600,1.16,HIGH,,6588.0,candidate
+hog traps,trap_operations,6600,1.16,HIGH,,6588.0,candidate
+hogs in a trap,trap_operations,6600,1.16,HIGH,,6588.0,candidate
+trapped hogs,trap_operations,6600,1.16,HIGH,,6588.0,candidate
+wild boar trap,trap_operations,6600,1.27,HIGH,,6588.0,candidate
+wild hog traps,trap_operations,6600,1.27,HIGH,,6588.0,candidate
+corral hog trap,trap_operations,590,3.04,LOW,,578.0,candidate
+hog trap gate,trap_operations,390,1.52,HIGH,,378.0,candidate
+homemade hog trap,trap_operations,260,0.23,LOW,,248.0,candidate
+net hog trap,net_trap,260,1.79,HIGH,,248.0,candidate
+boar buster hog trap,trap_operations,210,4.09,MEDIUM,,198.0,candidate
+boarbuster hog trap,trap_operations,210,3.55,LOW,,198.0,candidate
+dropping hog trap,trigger_timing,210,1.69,HIGH,,198.0,candidate
+hog drop trap,trigger_timing,210,1.69,HIGH,,198.0,candidate
+hog net trap,net_trap,170,2.04,HIGH,,158.0,candidate
+portable hog trap,trap_operations,170,0.42,HIGH,,158.0,candidate
+big hog trap,trap_operations,140,2.24,HIGH,,128.0,candidate
+box hog trap,trap_operations,140,1.56,MEDIUM,,128.0,candidate
+cellular hog trap trigger,trigger_timing,140,0.76,LOW,,128.0,candidate
+circle hog trap,trap_operations,140,0.85,HIGH,,128.0,candidate
+corral trap for feral hogs,trap_operations,140,1.05,LOW,,128.0,candidate
+hog trap door trigger designs,trigger_timing,140,0.04,LOW,,128.0,candidate
+hogeye camera,monitoring_camera,140,0.84,MEDIUM,,128.0,candidate
+huge hog trap,trap_operations,140,2.24,HIGH,,128.0,candidate
+large hog traps,trap_operations,140,2.24,HIGH,,128.0,candidate
+round hog trap,trap_operations,140,0.85,HIGH,,128.0,candidate
+automatic hog trap,trap_operations,110,1.17,HIGH,,98.0,candidate
+cellular hog trap,trap_operations,110,1.3,HIGH,,98.0,candidate
+cheap hog trap,trap_operations,110,0.36,HIGH,,98.0,candidate
+remote control hog trap,trap_operations,110,1.65,HIGH,,98.0,candidate
+remote hog trap,trap_operations,110,1.65,HIGH,,98.0,candidate
+best hog traps,trap_operations,90,1.65,HIGH,,78.0,candidate
+boar buster trap,trap_operations,90,2.88,MEDIUM,,78.0,candidate
+c hog trap,trap_operations,90,,LOW,,78.0,candidate
+diy cellular hog trap trigger,trigger_timing,90,0.23,LOW,,78.0,candidate
+game changer hog trap,trap_operations,90,3.15,LOW,,78.0,candidate
+hog boss traps,trap_operations,90,2.44,HIGH,,78.0,candidate
+hog c trap,trap_operations,90,,LOW,,78.0,candidate
+hog eye camera,monitoring_camera,90,1.44,HIGH,,78.0,candidate
+hog eye trap,trap_operations,90,2.41,HIGH,,78.0,candidate
+hog trap net,net_trap,90,2.05,HIGH,,78.0,candidate
+hog traps that drop,trigger_timing,90,1.35,HIGH,,78.0,candidate
+remote hog trap trigger,trigger_timing,90,0.66,HIGH,,78.0,candidate
+building a hog trap,trap_operations,70,0.56,HIGH,,58.0,candidate
+cattle panel hog trap,trap_operations,70,,LOW,,58.0,candidate
+drop trap for hogs,trigger_timing,70,1.18,HIGH,,58.0,candidate
+hog cage trap,trap_operations,70,0.64,HIGH,,58.0,candidate
+hog slammer trap gate,trap_operations,70,0.53,MEDIUM,,58.0,candidate
+hog trap cattle panels,trap_operations,70,,LOW,,58.0,candidate
+hog trap gate trigger,trigger_timing,70,1.41,HIGH,,58.0,candidate
+hog trap panels,trap_operations,70,1.07,HIGH,,58.0,candidate
+hogeye traps,trap_operations,70,2.3,MEDIUM,,58.0,candidate
+making a hog trap,trap_operations,70,0.56,HIGH,,58.0,candidate
+cellular hog trap gate,trap_operations,50,0.84,HIGH,,38.0,candidate
+hog commander hog trap,trap_operations,50,0.77,LOW,,38.0,candidate
+hog commander trap,trap_operations,50,0.77,LOW,,38.0,candidate
+hog foot snare trap,trap_operations,50,0.32,HIGH,,38.0,candidate
+hog foot trap,trap_operations,50,0.32,HIGH,,38.0,candidate
+boar buster trap price,trap_operations,40,3.32,LOW,,28.0,candidate
+boarbuster trap,trap_operations,40,0.96,LOW,,28.0,candidate
+boss hog traps,trap_operations,40,1.23,HIGH,,28.0,candidate
+electronic hog trap,trap_operations,40,0.76,HIGH,,28.0,candidate
+hog pen trap,trap_operations,40,1.29,HIGH,,28.0,candidate
+home made hog trap,trap_operations,30,0.26,MEDIUM,,18.0,candidate
+live hog traps,trap_operations,30,0.91,HIGH,,18.0,candidate
+net trap for hogs,net_trap,30,1.32,HIGH,,18.0,candidate
+shooting hogs in trap,trap_operations,30,2.38,LOW,,18.0,candidate
+small hog trap,trap_operations,30,0.97,HIGH,,18.0,candidate
+wild boar cage trap,trap_operations,30,0.51,HIGH,,18.0,candidate
+wild hog live traps,trap_operations,30,,LOW,,18.0,candidate
+wild hog trap designs,trap_operations,30,1.43,MEDIUM,,18.0,candidate
+boar buster hog trap prices,trap_operations,20,4.26,MEDIUM,,8.0,candidate
+boarbuster hog trap price,trap_operations,20,4.26,MEDIUM,,8.0,candidate
+boss hawg hog traps,trap_operations,20,4.22,LOW,,8.0,candidate
+circular hog trap that drops,trigger_timing,20,1.63,MEDIUM,,8.0,candidate
+guillotine hog trap,trap_operations,20,,LOW,,8.0,candidate
+hog box trap,trap_operations,20,0.44,HIGH,,8.0,candidate
+hog hunting traps,trap_operations,20,0.17,MEDIUM,,8.0,candidate
+hog panel trap,trap_operations,20,1.66,MEDIUM,,8.0,candidate
+hog trap on wheels,trap_operations,20,0.06,MEDIUM,,8.0,candidate
+hog trapping systems,trap_operations,20,1.52,HIGH,,8.0,candidate
+hogg boss trap,trap_operations,20,1.8,HIGH,,8.0,candidate
+hogtrapping,trap_operations,20,4.56,MEDIUM,,8.0,candidate
+remote trigger for hog trap,trigger_timing,20,0.89,HIGH,,8.0,candidate
+shooting hogs in a trap,trap_operations,20,2.12,LOW,,8.0,candidate
+shooting trapped hogs,trap_operations,20,,LOW,,8.0,candidate
+trampoline hog trap,trap_operations,20,,LOW,,8.0,candidate
+wild hog net trap,net_trap,20,1.71,HIGH,,8.0,candidate
+wood hog trap,trap_operations,20,0.71,LOW,,8.0,candidate
+6 hog trap,trap_operations,10,0.34,HIGH,,-2.0,candidate
+angry boar hog traps,trap_operations,10,,MEDIUM,,-2.0,candidate
+automatic hog trap gate,trap_operations,10,0.82,HIGH,,-2.0,candidate
+best way to kill a hog in a trap,trap_operations,10,,,,-2.0,candidate
+best way to trap hogs,trap_operations,10,2.69,HIGH,,-2.0,candidate
+best way to trap wild hogs,trap_operations,10,,HIGH,,-2.0,candidate
+best wild hog traps,trap_operations,10,0.66,HIGH,,-2.0,candidate
+boar cage trap,trap_operations,10,0.14,HIGH,,-2.0,candidate
+boss hog trap gate,trap_operations,10,0.64,HIGH,,-2.0,candidate
+building a wild hog trap,trap_operations,10,,MEDIUM,,-2.0,candidate
+bull creek hog trap,trap_operations,10,2.82,LOW,,-2.0,candidate
+buy hog trap,trap_operations,10,,HIGH,,-2.0,candidate
+c trap hogs,trap_operations,10,,,,-2.0,candidate
+c&w hog traps,trap_operations,10,,,,-2.0,candidate
+catching hogs in traps,trap_operations,10,1.3,LOW,,-2.0,candidate
+catching wild hogs in traps,trap_operations,10,,LOW,,-2.0,candidate
+cell phone activated hog trap,trap_operations,10,1.71,HIGH,,-2.0,candidate
+cell phone hog trap,trap_operations,10,0.83,MEDIUM,,-2.0,candidate
+circle c hog trap,trap_operations,10,3.06,MEDIUM,,-2.0,candidate
+corral traps for capturing feral hogs,trap_operations,10,,,,-2.0,candidate
+custom hog traps,trap_operations,10,2.78,HIGH,,-2.0,candidate
+different types of hog traps,trap_operations,10,,HIGH,,-2.0,candidate
+double c hog trap,trap_operations,10,,,,-2.0,candidate
+easy hog trap,trap_operations,10,1.27,HIGH,,-2.0,candidate
+electronic hog trap gate,trap_operations,10,0.85,HIGH,,-2.0,candidate
+game changer jr hog trap,trap_operations,10,,LOW,,-2.0,candidate
+guillotine gate for hog trap,trap_operations,10,0.14,MEDIUM,,-2.0,candidate
+guillotine hog trap door trigger,trigger_timing,10,,LOW,,-2.0,candidate

@@ -1,0 +1,58 @@
+{
+  "proposal_id": "20260407T193105Z_librarian_audit",
+  "created_at": "2026-04-07T19:31:17.428Z",
+  "source_count": 5,
+  "sources": [
+    "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_pipeline/sources/derived_notes/20260407T192003Z_w33wxftb9hw-transcript.md",
+    "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_pipeline/sources/derived_notes/20260407T191925Z_ics-gvh91d8-transcript.md",
+    "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_pipeline/sources/derived_notes/20260407T191838Z_wmdwyqt52k-transcript.md",
+    "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_pipeline/sources/derived_notes/20260407T191752Z_4-lzfycsa6s-transcript.md",
+    "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_pipeline/sources/derived_notes/20260407T185546Z_20240610-system-unboxing-hogeye-legacy-camera-transcript.md"
+  ],
+  "scope": "HogEye Camera System Documentation Update",
+  "rules_version": "1.0",
+  "items": [
+    {
+      "id": "update-1",
+      "status": "approved",
+      "target_file": "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_system/config/evidence_and_truth.md",
+      "update_type": "strengthen",
+      "title": "Enhance Connectivity Information",
+      "rationale": "To provide users with comprehensive tips for maximizing cellular connectivity, which is crucial for camera performance.",
+      "source_paths": [
+        "workspace/content_pipeline/sources/derived_notes/20260407T192003Z_w33wxftb9hw-transcript.md"
+      ],
+      "confidence": "high",
+      "overreach_check": "No active drafts or sensitive information affected.",
+      "proposed_content": "### Connectivity and Signal Reliability (Source-Backed Framing)\n- When discussing connectivity in drafts, prefer procedural guidance over hard range promises.\n- Emphasize setup variables that are repeatedly supported by source notes: antenna placement height, topography effects, and extension options.\n- Treat specific mileage or percentage outcomes as confirm-required unless already validated in approved website/internal docs."
+    },
+    {
+      "id": "update-2",
+      "status": "approved",
+      "target_file": "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_system/config/evidence_and_truth.md",
+      "update_type": "strengthen",
+      "title": "Add Troubleshooting Tips for Latch System",
+      "rationale": "To ensure users can effectively troubleshoot issues with the latch system, enhancing user experience and operational reliability.",
+      "source_paths": [
+        "workspace/content_pipeline/sources/derived_notes/20260407T191925Z_ics-gvh91d8-transcript.md"
+      ],
+      "confidence": "high",
+      "overreach_check": "No active drafts or sensitive information affected.",
+      "proposed_content": "### Latch and Trigger Troubleshooting Emphasis\n- Prioritize connection-integrity checks before making performance conclusions.\n- Reuse practical troubleshooting flow in research packs and drafts: verify cable seating, verify adapter connection, and confirm trigger-path power signals where source-supported.\n- Keep troubleshooting language tied to trap outcome reliability, not generic electronics advice."
+    },
+    {
+      "id": "update-3",
+      "status": "approved",
+      "target_file": "/Users/jasonmellet/Desktop/All Great Things IDE/Hogeye-Seo-Content-Publisher-2026/workspace/content_system/workflows/editorial_workflow.md",
+      "update_type": "strengthen",
+      "title": "Include Best Practices for Camera Setup",
+      "rationale": "To provide users with essential setup tips that prevent damage and ensure optimal performance of the camera.",
+      "source_paths": [
+        "workspace/content_pipeline/sources/derived_notes/20260407T191838Z_wmdwyqt52k-transcript.md"
+      ],
+      "confidence": "high",
+      "overreach_check": "No active drafts or sensitive information affected.",
+      "proposed_content": "### Setup Best-Practice Language Guidance\n- Prefer clear setup and handling language that helps operators avoid preventable equipment issues.\n- When using setup references from source notes, keep product naming normalized to `HogEye` and frame guidance as practical field procedure.\n- Encourage alignment/fit checks before forceful handling, and avoid unsourced material-performance guarantees."
+    }
+  ]
+}

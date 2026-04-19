@@ -7,7 +7,7 @@ Why this exists:
 - .docx import preserves real Heading styles and lists.
 
 Outputs:
-  work/seo/hogeye/february_package/google_docs_ready_docx_v2/*.docx
+  workspace/february_package/google_docs_ready_docx_v2/*.docx
 """
 
 from __future__ import annotations
@@ -21,9 +21,10 @@ from docx.enum.text import WD_BREAK
 from docx.enum.text import WD_LINE_SPACING
 from docx.shared import Inches, Pt, RGBColor
 
+from repo_workspace import workspace_root
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-FEB_DIR = REPO_ROOT / "work/seo/hogeye/february_package"
+FEB_DIR = workspace_root() / "february_package"
 OUT_DIR = FEB_DIR / "google_docs_ready_docx_v2"
 
 FILES = [

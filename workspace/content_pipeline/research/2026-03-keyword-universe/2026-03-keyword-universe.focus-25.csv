@@ -1,0 +1,20 @@
+keyword,cluster,dfs_search_volume,dfs_cpc,dfs_competition,dfs_competition_level,opportunity_score,status
+net hog trap,net_trap,260,1.79,HIGH,,248.0,candidate
+dropping hog trap,trigger_timing,210,1.69,HIGH,,198.0,candidate
+hog drop trap,trigger_timing,210,1.69,HIGH,,198.0,candidate
+hog net trap,net_trap,170,2.04,HIGH,,158.0,candidate
+cellular hog trap trigger,trigger_timing,140,0.76,LOW,,128.0,candidate
+hog trap door trigger designs,trigger_timing,140,0.04,LOW,,128.0,candidate
+hogeye camera,monitoring_camera,140,0.84,MEDIUM,,128.0,candidate
+diy cellular hog trap trigger,trigger_timing,90,0.23,LOW,,78.0,candidate
+hog eye camera,monitoring_camera,90,1.44,HIGH,,78.0,candidate
+hog trap net,net_trap,90,2.05,HIGH,,78.0,candidate
+hog traps that drop,trigger_timing,90,1.35,HIGH,,78.0,candidate
+remote hog trap trigger,trigger_timing,90,0.66,HIGH,,78.0,candidate
+drop trap for hogs,trigger_timing,70,1.18,HIGH,,58.0,candidate
+hog trap gate trigger,trigger_timing,70,1.41,HIGH,,58.0,candidate
+net trap for hogs,net_trap,30,1.32,HIGH,,18.0,candidate
+circular hog trap that drops,trigger_timing,20,1.63,MEDIUM,,8.0,candidate
+remote trigger for hog trap,trigger_timing,20,0.89,HIGH,,8.0,candidate
+wild hog net trap,net_trap,20,1.71,HIGH,,8.0,candidate
+guillotine hog trap door trigger,trigger_timing,10,,LOW,,-2.0,candidate

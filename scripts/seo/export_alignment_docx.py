@@ -7,10 +7,10 @@ Why:
 - .docx import preserves real Heading styles, lists, and spacing.
 
 Default inputs:
-- work/seo/hogeye/IMPORTANT_DOCS_MANIFEST.txt
+- workspace/IMPORTANT_DOCS_MANIFEST.txt
 
 Output:
-- work/seo/hogeye/google_docs_ready_docx_alignment/
+- workspace/google_docs_ready_docx_alignment/
 """
 
 from __future__ import annotations
@@ -24,10 +24,12 @@ from docx import Document
 from docx.enum.text import WD_BREAK, WD_LINE_SPACING
 from docx.shared import Inches, Pt, RGBColor
 
+from repo_workspace import workspace_root
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_MANIFEST = REPO_ROOT / "work/seo/hogeye/IMPORTANT_DOCS_MANIFEST.txt"
-DEFAULT_OUTDIR = REPO_ROOT / "work/seo/hogeye/google_docs_ready_docx_alignment"
+_W = workspace_root()
+DEFAULT_MANIFEST = _W / "IMPORTANT_DOCS_MANIFEST.txt"
+DEFAULT_OUTDIR = _W / "google_docs_ready_docx_alignment"
 
 FM_KEY_RE = re.compile(r"^([A-Za-z0-9_\-]+):\s*(.*)$")
 

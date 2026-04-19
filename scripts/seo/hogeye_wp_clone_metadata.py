@@ -28,6 +28,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
+from repo_workspace import workspace_rel_posix
+
 import requests
 from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
@@ -360,7 +362,7 @@ def main() -> int:
     ap.add_argument("--project-root", default=str(Path.cwd()), help="Project root (to load .env)")
     ap.add_argument(
         "--output-dir",
-        default="work/seo/hogeye/source_of_truth/wp",
+        default=f"{workspace_rel_posix()}/source_of_truth/wp",
         help="Output directory for source-of-truth snapshot files.",
     )
     ap.add_argument("--status", default="any", help="WP status filter (default: any).")

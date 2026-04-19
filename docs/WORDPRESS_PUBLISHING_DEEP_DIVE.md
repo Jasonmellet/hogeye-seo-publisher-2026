@@ -205,7 +205,7 @@ Content used placeholders like `{{link:slug|anchor text}}`. Resolution is tricky
 Solution:
 - build a slug→URL map from WordPress (`pages` + `posts`) and replace placeholders.
 Script:
-- `resolve_internal_links.py`
+- `scripts/publisher/resolve_internal_links.py`
 
 Advice:
 - **DO** run link resolution when the target content set is stable (ideally after publishing).

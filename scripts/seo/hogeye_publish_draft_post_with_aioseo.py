@@ -33,6 +33,8 @@ import requests
 from dotenv import load_dotenv
 from requests.auth import HTTPBasicAuth
 
+from repo_workspace import workspace_rel_posix
+
 
 def _load_item(path: Path) -> Dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -125,7 +127,7 @@ def main() -> int:
     ap.add_argument("--project-root", default=str(Path.cwd()), help="Project root (to load .env)")
     ap.add_argument(
         "--report",
-        default="work/seo/hogeye/draft_publish_report.json",
+        default=f"{workspace_rel_posix()}/draft_publish_report.json",
         help="Write report JSON here.",
     )
     args = ap.parse_args()

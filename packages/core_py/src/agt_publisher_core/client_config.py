@@ -24,6 +24,7 @@ class ClientConfig:
     environment: str
     linkAliases: Optional[Dict[str, str]]
     protectedMarkersBySlug: Optional[Dict[str, list[str]]]
+    seoPlugin: Optional[str]
 
     @property
     def expected_wp_origin(self) -> str:
@@ -72,6 +73,9 @@ def load_client_config(repo_root: Optional[str] = None) -> ClientConfig:
             f"  expectedWpSiteHost: {exp_host}"
         )
 
+    seo_raw = raw.get("seoPlugin")
+    seo_plugin = str(seo_raw).strip().lower() if isinstance(seo_raw, str) and seo_raw.strip() else None
+
     return ClientConfig(
         schemaVersion=int(raw["schemaVersion"]),
         clientName=str(raw["clientName"]),
@@ -81,6 +85,7 @@ def load_client_config(repo_root: Optional[str] = None) -> ClientConfig:
         environment=str(raw["environment"]),
         linkAliases=(dict(raw["linkAliases"]) if isinstance(raw.get("linkAliases"), dict) else None),
         protectedMarkersBySlug=(dict(raw["protectedMarkersBySlug"]) if isinstance(raw.get("protectedMarkersBySlug"), dict) else None),
+        seoPlugin=seo_plugin,
     )
 
 

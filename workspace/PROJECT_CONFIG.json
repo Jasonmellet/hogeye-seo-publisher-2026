@@ -1,0 +1,100 @@
+{
+  "client": {
+    "name": "HogEye",
+    "site_url": "https://hogeyecameras.com",
+    "notes": "North Star: wild hog trap camera system (monitor + remote closure timing)."
+  },
+  "month_1_targets": {
+    "new_count": 5,
+    "update_count": 5
+  },
+  "wordpress": {
+    "default_status": "draft",
+    "default_category_id": null,
+    "category_map": {},
+    "default_post_categories": [],
+    "default_post_tags": [],
+    "taxonomy_notes": "Do not auto-fill with generic categories. SEO owner aligns names with live WP categories (Posts → Categories), then either sets default_post_* here for repeatable defaults and/or per-article - categories: / - tags: on each draft."
+  },
+  "internal_links": {
+    "notes": "In-content internal link priorities: buy now, resources, and blog — not login/account-style pages.",
+    "targets": [
+      "https://hogeyecameras.com/buy-now/",
+      "https://hogeyecameras.com/camera-resources/",
+      "https://hogeyecameras.com/blog/"
+    ],
+    "aliases": {
+      "buy_now": "https://hogeyecameras.com/buy-now/",
+      "camera_resources": "https://hogeyecameras.com/camera-resources/",
+      "blog": "https://hogeyecameras.com/blog/"
+    }
+  },
+  "keyword_blacklist": {
+    "terms": [
+      "security camera",
+      "off-grid security",
+      "ranch gate camera",
+      "driveway camera",
+      "property security",
+      "perimeter security",
+      "remote security system",
+      "surveillance",
+      "land security",
+      "general monitoring",
+      "gate access code",
+      "deliveries",
+      "ups",
+      "fedex",
+      "intruder",
+      "theft",
+      "burglary"
+    ]
+  },
+  "north_star_terms": {
+    "primary": [
+      "wild hog trap monitor",
+      "wild hog trap camera system",
+      "hog trap camera with remote trigger",
+      "remote trap monitoring and closure",
+      "trap gate trigger camera",
+      "sounder capture timing"
+    ],
+    "secondary": [
+      "landowners",
+      "land managers",
+      "trappers",
+      "farmers (only in hog crop-damage context)"
+    ]
+  },
+  "content_generation_rules": {
+    "banned_audience_terms": [
+      "ranchers"
+    ],
+    "approved_product_framing": [
+      "wild hog trap monitor",
+      "wild hog trap camera system",
+      "hog trap camera with remote trigger",
+      "remote trap monitoring and closure"
+    ],
+    "banned_product_framing": [
+      "general property monitoring",
+      "ranch monitoring",
+      "surveillance",
+      "land security"
+    ],
+    "fact_safety": {
+      "invented_metrics": false,
+      "invented_case_studies": false,
+      "invented_customer_stories": false,
+      "omit_unsupported_claims": true
+    },
+    "required_data_sources": [
+      "DataForSEO"
+    ],
+    "recommended_data_sources": [
+      "Google Search Console",
+      "GA4"
+    ],
+    "qa_required_before_handoff": true
+  }
+}

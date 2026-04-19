@@ -81,7 +81,7 @@ content/
 ### 5. Test Connection
 
 ```bash
-./.venv/bin/python test_connection.py
+./.venv/bin/python scripts/publisher/test_connection.py
 ```
 
 This will validate:
@@ -93,10 +93,10 @@ This will validate:
 
 ```bash
 # Publish ONE item (recommended)
-./.venv/bin/python publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts
+./.venv/bin/python scripts/publisher/publish_content_item.py /absolute/path/to/content/posts/my-post.json --type posts
 
 # Or publish a batch directory
-./.venv/bin/python publish_batch.py /absolute/path/to/content/posts --type posts
+./.venv/bin/python scripts/publisher/publish_batch.py /absolute/path/to/content/posts --type posts
 ```
 
 ---
@@ -151,25 +151,20 @@ Typical workflow:
 ## 🎯 Project Structure Overview
 
 ```
-AGT_Camp_Lakota/
-├── publish_content_item.py # Canonical: publish/update ONE item
-├── publish_batch.py        # Canonical: publish/update a batch
-├── resolve_internal_links.py# Canonical: resolve {{link:...}} placeholders
-├── config.py               # Configuration loader
-├── requirements.txt        # Python dependencies
+repo-root/
+├── scripts/publisher/      # Canonical WordPress CLIs + legacy modules/ package
+│   ├── publish_content_item.py
+│   ├── publish_batch.py
+│   ├── test_connection.py
+│   └── modules/            # Legacy wrappers (prefer agt_publisher_core)
+├── requirements.txt
 ├── .env                    # Your credentials (git-ignored)
-├── modules/               # Core functionality
-│   ├── auth.py            # WordPress authentication
-│   ├── content.py         # Content processing
-│   ├── images.py          # Image upload
-│   ├── metadata.py        # Meta & schema
-│   └── links.py           # Internal linking
-├── content/               # Your content goes here
+├── content/                # JSON posts/pages + images
 │   ├── pages/
 │   ├── posts/
 │   └── images/
-└── logs/                  # Execution logs
-└── scripts/               # Organized non-canonical scripts (images, agents, legacy)
+├── packages/core_py/       # agt_publisher_core library
+└── scripts/                # seo/, content-system/, images/, legacy/, …
 ```
 
 ---

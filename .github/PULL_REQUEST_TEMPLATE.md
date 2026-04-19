@@ -31,7 +31,7 @@ Add screenshots to help explain your changes.
 - [ ] My changes generate no new errors or warnings
 - [ ] I have tested this thoroughly
 - [ ] No credentials are committed
-- [ ] Updated CHANGELOG.md
+- [ ] Updated `docs/CHANGELOG.md`
 
 ## 📋 Additional Notes
 Any additional information or context about the PR.

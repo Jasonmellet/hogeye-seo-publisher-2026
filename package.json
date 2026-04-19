@@ -1,0 +1,36 @@
+{
+  "name": "hogeye-seo-content-publisher-2026",
+  "version": "1.0.0",
+  "description": "HogEye SEO publisher plus Theo-style content ingestion runtime.",
+  "scripts": {
+    "openai:ping": "tsx scripts/content-system/ping_openai.ts",
+    "transcribe": "tsx scripts/content-system/transcribe_video.ts",
+    "process-transcript": "tsx scripts/content-system/process_transcript.ts",
+    "ingest-source": "tsx scripts/content-system/ingest_source_text.ts",
+    "validate-artifact": "tsx scripts/content-system/validate_artifact.ts",
+    "librarian:audit": "tsx scripts/content-system/librarian_audit.ts",
+    "librarian:apply": "tsx scripts/content-system/librarian_apply.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasonmellet/hogeye-seo-publisher-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jasonmellet/hogeye-seo-publisher-2026/issues"
+  },
+  "homepage": "https://github.com/Jasonmellet/hogeye-seo-publisher-2026#readme",
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
