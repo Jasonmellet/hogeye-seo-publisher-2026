@@ -1,11 +1,13 @@
-# Starter (run this in every new client repo)
+# Starter (HogEye)
 
 This file is the “context + checklist” for both:
 
 - You (operator) running the repo, and
 - Any Cursor AI agent helping inside this repo.
 
-If an agent feels lost, tell it: **Read `docs/starter.md` first, then follow the canonical scripts only.**
+**Monthly shipping path (start here):** [`MONTHLY_PUBLISHING_WORKFLOW.md`](MONTHLY_PUBLISHING_WORKFLOW.md) + agent skill [`.cursor/skills/he-monthly-cycle/SKILL.md`](../.cursor/skills/he-monthly-cycle/SKILL.md). Required: hub status → pull/apply → WordPress draft → email. Hub slug is `hogeye-cameras`. Hub Approved is not live.
+
+If an agent feels lost, tell it: **Read `docs/MONTHLY_PUBLISHING_WORKFLOW.md` and `.cursor/skills/he-monthly-cycle/SKILL.md` first, then follow the canonical scripts only.**
 
 ---
 
@@ -27,7 +29,7 @@ One-time setup for this repo:
 
 1. **Python:** `python3 -m venv .venv` then `./.venv/bin/python -m pip install -r requirements.txt`
 2. **Node:** `npm install` (runs `tsx` for `scripts/content-system/*`)
-3. **Secrets:** copy `env.example` → `.env` — WordPress (`WP_SITE_URL`, `WP_USERNAME`, `WP_APP_PASSWORD`) and optional `OPENAI_API_KEY`; optional `OPENAI_MODEL` / `OPENAI_NOTES_MODEL` (defaults to **`gpt-5.4-mini`** for transcript notes, ingestion, and allowlisted link hints)
+3. **Secrets:** copy `env.example` → `.env` — WordPress (`WP_SITE_URL`, `WP_USERNAME`, `WP_APP_PASSWORD`) and optional `OPENAI_API_KEY`; optional `OPENAI_MODEL` / `OPENAI_NOTES_MODEL` (agent batch review defaults to **`gpt-5.5`**; notes/ingestion defaults to **`gpt-5.4-mini`**)
 4. **Guardrails:** copy `client.config.example.json` → `client.config.json` — `expectedWpSiteUrl` / `expectedWpSiteHost` must match HogEye
 5. **Verify:** `./.venv/bin/python scripts/publisher/test_connection.py` and `npm run openai:ping`
 
@@ -63,6 +65,7 @@ This repo has two engines:
 - Never commit `.env` (it contains credentials). `.env` is git-ignored.
 - Always create `client.config.json` (safe to commit). It prevents wrong-site publishing.
 - Default workflow is draft-first. Do not publish live until reviewed in WP admin.
+- Monthly content goes through the Wildlife Dominion hub first (`docs/MONTHLY_PUBLISHING_WORKFLOW.md`). Hub Approved is not live.
 - Use canonical scripts only:
   - ✅ `scripts/publisher/publish_content_item.py`
   - ✅ `scripts/publisher/publish_batch.py`
@@ -162,6 +165,8 @@ If this fails, do not proceed. Fix `.env` first.
 ---
 
 ## 5) Publishing workflow (the only supported way)
+
+**Monthly cycle:** [`MONTHLY_PUBLISHING_WORKFLOW.md`](MONTHLY_PUBLISHING_WORKFLOW.md). Hub Approved is not live. Pull/apply hub edits before any WordPress write. Default is draft. Live needs Schell sign-off plus `--approved-in-dashboard`.
 
 ### Step 1: Dry run validation (no WP writes)
 

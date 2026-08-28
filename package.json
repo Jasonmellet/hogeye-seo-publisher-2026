@@ -10,6 +10,9 @@
     "validate-artifact": "tsx scripts/content-system/validate_artifact.ts",
     "librarian:audit": "tsx scripts/content-system/librarian_audit.ts",
     "librarian:apply": "tsx scripts/content-system/librarian_apply.ts",
+    "push:strategy": "node scripts/push-seo-strategy.mjs",
+    "push:content": "node scripts/push-content.mjs",
+    "pull:approved": "node scripts/pull-approved.mjs",
     "typecheck": "tsc --noEmit"
   },
   "repository": {

@@ -54,12 +54,18 @@ def main() -> int:
     parser.add_argument("source_file", help="Absolute path to the content JSON file")
     parser.add_argument("--type", choices=["posts", "pages"], default=None, help="Override content type inference")
     parser.add_argument("--status", choices=["draft", "publish"], default="draft", help="WP status (default draft)")
-    parser.add_argument("--yes", action="store_true", help="Skip confirmation prompts (for automation)")
+    parser.add_argument("--yes", action="store_true", help="Skip clientName confirmation prompt (for automation; does NOT bypass dashboard approval)")
+    parser.add_argument("--approved-in-dashboard", action="store_true", help="Confirm this post is Approved in the Wildlife Dominion dashboard (required to publish live)")
     parser.add_argument("--resolve-links", action="store_true", help="Resolve {{link:...}} placeholders using current WP slug map")
     parser.add_argument("--enable-toc", action="store_true", help="Force enable TOC for posts")
     parser.add_argument("--no-acf", action="store_true", help="Disable ACF block conversion for pages")
-    parser.add_argument("--min-images", type=int, default=2, help="Minimum content images for posts (default 2)")
-    parser.add_argument("--max-images", type=int, default=4, help="Maximum content images for posts (default 4)")
+    parser.add_argument(
+        "--allow-update-existing",
+        action="store_true",
+        help="Opt-in: overwrite an existing WP post for this slug/id. Default creates a NEW draft with a unique slug on collision.",
+    )
+    parser.add_argument("--min-images", type=int, default=0, help="Minimum content images for posts (default 0 — no auto images)")
+    parser.add_argument("--max-images", type=int, default=0, help="Maximum content images for posts (default 0 — no auto images)")
     parser.add_argument("--faq-questions", type=int, default=0, help="Enforce exact FAQ question count (0 disables; default 0)")
     args = parser.parse_args()
 
@@ -70,6 +76,7 @@ def main() -> int:
         status=args.status,
         resolve_links=args.resolve_links,
         enable_toc=args.enable_toc,
+        allow_update_existing=args.allow_update_existing,
         min_content_images=args.min_images,
         max_content_images=args.max_images,
         required_faq_questions=(None if args.faq_questions == 0 else args.faq_questions),
@@ -87,7 +94,13 @@ def main() -> int:
         return 2
     # Wrong-site guardrail + publish confirmation
     detected_site_name = (data or {}).get("site_name") if isinstance(data, dict) else None
-    run_publish_preflight(client=client, detected_site_name=detected_site_name, status=args.status, assume_yes=args.yes)
+    run_publish_preflight(
+        client=client,
+        detected_site_name=detected_site_name,
+        status=args.status,
+        assume_yes=args.yes,
+        approved_in_dashboard=args.approved_in_dashboard,
+    )
 
     session = auth.get_session()
     pipeline = PublishPipeline(session, client=client)

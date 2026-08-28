@@ -65,10 +65,18 @@ def main() -> int:
     parser.add_argument("paths", nargs="+", help="JSON file(s) or directory(ies) containing JSON files")
     parser.add_argument("--type", choices=["posts", "pages"], default=None, help="Override type inference for all items")
     parser.add_argument("--status", choices=["draft", "publish"], default="draft")
-    parser.add_argument("--yes", action="store_true", help="Skip confirmation prompts (for automation)")
+    parser.add_argument("--yes", action="store_true", help="Skip clientName confirmation prompt (for automation; does NOT bypass dashboard approval)")
+    parser.add_argument("--approved-in-dashboard", action="store_true", help="Confirm these posts are Approved in the Wildlife Dominion dashboard (required to publish live)")
     parser.add_argument("--resolve-links", action="store_true")
     parser.add_argument("--enable-toc", action="store_true")
     parser.add_argument("--no-acf", action="store_true")
+    parser.add_argument(
+        "--allow-update-existing",
+        action="store_true",
+        help="Opt-in: overwrite existing WP posts by slug/id. Default creates NEW drafts with unique slugs on collision.",
+    )
+    parser.add_argument("--min-images", type=int, default=0, help="Minimum content images (default 0 — no auto images)")
+    parser.add_argument("--max-images", type=int, default=0, help="Maximum content images (default 0 — no auto images)")
     parser.add_argument("--fail-fast", action="store_true", help="Stop on first validation failure")
     args = parser.parse_args()
 
@@ -88,7 +96,13 @@ def main() -> int:
         console.print(f"[red]Connection failed:[/red] {msg}")
         return 2
     detected_site_name = (data or {}).get("site_name") if isinstance(data, dict) else None
-    run_publish_preflight(client=client, detected_site_name=detected_site_name, status=args.status, assume_yes=args.yes)
+    run_publish_preflight(
+        client=client,
+        detected_site_name=detected_site_name,
+        status=args.status,
+        assume_yes=args.yes,
+        approved_in_dashboard=args.approved_in_dashboard,
+    )
 
     session = auth.get_session()
     pipeline = PublishPipeline(session, client=client)
@@ -97,6 +111,9 @@ def main() -> int:
         status=args.status,
         resolve_links=args.resolve_links,
         enable_toc=args.enable_toc,
+        allow_update_existing=args.allow_update_existing,
+        min_content_images=args.min_images,
+        max_content_images=args.max_images,
         use_acf_blocks=(not args.no_acf),
     )
 

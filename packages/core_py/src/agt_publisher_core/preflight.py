@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
 from typing import Optional
 
@@ -21,13 +22,19 @@ def run_publish_preflight(
     detected_site_name: Optional[str],
     status: str,
     assume_yes: bool,
+    approved_in_dashboard: bool = False,
 ) -> PreflightInfo:
     """
     Hard guardrails to prevent wrong-site publishing.
 
     - Requires committed `client.config.json`.
     - Verifies `.env` target matches expected URL + host.
-    - If publishing to `publish`, requires explicit human confirmation unless `--yes`.
+    - If publishing to `publish`, the Wildlife Dominion dashboard is the single
+      approval gate: refuse to publish unless dashboard approval is confirmed via
+      `approved_in_dashboard` (the `--approved-in-dashboard` flag) or an explicit
+      interactive confirmation. `--yes` does NOT bypass this gate.
+    - If publishing to `publish`, also requires explicit clientName confirmation
+      unless `--yes`.
     """
     Config.validate()
 
@@ -38,6 +45,23 @@ def run_publish_preflight(
     ok, msg = compare_wp_host(expected_host=client.expectedWpSiteHost, actual_site_url=Config.WP_SITE_URL)
     if not ok:
         raise ValueError(msg)
+
+    # Dashboard approval gate (live publish only). Drafts are unaffected, keeping
+    # the draft-first workflow intact. The dashboard is the single source of
+    # approval: nothing goes live until it is Approved there.
+    if status == "publish" and not approved_in_dashboard:
+        if not sys.stdin.isatty():
+            raise ValueError(
+                "Publish blocked: dashboard approval required. This post must be Approved in the "
+                "Wildlife Dominion dashboard first, then re-run with --approved-in-dashboard."
+            )
+        typed = input(
+            "\nDASHBOARD APPROVAL GATE\n"
+            "Nothing publishes to WordPress/Shopify until it is Approved in the Wildlife Dominion dashboard.\n"
+            "Confirm this post is Approved in the dashboard — type APPROVED to continue: "
+        ).strip()
+        if typed != "APPROVED":
+            raise ValueError("Publish blocked: dashboard approval not confirmed.")
 
     if client.expectedWpSiteName and detected_site_name:
         # soft check: name mismatch forces confirmation on publish

@@ -5,7 +5,8 @@
   "expectedWpSiteHost": "your-site.com",
   "expectedWpSiteName": "Your Site Name (for humans)",
   "environment": "production",
-  "seoPlugin": "yoast",
+  "seoPlugin": "aioseo",
+  "autoInsertImages": false,
   "linkAliases": {
     "contact": "https://your-site.com/contact/",
     "facebook": "https://facebook.com/your-page"

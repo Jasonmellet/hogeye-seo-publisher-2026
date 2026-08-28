@@ -25,6 +25,7 @@ class ClientConfig:
     linkAliases: Optional[Dict[str, str]]
     protectedMarkersBySlug: Optional[Dict[str, list[str]]]
     seoPlugin: Optional[str]
+    autoInsertImages: Optional[bool]
 
     @property
     def expected_wp_origin(self) -> str:
@@ -86,6 +87,7 @@ def load_client_config(repo_root: Optional[str] = None) -> ClientConfig:
         linkAliases=(dict(raw["linkAliases"]) if isinstance(raw.get("linkAliases"), dict) else None),
         protectedMarkersBySlug=(dict(raw["protectedMarkersBySlug"]) if isinstance(raw.get("protectedMarkersBySlug"), dict) else None),
         seoPlugin=seo_plugin,
+        autoInsertImages=(raw.get("autoInsertImages") if isinstance(raw.get("autoInsertImages"), bool) else None),
     )
 
 
