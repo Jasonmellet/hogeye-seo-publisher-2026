@@ -1,0 +1,1047 @@
+{
+  "generated_at": "2026-06-10T12:56:41.980905+00:00",
+  "brands": {
+    "hogeye": {
+      "domain": "hogeyecameras.com",
+      "historical_monthly": [
+        {
+          "year": 2026,
+          "month": 1,
+          "etv": 498.2399976979941,
+          "keyword_count": 65,
+          "pos_1": 7,
+          "pos_4_10": 11
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "etv": 547.4790020454675,
+          "keyword_count": 67,
+          "pos_1": 7,
+          "pos_4_10": 11
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "etv": 568.6610025390983,
+          "keyword_count": 50,
+          "pos_1": 6,
+          "pos_4_10": 10
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "etv": 544.644002256915,
+          "keyword_count": 35,
+          "pos_1": 6,
+          "pos_4_10": 8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "etv": 558.7160043325275,
+          "keyword_count": 36,
+          "pos_1": 8,
+          "pos_4_10": 9
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "etv": 558.5480043329298,
+          "keyword_count": 34,
+          "pos_1": 8,
+          "pos_4_10": 9
+        }
+      ],
+      "latest_etv": 558.5480043329298,
+      "latest_keyword_count": 34,
+      "post_q2_2025_avg_etv": 546.0,
+      "top_pages_by_etv": [
+        {
+          "page": "https://hogeyecameras.com/",
+          "etv": 553.2850042283535,
+          "keyword_count": 21,
+          "pos_1": 8,
+          "pos_4_10": 5
+        },
+        {
+          "page": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/",
+          "etv": 3.298000067472458,
+          "keyword_count": 6,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-resources/",
+          "etv": 0.6000000238418579,
+          "keyword_count": 1,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-login/",
+          "etv": 0.6000000238418579,
+          "keyword_count": 1,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-resources-copy/",
+          "etv": 0.33899998664855957,
+          "keyword_count": 1,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://hogeyecameras.com/hog-traps/",
+          "etv": 0.2580000050365925,
+          "keyword_count": 2,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://hogeyecameras.com/buy-now/",
+          "etv": 0.1679999977350235,
+          "keyword_count": 2,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/",
+          "etv": 0,
+          "keyword_count": 0,
+          "pos_1": 0,
+          "pos_4_10": 0
+        }
+      ],
+      "top_content_pages_by_etv": [
+        {
+          "page": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/",
+          "etv": 3.298000067472458,
+          "keyword_count": 6,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/",
+          "etv": 0,
+          "keyword_count": 0,
+          "pos_1": 0,
+          "pos_4_10": 0
+        }
+      ],
+      "content_page_count": 2,
+      "top_keywords_by_volume": [
+        {
+          "keyword": "hogeye",
+          "volume": 880,
+          "position": 3,
+          "url": null
+        },
+        {
+          "keyword": "hog cam",
+          "volume": 390,
+          "position": 6,
+          "url": null
+        },
+        {
+          "keyword": "hog camera",
+          "volume": 390,
+          "position": 2,
+          "url": null
+        },
+        {
+          "keyword": "hog eye",
+          "volume": 390,
+          "position": 2,
+          "url": null
+        },
+        {
+          "keyword": "hog-eye",
+          "volume": 390,
+          "position": 2,
+          "url": null
+        },
+        {
+          "keyword": "hogeye camera",
+          "volume": 140,
+          "position": 1,
+          "url": null
+        },
+        {
+          "keyword": "remote control hog traps",
+          "volume": 110,
+          "position": 19,
+          "url": null
+        },
+        {
+          "keyword": "remote controlled hog trap",
+          "volume": 110,
+          "position": 14,
+          "url": null
+        },
+        {
+          "keyword": "remote hog trap",
+          "volume": 110,
+          "position": 17,
+          "url": null
+        },
+        {
+          "keyword": "remote hog traps",
+          "volume": 110,
+          "position": 11,
+          "url": null
+        },
+        {
+          "keyword": "automatic hog traps",
+          "volume": 90,
+          "position": 16,
+          "url": null
+        },
+        {
+          "keyword": "hog eye cameras",
+          "volume": 90,
+          "position": 1,
+          "url": null
+        },
+        {
+          "keyword": "hog eye trap",
+          "volume": 90,
+          "position": 1,
+          "url": null
+        },
+        {
+          "keyword": "hog eye traps",
+          "volume": 90,
+          "position": 1,
+          "url": null
+        },
+        {
+          "keyword": "hog net",
+          "volume": 90,
+          "position": 31,
+          "url": null
+        },
+        {
+          "keyword": "hog trap remote trigger",
+          "volume": 90,
+          "position": 9,
+          "url": null
+        },
+        {
+          "keyword": "hogs net",
+          "volume": 90,
+          "position": 24,
+          "url": null
+        },
+        {
+          "keyword": "remote hog trap trigger",
+          "volume": 90,
+          "position": 10,
+          "url": null
+        },
+        {
+          "keyword": "hogeye camera system",
+          "volume": 70,
+          "position": 1,
+          "url": null
+        },
+        {
+          "keyword": "hogeye trap",
+          "volume": 70,
+          "position": 1,
+          "url": null
+        }
+      ],
+      "ranked_keyword_rows": 34,
+      "serp_checks": [
+        {
+          "query": "camera login",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "ipcamlive.com",
+            "cameraftp.com",
+            "login.cameramanager.com",
+            "community.ui.com",
+            "tp-link.com"
+          ]
+        },
+        {
+          "query": "hog camera",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "hogeyecameras.com",
+            "youtube.com",
+            "gamechangertraps.com",
+            "jagerpro.com",
+            "facebook.com"
+          ]
+        },
+        {
+          "query": "hogs eye",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "hogeyecameras.com",
+            "hogeye.com",
+            "en.wikipedia.org",
+            "apps.apple.com",
+            "facebook.com"
+          ]
+        },
+        {
+          "query": "hog cam",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "hogsbreath.com",
+            "facebook.com",
+            "camstreamer.com",
+            "hedgehogstreet.org",
+            "fishfarmoutfitters.com"
+          ]
+        },
+        {
+          "query": "camara login",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "cameraftp.com",
+            "forms.camara.org",
+            "ipc-eu.ismartlife.me",
+            "ipcamlive.com",
+            "decamaramanagement.com"
+          ]
+        },
+        {
+          "query": "boarbuster login",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "service.boarbuster.com",
+            "boarbuster.wwmanufacturing.com",
+            "boarbuster.com",
+            "service.boarbuster.com",
+            "service.boarbuster.com"
+          ]
+        },
+        {
+          "query": "vosker vs reolink",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "thesmarthomehookup.com",
+            "cctvinfo.com",
+            "reddit.com",
+            "cnet.com",
+            "facebook.com"
+          ]
+        },
+        {
+          "query": "cameras login",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "cameraftp.com",
+            "ipcamlive.com",
+            "portal.camsmgt.com",
+            "ipc-eu.ismartlife.me",
+            "tp-link.com"
+          ]
+        },
+        {
+          "query": "hog trap remote trigger",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "gamechangertraps.com",
+            "facebook.com",
+            "amazon.com",
+            "jagerpro.com",
+            "feralhogs.tamu.edu"
+          ]
+        },
+        {
+          "query": "hogcam",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "hogsbreath.com",
+            "worldcams.tv",
+            "youtube.com",
+            "resortcams.com",
+            "facebook.com"
+          ]
+        },
+        {
+          "query": "remote hog trap trigger",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "facebook.com",
+            "gamechangertraps.com",
+            "amazon.com",
+            "jagerpro.com",
+            "wildpiginfo.msstate.edu"
+          ]
+        },
+        {
+          "query": "hog trap camera",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "hogeyecameras.com",
+            "facebook.com",
+            "bigpigtrap.com",
+            "pigbrig.com",
+            "gamechangertraps.com"
+          ]
+        },
+        {
+          "query": "4g vs 5g cellular cameras ranch",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "reddit.com",
+            "ctronics.com",
+            "store.reolink.com",
+            "go.spartancamera.com",
+            "amazon.com"
+          ]
+        }
+      ],
+      "llm_mentions": [
+        {
+          "query": "wild hog monitoring camera system",
+          "our_domain_in_sources": true,
+          "sample_cited_domains": [
+            "www.camerahogsllc.com",
+            "hogeyecameras.com",
+            "jagerpro.com",
+            "farmsteadoutdoors.com",
+            "www.opticsplanet.com"
+          ]
+        },
+        {
+          "query": "remote hog trap trigger cellular camera",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": [
+            "www.youtube.com",
+            "feralhogs.tamu.edu",
+            "georgiawildlife.com",
+            "farmranchstore.com",
+            "www.hogbrother.com"
+          ]
+        },
+        {
+          "query": "best cellular trail camera for hog hunting",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": []
+        },
+        {
+          "query": "hog camera trap setup ranch",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": [
+            "www.youtube.com",
+            "www.mossyoak.com",
+            "feralhogs.tamu.edu",
+            "georgiawildlife.com",
+            "www.uaex.uada.edu"
+          ]
+        },
+        {
+          "query": "vosker vs reolink for hog trapping",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": []
+        },
+        {
+          "query": "net camera trap remote hog trapping",
+          "our_domain_in_sources": true,
+          "sample_cited_domains": [
+            "www.camerahogsllc.com",
+            "hogeyecameras.com",
+            "jagerpro.com",
+            "farmsteadoutdoors.com",
+            "www.opticsplanet.com"
+          ]
+        }
+      ]
+    },
+    "boar-blanket": {
+      "domain": "boarblanket.com",
+      "historical_monthly": [
+        {
+          "year": 2026,
+          "month": 1,
+          "etv": 921.7749947477132,
+          "keyword_count": 602,
+          "pos_1": 2,
+          "pos_4_10": 45
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "etv": 909.317953594029,
+          "keyword_count": 601,
+          "pos_1": 3,
+          "pos_4_10": 61
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "etv": 1268.0780144054443,
+          "keyword_count": 626,
+          "pos_1": 4,
+          "pos_4_10": 68
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "etv": 1107.2693964932114,
+          "keyword_count": 576,
+          "pos_1": 3,
+          "pos_4_10": 55
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "etv": 965.3117382805794,
+          "keyword_count": 639,
+          "pos_1": 2,
+          "pos_4_10": 46
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "etv": 966.3827379979193,
+          "keyword_count": 639,
+          "pos_1": 2,
+          "pos_4_10": 47
+        }
+      ],
+      "latest_etv": 966.3827379979193,
+      "latest_keyword_count": 639,
+      "post_q2_2025_avg_etv": 1023.0,
+      "top_pages_by_etv": [
+        {
+          "page": "https://boarblanket.com/",
+          "etv": 284.8680008724332,
+          "keyword_count": 53,
+          "pos_1": 0,
+          "pos_4_10": 3
+        },
+        {
+          "page": "https://boarblanket.com/hog-traps-in-georgia/",
+          "etv": 75.42215839773417,
+          "keyword_count": 82,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/north-carolina-deer-season-hogs-2025/",
+          "etv": 54.7890009470284,
+          "keyword_count": 49,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/big-pig-trap-vs-boar-blanket-which-hog-trap-is-easier-to-haul-and-deploy/",
+          "etv": 49.5,
+          "keyword_count": 1,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/texas-hog-hunting-faq/",
+          "etv": 45.25300075113773,
+          "keyword_count": 43,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://boarblanket.com/georgia-hog-hunting-and-deer-seasons-impact/",
+          "etv": 39.3305804207921,
+          "keyword_count": 35,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/how-whole-sounder-trapping-works-the-most-effective-strategy-for-controlling-feral-hogs/",
+          "etv": 39.02599899470806,
+          "keyword_count": 11,
+          "pos_1": 0,
+          "pos_4_10": 4
+        },
+        {
+          "page": "https://boarblanket.com/louisiana-hog-hunting-faq/",
+          "etv": 33.03899935632944,
+          "keyword_count": 25,
+          "pos_1": 0,
+          "pos_4_10": 3
+        },
+        {
+          "page": "https://boarblanket.com/wild-hog-pit-diy-how-to-build-an-effective-and-affordable-trap/",
+          "etv": 31.667999658733606,
+          "keyword_count": 37,
+          "pos_1": 0,
+          "pos_4_10": 9
+        },
+        {
+          "page": "https://boarblanket.com/how-to-trap-a-sounder-of-wild-hogs-without-losing-a-single-pig/",
+          "etv": 30.913999125361443,
+          "keyword_count": 10,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/gamechanger-vs-boar-blanket-which-trap-handles-tough-terrain-better/",
+          "etv": 24.1010000705719,
+          "keyword_count": 4,
+          "pos_1": 0,
+          "pos_4_10": 2
+        },
+        {
+          "page": "https://boarblanket.com/hog-trap-in-louisiana/",
+          "etv": 22.555999785661697,
+          "keyword_count": 6,
+          "pos_1": 2,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/comprehensive-guide-to-feral-hog-control-methods-traps-hunting-and-more/",
+          "etv": 20.92999956011772,
+          "keyword_count": 6,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://boarblanket.com/hog-hunting-in-florida/",
+          "etv": 17.76000015065074,
+          "keyword_count": 27,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/oklahoma-hog-hunting-faq/",
+          "etv": 17.676000095903873,
+          "keyword_count": 17,
+          "pos_1": 0,
+          "pos_4_10": 1
+        }
+      ],
+      "top_content_pages_by_etv": [
+        {
+          "page": "https://boarblanket.com/big-pig-trap-vs-boar-blanket-which-hog-trap-is-easier-to-haul-and-deploy/",
+          "etv": 49.5,
+          "keyword_count": 1,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/texas-hog-hunting-faq/",
+          "etv": 45.25300075113773,
+          "keyword_count": 43,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://boarblanket.com/how-whole-sounder-trapping-works-the-most-effective-strategy-for-controlling-feral-hogs/",
+          "etv": 39.02599899470806,
+          "keyword_count": 11,
+          "pos_1": 0,
+          "pos_4_10": 4
+        },
+        {
+          "page": "https://boarblanket.com/louisiana-hog-hunting-faq/",
+          "etv": 33.03899935632944,
+          "keyword_count": 25,
+          "pos_1": 0,
+          "pos_4_10": 3
+        },
+        {
+          "page": "https://boarblanket.com/wild-hog-pit-diy-how-to-build-an-effective-and-affordable-trap/",
+          "etv": 31.667999658733606,
+          "keyword_count": 37,
+          "pos_1": 0,
+          "pos_4_10": 9
+        },
+        {
+          "page": "https://boarblanket.com/how-to-trap-a-sounder-of-wild-hogs-without-losing-a-single-pig/",
+          "etv": 30.913999125361443,
+          "keyword_count": 10,
+          "pos_1": 0,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/gamechanger-vs-boar-blanket-which-trap-handles-tough-terrain-better/",
+          "etv": 24.1010000705719,
+          "keyword_count": 4,
+          "pos_1": 0,
+          "pos_4_10": 2
+        },
+        {
+          "page": "https://boarblanket.com/hog-trap-in-louisiana/",
+          "etv": 22.555999785661697,
+          "keyword_count": 6,
+          "pos_1": 2,
+          "pos_4_10": 0
+        },
+        {
+          "page": "https://boarblanket.com/comprehensive-guide-to-feral-hog-control-methods-traps-hunting-and-more/",
+          "etv": 20.92999956011772,
+          "keyword_count": 6,
+          "pos_1": 0,
+          "pos_4_10": 1
+        },
+        {
+          "page": "https://boarblanket.com/oklahoma-hog-hunting-faq/",
+          "etv": 17.676000095903873,
+          "keyword_count": 17,
+          "pos_1": 0,
+          "pos_4_10": 1
+        }
+      ],
+      "content_page_count": 29,
+      "top_keywords_by_volume": [
+        {
+          "keyword": "hunting license in georgia",
+          "volume": 18100,
+          "position": 41,
+          "url": null
+        },
+        {
+          "keyword": "boar traps",
+          "volume": 6600,
+          "position": 17,
+          "url": null
+        },
+        {
+          "keyword": "feral hog trap",
+          "volume": 6600,
+          "position": 27,
+          "url": null
+        },
+        {
+          "keyword": "feral hog trapping",
+          "volume": 6600,
+          "position": 21,
+          "url": null
+        },
+        {
+          "keyword": "hog traps",
+          "volume": 6600,
+          "position": 34,
+          "url": null
+        },
+        {
+          "keyword": "pigs trap",
+          "volume": 6600,
+          "position": 54,
+          "url": null
+        },
+        {
+          "keyword": "pigtrap",
+          "volume": 6600,
+          "position": 16,
+          "url": null
+        },
+        {
+          "keyword": "traps for wild boar",
+          "volume": 6600,
+          "position": 21,
+          "url": null
+        },
+        {
+          "keyword": "wild boar traps",
+          "volume": 6600,
+          "position": 25,
+          "url": null
+        },
+        {
+          "keyword": "wild hog traps",
+          "volume": 6600,
+          "position": 28,
+          "url": null
+        },
+        {
+          "keyword": "wild pigs trap",
+          "volume": 6600,
+          "position": 24,
+          "url": null
+        },
+        {
+          "keyword": "nc deer season 2025",
+          "volume": 5400,
+          "position": 41,
+          "url": null
+        },
+        {
+          "keyword": "texas wild pigs",
+          "volume": 5400,
+          "position": 76,
+          "url": null
+        },
+        {
+          "keyword": "boar hunt florida",
+          "volume": 2900,
+          "position": 117,
+          "url": null
+        },
+        {
+          "keyword": "feral hog hunting in texas",
+          "volume": 2900,
+          "position": 81,
+          "url": null
+        },
+        {
+          "keyword": "feral hogs hunting in texas",
+          "volume": 2900,
+          "position": 76,
+          "url": null
+        },
+        {
+          "keyword": "deer season nc 2025",
+          "volume": 2400,
+          "position": 46,
+          "url": null
+        },
+        {
+          "keyword": "feral hog control",
+          "volume": 2400,
+          "position": 18,
+          "url": null
+        },
+        {
+          "keyword": "hog hunting in oklahoma",
+          "volume": 2400,
+          "position": 70,
+          "url": null
+        },
+        {
+          "keyword": "hunting hogs in oklahoma",
+          "volume": 2400,
+          "position": 25,
+          "url": null
+        }
+      ],
+      "ranked_keyword_rows": 250,
+      "serp_checks": [
+        {
+          "query": "hog net trap",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "pigbrig.com",
+            "4swildlife.com",
+            "archerytalk.com",
+            "farmprogress.com"
+          ]
+        },
+        {
+          "query": "net hog trap",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "pigbrig.com",
+            "4swildlife.com",
+            "archerytalk.com",
+            "farmprogress.com"
+          ]
+        },
+        {
+          "query": "hog traps for sale near me",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "farmranchstore.com",
+            "texastastes.com",
+            "facebook.com",
+            "thatsahogtrap.com",
+            "redriverarenas.com"
+          ]
+        },
+        {
+          "query": "hog blanket",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "4swildlife.com",
+            "boarblanket.com",
+            "theblankethog.com",
+            "boarblanket.com"
+          ]
+        },
+        {
+          "query": "hog net trap system",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "pigbrig.com",
+            "4swildlife.com",
+            "farmprogress.com",
+            "youtube.com"
+          ]
+        },
+        {
+          "query": "hog traps for sale louisiana",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "redriverarenas.com",
+            "facebook.com",
+            "gamechangertraps.com",
+            "boarblanket.com",
+            "kgentraps.com"
+          ]
+        },
+        {
+          "query": "hog trap net",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "pigbrig.com",
+            "amazon.com",
+            "4swildlife.com",
+            "farmprogress.com",
+            "youtube.com"
+          ]
+        },
+        {
+          "query": "voorhies hog trap",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "tractorsupply.com",
+            "boarblanket.com",
+            "facebook.com",
+            "forum.gon.com",
+            "pinterest.com"
+          ]
+        },
+        {
+          "query": "boar net",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "boarblanket.com",
+            "pigbrig.com",
+            "youtube.com",
+            "4swildlife.com"
+          ]
+        },
+        {
+          "query": "pig net trap",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "pigbrig.com",
+            "amazon.com",
+            "archerytalk.com",
+            "farmprogress.com",
+            "facebook.com"
+          ]
+        },
+        {
+          "query": "wild boar trap",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": false,
+          "organic_domains_top_order": [
+            "youtube.com",
+            "youtube.com",
+            "redriverarenas.com",
+            "youtube.com",
+            "bigpigtrap.com"
+          ]
+        },
+        {
+          "query": "feral hog trapping methods",
+          "our_domain_in_organic_top": false,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "feralhogs.tamu.edu",
+            "mossyoak.com",
+            "permies.com",
+            "mossyoakgamekeeper.com",
+            "jagerpro.com"
+          ]
+        },
+        {
+          "query": "passive hog trap net",
+          "our_domain_in_organic_top": true,
+          "ai_overview_present": true,
+          "organic_domains_top_order": [
+            "amazon.com",
+            "pigbrig.com",
+            "memphisnet.net",
+            "archerytalk.com",
+            "farmprogress.com"
+          ]
+        }
+      ],
+      "llm_mentions": [
+        {
+          "query": "how to trap feral hogs effectively",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": [
+            "www.reddit.com",
+            "www.divebombindustries.com",
+            "extension.arizona.edu",
+            "www.canadiangunnutz.com",
+            "www.fws.gov"
+          ]
+        },
+        {
+          "query": "best hog trap for large sounders",
+          "our_domain_in_sources": true,
+          "sample_cited_domains": [
+            "feralhogs.tamu.edu",
+            "www.youtube.com",
+            "www.wildpiginfo.msstate.edu",
+            "farmranchstore.com",
+            "gamechangertraps.com"
+          ]
+        },
+        {
+          "query": "boar blanket vs pig brig",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": []
+        },
+        {
+          "query": "net hog trap vs cage trap",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": []
+        },
+        {
+          "query": "feral hog trapping costs",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": [
+            "boarmasters.com",
+            "www.youtube.com",
+            "feralhogs.tamu.edu",
+            "www.bornfreeusa.org",
+            "www.google.com"
+          ]
+        },
+        {
+          "query": "whole sounder hog trapping passive trap",
+          "our_domain_in_sources": false,
+          "sample_cited_domains": [
+            "www.youtube.com",
+            "feralhogs.tamu.edu",
+            "www.wildpiginfo.msstate.edu",
+            "www.mossyoak.com",
+            "outriggeroutdoors.com"
+          ]
+        }
+      ]
+    }
+  },
+  "approx_total_cost_usd": 1.5881
+}

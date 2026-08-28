@@ -1,0 +1,30 @@
+{
+  "start": "2025-06-22",
+  "end": "2026-06-21",
+  "brands": {
+    "big-pig-traps": {
+      "gsc": {
+        "site": "sc-domain:bigpigtrap.com",
+        "start": "2025-06-22",
+        "end": "2026-06-21",
+        "files": [
+          "clients/big-pig-traps/inputs/gsc/Performance_by_date.csv",
+          "clients/big-pig-traps/inputs/gsc/Pages.csv",
+          "clients/big-pig-traps/inputs/gsc/Queries.csv"
+        ],
+        "date_rows": 364,
+        "page_rows": 177,
+        "query_rows": 1489
+      },
+      "ga4": {
+        "property_id": "364660816",
+        "files": [
+          "clients/big-pig-traps/inputs/ga/Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "clients/big-pig-traps/inputs/ga/Landing_page_Landing_page.csv"
+        ],
+        "channel_rows": 147,
+        "landing_rows": 190
+      }
+    }
+  }
+}

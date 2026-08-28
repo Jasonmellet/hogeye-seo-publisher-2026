@@ -1,0 +1,979 @@
+{
+  "generated_at": "2026-06-10T12:33:02.750755Z",
+  "baseline": "Q2 2025 (April 2025+)",
+  "hogeye": {
+    "domain": "hogeyecameras.com",
+    "ga_channel": {
+      "available": true,
+      "windows": [
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_(Default_Channel_Group) (1).csv",
+          "start": "20260109",
+          "end": "20260408",
+          "organic_sessions": 2631,
+          "engaged_sessions": 1665,
+          "engagement_rate": 0.6328392246294184
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_(Default_Channel_Group) (2).csv",
+          "start": "20260310",
+          "end": "20260408",
+          "organic_sessions": 705,
+          "engaged_sessions": 444,
+          "engagement_rate": 0.6297872340425532
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_(Default_Channel_Group).csv",
+          "start": "20250101",
+          "end": "20251231",
+          "organic_sessions": 8437,
+          "engaged_sessions": 4791,
+          "engagement_rate": 0.5678558729406187
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202403",
+          "start": null,
+          "end": null,
+          "organic_sessions": 5787,
+          "engaged_sessions": 5055,
+          "engagement_rate": 0.873509590461379
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202401",
+          "start": null,
+          "end": null,
+          "organic_sessions": 5552,
+          "engaged_sessions": 4777,
+          "engagement_rate": 0.8604106628242075
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202402",
+          "start": null,
+          "end": null,
+          "organic_sessions": 5544,
+          "engaged_sessions": 4742,
+          "engagement_rate": 0.8553391053391053
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202409",
+          "start": null,
+          "end": null,
+          "organic_sessions": 1672,
+          "engaged_sessions": 1056,
+          "engagement_rate": 0.631578947368421
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202404",
+          "start": null,
+          "end": null,
+          "organic_sessions": 1339,
+          "engaged_sessions": 927,
+          "engagement_rate": 0.6923076923076923
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202412",
+          "start": null,
+          "end": null,
+          "organic_sessions": 1005,
+          "engaged_sessions": 570,
+          "engagement_rate": 0.5671641791044776
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202602",
+          "start": null,
+          "end": null,
+          "organic_sessions": 1005,
+          "engaged_sessions": 647,
+          "engagement_rate": 0.6437810945273632
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202501",
+          "start": null,
+          "end": null,
+          "organic_sessions": 994,
+          "engaged_sessions": 581,
+          "engagement_rate": 0.5845070422535211
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202410",
+          "start": null,
+          "end": null,
+          "organic_sessions": 987,
+          "engaged_sessions": 597,
+          "engagement_rate": 0.6048632218844985
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202512",
+          "start": null,
+          "end": null,
+          "organic_sessions": 978,
+          "engaged_sessions": 618,
+          "engagement_rate": 0.6319018404907976
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202601",
+          "start": null,
+          "end": null,
+          "organic_sessions": 974,
+          "engaged_sessions": 591,
+          "engagement_rate": 0.606776180698152
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202509",
+          "start": null,
+          "end": null,
+          "organic_sessions": 944,
+          "engaged_sessions": 542,
+          "engagement_rate": 0.5741525423728814
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202408",
+          "start": null,
+          "end": null,
+          "organic_sessions": 893,
+          "engaged_sessions": 558,
+          "engagement_rate": 0.6248600223964166
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202508",
+          "start": null,
+          "end": null,
+          "organic_sessions": 827,
+          "engaged_sessions": 440,
+          "engagement_rate": 0.532043530834341
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202502",
+          "start": null,
+          "end": null,
+          "organic_sessions": 826,
+          "engaged_sessions": 456,
+          "engagement_rate": 0.5520581113801453
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202603",
+          "start": null,
+          "end": null,
+          "organic_sessions": 787,
+          "engaged_sessions": 501,
+          "engagement_rate": 0.636594663278272
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202411",
+          "start": null,
+          "end": null,
+          "organic_sessions": 757,
+          "engaged_sessions": 467,
+          "engagement_rate": 0.6169088507265522
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202503",
+          "start": null,
+          "end": null,
+          "organic_sessions": 734,
+          "engaged_sessions": 409,
+          "engagement_rate": 0.5572207084468664
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202505",
+          "start": null,
+          "end": null,
+          "organic_sessions": 723,
+          "engaged_sessions": 392,
+          "engagement_rate": 0.5421853388658368
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202510",
+          "start": null,
+          "end": null,
+          "organic_sessions": 706,
+          "engaged_sessions": 383,
+          "engagement_rate": 0.5424929178470255
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202604",
+          "start": null,
+          "end": null,
+          "organic_sessions": 683,
+          "engaged_sessions": 452,
+          "engagement_rate": 0.6617862371888726
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202407",
+          "start": null,
+          "end": null,
+          "organic_sessions": 665,
+          "engaged_sessions": 423,
+          "engagement_rate": 0.6360902255639098
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202605",
+          "start": null,
+          "end": null,
+          "organic_sessions": 643,
+          "engaged_sessions": 432,
+          "engagement_rate": 0.671850699844479
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202507",
+          "start": null,
+          "end": null,
+          "organic_sessions": 630,
+          "engaged_sessions": 345,
+          "engagement_rate": 0.5476190476190477
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202504",
+          "start": null,
+          "end": null,
+          "organic_sessions": 607,
+          "engaged_sessions": 315,
+          "engagement_rate": 0.5189456342668863
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202506",
+          "start": null,
+          "end": null,
+          "organic_sessions": 600,
+          "engaged_sessions": 336,
+          "engagement_rate": 0.56
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202406",
+          "start": null,
+          "end": null,
+          "organic_sessions": 476,
+          "engaged_sessions": 294,
+          "engagement_rate": 0.6176470588235294
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202405",
+          "start": null,
+          "end": null,
+          "organic_sessions": 441,
+          "engaged_sessions": 267,
+          "engagement_rate": 0.6054421768707483
+        },
+        {
+          "file": "Traffic_acquisition_Session_primary_channel_group_by_month.csv",
+          "yearMonth": "202606",
+          "start": null,
+          "end": null,
+          "organic_sessions": 202,
+          "engaged_sessions": 138,
+          "engagement_rate": 0.6831683168316832
+        }
+      ],
+      "monthly_organic_sessions": {
+        "202401": 5552,
+        "202402": 5544,
+        "202403": 5787,
+        "202404": 1339,
+        "202405": 441,
+        "202406": 476,
+        "202407": 665,
+        "202408": 893,
+        "202409": 1672,
+        "202410": 987,
+        "202411": 757,
+        "202412": 1005,
+        "202501": 994,
+        "202502": 826,
+        "202503": 734,
+        "202504": 607,
+        "202505": 723,
+        "202506": 600,
+        "202507": 630,
+        "202508": 827,
+        "202509": 944,
+        "202510": 706,
+        "202512": 978,
+        "202601": 974,
+        "202602": 1005,
+        "202603": 787,
+        "202604": 683,
+        "202605": 643,
+        "202606": 202
+      }
+    },
+    "ga_landing": {
+      "available": true,
+      "total_landing_sessions": 147824,
+      "groups": {
+        "unattributed": {
+          "sessions": 52963,
+          "pages": 2
+        },
+        "home": {
+          "sessions": 48986,
+          "pages": 1
+        },
+        "other": {
+          "sessions": 32576,
+          "pages": 64
+        },
+        "commercial": {
+          "sessions": 8439,
+          "pages": 9
+        },
+        "legal": {
+          "sessions": 1425,
+          "pages": 3
+        },
+        "blog_editorial": {
+          "sessions": 977,
+          "pages": 35
+        },
+        "product_collection": {
+          "sessions": 1598,
+          "pages": 58
+        },
+        "order_checkout": {
+          "sessions": 860,
+          "pages": 484
+        }
+      },
+      "top_editorial_landings": [
+        {
+          "path": "/hog-traps",
+          "sessions": 281
+        },
+        {
+          "path": "/net-trap",
+          "sessions": 167
+        },
+        {
+          "path": "/net-camera-trap-remote-hog-trapping",
+          "sessions": 107
+        },
+        {
+          "path": "/reolink-vs-vosker-vs-hogeye-off-grid-camera-comparison",
+          "sessions": 60
+        },
+        {
+          "path": "/blog-4g-vs-5g-cellular-cameras-ranch-monitoring-2025",
+          "sessions": 36
+        },
+        {
+          "path": "/blog",
+          "sessions": 35
+        },
+        {
+          "path": "/off-grid-camera-cost-guide-2026",
+          "sessions": 29
+        },
+        {
+          "path": "/smart-apps-data-the-new-era-of-hog-monitoring",
+          "sessions": 28
+        },
+        {
+          "path": "/blog-ultimate-guide-setting-up-hogeye-camera-trap",
+          "sessions": 25
+        },
+        {
+          "path": "/hogeye-vs-reolink-go-pt-plus-camera-comparison",
+          "sessions": 21
+        }
+      ]
+    },
+    "gsc": {
+      "available": true,
+      "performance_by_date": {
+        "pre_q2_2025": {
+          "clicks": 1187,
+          "impressions": 11485,
+          "days": 65
+        },
+        "post_q2_2025": {
+          "clicks": 7435,
+          "impressions": 97549,
+          "days": 433
+        },
+        "monthly": {
+          "2025-01": {
+            "clicks": 143,
+            "impressions": 1026
+          },
+          "2025-02": {
+            "clicks": 532,
+            "impressions": 4823
+          },
+          "2025-03": {
+            "clicks": 512,
+            "impressions": 5636
+          },
+          "2025-04": {
+            "clicks": 476,
+            "impressions": 6347
+          },
+          "2025-05": {
+            "clicks": 484,
+            "impressions": 5927
+          },
+          "2025-06": {
+            "clicks": 374,
+            "impressions": 5034
+          },
+          "2025-07": {
+            "clicks": 448,
+            "impressions": 5213
+          },
+          "2025-08": {
+            "clicks": 547,
+            "impressions": 5228
+          },
+          "2025-09": {
+            "clicks": 615,
+            "impressions": 4729
+          },
+          "2025-10": {
+            "clicks": 694,
+            "impressions": 5088
+          },
+          "2025-11": {
+            "clicks": 637,
+            "impressions": 5942
+          },
+          "2025-12": {
+            "clicks": 618,
+            "impressions": 9322
+          },
+          "2026-01": {
+            "clicks": 491,
+            "impressions": 11840
+          },
+          "2026-02": {
+            "clicks": 596,
+            "impressions": 12568
+          },
+          "2026-03": {
+            "clicks": 564,
+            "impressions": 6434
+          },
+          "2026-04": {
+            "clicks": 399,
+            "impressions": 6358
+          },
+          "2026-05": {
+            "clicks": 375,
+            "impressions": 5951
+          },
+          "2026-06": {
+            "clicks": 117,
+            "impressions": 1568
+          }
+        }
+      },
+      "top_pages": [
+        {
+          "page": "https://www.hogeyecameras.com/",
+          "clicks": 3275,
+          "impressions": 36413
+        },
+        {
+          "page": "https://hogeyecameras.com/",
+          "clicks": 2202,
+          "impressions": 31437
+        },
+        {
+          "page": "https://signup.hogeyecameras.com/",
+          "clicks": 1036,
+          "impressions": 22374
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-login/",
+          "clicks": 379,
+          "impressions": 12106
+        },
+        {
+          "page": "https://www.hogeyecameras.com/shop",
+          "clicks": 293,
+          "impressions": 21184
+        },
+        {
+          "page": "https://www.hogeyecameras.com/camera-login",
+          "clicks": 256,
+          "impressions": 15144
+        },
+        {
+          "page": "https://www.hogeyecameras.com/payment-options",
+          "clicks": 255,
+          "impressions": 6244
+        },
+        {
+          "page": "https://hogeyecameras.com/buy-now/",
+          "clicks": 227,
+          "impressions": 9093
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-resources/",
+          "clicks": 155,
+          "impressions": 10545
+        },
+        {
+          "page": "https://hogeyecameras.com/hog-traps/",
+          "clicks": 147,
+          "impressions": 12278
+        },
+        {
+          "page": "https://www.hogeyecameras.com/trap-camera",
+          "clicks": 145,
+          "impressions": 18310
+        },
+        {
+          "page": "https://www.hogeyecameras.com/farm-ranch",
+          "clicks": 74,
+          "impressions": 11399
+        },
+        {
+          "page": "https://hogeyecameras.com/camera-resources-copy/",
+          "clicks": 73,
+          "impressions": 3698
+        },
+        {
+          "page": "https://hogeyecameras.com/steel-camera/",
+          "clicks": 60,
+          "impressions": 10129
+        },
+        {
+          "page": "https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/",
+          "clicks": 52,
+          "impressions": 4117
+        }
+      ],
+      "top_queries": [
+        {
+          "query": "hogeye camera",
+          "clicks": 1123
+        },
+        {
+          "query": "hogeye",
+          "clicks": 853
+        },
+        {
+          "query": "hog eye camera",
+          "clicks": 684
+        },
+        {
+          "query": "hogeye camera system",
+          "clicks": 383
+        },
+        {
+          "query": "hog eye",
+          "clicks": 328
+        },
+        {
+          "query": "hogeye traps",
+          "clicks": 245
+        },
+        {
+          "query": "hog eye trap",
+          "clicks": 236
+        },
+        {
+          "query": "hogeye cameras",
+          "clicks": 186
+        },
+        {
+          "query": "hog eye camera system",
+          "clicks": 105
+        },
+        {
+          "query": "hog eye traps",
+          "clicks": 62
+        }
+      ]
+    },
+    "historical_rank": {
+      "available": true,
+      "domain": "hogeyecameras.com",
+      "monthly": [
+        {
+          "year": 2025,
+          "month": 10,
+          "etv": 549.9040047079325,
+          "keyword_count": 54,
+          "pos_1": 8,
+          "pos_4_10": 5
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "etv": 730.4770021699369,
+          "keyword_count": 64,
+          "pos_1": 7,
+          "pos_4_10": 8
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "etv": 457.66799670644104,
+          "keyword_count": 59,
+          "pos_1": 7,
+          "pos_4_10": 7
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "etv": 498.2399976979941,
+          "keyword_count": 65,
+          "pos_1": 7,
+          "pos_4_10": 11
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "etv": 547.4790020454675,
+          "keyword_count": 67,
+          "pos_1": 7,
+          "pos_4_10": 11
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "etv": 568.6610025390983,
+          "keyword_count": 50,
+          "pos_1": 6,
+          "pos_4_10": 10
+        }
+      ],
+      "pre_q2_2025_avg_etv": null,
+      "post_q2_2025_avg_etv": 558.7,
+      "latest": {
+        "year": 2026,
+        "month": 3,
+        "etv": 568.6610025390983,
+        "keyword_count": 50,
+        "pos_1": 6,
+        "pos_4_10": 10
+      },
+      "first_post_baseline": {
+        "year": 2025,
+        "month": 10,
+        "etv": 549.9040047079325,
+        "keyword_count": 54,
+        "pos_1": 8,
+        "pos_4_10": 5
+      }
+    },
+    "screaming_frog": {
+      "available": true,
+      "crawl_folder": "2026.04.09.05.15.26",
+      "html_urls": 23,
+      "indexable_urls": 122,
+      "blog_mentions_in_overview": 1
+    }
+  },
+  "boar_blanket": {
+    "domain": "boarblanket.com",
+    "ga_channel": {
+      "available": false
+    },
+    "ga_landing": {
+      "available": false
+    },
+    "gsc": {
+      "available": true,
+      "performance_by_date": {
+        "pre_q2_2025": {
+          "clicks": 0,
+          "impressions": 0,
+          "days": 0
+        },
+        "post_q2_2025": {
+          "clicks": 6307,
+          "impressions": 420967,
+          "days": 431
+        },
+        "monthly": {
+          "2025-04": {
+            "clicks": 36,
+            "impressions": 333
+          },
+          "2025-05": {
+            "clicks": 157,
+            "impressions": 1056
+          },
+          "2025-06": {
+            "clicks": 123,
+            "impressions": 1622
+          },
+          "2025-07": {
+            "clicks": 142,
+            "impressions": 6142
+          },
+          "2025-08": {
+            "clicks": 206,
+            "impressions": 15351
+          },
+          "2025-09": {
+            "clicks": 380,
+            "impressions": 28865
+          },
+          "2025-10": {
+            "clicks": 392,
+            "impressions": 32286
+          },
+          "2025-11": {
+            "clicks": 1868,
+            "impressions": 60767
+          },
+          "2025-12": {
+            "clicks": 677,
+            "impressions": 54628
+          },
+          "2026-01": {
+            "clicks": 640,
+            "impressions": 55380
+          },
+          "2026-02": {
+            "clicks": 552,
+            "impressions": 55375
+          },
+          "2026-03": {
+            "clicks": 528,
+            "impressions": 46644
+          },
+          "2026-04": {
+            "clicks": 291,
+            "impressions": 29839
+          },
+          "2026-05": {
+            "clicks": 245,
+            "impressions": 27541
+          },
+          "2026-06": {
+            "clicks": 70,
+            "impressions": 5138
+          }
+        }
+      },
+      "top_pages": [
+        {
+          "page": "https://boarblanket.com/",
+          "clicks": 3011,
+          "impressions": 56191
+        },
+        {
+          "page": "https://boarblanket.com/feral-hog-trapping-costs-a-full-breakdown/",
+          "clicks": 438,
+          "impressions": 27677
+        },
+        {
+          "page": "https://boarblanket.com/boar-blanket-vs-pig-brig-comparison-feral-hog-crisis/",
+          "clicks": 381,
+          "impressions": 12851
+        },
+        {
+          "page": "https://boarblanket.com/boar-blanket-trapping-system/",
+          "clicks": 248,
+          "impressions": 15015
+        },
+        {
+          "page": "https://boarblanket.com/how-whole-sounder-trapping-works-the-most-effective-strategy-for-controlling-feral-hogs/",
+          "clicks": 149,
+          "impressions": 15314
+        },
+        {
+          "page": "https://boarblanket.com/oklahoma-hog-hunting-license/",
+          "clicks": 122,
+          "impressions": 29548
+        },
+        {
+          "page": "https://boarblanket.com/why-is-there-a-feral-hog-invasion-of-the-usa/",
+          "clicks": 115,
+          "impressions": 27810
+        },
+        {
+          "page": "https://boarblanket.com/shop-by-state/",
+          "clicks": 108,
+          "impressions": 13645
+        },
+        {
+          "page": "https://boarblanket.com/louisiana-hog-hunting-faq/",
+          "clicks": 105,
+          "impressions": 23292
+        },
+        {
+          "page": "https://boarblanket.com/wild-hog-pit-diy-how-to-build-an-effective-and-affordable-trap/",
+          "clicks": 90,
+          "impressions": 11064
+        },
+        {
+          "page": "https://boarblanket.com/voorhies-hog-trap-vs-boar-blanket-what-do-you-give-up-when-you-go-cheap/",
+          "clicks": 85,
+          "impressions": 4991
+        },
+        {
+          "page": "https://boarblanket.com/boar-blanket/",
+          "clicks": 84,
+          "impressions": 15458
+        },
+        {
+          "page": "https://boarblanket.com/cellular-hog-traps-vs-boar-blanket-are-you-paying-for-tech-you-dont-need/",
+          "clicks": 78,
+          "impressions": 8851
+        },
+        {
+          "page": "https://boarblanket.com/texas-hog-hunting-faq/",
+          "clicks": 76,
+          "impressions": 30616
+        },
+        {
+          "page": "https://boarblanket.com/hog-hunting-in-florida/",
+          "clicks": 66,
+          "impressions": 17842
+        }
+      ],
+      "top_queries": [
+        {
+          "query": "boar blanket",
+          "clicks": 1104
+        },
+        {
+          "query": "boar blanket trap",
+          "clicks": 586
+        },
+        {
+          "query": "boar blanket hog trap",
+          "clicks": 247
+        },
+        {
+          "query": "boar blanket vs pig brig",
+          "clicks": 134
+        },
+        {
+          "query": "bore blanket",
+          "clicks": 67
+        },
+        {
+          "query": "the boar blanket",
+          "clicks": 67
+        },
+        {
+          "query": "hog net trap",
+          "clicks": 53
+        },
+        {
+          "query": "net hog trap",
+          "clicks": 51
+        },
+        {
+          "query": "hog traps for sale near me",
+          "clicks": 40
+        },
+        {
+          "query": "used pig brig for sale",
+          "clicks": 34
+        }
+      ]
+    },
+    "historical_rank": {
+      "available": true,
+      "domain": "boarblanket.com",
+      "monthly": [
+        {
+          "year": 2026,
+          "month": 1,
+          "etv": 921.7749947477132,
+          "keyword_count": 602,
+          "pos_1": 2,
+          "pos_4_10": 45
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "etv": 909.317953594029,
+          "keyword_count": 601,
+          "pos_1": 3,
+          "pos_4_10": 61
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "etv": 1268.0780144054443,
+          "keyword_count": 626,
+          "pos_1": 4,
+          "pos_4_10": 68
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "etv": 1107.2693964932114,
+          "keyword_count": 576,
+          "pos_1": 3,
+          "pos_4_10": 55
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "etv": 965.3117382805794,
+          "keyword_count": 639,
+          "pos_1": 2,
+          "pos_4_10": 46
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "etv": 966.3827379979193,
+          "keyword_count": 639,
+          "pos_1": 2,
+          "pos_4_10": 47
+        }
+      ],
+      "pre_q2_2025_avg_etv": null,
+      "post_q2_2025_avg_etv": 1023.0,
+      "latest": {
+        "year": 2026,
+        "month": 6,
+        "etv": 966.3827379979193,
+        "keyword_count": 639,
+        "pos_1": 2,
+        "pos_4_10": 47
+      },
+      "first_post_baseline": {
+        "year": 2026,
+        "month": 1,
+        "etv": 921.7749947477132,
+        "keyword_count": 602,
+        "pos_1": 2,
+        "pos_4_10": 45
+      }
+    },
+    "screaming_frog": {
+      "available": true,
+      "crawl_folder": "2026.05.19.agt-cursor",
+      "html_urls": 215,
+      "indexable_urls": 663,
+      "blog_mentions_in_overview": 1
+    }
+  }
+}

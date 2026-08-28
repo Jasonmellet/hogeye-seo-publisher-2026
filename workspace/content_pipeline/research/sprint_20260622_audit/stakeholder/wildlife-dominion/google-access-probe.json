@@ -1,0 +1,26 @@
+{
+  "service_account": "/Users/jasonmellet/Library/Mobile Documents/com~apple~CloudDocs/2026/AGT/Coding Projects/BB-Seo-Content-Publisher-2026/secrets/ttt-google-service-account.json",
+  "project_id": "tic-tac-toe-485419",
+  "client_email": "tic-tac-toe@tic-tac-toe-485419.iam.gserviceaccount.com",
+  "gsc_sites": [
+    "sc-domain:bigpigtrap.com",
+    "sc-domain:hogeyecameras.com",
+    "sc-domain:boarblanket.com"
+  ],
+  "gsc_ok": true,
+  "ga4_hogeye": {
+    "ok": true,
+    "property_id": "245859533",
+    "sample_rows": 12
+  },
+  "ga4_boar-blanket": {
+    "ok": true,
+    "property_id": "484642911",
+    "sample_rows": 5
+  },
+  "ga4_big-pig-traps": {
+    "ok": true,
+    "property_id": "364660816",
+    "sample_rows": 11
+  }
+}

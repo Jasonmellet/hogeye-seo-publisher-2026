@@ -1,0 +1,405 @@
+# DataForSEO scoped bundle — HogEye Sept 2026 top-up
+# Clusters only: Mini AI / smart detection demand + deer-season monitoring
+# Do NOT reuse June generic cellular-trail-camera / full screwworm-cattle universe
+# Run: python3 analysis/dataforseo_niche_bundle.py --client hogeye-sept-topup
+# Soft ceiling $100 | Quality bar = June $10-tier fidelity on THESE clusters
+
+client:
+  slug: hogeye-sept-topup
+  domain: hogeyecameras.com
+  display_name: HogEye Cameras
+  location_code: 2840
+  language_code: en
+  budget_target_usd: 40
+  brand_terms:
+  - hogeye
+  - hog-eye
+  - hog eye
+targets:
+  ranked:
+  - domain: hogeyecameras.com
+    label: HogEye (client)
+    is_client: true
+  - domain: spartancamera.com
+    label: Spartan
+  - domain: vosker.com
+    label: Vosker
+  - domain: reolink.com
+    label: Reolink
+  - domain: barnowltech.com
+    label: Barn Owl / RangeCam
+  historical: []
+serp_extra_queries:
+  # Cluster A — Mini AI / smart detection (generic language; branded names secondary)
+  - AI hog camera
+  - hog camera that detects hogs
+  - cellular camera hog alerts
+  - trail camera hog notifications
+  - smart hog trap camera
+  - reduce false alerts hog camera
+  - hog count camera
+  - camera that only notifies when hogs
+  - hog detection camera
+  - AI trail camera animal detection
+  - feral hog camera alerts
+  - wild hog AI camera
+  - camera notifies when hogs
+  - hog camera AI detection
+  - cellular hog camera notifications
+  - false alerts hog camera
+  - animal detection hog camera
+  - AI cellular camera hog
+  - hog camera fewer false alerts
+  - camera alert when multiple hogs
+  - hog camera notify 3 hogs
+  - hog camera notify 5 hogs
+  - smart detection hog trap camera
+  - AI hog trap camera
+  - trail camera detects hogs not deer
+  - hog vs deer camera detection
+  - cellular trail camera hog alerts
+  - live hog camera alerts phone
+  - hog camera push notification
+  - reduce false triggers hog camera
+  - hog counting camera trap
+  - sounder count camera
+  - AI wild pig camera
+  - feral hog AI detection camera
+  - best AI camera for hogs
+  - AI camera that detects wild hogs
+  - hog camera that ignores deer
+  - hog specific camera alerts
+  # Competitor AI / false-alert landscape (citation, not HE brand lock)
+  - spartan AI hog camera
+  - spartan AI animal detection
+  - vosker AI camera alerts
+  - vosker AI animal detection
+  - reolink AI hog detection
+  - reolink AI animal detection false alerts
+  - barn owl AI trail camera
+  - barn owl rangecam AI detection
+  - spartan vs vosker AI trail camera
+  - best AI trail camera fewer false alerts
+  - AI trail camera detects animals
+  # Cluster B — deer-season monitoring
+  - hog damage food plots camera
+  - hogs at deer feeder camera
+  - remote hog monitoring deer season
+  - check hog trap without driving
+  - food plot hog damage
+  - deer feeder hog camera
+  - hogs destroying food plots
+  - remote hog trap check in
+  - hog trap remote check-in
+  - deer season hog camera
+  - acorns hogs deer feeder
+  - hogs eating deer corn camera
+  - bucks leave hogs food plot
+  - hogs ruining deer plots
+  - camera on deer feeder hogs
+  - food plot camera hog damage texas
+  - monitor hogs deer season without driving
+  - remote check hog trap deer season
+  - hogs at protein feeder camera
+  - deer corn hog damage
+  - prep land deer season hogs camera
+  - hog rooting food plot camera
+  - trail camera food plot hogs
+  - check hog trap from phone
+  - hog trap alerts instead of driving
+  - remote hog trap monitoring deer
+  - hogs on food plots texas
+  - mississippi hog damage food plot
+  - oklahoma deer feeder hogs
+  - alabama hog food plot camera
+  - louisiana hog deer feeder
+  # NWS → deer observation (not a new "what is screwworm" pillar)
+  - screwworm deer camera texas
+  - nws wildlife camera monitoring texas
+  - screwworm deer texas monitoring
+  - new world screwworm deer camera
+  - screwworm wildlife camera texas
+  - nws deer feeder camera
+  # GSC strikers adjacent (remote check-in, drop trap camera, Mini, detection)
+  - wild hog trap monitoring
+  - drop trap camera system
+  - smart hog trap technology
+  - hog trap remote trigger
+  - remote hog trap trigger
+  - remote hog trap
+  - remote hog trap systems
+  - remote control hog trap
+  - feral hog trapping systems remote smartphone monitoring
+  - hogeye mini camera
+  - feral animal detection technology
+  - how can i reduce the time spent checking my hog traps?
+  - best camera for hog trapping
+  - hog control system
+  - live feed hog trapping
+  - wireless hog trap control
+  - electronic hog trap
+  - hogeye mini
+  - hog eye mini trap reviews
+  - object detection reolink cameras
+  # Secondary branded (do not lock titles to these)
+  - HogEye Mini AI
+  - HogEye AI camera
+  - hogeye mini AI camera
+seeds:
+  keyword_suggestions:
+  - AI hog camera
+  - hog camera that detects hogs
+  - cellular camera hog alerts
+  - trail camera hog notifications
+  - smart hog trap camera
+  - reduce false alerts hog camera
+  - hog count camera
+  - hog detection camera
+  - AI trail camera animal detection
+  - feral hog camera alerts
+  - wild hog AI camera
+  - camera notifies when hogs
+  - hog camera AI detection
+  - false alerts hog camera
+  - animal detection hog camera
+  - camera alert when multiple hogs
+  - hog camera fewer false alerts
+  - AI hog trap camera
+  - hog vs deer camera detection
+  - spartan AI animal detection
+  - vosker AI camera alerts
+  - reolink AI animal detection
+  - barn owl AI trail camera
+  - best AI trail camera fewer false alerts
+  - hog damage food plots camera
+  - hogs at deer feeder camera
+  - remote hog monitoring deer season
+  - check hog trap without driving
+  - food plot hog damage
+  - deer feeder hog camera
+  - hogs destroying food plots
+  - hog trap remote check-in
+  - deer season hog camera
+  - acorns hogs deer feeder
+  - hogs eating deer corn
+  - bucks leave food plot hogs
+  - hog rooting food plot
+  - check hog trap from phone
+  - hog trap alerts instead of driving
+  - screwworm deer camera texas
+  - nws wildlife camera monitoring
+  - drop trap camera system
+  - hogeye mini camera
+  - live hog camera alerts
+  related:
+  - AI hog camera
+  - hog camera alerts
+  - false alerts trail camera hogs
+  - animal detection hog camera
+  - smart hog trap camera
+  - cellular hog camera notifications
+  - hog count camera
+  - hog detection camera
+  - AI trail camera hog
+  - hog camera that detects hogs
+  - hog damage food plot
+  - hogs deer feeder
+  - remote hog monitoring
+  - check hog trap without driving
+  - food plot camera hogs
+  - deer season hog monitoring
+  - hog trap remote check-in
+  - drop trap camera system
+  - vosker AI camera
+  - reolink animal detection
+  - spartan AI detection
+  - wild hog food plot damage
+  - deer corn hog camera
+  - screwworm deer texas camera
+  - camera that detects hogs
+  - hog alerts cellular camera
+on_page_urls:
+- https://hogeyecameras.com/hog-traps/
+- https://hogeyecameras.com/buy-now/
+- https://hogeyecameras.com/buy-now-legacy/
+- https://hogeyecameras.com/steel-camera/
+- https://hogeyecameras.com/camera-resources/
+- https://hogeyecameras.com/shop/
+- https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/
+- https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/
+- https://hogeyecameras.com/blog-hogeye-vs-vosker-cellular-cameras-comparison/
+- https://hogeyecameras.com/reolink-vs-vosker-vs-hogeye-off-grid-camera-comparison/
+- https://hogeyecameras.com/hog-trap-remote-check-in-sop/
+- https://hogeyecameras.com/hogeye-mini-starlink-remote-hog-trap-monitoring/
+- https://hogeyecameras.com/hogeye-vs-spartan-hog-trap-camera/
+- https://hogeyecameras.com/trap-camera/
+- https://hogeyecameras.com/what-is-new-world-screwworm/
+- https://hogeyecameras.com/
+niche_filter:
+  allow_pattern: (ai\b|artificial.?intelligence|detect|detection|alert|notif|false.?alert|false.?trigger|hog.?count|animal.?detect|smart.?hog|smart.?trap|hogeye.?mini|mini.?ai|hog.?camera|hog.?cam|feral.?hog|wild.?hog|wild.?pig|feral.?pig|hog.?trap|drop.?trap|remote.?(check|monitor|hog|trap)|check.?in|deer|food.?plot|feeder|acorn|whitetail|white.?tail|screwworm|nws|new.?world.?screwworm|(spartan|vosker|reolink|barn.?owl|rangecam).*(ai|detect|alert|hog|false|animal)|(ai|detect|alert|false).*(spartan|vosker|reolink|barn.?owl))
+  deny_pattern: (^|\b)(security camera|security cameras|alarms?|daylight\s+savings|carbon\s+monoxide|starlink\s+(price|pricing|cost|plan)|hogeye\s+festival|clay\s+county|cms\s+to\s+inch|icloud\s+storage)\b
+  bare_brand_deny_pattern: ^(reolink|vosker|spartan|barn\s*owl|rangecam|cellular\s+trail\s+camera|trail\s+camera)\s*$
+  strict_intent_pattern: (ai\b|detect|alert|notif|hog.?count|false.?alert|false.?trigger|deer|food.?plot|feeder|acorn|remote.?check|check.?in|hogeye.?mini|screwworm.*deer|nws.*(deer|wildlife)|camera.?that.?detect|notifies.?when.?hogs)
+limits:
+  ranked: 200
+  suggest: 200
+  related_depth: 2
+  max_keywords_for_volume: 1000
+  volume_chunk: 700
+  serp_depth: 20
+  default_serp_limit: 220
+  backlinks: 20
+llm_queries:
+  # Cluster A (24)
+  - AI hog camera detection
+  - hog camera that detects hogs
+  - cellular camera hog alerts
+  - trail camera hog notifications
+  - smart hog trap camera AI
+  - reduce false alerts hog camera
+  - hog count camera alerts
+  - camera that only notifies when hogs
+  - AI trail camera animal detection hogs
+  - feral hog AI detection camera
+  - hog camera fewer false alerts
+  - camera alert when multiple hogs
+  - hog vs deer camera detection
+  - best AI camera for hog trapping
+  - AI cellular camera hog monitoring
+  - hog camera push notification sounder
+  - spartan AI animal detection hog
+  - vosker AI camera false alerts
+  - reolink AI animal detection hog camera
+  - barn owl AI trail camera detection
+  - who makes AI trail camera fewer false alerts
+  - AI trail camera detects animals brands
+  - smart detection hog trap camera 2026
+  - hog camera notify when 3 hogs
+  # Cluster B (20)
+  - hog damage food plots camera
+  - hogs at deer feeder camera
+  - remote hog monitoring deer season
+  - check hog trap without driving
+  - food plot hog damage camera texas
+  - deer feeder hog camera monitoring
+  - hogs destroying food plots
+  - hog trap remote check-in
+  - deer season hog camera monitoring
+  - acorns hogs deer feeder camera
+  - hogs eating deer corn camera
+  - bucks leave hogs on food plot
+  - monitor hogs deer season without driving
+  - hog rooting food plot camera
+  - check hog trap from phone alerts
+  - hog trap alerts instead of driving
+  - hogs on food plots texas camera
+  - mississippi hog damage deer plot
+  - oklahoma deer feeder hogs camera
+  - louisiana hog deer feeder camera
+  # NWS→deer observation (4)
+  - screwworm deer camera monitoring texas
+  - nws wildlife camera monitoring texas
+  - new world screwworm deer feeder camera
+  - screwworm wildlife camera texas landowners
+  # Secondary branded (4) — not primary title locks
+  - HogEye Mini AI camera
+  - HogEye AI hog camera
+  - hogeye mini camera alerts
+  - hogeye camera hog detection
+chatgpt_tasks:
+  - keyword: AI hog camera that detects hogs and sends alerts 2026
+    research_angle: Demand for hog-specific detection vs generic trail-cam motion; who gets cited.
+    tag: a-ai-hog-detect
+  - keyword: reduce false alerts hog camera deer livestock vehicles
+    research_angle: False-alert pain; competitor AI claims; do not invent HogEye features.
+    tag: a-false-alerts
+  - keyword: cellular camera hog notifications phone alert when hogs arrive
+    research_angle: Notification intent vs photo-dump trail cams.
+    tag: a-cellular-alerts
+  - keyword: camera that only notifies when hogs not deer or raccoons
+    research_angle: Species-specific alert demand.
+    tag: a-hog-only-notify
+  - keyword: hog count camera alert one hog vs three vs five hogs
+    research_angle: Demand for count-threshold alerts (1/3/5+); landscape only, no product copy.
+    tag: a-hog-count-threshold
+  - keyword: smart hog trap camera AI detection vs standard trail camera
+    research_angle: Purpose-built trap camera vs AI trail cam category.
+    tag: a-smart-trap-vs-trail
+  - keyword: Spartan AI animal detection hog camera false alerts
+    research_angle: Who ChatGPT cites for Spartan AI / fewer false alerts.
+    tag: a-spartan-ai
+  - keyword: Vosker AI camera animal detection fewer false alerts
+    research_angle: Vosker citation share on AI/false-alert queries.
+    tag: a-vosker-ai
+  - keyword: Reolink AI animal detection hog trapping camera
+    research_angle: Reolink AI citation vs purpose-built hog trap cameras.
+    tag: a-reolink-ai
+  - keyword: Barn Owl RangeCam AI detection ranch camera hogs
+    research_angle: Barn Owl / RangeCam AI citation landscape.
+    tag: a-barnowl-ai
+  - keyword: best AI trail camera 2026 detects animals fewer false alerts brands cited
+    research_angle: Generic AI trail-cam roundup; which domains get cited.
+    tag: a-ai-trail-roundup
+  - keyword: hog vs deer camera detection food plot alerts
+    research_angle: Mixed wildlife on plots; detection discrimination demand.
+    tag: a-hog-vs-deer-detect
+  - keyword: live hog camera push notification sounder arrival
+    research_angle: Live/alert vs delayed trail-cam burst.
+    tag: a-live-push
+  - keyword: AI hog trap camera remote monitoring 2026 comparison
+    research_angle: Comparison stack for AI + trap monitoring.
+    tag: a-ai-trap-comp
+  - keyword: feral hog AI detection camera cellular ranch
+    research_angle: Feral-hog + AI + cellular query mix.
+    tag: a-feral-ai-cell
+  - keyword: HogEye Mini AI camera hog detection alerts
+    research_angle: Secondary branded query only; record if models invent features.
+    tag: a-he-mini-ai-secondary
+  - keyword: hog damage food plots camera remote monitoring
+    research_angle: Plot-damage + camera demand; HE = see remotely.
+    tag: b-plot-damage-cam
+  - keyword: hogs at deer feeder camera how to monitor without driving
+    research_angle: Feeder pressure + remote check-in.
+    tag: b-feeder-hogs
+  - keyword: remote hog monitoring deer season check trap without driving
+    research_angle: Deer-season ops; drive only when it matters.
+    tag: b-deer-season-remote
+  - keyword: check hog trap from phone instead of driving to food plot
+    research_angle: Wasted-trip frame tied to deer-prep sites.
+    tag: b-phone-not-drive
+  - keyword: hogs eating deer corn and acorns camera monitoring texas
+    research_angle: Corn/acorn competition; camera observation not bait how-to.
+    tag: b-corn-acorns
+  - keyword: bucks leave when hogs on food plot camera evidence
+    research_angle: Hunter complaint cluster; observation/monitoring lens.
+    tag: b-bucks-leave
+  - keyword: prep land for deer season hog damage food plots camera
+    research_angle: Seasonal prep demand; HE remote monitoring angle.
+    tag: b-prep-land
+  - keyword: texas hog rooting food plot remote camera before archery season
+    research_angle: TX timing vs Oct 3 archery opener.
+    tag: b-tx-plot-timing
+  - keyword: mississippi louisiana hog damage deer feeder camera
+    research_angle: MS/LA deer-prep monitoring.
+    tag: b-ms-la-feeder
+  - keyword: oklahoma alabama deer season hog camera remote check
+    research_angle: OK/AL deer-prep monitoring.
+    tag: b-ok-al-deer
+  - keyword: drop trap camera system remote check-in deer season
+    research_angle: GSC striker + seasonal overlay.
+    tag: b-drop-trap-checkin
+  - keyword: hog trap remote check-in SOP alerts when to drive
+    research_angle: Follow-up to aug26_01; Mini AI as next layer not duplicate SOP.
+    tag: b-checkin-sop-followup
+  - keyword: new world screwworm deer wildlife camera monitoring texas observation
+    research_angle: NWS-to-deer observation only; not another what-is-screwworm pillar.
+    tag: nws-deer-observe
+  - keyword: screwworm deer texas camera landowners wildlife vs cattle
+    research_angle: Wildlife/deer visibility gap; observation CTA.
+    tag: nws-deer-gap
+  - keyword: nws wildlife camera monitoring texas deer feeder hogs
+    research_angle: NWS + feeder + hog hosts; HE observation lens.
+    tag: nws-feeder-hogs
+  - keyword: HogEye vs Spartan vs Vosker vs Reolink hog detection alerts 2026
+    research_angle: Citation share on detection/alerts; do not invent Mini AI specs.
+    tag: a-comp-detect-stack

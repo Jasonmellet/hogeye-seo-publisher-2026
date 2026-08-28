@@ -1,0 +1,58 @@
+{
+  "migration_date": "2026-06-23",
+  "source_repo": "Advanced SEO Analysis",
+  "source_client_path": "clients/hogeye",
+  "domain": "hogeyecameras.com",
+  "gsc_property": "sc-domain:hogeyecameras.com",
+  "ga4_property_id": "245859533",
+  "date_ranges": {
+    "gsc": "2025-02-08 to 2026-06-20",
+    "ga4": "2024-01-01 to 2026-06-21"
+  },
+  "screaming_frog": {
+    "crawl_id": "2026.06.22.agt-cursor",
+    "local_exports": "work/seo/screaming_frog/2026.06.22.agt-cursor/",
+    "indexable_html_200": 34,
+    "internal_404_html": 6
+  },
+  "dataforseo": {
+    "run_date": "2026-06-22",
+    "approx_total_cost_usd": 7.08458,
+    "merged_unique_keywords_after_niche_gate": 355,
+    "serp_queries_chosen": 320,
+    "serp_summaries": 320,
+    "llm_summaries": 45,
+    "chatgpt_research": 28,
+    "on_page_instant": 14,
+    "hogeye_serp_top20_wins": 41,
+    "hogeye_chatgpt_cited_tasks": 7,
+    "raw_json": "inputs/dataforseo/dataforseo_hogeye_raw.json",
+    "archive_json": "inputs/dataforseo/dataforseo_hogeye_raw.2026-06-22T23-40-19Z.json"
+  },
+  "gsc_highlights": {
+    "total_clicks": 8522,
+    "total_impressions": 109525,
+    "brand_click_share_approx": 0.49,
+    "non_brand_clicks_with_clicks": 137,
+    "trap_camera_404_clicks": 128,
+    "screwworm_queries": 0
+  },
+  "sprint_contract": {
+    "posts_per_month_jul_aug": 5,
+    "posts_per_month_sep_plus": 10,
+    "screwworm_posts_per_month": "2-3 unique vs BB/Big Pig",
+    "geo_weight_tx_pct": 40,
+    "geo_weight_ms_la_ok_al_pct": 60
+  },
+  "primary_findings_docs": [
+    "findings/content-strategy-opportunities.md",
+    "findings/dataforseo-research-summary.md",
+    "findings/gsc-findings.md",
+    "findings/ga4-findings.md",
+    "findings/technical-findings.md"
+  ],
+  "stakeholder_docs": [
+    "stakeholder/content-sprint-stakeholder-brief-2026-06.md",
+    "stakeholder/screwworm-topic-matrix.md"
+  ]
+}
