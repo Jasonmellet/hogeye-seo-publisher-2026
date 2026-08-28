@@ -52,6 +52,20 @@ work/
 work/*
 !work/seo/
 work/seo/*
+# Screaming Frog: track README only (crawl dumps stay local)
+!work/seo/screaming_frog/
+work/seo/screaming_frog/**
+!work/seo/screaming_frog/README.md
+
+# Hub / Google review archives and sync dumps (operator-local)
+workspace/comment_archive/
+**/_google_sync/
+
+# DataForSEO evidence: keep summaries/configs; ignore bulky raw inputs
+workspace/content_pipeline/research/**/inputs/
+workspace/content_pipeline/research/**/working/
+workspace/content_pipeline/research/**/raw/
+workspace/content_pipeline/research/**/*.log
 
 # HogEye workspace at repo root — ignore bulky media, keep README
 workspace/content_pipeline/sources/media_inbox/*

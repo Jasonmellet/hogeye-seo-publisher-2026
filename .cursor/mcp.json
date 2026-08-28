@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "sharedKnowledge": {
+      "url": "http://127.0.0.1:8766/mcp"
+    },
+    "sf": {
+      "url": "http://127.0.0.1:11435/mcp"
+    }
+  }
+}

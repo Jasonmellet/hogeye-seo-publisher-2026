@@ -1,0 +1,16 @@
+---
+description: HogEye monthly SEO content cycle is the default shipping path for this repo.
+alwaysApply: true
+---
+
+# HogEye monthly cycle
+
+For any monthly content, hub review, WordPress publish, SEO strategy/baseline push, or Schell/Casey/Lily status email:
+
+1. Read and follow `.cursor/skills/he-monthly-cycle/SKILL.md`
+2. Use `docs/MONTHLY_PUBLISHING_WORKFLOW.md` as the operator playbook
+3. Required path: hub status → pull/apply → WordPress draft → confirm URLs → Gmail draft. Do not skip CMS publish.
+4. WordPress only (`docs/PUBLISH_SAFETY_MANDATE.md`); never Shopify commands against hogeyecameras.com
+5. Hub slug is `hogeye-cameras` (not `hogeye`)
+6. No em dashes in client-facing emails
+7. Hub Approved ≠ live; never re-push content after `pull-approved --apply`
