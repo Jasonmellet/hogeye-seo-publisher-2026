@@ -2,6 +2,8 @@
 
 This hierarchy governs briefs, research packs, drafts, and QA decisions.
 
+**Start here:** `workspace/brand_truth/BRAND_BASELINE.md` — orientation layer (brand truth, verified facts, vocabulary, workflows) before diving into individual rule files.
+
 ## Source priority (highest to lowest)
 
 1. Client website (primary truth for product naming, positioning, terminology, and offer framing)

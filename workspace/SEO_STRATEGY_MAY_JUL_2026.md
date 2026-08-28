@@ -1,5 +1,7 @@
 # HogEye SEO Content Strategy: May–July 2026
 
+> **Superseded for July 2026+:** This is the **pre-audit** (Apr 2026) plan. For July 2026 and later, use `workspace/SEO_STRATEGY_JUL_DEC_2026.md` (built on the Jun 2026 audit sprint). This doc is retained as Apr 2026 keyword/PAA/competitor-gap history only; its July section (JAGER PRO / deterrents / removal ROI) is deferred, not the current July plan.
+
 **Generated:** 2026-04-17  
 **Research basis:** DataForSEO keyword universe (270 site keywords), competitor gap analysis vs. jagerpro.com / gamechangertraps.com / pigbrig.com (498 gaps found), PAA extraction across 35 seed queries (61 unique questions)
 
@@ -73,13 +75,15 @@ Questions that appear repeatedly across multiple queries (high signal):
 
 ## June 2026: Operational Excellence + Texas/Regional Authority
 
+**Package status (2026-05-19):** Briefs + expanded client-review copy pushed to Google Doc; **sent to Schell for approval**. WordPress draft not started. See `content_pipeline/monthly/2026-06/STATUS.md`.
+
 **Theme:** Own the "how to run a trap operation" search space. Capture Texas-specific searchers (1,900/mo, low competition). Publish the kind of SOP and field-guide content that gets shared in ranch management and wildlife damage control circles.
 
 ### New Content (5 pieces)
 
 | # | Title | Primary Keyword | Volume | Cluster |
 |---|---|---|---|---|
-| 1 | Hog Trap Placement: Where to Set Traps, How to Read Sign, and What to Do Before You Bait | hog trap placement tips | — | trap-operations |
+| 1 | Hog Trap Placement: Where to Set Traps, How to Read Hog Signs, and What to Do Before You Bait | hog trap placement tips | — | trap-operations |
 | 2 | Trapping Wild Hogs in Texas: Regulations, Permits, and What Landowners Need to Know | feral hogs texas | 1,900/mo | regulatory |
 | 3 | How to Run a Multi-Trap Hog Operation Across a Large Property | multi trap hog operation | — | trap-operations |
 | 4 | What Does Wild Hog Damage Look Like? A Field Guide for Landowners | wild hog destruction | — | damage-driven |

@@ -6,6 +6,7 @@ This file defines how the Theo-style runtime must behave inside the HogEye repo.
 
 Always defer to these existing HogEye files instead of inventing a new doctrine layer:
 
+- `workspace/brand_truth/BRAND_BASELINE.md` (read first)
 - `workspace/brand_truth/TRUTH_HIERARCHY.md`
 - `workspace/brand_truth/APPROVED_LANGUAGE.yml`
 - `workspace/brand_truth/OWNER_RULES_OVERRIDE.md`

@@ -57,6 +57,30 @@ Think: "TJ explaining setup and decision quality to a serious operator."
 - adding broad positioning (security/surveillance/property monitoring)
 - using banned audience term `ranchers`
 - introducing em dashes (`—`) or decorative punctuation that reads like AI filler
+- vague field shorthand without concrete evidence (`active sign`, `active zone`, `equip the first active zone`, `release the gate`)
+- internal/meta labels in client copy (`Article 1`, `May posts`, `this batch`, `published in May 2026`)
+- robotic scope-declaration intros (`This guide is only about`, `This article is about`, `This article explains`, `Readers searching`)
+
+## Concrete field language (required)
+
+Write like an operator on the ground, not a strategist summarizing from the truck.
+
+**Name what you see on the property.** Prefer **fresh rooting**, **trails**, **wallows**, and **rubs** over vague trapper shorthand such as **active sign**, **real sign**, **old sign**, or **Walk sign**.
+
+| Avoid | Prefer |
+| --- | --- |
+| active sign / real sign / old sign | fresh or stale **rooting and trails** (add **wallows** when relevant) |
+| active zone / equip the first active zone | **sounder zone** or **trap site with fresh rooting** |
+| release the gate | **trigger the gate** (or **send the closure command**) |
+| act at the right moment | **close when the full sounder is inside** |
+| gear / Buy Gear (heading) | **trap panels**, **camera**, **actuator** (name the hardware) |
+| Article 1 / May posts / this batch | linked guide titles only (no internal batch labels in client-facing copy) |
+| This guide is only about / This article explains / Readers searching | write the problem and field action directly; no meta scope declarations |
+| trap infrastructure / scaling sites | **mapped trap zones**, **multiple trap sites on one property** |
+
+**Exception:** In a placement-focused piece, **reading hog sign** is acceptable as a section title when rooting, wallows, trails, and rubs are defined in the body below.
+
+**Before you mark humanization done:** Search for `active sign`, `active zone`, `release the gate`, `Article \d`, and `May post`. Replace or justify each hit.
 
 ## Style moves to prefer
 

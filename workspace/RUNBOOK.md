@@ -85,9 +85,11 @@ python3 scripts/seo/hogeye_wp_clone_metadata.py --project-root "$(pwd)" --includ
   - Run `scripts/seo/gsc_benchmark_pull.py` once you have access.
 - **DataForSEO**:
   - Run rank snapshots + SERP competitor snapshots using the existing benchmark scripts.
-- **Screaming Frog** (manual):
-  - Export crawl results and save them in your agreed location (either committed, or stored in Drive).
-  - Capture *where* they live in `workspace/EXECUTION_STATUS.md`.
+- **Screaming Frog** (MCP + exports):
+  - Enable MCP: `docs/SCREAMING_FROG_MCP.md` (Cursor server **`sf`**, Spider v24+ running).
+  - Baseline reference: `workspace/technical_seo/BASELINE.md` (April 2026 audit).
+  - Save new crawl exports under `work/seo/screaming_frog/<crawl-id>/` (gitignored bulk).
+  - Log comparison metrics in `workspace/technical_seo/CRAWL_COMPARISON.md`; triage fixes in `workspace/technical_seo/TRACKER.csv`.
 
 ---
 

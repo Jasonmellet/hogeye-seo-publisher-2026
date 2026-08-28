@@ -93,6 +93,7 @@ Run validator checks before treating an article package as approval-ready:
 
 Before drafting and in QA:
 
+- enforce `workspace/brand_truth/BRAND_BASELINE.md` (read-first orientation)
 - enforce `workspace/brand_truth/OWNER_RULES_OVERRIDE.md`
 - enforce `workspace/brand_truth/APPROVED_LANGUAGE.yml`
 - enforce `workspace/brand_truth/TRUTH_HIERARCHY.md`
@@ -108,8 +109,8 @@ If a claim cannot be supported by approved sources, remove the claim and list it
 3. Create briefs from template.
 4. Build research packs from template with source evidence and any relevant derived notes.
 5. Write drafts from template with metadata block.
-6. Run voice pass using `HUMANIZER_STYLE_GUIDE.md` and `templates/humanizer_pass.template.md` (fact-locked readability; **no em dashes**; normal punctuation; see guide).
-7. Run validator + QA template and fail anything with banned wording, unsupported claims, or fact drift introduced in editing.
+6. Run voice pass using `HUMANIZER_STYLE_GUIDE.md` and `templates/humanizer_pass.template.md` (fact-locked readability; **no em dashes**; **concrete field language**; normal punctuation; see guide).
+7. Run validator + QA template and fail anything with banned wording, vague field shorthand, unsupported claims, or fact drift introduced in editing.
 8. Prepare handoff packet for Google Docs review.
 
 ## LLM discoverability quality targets

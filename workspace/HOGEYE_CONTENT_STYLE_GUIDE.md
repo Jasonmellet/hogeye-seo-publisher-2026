@@ -1,9 +1,10 @@
 # HogEye Content Style Guide
 ### For writers, editors, and AI drafting prompts
 
-**Version:** April 2026  
+**Version:** May 2026  
 **Use this file as:** the single source of truth before drafting any HogEye content  
-**Source material:** February–April 2026 approved and published posts
+**Read first:** `workspace/brand_truth/BRAND_BASELINE.md` (brand truth, verified facts, workflows)  
+**Source material:** February–May 2026 approved and published posts
 
 **Punctuation:** Do not use em dashes (`—`) in HogEye content. Use commas, periods, colons, or parentheses. **Canonical rules:** `workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md`. Some older paragraphs in *this* file may still contain `—`; treat those as legacy and fix when you touch a section.
 
@@ -20,7 +21,7 @@
 **What they care about:**
 - Full-sounder capture rate (not individual catches)
 - Fewer wasted trips to an empty trap
-- Knowing the right moment to close — not guessing
+- Closing when the full sounder is inside — not guessing from the truck
 - Reliability. If the system fails at 2am, they lose the window.
 
 **What they do not care about:**
@@ -107,8 +108,41 @@ Use these terms consistently. They appear in approved content and match the clie
 | commitment (hog entering the trap zone) | entry, arrival |
 | closure criteria | trigger conditions |
 | operator / team | user, customer, buyer |
-| trap site / active zone | property, land (as primary frame) |
+| trap site / sounder zone | property, land (as primary frame); avoid bare **active zone** |
+| trigger the gate / send the closure command | release the gate; release (Schell April 2026) |
+| fresh rooting, trails, wallows | active sign, real sign, old sign (vague without evidence) |
 | low-latency trigger response | fast trigger, quick response |
+
+---
+
+## Concrete field language (May 2026 editorial standard)
+
+Operators should picture the property when they read a sentence. If they cannot, the wording is too vague.
+
+### Prefer evidence over shorthand
+
+| Avoid | Prefer |
+| --- | --- |
+| active sign / real sign / stale sign | **fresh rooting and trails** (add **wallows** or **rubs** when relevant) |
+| active zone / equip the first active zone | **sounder zone** or **trap site with fresh rooting and a remote camera** |
+| Walk sign / sign pops / sign refreshes | **walk the property**, **fresh damage shows clearly**, **check whether hogs returned** |
+| act at the right moment | **close when the full sounder is inside** |
+| gear / Buy Gear | **trap panels**, **camera**, **actuator** (name what you mean) |
+| trap infrastructure / scaling sites | **mapped trap zones with cameras and logs**, **multiple trap sites on one property** |
+| pretty clearing hogs never use | **open clearing with no fresh rooting or trails** |
+
+### Client-facing copy: no internal labels
+
+Google Doc and WordPress drafts must **not** reference batch structure:
+
+- ❌ `Article 1`, `Article 3 in this batch`, `May posts`, `published in May 2026`
+- ✅ Linked guide titles: [Texas trapping overview](https://hogeyecameras.com/trapping-wild-hogs-texas/), [electronic hog trap guide](https://hogeyecameras.com/electronic-hog-traps-explained/), etc.
+
+### Allowed exception
+
+In placement-focused content, **reading hog sign** is acceptable as a heading when the section immediately defines **rooting, wallows, trails, and rubs**.
+
+**Canonical pass:** `workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md` (Concrete field language section).
 
 ---
 
@@ -239,8 +273,9 @@ Use specific numbers when available. Vague claims lose credibility with this aud
 ✅ "If a trapper drives 45 minutes each way and checks 3 traps per week, remote monitoring eliminates most of those empty-trap trips."  
 ❌ "Remote monitoring saves significant time and money."
 
-✅ "USDA estimates $1.5B in annual feral hog damage nationally."  
-❌ "Feral hogs cause enormous damage to agriculture."
+✅ "A conservative estimate puts U.S. wild pig costs at a minimum of $3.4 billion a year."  
+❌ "Feral hogs cause enormous damage to agriculture."  
+❌ Bare national "$2.5B" / "$1.5B" without a clearly scoped older cite (see Schell feedback / brand baseline).
 
 If a specific number isn't available, use relative framing:
 > "Most teams find the conditioning window runs 7–14 days for a naive sounder — longer in high-pressure areas."

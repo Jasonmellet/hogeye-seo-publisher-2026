@@ -48,8 +48,33 @@ Verify these preferred terms are used where relevant:
 - [ ] "conditioning" used instead of acclimation/training
 - [ ] "operator" or "team" used instead of user/customer
 - [ ] "closure window" or "closure criteria" used correctly
-- [ ] "trap site" or "active zone" rather than "property" as primary frame
+- [ ] "trap site" or "sounder zone" rather than "property" as primary frame
 - [ ] "wild hog trap camera system" appears at least once (or "trap camera" with trap-specific context)
+- [ ] **trigger** / **closure command** used instead of **release the gate** or bare **release** on trap closure
+
+---
+
+## 3b. Concrete field language (zero tolerance in client copy)
+
+Search the draft for vague shorthand and internal labels. Replace before Google Doc push.
+
+**Vague field language — replace with concrete evidence:**
+
+- [ ] `active sign` / `real sign` / `old sign` → fresh or stale **rooting and trails** (add wallows when relevant)
+- [ ] `active zone` / `equip the first active zone` → **sounder zone** or **trap site with fresh rooting**
+- [ ] `Walk sign` / `sign refreshes` / `sign pops` → plain operator language (walk the property, check whether hogs returned)
+- [ ] `right moment` (without sounder context) → **when the full sounder is inside**
+- [ ] `gear` / `Buy Gear` → name hardware (**trap panels**, **camera**, **actuator**)
+- [ ] `trap infrastructure` / `scaling sites` → **mapped trap zones** / **multiple trap sites**
+
+**Internal/meta labels — remove from client-facing drafts:**
+
+- [ ] No `Article 1`, `Article N`, `this batch`, `May posts`, `May article`, or `published in May 2026`
+- [ ] Cross-references use **linked guide titles** only
+
+**Allowed:** `reading hog sign` as a section title in placement content when rooting/wallows/trails are defined below.
+
+**Reference:** `HOGEYE_CONTENT_STYLE_GUIDE.md` → Concrete field language; `HUMANIZER_STYLE_GUIDE.md` → Concrete field language.
 
 ---
 
@@ -102,6 +127,7 @@ Verify these preferred terms are used where relevant:
 | North Star test | | |
 | Blacklist scan | | |
 | Vocabulary check | | |
+| Concrete field language | | |
 | Structure check | | |
 | SEO metadata | | |
 | Voice spot-check | | |

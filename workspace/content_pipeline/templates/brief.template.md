@@ -22,6 +22,8 @@
   - ranchers
   - generic security/surveillance language
   - unsupported use cases
+  - vague field shorthand (active sign, bare active zone, release the gate)
+  - internal batch labels (Article N, May posts, this batch) in client-facing copy
 
 ## Internal linking
 

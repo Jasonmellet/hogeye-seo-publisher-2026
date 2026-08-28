@@ -22,6 +22,7 @@
 - [ ] FAQ answers simplified and direct
 - [ ] No new factual claims introduced
 - [ ] No banned words/positioning introduced
+- [ ] Concrete field language pass (no active sign, active zone, release the gate, Article N / May batch labels)
 
 ## High-impact rewrites (examples)
 

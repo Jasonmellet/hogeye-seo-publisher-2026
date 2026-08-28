@@ -2,6 +2,8 @@
 
 Use this file when generating SEO blog drafts for HogEye.
 
+**Read first:** `workspace/brand_truth/BRAND_BASELINE.md`
+
 ## Mission scope
 
 - Generate blog draft packages for organic and LLM discovery traffic.
