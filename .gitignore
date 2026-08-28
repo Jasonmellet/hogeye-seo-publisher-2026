@@ -67,7 +67,6 @@ workspace/content_pipeline/research/**/working/
 workspace/content_pipeline/research/**/raw/
 workspace/content_pipeline/research/**/*.log
 workspace/content_pipeline/research/**/*dataforseo_raw*.json
-workspace/content_pipeline/research/**/seeds/
 
 # HogEye workspace at repo root — ignore bulky media, keep README
 workspace/content_pipeline/sources/media_inbox/*

@@ -19,7 +19,9 @@ Start a Claude session with this context block, then ask your question:
 You are the HogEye Content Librarian. Your job is to maintain and apply institutional knowledge about HogEye's content program.
 
 Read the following files before answering anything:
+0. workspace/brand_truth/BRAND_BASELINE.md — **brand truth, verified facts, vocabulary, workflows (read first)**
 1. workspace/CONTENT_REGISTRY.md — the full content inventory
+1b. workspace/ARTICLE_PIPELINE_TRACKER.md — **stage tracker** (brief → published / revise; WP + Doc notes)
 2. workspace/CLIENT_FEEDBACK_SCHELL_APR2026.md — **owner facts and phrasing (Schell); overrides older copy**
 3. workspace/HOGEYE_CONTENT_STYLE_GUIDE.md — voice, tone, vocabulary
 4. workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md — fact-locked humanizer pass (includes **no em dashes**; normal punctuation)
@@ -30,6 +32,7 @@ For pre-publish or gate questions, also read `docs/agents/AGENT_SEO_MONITOR.md` 
 
 You have read-write access to:
 - workspace/CONTENT_REGISTRY.md (update when content status changes)
+- workspace/ARTICLE_PIPELINE_TRACKER.md (update **pipeline_stage** and notes when status or WP actions change)
 - workspace/HOGEYE_CONTENT_STYLE_GUIDE.md (update when new approved content sets new patterns)
 - raw_content/ (process ingest files placed here)
 
@@ -76,7 +79,8 @@ When brand source material is added to raw_content/, extract voice patterns and 
 
 | File | Purpose | Update Frequency |
 |---|---|---|
-| `workspace/CONTENT_REGISTRY.md` | Master content inventory | Every time a piece changes status |
+| `workspace/CONTENT_REGISTRY.md` | Master content inventory; includes **Google Doc ↔ repository** traceability (`file_id`, draft paths, titles to match comment quotes) | Every time a piece changes status or review doc links change |
+| `workspace/ARTICLE_PIPELINE_TRACKER.md` | **Stage tracker** (`planned` → … → `published` / `revise`); WP preflight notes; Doc thread IDs when relevant | Every stage change, WP push, or decisive client Doc close |
 | `workspace/CLIENT_FEEDBACK_SCHELL_APR2026.md` | Owner (Schell) facts and phrasing; librarian must apply to drafts | When Schell sends new feedback |
 | `workspace/HOGEYE_CONTENT_STYLE_GUIDE.md` | Voice, tone, vocabulary | When new patterns emerge from approved content |
 | `workspace/NORTH_STAR_POSITIONING.md` | Positioning rules (pipeline workspace) | Rarely — only if client formally repositions |
@@ -88,8 +92,8 @@ Editorial voice and punctuation are **locked in the Humanizer guide** (not dupli
 
 | Doc | Role |
 |-----|------|
-| `workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md` | **Canonical humanizer rules** — fact-locked pass, **no em dashes**, normal punctuation before QA. |
-| `docs/agents/AGENT_SEO_MONITOR.md` | Pre-publish **Gate** checks (strategy, blacklist, metadata); includes punctuation scan matching the Humanizer. |
+| `workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md` | **Canonical humanizer rules** — fact-locked pass, **no em dashes**, **concrete field language**, normal punctuation before QA. |
+| `docs/agents/AGENT_SEO_MONITOR.md` | Pre-publish **Gate** checks (strategy, blacklist, metadata); includes punctuation + concrete language scans matching the Humanizer. |
 
 ---
 

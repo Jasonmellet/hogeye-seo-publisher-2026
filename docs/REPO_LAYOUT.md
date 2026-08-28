@@ -17,9 +17,12 @@
 | Folder | Role |
 |--------|------|
 | `workspace/` | Full program: pipeline, SEO strategy, `PROJECT_CONFIG.json`, librarian, monthly folders (same markdown as `output/drafts/` + sources). |
+| `workspace/content_pipeline/research/sprint_20260622_audit/` | **June 2026 audit intake** (SF, GSC, GA4, DataForSEO) — start here for Jul+ planning. |
 | `content/` | **Canonical** WordPress JSON (`posts/`, `pages/`). `output/wordpress/` is a symlink here — not a duplicate. |
 | `seo/plan/` | Keyword CSVs you keep in the repo. |
-| `work/` | Local scratch from benchmarks / big exports (optional). |
+| `work/seo/screaming_frog/` | Screaming Frog crawl exports (bulk gitignored; see README). |
+| `workspace/technical_seo/` | Technical SEO tracker, baseline summary, crawl comparison log. |
+| `work/` | Other local scratch from benchmarks (optional). |
 
 ## Engines (mental model)
 

@@ -6,7 +6,10 @@ This folder is the **real on-disk location** for post and page JSON used by `scr
 |------|---------|
 | `posts/` | Post payloads (`*_wp_draft.json`, etc.) |
 | `pages/` | Page payloads |
-| `CONTENT_FORMAT.md` | Field notes for JSON shape |
+
+These files are produced by the md → JSON bridge `scripts/seo/hogeye_draft_md_to_post_json.py` from the per-cycle markdown drafts under `workspace/content_pipeline/monthly/<YYYY-MM>/drafts/`.
+
+**Post JSON fields** (see a real file, e.g. `posts/may26_01_wp_draft.json`): `title`, `content` (HTML), `slug`, `status` (default `draft`), `excerpt`, `meta_title`, `meta_description`, `focus_keyword`, `categories` (names), `tags` (names), `faq_items` (`[{question, answer}]`). Optional: `featured_image`/`featured_image_alt`, `featured_media_id`, `date`, `enable_toc`, `content_image_count`. SEO fields map to AIOSEO via `client.config.json`.
 
 ## Relationship to `output/`
 

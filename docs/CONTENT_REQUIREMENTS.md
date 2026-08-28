@@ -1,229 +1,95 @@
-# Content Requirements - What We Need From You
+# Content Requirements (HogEye Cameras)
 
-## 📋 Checklist of Required Items
-
-### 1. WordPress Access Credentials
-- [ ] **WordPress Site URL** (e.g., `https://camplakota.com`)
-- [ ] **Admin Username**
-- [ ] **Application Password** (or we can generate one)
-  - *Instructions: WordPress Admin → Users → Profile → Application Passwords*
+What a finished post needs before it enters this repo's pipeline. This describes the
+**publishable JSON shape** consumed by `scripts/publisher/publish_content_item.py` and the
+authority docs that govern voice, facts, and strategy. It is not a generic intake form —
+brand voice, facts, and topic/keyword/cadence authority already live in this repo.
 
 ---
 
-### 2. Landing Page Content (4 pages)
+## 1. Authority sources (read before drafting)
 
-For each landing page, please provide:
-
-```
-Page #1:
-- [ ] Title
-- [ ] Slug (URL path, e.g., "summer-camp")
-- [ ] Full HTML/Markdown content
-- [ ] Meta title (50-60 characters)
-- [ ] Meta description (150-160 characters)
-- [ ] Featured image file
-- [ ] Additional images (if any)
-- [ ] Schema type (e.g., LocalBusiness, Organization, Event)
-- [ ] Any specific schema data needed
-
-Page #2: [same structure]
-Page #3: [same structure]
-Page #4: [same structure]
-```
-
-**Preferred Format:**
-- Individual JSON files OR
-- Google Doc/Word doc with clear sections OR
-- Markdown files
+| Concern | Source of truth |
+|---------|-----------------|
+| Brand truth / orientation | `workspace/brand_truth/BRAND_BASELINE.md` |
+| Approved / banned language | `workspace/brand_truth/APPROVED_LANGUAGE.yml`, `workspace/KEYWORD_BLACKLIST.md` |
+| Truth hierarchy + owner overrides | `workspace/brand_truth/TRUTH_HIERARCHY.md`, `OWNER_RULES_OVERRIDE.md`, `CLIENT_FEEDBACK_SCHELL_APR2026.md` |
+| Voice / structure / FAQ / CTA | `workspace/HOGEYE_CONTENT_STYLE_GUIDE.md`, `workspace/content_pipeline/HUMANIZER_STYLE_GUIDE.md` |
+| Topics / keywords / cadence | `SEO_STRATEGY.md` (portal) + `workspace/SEO_STRATEGY_JUL_DEC_2026.md` (full roadmap) |
+| Pre-submission QA | `workspace/PRE_SUBMISSION_QA_CHECKLIST.md` |
 
 ---
 
-### 3. Blog Post Content (6 posts)
+## 2. WordPress access (one-time per site)
 
-For each blog post, please provide:
+Set in a gitignored `.env` (see `env.example`); never commit secrets.
 
-```
-Post #1:
-- [ ] Title
-- [ ] Slug (URL path, e.g., "top-activities-at-summer-camp")
-- [ ] Full HTML/Markdown content
-- [ ] Excerpt (short summary, ~20-30 words)
-- [ ] Meta title (50-60 characters)
-- [ ] Meta description (150-160 characters)
-- [ ] Categories (e.g., "Summer Camp", "Activities")
-- [ ] Tags (e.g., "outdoor activities", "kids camp")
-- [ ] Author name
-- [ ] Publish date (or use "now")
-- [ ] Featured image file
-- [ ] Additional images with captions
-- [ ] Schema type (typically "Article" or "BlogPosting")
+- [ ] `WP_SITE_URL` (e.g. `https://hogeyecameras.com`)
+- [ ] `WP_USERNAME`
+- [ ] `WP_APP_PASSWORD` (WordPress Admin → Users → Profile → Application Passwords)
 
-Post #2-6: [same structure]
-```
-
-**Preferred Format:**
-- Individual JSON files OR
-- Google Doc/Word doc with clear sections OR
-- Markdown files with frontmatter
+`client.config.json` records the expected site (`expectedWpSiteUrl`/`Host`/`Name`),
+`seoPlugin: "aioseo"`, and internal-link aliases. The preflight hard-blocks publishing to a
+mismatched site.
 
 ---
 
-### 4. Images & Media Files
+## 3. Per-cycle content packages
 
-Please provide:
+Editorial work lives under `workspace/content_pipeline/monthly/<YYYY-MM>/` (`briefs/`,
+`research_packs/`, `drafts/`, `qa/`, `handoff/`). Each article package needs:
 
-- [ ] **All image files** (organized by page/post if possible)
-- [ ] **Image metadata** for each image:
-  - Filename
-  - Alt text (for accessibility and SEO)
-  - Caption (if applicable)
-  - Description (for media library)
+- [ ] `briefs/<article_id>_brief.md`
+- [ ] `research_packs/<article_id>_research_pack.md`
+- [ ] `drafts/<article_id>_draft.md` (final markdown; voice-checked, fact-locked)
+- [ ] `qa/<article_id>_qa.md` (QA checklist passed)
 
-**Image Requirements:**
-- Format: JPG, PNG, or WebP
-- Recommended size: 1200px width minimum
-- Optimized for web (< 500KB each if possible)
-
-**Naming Convention:** 
-Use descriptive names like `camp-lakota-swimming-pool.jpg` instead of `IMG_1234.jpg`
+The markdown draft is converted to publishable JSON by
+`scripts/seo/hogeye_draft_md_to_post_json.py` → `content/posts/<id>_wp_draft.json`.
 
 ---
 
-### 5. Internal Linking Structure
+## 4. Post JSON fields (`content/posts/*.json`)
 
-Please specify:
+**Required:** `title`, `content` (HTML).
 
-- [ ] **Which pages/posts should link to each other**
-  - Example: "Summer Camp page should link to 'Activities' post"
-  - Example: "All blog posts should link back to main 'Programs' page"
+**Standard for HogEye posts:**
+- `slug` — permanent identity (same slug updates in place on WP and the dashboard)
+- `status` — default `draft`
+- `excerpt`
+- `meta_title` (primary keyword, < 60 chars), `meta_description` (140–155 chars)
+- `focus_keyword`
+- `categories` (existing WP category names — see `PROJECT_CONFIG.json`; do not auto-invent)
+- `tags`
+- `faq_items` — `[{ "question": "...", "answer": "..." }]` (4–6; rendered to AIOSEO FAQPage schema)
 
-**Format:**
-```
-From: "Summer Camp Programs" (page)
-To: "Top 10 Camp Activities" (post)
-Anchor text: "explore our camp activities"
-```
+**Optional:** `featured_image` / `featured_image_alt`, `featured_media_id`, `date`,
+`enable_toc`, `content_image_count`.
 
----
+SEO fields map to AIOSEO (`aioseo_meta_data`) via `client.config.json`. Internal links use
+`{{link:alias|anchor}}` placeholders (aliases from `client.config.json`), resolved at publish
+with `--resolve-links`.
 
-### 6. Schema Markup Preferences
-
-Please specify for each page/post:
-
-- [ ] **Schema type** (e.g., LocalBusiness, Organization, Article)
-- [ ] **Required schema fields:**
-  - Business name
-  - Address (if LocalBusiness)
-  - Phone number
-  - Email
-  - Logo URL
-  - Social media profiles
-  - Opening hours (if applicable)
-  - Price range (if applicable)
+See a real example: `content/posts/may26_01_wp_draft.json`.
 
 ---
 
-### 7. SEO & Plugin Information
+## 5. Images
 
-- [ ] **SEO Plugin:** Which one is installed?
-  - Yoast SEO
-  - Rank Math
-  - All in One SEO
-  - Other: ___________
-  - None
-
-- [ ] **Schema Plugin:** (if any)
-  - Schema Pro
-  - Schema & Structured Data
-  - Other: ___________
-  - None (we'll use custom injection)
+- [ ] Files in the WP media library (the pipeline matches by keyword) or supplied IDs
+- [ ] Descriptive `featured_image_alt` matching a trap/field scene (not a generic camera)
+- Format JPG/PNG/WebP, ≥1200px wide, optimized (< ~500KB)
 
 ---
 
-### 8. Additional Settings
+## 6. Approval & publishing
 
-- [ ] **Default Category** for posts (if not specified per post)
-- [ ] **Default Author** for posts (if not specified per post)
-- [ ] **Publishing Strategy:**
-  - Publish immediately
-  - Set to "Draft" for review
-  - Schedule for specific dates
-- [ ] **Page Templates:** Do pages need specific templates?
-- [ ] **Menu Structure:** Should pages be added to menus?
+- [ ] Push finished posts to the Wildlife Dominion dashboard: `npm run push:content`
+      (brand `hogeye-cameras`, status `in_review`).
+- [ ] **Schell approval in the dashboard is required before going live.** The publish step
+      is hard-blocked on `--status publish` unless dashboard approval is confirmed
+      (`--approved-in-dashboard` or the interactive `APPROVED` prompt).
+- [ ] Publish draft-first: `python3 scripts/publisher/publish_content_item.py <file> --type posts`
+      (default `--status draft`), then flip to publish after the WP draft post-flight.
 
----
-
-## 📦 How to Provide the Content
-
-### Option 1: Structured Files (Recommended)
-Create a folder structure:
-```
-content_delivery/
-├── pages/
-│   ├── summer-programs.json
-│   ├── about-us.json
-│   ├── contact.json
-│   └── registration.json
-├── posts/
-│   ├── top-10-activities.json
-│   ├── camp-safety-tips.json
-│   └── ... (4 more)
-└── images/
-    ├── hero-summer-camp.jpg
-    ├── activities-swimming.jpg
-    └── ... (more images)
-```
-
-### Option 2: Google Sheet
-Create a sheet with columns:
-- Type (Page/Post)
-- Title
-- Slug
-- Content
-- Meta Title
-- Meta Description
-- Categories
-- Tags
-- Featured Image
-- etc.
-
-### Option 3: Document
-Provide a comprehensive Google Doc or Word document with clearly labeled sections.
-
----
-
-## 🚀 Priority Order
-
-To get started quickly, please provide in this order:
-1. **WordPress credentials** (so we can test connection)
-2. **1 sample page** (to build and test the system)
-3. **1 sample post** (to build and test the system)
-4. **All images with metadata**
-5. **Remaining 3 pages**
-6. **Remaining 5 posts**
-7. **Internal linking map**
-8. **Final schema details**
-
----
-
-## ❓ Questions to Answer
-
-1. **Do you want us to create categories/tags** if they don't exist?
-2. **Should all content be published immediately** or set to draft?
-3. **Are there any custom fields** we need to populate?
-4. **Do you need redirects** set up for any URLs?
-5. **Should we backup existing content** before publishing?
-6. **Do you want a summary report** after publishing?
-
----
-
-## 📞 Next Steps
-
-Once you provide the above information:
-1. We'll validate all content structure
-2. Test with 1 page and 1 post
-3. Publish all content
-4. Verify internal links and schema
-5. Provide completion report with all published URLs
-
-**Ready to start?** Please provide the items above, and we'll begin building!
+See `docs/MONTHLY_PUBLISHING_WORKFLOW.md` for the full sequence.
