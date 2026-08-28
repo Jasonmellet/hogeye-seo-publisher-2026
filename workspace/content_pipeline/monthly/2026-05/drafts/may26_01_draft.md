@@ -11,7 +11,10 @@ additional_keywords:
   - "hog damage per acre"
   - "wild hog crop damage"
 categories:
-  - "Feral Hog Management"
+  - "Feral Hog Educational & Awareness"
+tags:
+  - "wild hog"
+  - "hog trapping"
 excerpt: "USDA estimates feral hogs cause $2.5 billion in damage annually across the US. Here's how to break that number down by crop type, sounder size, and property, and what it actually costs to get it under control."
 featured_image: "feral-hog-rooted-pasture.jpg"
 featured_image_alt: "Wide shot of a pasture heavily rooted by a feral hog sounder, showing extensive ground disturbance across multiple acres"
@@ -50,7 +53,7 @@ If you're managing a property with active hog pressure and your control program 
 
 Understanding the damage type is the first step toward quantifying it. Feral hogs cause harm in three distinct ways, and each has a different cost profile.
 
-**Rooting** is the most common and most visible. Hogs use their snouts to turn soil in search of roots, tubers, grubs, and earthworms. A sounder of 10–15 animals can root an acre of pasture or crop ground in a single night, leaving the surface looking like it was tilled by a machine (except uneven, compacted in some areas, and impossible to mechanically repair without full rework).
+**Rooting** is the most common and most visible. Hogs use their snouts to turn soil in search of roots, tubers, grubs, and earthworms. A sounder of 10–15 animals can root several acres of pasture or crop ground in a single night, leaving the surface looking like it was tilled by a machine (except uneven, compacted in some areas, and impossible to mechanically repair without full rework).
 
 Fresh rooting is dark, disturbed soil with loose clods and visible snout marks. Old rooting dries and crusts over, leaving irregular mounds and depressions that persist through the growing season.
 
@@ -64,27 +67,15 @@ Fresh rooting is dark, disturbed soil with loose clods and visible snout marks. 
 
 The table below reflects field-reported and extension-documented loss ranges. Actual losses vary by sounder size, visit frequency, and crop maturity at time of damage.
 
-| Crop | Typical loss per acre (active sounder) | Notes |
-| --- | --- | --- |
-| Corn (mature) | $150–$400/acre | High-value target; a single night event can destroy a stand |
-| Soybeans | $80–$200/acre | Rooting damage plus pod consumption; worst near field edges |
-| Wheat / small grains | $50–$150/acre | Rooting disrupts root zones; damage compounds through season |
-| Improved pasture | $100–$300/acre | Rooting destroys stand; reseeding + herbicide adds to cost |
-| Native pasture | $30–$80/acre | Slower to recover; erosion risk in rooted areas |
-| Vegetable / specialty crops | $500–$2,000+/acre | Concentrated high-value losses; catastrophic in small operations |
-| Orchards / nursery stock | Variable | Rooting around root zones; irreversible tree damage possible |
-
----
-> **[GOOGLE DOC VERSION: delete whichever format you don't use]**
->
-> - **Corn (mature):** $150–$400/acre. High-value target; a single night event can destroy a stand.
-> - **Soybeans:** $80–$200/acre. Rooting damage plus pod consumption; worst near field edges.
-> - **Wheat / small grains:** $50–$150/acre. Rooting disrupts root zones; damage compounds through season.
-> - **Improved pasture:** $100–$300/acre. Rooting destroys stand; reseeding + herbicide adds to cost.
-> - **Native pasture:** $30–$80/acre. Slower to recover; erosion risk in rooted areas.
-> - **Vegetable / specialty crops:** $500–$2,000+/acre. Concentrated high-value losses; catastrophic in small operations.
-> - **Orchards / nursery stock:** Variable. Rooting around root zones; irreversible tree damage possible.
----
+| Crop                        | Typical loss per acre (active sounder) | Notes                                                            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------------- |
+| Corn (mature)               | $150–$400/acre                         | High-value target; a single night event can destroy a stand      |
+| Soybeans                    | $80–$200/acre                          | Rooting damage plus pod consumption; worst near field edges      |
+| Wheat / small grains        | $50–$150/acre                          | Rooting disrupts root zones; damage compounds through season     |
+| Improved pasture            | $100–$300/acre                         | Rooting destroys stand; reseeding + herbicide adds to cost       |
+| Native pasture              | $30–$80/acre                           | Slower to recover; erosion risk in rooted areas                  |
+| Vegetable / specialty crops | $500–$2,000+/acre                      | Concentrated high-value losses; catastrophic in small operations |
+| Orchards / nursery stock    | Variable                               | Rooting around root zones; irreversible tree damage possible     |
 
 **Fencing and infrastructure** adds a separate cost category that most damage estimates undercount. A single hog crossing (repeated nightly) collapses wire fencing, bends posts, and creates gaps that require full section replacement. Field-reported repair costs run $400–$1,500 per section depending on fence type, with high-tensile and barbed wire in the $700–$1,200 range per 100-foot section.
 
@@ -138,7 +129,9 @@ The ROI math is straightforward. If remote monitoring eliminates 70–80% of emp
 
 For operators running multiple trap sites across a larger property, the math is even clearer. Checking five trap sites twice a week without cameras means 10 site visits per week regardless of activity; with cameras, you check when there's something to see. The difference between a 10-trip week and a 2-trip week, repeated across a full season, is significant.
 
-The goal of a trap program isn't to catch hogs. It's to reduce damage. Those two things only converge when the capture rate is high enough to outpace the reproduction rate. Whole-sounder capture (enabled by knowing when to close) is what makes that possible.
+The goal of a trap program isn't only to **count caught pigs**. It's to **reduce damage** to **crops, fences, water sources, and wildlife habitat** those pigs disturb. **Catch counts and damage control only line up when removals stay ahead of reproduction and immigration**—which usually means **whole-sounder capture** and **sustained effort**, not a single lucky weekend.
+
+Biologists do **not** agree on one magic **“remove X% every year”** number for every landscape. Empirical work shows wild pigs can **bounce back within months** after large one-time removals (on the order of **~54–68%** in published trap-and-camera studies when control stops), and managers more often discuss **roughly 40–60% annual removal** as a **planning band** for **pulling abundance down over time** in **open** populations. A **~70%** figure is **often repeated** in stakeholder conversations, but it is **contested** as a universal elimination threshold ([Pepin et al., *Human–Wildlife Interactions*](https://digitalcommons.usu.edu/hwi/vol17/iss1/12/))—**immigration, food, and how you count pigs** all move the goalposts. Field studies also document **rapid numeric recovery** within months after large one-time removals on the order of **~54–68%** when control stops ([*Biological Invasions*](https://link.springer.com/article/10.1007/s10530-023-03230-0)). **Whole-sounder capture** (enabled by knowing **when** to close) is still what turns effort into **measurable pressure relief** on the ground.
 
 ---
 
@@ -157,7 +150,11 @@ Rooting produces irregular, disturbed soil: dark, loose clods and visible snout 
 Current estimates place the feral hog population between 6 and 9 million animals across at least 35 states. The population continues to expand northward and is increasing in most established ranges due to high reproductive rates.
 
 ### Is feral hog damage tax deductible?
-In many cases, yes. Losses from feral wildlife damage may be deductible as a casualty loss or business expense depending on your operation type and how the damage is documented. Consult a tax professional and document damage with photos, acreage records, and cost estimates before filing.
+**Often, for farm, ranch, and timber businesses—if you document like a business.** Damage to **crops, pasture, equipment, or income-producing land** is commonly addressed through **farm/business casualty or ordinary-loss rules** (for example **IRS [Publication 225](https://www.irs.gov/publications/p225)** for farmers and **[Form 4684](https://www.irs.gov/forms-pubs/about-form-4684)** for casualties and thefts—typically **Section B** for business/income-producing property). Keep **photos, maps, yield or repair estimates, and insurance correspondence**.
+
+**Personal-use land (hobby acreage, non-farm homeowners)** is a different story: since **2018**, **net personal casualty losses** on **non-disaster** events are generally **not deductible** unless an exception applies—see **[IRS Topic 515](https://www.irs.gov/taxtopics/tc515)** and **[Publication 547](https://www.irs.gov/publications/p547)**. **Wild hog rooting is not automatically a write-off**; **entity type, insurance, state law, and whether the property is held for profit** all matter.
+
+**Consult a CPA or enrolled agent** who routinely files **Schedule F / farm and timber** returns before you bank on any deduction.
 
 ---
 

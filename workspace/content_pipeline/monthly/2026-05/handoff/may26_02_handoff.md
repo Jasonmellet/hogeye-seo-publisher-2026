@@ -1,28 +1,34 @@
 <!-- scaffolded_by: scripts/seo/hogeye_create_monthly_pipeline.py -->
 <!-- month: 2026-05 -->
 <!-- article_id: may26_02 -->
+<!-- google_doc_id: 1BcRBkePhe2XFHpZuF9CorPJU-6hcfW0qXyt5iGYyW_Y -->
+<!-- google_doc_url: https://docs.google.com/document/d/1BcRBkePhe2XFHpZuF9CorPJU-6hcfW0qXyt5iGYyW_Y/edit -->
 
-# Google Docs Handoff Template
+# Handoff — `may26_02` (May 2026)
+
+**Client review Google Doc:** [Hog Eye | 2026 SEO Strategy & Blueprint](https://docs.google.com/document/d/1BcRBkePhe2XFHpZuF9CorPJU-6hcfW0qXyt5iGYyW_Y/edit) — `file_id` `1BcRBkePhe2XFHpZuF9CorPJU-6hcfW0qXyt5iGYyW_Y`. Match Drive **quoted text** in comments to the **title** row below.
 
 ## Month and batch
 
-- month:
-- batch_size:
-- handoff_date:
-- owner_review_due:
+- month: 2026-05
+- batch_size: 5
+- handoff_date: *(fill when sent)*
+- owner_review_due: *(fill)*
 
-## Package index
+## This article
 
-For each article:
-
-- article_id:
-- target_keyword:
-- brief_file:
-- research_pack_file:
-- draft_file:
-- qa_file:
-- google_doc_url:
-- qa_status:
+| Field                       | Value                                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------------- |
+| `article_id`                | `may26_02`                                                                            |
+| Registry                    | MAY-02 (`workspace/CONTENT_REGISTRY.md`)                                              |
+| `target_keyword`            | wild hog behavior                                                                     |
+| **Title (match in Google)** | Wild Hog Behavior: What Time They Move, How They Scout, and Why It Affects Your Trap  |
+| `brief_file`                | `workspace/content_pipeline/monthly/2026-05/briefs/may26_02_brief.md`                 |
+| `research_pack_file`        | `workspace/content_pipeline/monthly/2026-05/research_packs/may26_02_research_pack.md` |
+| `draft_file`                | `workspace/content_pipeline/monthly/2026-05/drafts/may26_02_draft.md`                 |
+| `qa_file`                   | `workspace/content_pipeline/monthly/2026-05/qa/may26_02_qa.md`                        |
+| `wp_json`                   | `content/posts/may26_02_wp_draft.json`                                                |
+| `qa_status`                 | *(pending)*                                                                           |
 
 ## Reviewer guidance
 
@@ -33,12 +39,9 @@ For each article:
 
 ## Known exclusions
 
-- article_id:
-  - excluded claim:
-  - reason:
+- *(none)*
 
 ## Approval tracking
 
-- article_id:
-  - owner_status: approved, changes requested, rejected
-  - notes:
+- owner_status: *(pending)*
+- notes:

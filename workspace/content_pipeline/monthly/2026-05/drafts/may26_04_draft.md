@@ -11,6 +11,11 @@ additional_keywords:
   - "what are the common mistakes when using pig traps"
 categories:
   - "Feral Hog Management"
+tags:
+  - "wild hog"
+  - "hog trapping"
+  - "remote hog trap"
+  - "trigger timing"
 featured_image: "empty-hog-trap-triggered.jpg"
 featured_image_alt: "Empty corral trap with gate triggered: the result of a missed closure window or premature trap introduction"
 schema:
@@ -34,7 +39,7 @@ This is the most common mistake and the one that does the most lasting damage.
 
 Wild hogs are acutely sensitive to new objects in their environment. A trap introduced too early doesn't just get ignored; it gets associated with danger. The sounder encounters the hardware, spooks, and learns to avoid the entire area. That association is durable. You can pull the trap, re-bait, and come back weeks later and still deal with a sounder that won't commit.
 
-The correct sequence: bait the site without hardware present. Run 7 to 14 days of pre-bait visits (fermented corn, standing water, something that brings the sounder back consistently). Once they're hitting the bait site confidently on consecutive nights, then you introduce the trap.
+The correct sequence: bait the site without hardware present. Run 7 to 14 days of pre-bait visits (deer corn, fermented corn, standing water, something that brings the sounder back consistently). Once they're hitting the bait site confidently on consecutive nights, then you introduce the trap.
 
 **Signs you put the trap in too early:**
 - Hogs were hitting the bait site, then stopped completely after trap introduction
@@ -85,7 +90,7 @@ Closing on a partial sounder is almost always worse than waiting. The risk of do
 
 Drop gates, swing gates, trip wires, net systems: each has a different false-positive profile.
 
-A drop gate in a high-wind area will trigger without hogs. A trip wire calibrated for adult hogs may be walked through by boar pigs and won't fire. A net trigger that's too sensitive will deploy on a deer, spook whatever hogs are nearby, and leave you with a tangled net and no capture.
+A drop gate in a high-wind area can trigger without hogs. A trip wire calibrated for adult hogs may be walked through by boar pigs and won't fire. A net trigger that's too sensitive will deploy on a deer, spook whatever hogs are nearby, and leave you with a tangled net and no capture.
 
 **Common false-positive causes:**
 - Wind deflecting the trip plate or release pin
@@ -93,7 +98,7 @@ A drop gate in a high-wind area will trigger without hogs. A trip wire calibrate
 - Non-target animals (deer, raccoons, armadillos) activating trip wires
 - Deterioration of the trigger calibration after rain or freeze
 
-Calibration is a consistent maintenance task, not a one-time setup. Operators who treat the trigger as set-and-forget accumulate false positives over time without realizing it.
+Calibration is a consistent maintenance task, not a one-time setup. Operators who treat the trigger as set-and-forget can accumulate false positives over time without realizing it.
 
 A camera confirms whether a trigger event produced a capture or was a false positive, and which kind of false positive. That information tells you whether you need to recalibrate the sensitivity, adjust positioning, or clear debris. Without it, you're re-setting the trap blind.
 
@@ -101,12 +106,13 @@ A camera confirms whether a trigger event produced a capture or was a false posi
 
 ## Mistake 5: Poor Trap Placement (Ignoring Sign and Travel Corridors)
 
-Hogs move along defined routes. Rooting sign, tracks, and rub marks on fence posts or trees show you where they travel. The trap needs to intercept that corridor, not sit in the middle of an open clearing where you had room to put it.
+Hogs move along defined routes. Rooting sign, tracks, and rub marks on fence posts or trees show you where they travel. The trap still needs to **intercept how the sounder actually uses the property**—but **open clearings are often the right place for both the trap and the camera**, not a compromise to avoid. Clearings buy visibility: you can read approach behavior, confirm what's at the trigger, and close with fewer guesswork errors than a tucked-in setup where you never get a clean sight picture. The mistake is placing **without** tying the site to sign and travel pressure, not choosing a clearing when the clearing is where you can see and manage the event.
 
 **PAA: What is the best location to place hog traps?**
 
-The best placement is across a known travel corridor between bedding cover and a food or water source, positioned so hogs encounter the trap entrance naturally along their existing path. Key considerations:
+The best placement still follows **travel pressure**: across a known corridor between bedding cover and a food or water source, with the entrance aligned so hogs encounter the trap naturally along their path. **Within that logic, open clearings are often preferable** for trap and camera placement because they support the field of view you need for remote monitoring and confident closures. Key considerations:
 
+- **Open clearings for visibility.** Client guidance (Schell / ClearMark review): favor sites where cameras and operators can see the full approach and trigger zone rather than hiding gear in cover that looks “woodsy” but hides the decision you need to make.
 - **Water proximity in summer.** Hogs need water daily in heat. Placing near reliable water sources dramatically increases traffic.
 - **Avoid flood zones.** A trap in a low-lying area after rain is a flooded trap. Standing water inside the enclosure kills conditioning fast.
 - **Watch the escape route.** Don't place a trap against a fence or structure in a way that a spooked hog would pile into the perimeter while trying to exit.
@@ -124,7 +130,7 @@ Two failure modes. Both common.
 
 **Too infrequent:** Hogs arrive at a site, find nothing, and move on. They're opportunistic feeders. An empty bait site gets deprioritized. If you're not refreshing often enough during the pre-bait phase, you lose the pattern you're trying to establish.
 
-The right interval depends on the sounder's consumption rate, the bait type, and the weather. Fermented corn holds up differently than fresh corn. High-traffic sites deplete faster than low-traffic ones.
+The right interval depends on the sounder's consumption rate, the bait type, and the weather. Fermented corn and deer corn hold up differently than fresh corn. High-traffic sites deplete faster than low-traffic ones.
 
 A camera lets you monitor bait depletion without visiting the site. You can see when the pile is running low, time your refresh accordingly, and avoid unnecessary trips that contaminate the area with scent. That's not a small efficiency gain; it's the kind of operational discipline that separates successful conditioning runs from failed ones. For more on timing the full baiting sequence, see the [hog trap baiting guide](https://hogeyecameras.com/hog-trap-baiting-guide/).
 
@@ -150,7 +156,7 @@ The [HogEye Steel Camera](https://hogeyecameras.com/steel-camera/) is built for 
 
 **What are common hog trap mistakes?**
 
-The most common hog trap mistakes are introducing the trap before conditioning is complete, checking on a fixed schedule instead of responding to real-time events, closing on a partial sounder, using a trigger mechanism that's mis-calibrated for the site, placing the trap in a clearing instead of along a travel corridor, refreshing bait too often or not often enough, and running one box trap when the sounder requires a corral or net system. Most of these mistakes share a root cause: operating without enough information about what's actually happening at the site.
+The most common hog trap mistakes are introducing the trap before conditioning is complete, checking on a fixed schedule instead of responding to real-time events, closing on a partial sounder, using a trigger mechanism that's mis-calibrated for the site, placing without matching sign and travel corridors (or tucking traps and cameras where you cannot see the approach), refreshing bait too often or not often enough, and running one box trap when the sounder requires a corral or net system. Most of these mistakes share a root cause: operating without enough information about what's actually happening at the site.
 
 **How often should I check my hog trap?**
 
@@ -158,7 +164,7 @@ Check when something has happened, not on a fixed daily schedule. Daily checks a
 
 **What is the best location to place hog traps?**
 
-The best location is across a confirmed travel corridor between bedding cover and a water or food source, with the trap entrance aligned naturally along the hogs' existing path. Avoid open clearings, flood-prone areas, soft ground that can cause gate binding, and placements that put fence lines directly behind a potential escape route.
+The best location follows **travel pressure**: across a confirmed corridor between bedding cover and a food or water source, with the trap entrance aligned along the hogs' existing path. **Open clearings are often the best choice for both traps and cameras**—you keep corridor logic, but you pick a site where you can actually see approach, occupancy, and trigger behavior (per client review). Still **avoid** flood-prone areas, soft ground that can cause gate binding, and layouts that put fence lines directly behind a likely escape route.
 
 **Why aren't hogs going into my trap?**
 

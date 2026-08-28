@@ -11,7 +11,11 @@ additional_keywords:
   - "what time of day are wild boars most active"
   - "wild hog rooting"
 categories:
-  - "Feral Hog Management"
+  - "Feral Hog Educational & Awareness"
+tags:
+  - "wild hog"
+  - "hog trapping"
+  - "trigger timing"
 featured_image: "wild-hog-sounder-approaching-bait-site.jpg"
 featured_image_alt: "Sounder of wild hogs approaching a bait site at night, captured on a remote trap monitoring camera"
 schema:

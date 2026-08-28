@@ -74,14 +74,14 @@ The HogEye angle: all three trap types require monitoring to be effective. The c
 
 **H2:** Comparison Table
 
-| Feature | Corral Trap | Box Trap | Drop Net |
-|---|---|---|---|
-| Sounder capacity | 10–50+ | 1–4 | 20–50+ |
-| Typical cost | $500–$3,000 | $150–$600 | $2,000–$6,000+ |
-| Setup complexity | Medium | Low | High |
-| Best sounder size | 5–30 hogs | 1–4 hogs | 10–50+ hogs |
-| Remote closure? | Yes (with right gate) | Sometimes | Yes (required) |
-| Monitoring benefit | Critical | Helpful | Critical |
+| Feature            | Corral Trap           | Box Trap  | Drop Net       |
+| ------------------ | --------------------- | --------- | -------------- |
+| Sounder capacity   | 10–50+                | 1–4       | 20–50+         |
+| Typical cost       | $500–$3,000           | $150–$600 | $2,000–$6,000+ |
+| Setup complexity   | Medium                | Low       | High           |
+| Best sounder size  | 5–30 hogs             | 1–4 hogs  | 10–50+ hogs    |
+| Remote closure?    | Yes (with right gate) | Sometimes | Yes (required) |
+| Monitoring benefit | Critical              | Helpful   | Critical       |
 
 **H2:** How to Choose Based on Your Property and Herd Size  
 - Decision tree: small nuisance hog → box trap; sounder of 6–20 → corral; large open property + big sounder → net  

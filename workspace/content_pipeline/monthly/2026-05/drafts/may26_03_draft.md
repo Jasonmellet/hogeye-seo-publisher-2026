@@ -12,6 +12,10 @@ additional_keywords:
   - "what smell attracts pigs"
 categories:
   - "Feral Hog Management"
+tags:
+  - "wild hog"
+  - "hog trapping"
+  - "trigger timing"
 featured_image: "hog-trap-bait-site-night.jpg"
 featured_image_alt: "Night vision view of wild hog sounder approaching a baited corral trap entrance"
 schema:
@@ -103,19 +107,27 @@ Once the trap is in, bait placement inside the structure is not arbitrary. It de
 
 ### Where to place bait relative to the trigger
 
-The primary bait deposit goes at the far end of the trap (the point requiring deepest penetration past the trigger zone). For a Big Pig Trap corral system, this means the bait pile sits near the back panel, past the trigger footprint. A secondary, smaller deposit just inside the entrance keeps hogs moving forward.
+**Single-gate / rear-trigger corrals (including many Big Pig Trap layouts):** The **primary** bait deposit still belongs at the **far end** of the trap—the point that requires **deepest penetration past the trigger zone**. For a Big Pig Trap corral, that usually means the **main pile near the back panel**, past the trigger footprint, with a **secondary, smaller deposit just inside the entrance** to pull hogs forward.
 
-Do not place bait at the entrance or just inside the gate. Hogs will feed there without triggering, learn the trap layout, and become increasingly difficult to capture.
+**Corrals with two or more gates:** Bait location follows **gate geometry**. If **two gates sit side by side**, operators often run **bulk bait at the back** with a **light corn line leading out through the gates** so the sounder steps in along that draw. If **gates are on opposite sides**, **center the bulk bait** so animals can enter **either** opening and still converge **in the middle**; a **thin corn line from each entrance** into the **center pile** helps concentrate the whole group before closure.
+
+**Suspended net traps:** Put the **main corn pile in the center** of the bait footprint under the net so the sounder is **massed in the middle** when you are ready to **drop**—not hugging one edge.
+
+Do not leave **only** a shallow bait pad at the gate with nothing deeper in the trap—hogs will camp there, learn the layout, and become harder to capture. **Small lead-in lines** are fine when they are part of a **deliberate draw** to a **rear or center bulk** pile.
 
 ### Quantity: enough to work but not so much hogs feed without triggering
 
 Enough bait to draw and hold the sounder. Not so much that animals can feed for extended periods without moving toward the trigger zone. Oversaturation (a full bucket dumped in the back) lets early-entry animals fill up and exit before the full sounder commits.
 
-For a standard conditioning visit: 5–10 pounds of fermented corn, split between the secondary entrance deposit and the primary rear deposit, with the rear deposit being approximately 70% of the total.
+For volume work, **40–50 lb bags of corn** from a feed store (often **deer or livestock corn**) are a common buy—typically around **$10 per bag** in many markets. Pour what the night needs; **fermented corn or flavors** can be added **on top of** a **dry pile** for extra scent. If you are running a **fermented-forward** visit instead, **5–10 pounds of fermented corn** split between a **smaller entrance deposit** and a **rear deposit (~70% of the total)** still matches the draw pattern above.
 
 ### Refreshing bait: how often, and whether to touch the trap at all
 
-Refresh every 2–3 nights during active conditioning, more frequently in heat (see Seasonal section). When refreshing, handle the trap minimally. Open, deposit, close. Do not rearrange hardware, test the trigger, or linger. Hogs notice disruption at bait sites, not because of human scent, but because displaced soil, moved debris, and altered structure are visible cues.
+**Fermented corn** sours and degrades; treat refresh like a **food-safety clock**, not a convenience calendar. **Every 2–3 nights** under normal conditions; **every 48 hours** in summer heat (see Seasonal section). A **spoiled** deposit does not perform like a fresh one—if it goes past sharp-sour into true rot, **replace it**.
+
+**Bagged deer corn / dry corn** does not sour the same way fermented mash does. Here the job is **monitoring consumption**—ideally with a **trap camera**—and **topping off** before the pile gets picked down so the **sounder keeps tying to the site** ahead of trapping. **On average every 2–3 days** is a workable default when you are eyeballing from footage; when **hogs are very active**, plan for **daily refresh** so the pile never looks picked clean—an empty-looking site lets the **sounder drift** before you are ready to trap. Refresh when **activity or volume** says the site is thinning, not only on a fixed calendar.
+
+When you do refresh, handle the trap minimally. Open, deposit, close. Do not rearrange hardware, test the trigger, or linger. Hogs notice disruption at bait sites, not because of human scent, but because displaced soil, moved debris, and altered structure are visible cues.
 
 ### Scent control: does it matter for hogs? (Mostly no, but here's why)
 
@@ -189,6 +201,8 @@ Already addressed above. Hazardous. Environmentally problematic. Not recommended
 
 Sodium fluoroacetate (1080) and sodium nitrite have both been tested in commercial-scale feral hog management programs. Sodium nitrite in particular is under active regulatory review in several U.S. states. It is not a DIY option; it is not legal for unregistered use in most jurisdictions. Do not attempt poison baiting outside of a licensed commercial management program operating under state authority. This guide does not endorse, recommend, or instruct on poison baiting.
 
+**Non-target animals:** What hogs will eat, other wildlife will eat too—deer, raccoons, bears, turkeys, and non-target species routinely visit the same corn piles. That overlap is one more reason **toxic baits** and **unregistered poison programs** do not belong in a landowner DIY trap workflow next to feed corn.
+
 For a breakdown of how capture-based methods compare across system types, see the HogEye capture optimization research.
 
 ---
@@ -196,7 +210,7 @@ For a breakdown of how capture-based methods compare across system types, see th
 ## Frequently Asked Questions
 
 **What is the best bait for a hog trap?**
-Fermented corn is the most consistently effective bait across regions, seasons, and sounder sizes. It produces a strong volatile scent profile that carries on the wind, hogs respond to it reliably, and it's inexpensive to produce in volume. Supplement with molasses in competitive feeding areas or during mast season.
+**Fermented corn** is the most consistently effective bait across regions, seasons, and sounder sizes: it produces a strong volatile scent profile that carries on the wind, and hogs respond to it reliably. **Bagged deer corn** (or other **dry feed-store corn**) is also widely used—often in **40–50 lb bags** at feed stores for a few dollars a bag—because it is easy to handle at volume; **fermented corn**, **molasses**, or **commercial attractants** can be layered on top of a **dry corn base** when you need more scent throw. Supplement with molasses in competitive feeding areas or during mast season.
 
 **How long does it take hogs to find bait?**
 In an area with active hog activity, a new bait site is typically located within 24–48 hours. Full sounder commitment (the whole group feeding with confidence) takes 7–14 days of consistent pre-baiting before a trap is introduced.
@@ -205,10 +219,10 @@ In an area with active hog activity, a new bait site is typically located within
 Fermentation byproducts: volatile organic compounds including acetic acid, alcohols, and carbon dioxide byproducts from microbial activity in soured grain or corn. These carry at distance and hogs have strong olfactory response to them. Molasses and fruit-based scents also work but are shorter-range attractants.
 
 **How often should I refresh hog trap bait?**
-Every 2–3 nights under normal conditions. Every 48 hours in summer heat. Fermented corn degrades, and a spoiled bait deposit does not perform like a fresh one. Refresh on a schedule tied to temperature, not to convenience.
+For **fermented corn**: **every 2–3 nights** under normal conditions; **every 48 hours** in summer heat. Manage it so it does not **over-sour or rot**—a spoiled pile underperforms. For **bagged deer corn or other dry corn**, lean on **camera checks**: **replenish when the pile is drawn down** or when **nighttime hits drop off**, so the **sounder stays close** to the bait site for the trap window ahead. Expect **roughly every 2–3 days** on a calm site, but **daily** visits when **hits are heavy** so the sounder does not leave for easier feed elsewhere. Either way, tie refresh to **what you see at the site and the thermometer**, not only to convenience.
 
 **Can I use corn in a hog trap?**
-Yes, and fermented corn specifically is the recommended starting point for most operations. Whole or cracked corn soaked for 3–5 days at ambient temperature produces a sharp, sour scent that attracts hogs effectively. Dry corn works but has significantly less scent throw.
+Yes. **Fermented corn** (whole or cracked corn soaked **3–5 days** until sharp-sour) is the usual **high-scent** starting point. **Dry bagged corn—deer corn or bulk feed corn**—is also common; it is easy to buy and stack in **40–50 lb bags** from feed stores. Dry corn has **less scent throw** on its own, so many operators **ferment a portion**, add **molasses or flavors**, or pour **attractants on top** of a **dry base** when they need more pull at distance.
 
 ---
 

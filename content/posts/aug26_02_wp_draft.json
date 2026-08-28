@@ -1,0 +1,48 @@
+{
+  "externalId": "aug26_02",
+  "title": "HogEye Mini Starlink: Remote Hog Trap Monitoring Without Cellular Service",
+  "slug": "hogeye-mini-starlink-remote-hog-trap-monitoring",
+  "content": "<p>Some of the best trap sites sit where cellular service is thin or gone. Bottoms, back timber, and long pastures can produce hogs and still leave a cellular camera silent when you need the live view most.</p>\n<p>HogEye Mini Starlink is the official HogEye option for those locations: a HogEye Mini camera paired with Starlink so you can run remote hog trap monitoring where cellular is unavailable or unreliable. This article explains what the system is, how it connects, what installation really requires, and when a simpler cellular fix is the better first move.</p>\n<h2>When Cellular Is Not Enough</h2>\n<p>A trap camera only helps if it can report from the place the trap actually sits. Extended antennas, carrier changes, and small site moves solve many weak-signal problems. They do not solve every site.</p>\n<p>If you have already tested coverage at the camera position and still cannot get a dependable cellular connection, you need a different path to the same outcome: live awareness of the sounder and the ability to trigger the trap from the HogEye app when the full group is committed.</p>\n<h2>What HogEye Mini Starlink Is</h2>\n<p>HogEye Mini Starlink is an official HogEye product that includes Starlink. The HogEye Mini camera connects to Starlink through Wi-Fi. It is designed for remote trapping locations where cellular service is unavailable or unreliable.</p>\n<p>When the Starlink connection is active, you can view the camera and remotely trigger the trap through the HogEye application. That is the same monitoring and closure job as a cellular HogEye setup. The transport layer is different.</p>\n<h2>Installation Realities (Sky, Power, Trap)</h2>\n<p>This is not a drop-and-forget accessory. Installation requires:</p>\n<ol>\n<li><strong>Camera mounting</strong> with a clear view of the trap decision area (inside and outside coverage still matters).</li>\n<li><strong>Starlink placement with an unobstructed view of the sky.</strong> Trees, structures, and terrain can interfere with satellite connectivity.</li>\n<li><strong>Power connection</strong> for the system as specified below.</li>\n<li><strong>Trap connection</strong> so remote trigger control is wired into your gate or drop setup.</li>\n</ol>\n<p>If the dish cannot see enough sky, the connection will not stay reliable. Plan placement for the satellite path first, then confirm the camera still covers the trap the way your closure decisions require. Setup references live in the <a href=\"https://hogeyecameras.com/camera-resources/\">camera resources</a> library.</p>\n<h2>Power Package and What Continuous Runtime Depends On</h2>\n<p>The system includes 12-24V DC input, a 12V 100Ah LiFePO4 battery, and a 300W solar panel. Continuous 24/7 power depends on suitable installation and sunlight conditions. Shade, seasonal sun angle, and poor panel placement will cut into runtime. Treat power as part of the trap-site design, not an afterthought.</p>\n<h2>Pricing and Service</h2>\n<p>System price is <strong>$2,999</strong>. Monthly service is <strong>$100</strong> and includes Starlink connectivity. Compare that against the cost of empty-trap drives and missed closure windows at a site that never reports on cellular.</p>\n<p>For current purchase options, see <a href=\"https://hogeyecameras.com/buy-now/\">pricing</a>. If your trap line mixes Starlink sites with standard cellular cameras, keep naming and site notes clear in the app so your team knows which locations depend on satellite.</p>\n<h2>BYO Starlink and Better First Alternatives</h2>\n<p>Unsupported bring-your-own Starlink setups are difficult for HogEye to support. If you need the official path, use the HogEye Mini Starlink system rather than cobbling a private dish to a camera and hoping field support can troubleshoot it.</p>\n<p>Before you buy satellite for a marginal site, work the simpler options:</p>\n<ul>\n<li>An extended HogEye antenna</li>\n<li>Another carrier that actually covers that corner of the property</li>\n<li>Relocating the trap a short distance to a stronger-signal position while keeping the hogs on bait</li>\n</ul>\n<p>Those fixes are often enough. Starlink earns its place when the site is productive and cellular still cannot carry the monitoring job. For trap hardware context alongside the camera, see <a href=\"https://hogeyecameras.com/hog-traps/\">hog traps</a>. The <a href=\"https://hogeyecameras.com/steel-camera/\">HogEye steel camera</a> line remains the cellular path when coverage is workable.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Does HogEye Mini Starlink work without cellular service?</h3>\n<p>Yes. It is designed for remote trapping locations where cellular service is unavailable or unreliable. The Mini connects to Starlink through Wi-Fi.</p>\n<h3>Can I use my own Starlink dish with a HogEye Mini?</h3>\n<p>Unsupported BYO Starlink setups are difficult for HogEye to support. Use the official HogEye Mini Starlink product when you need that path.</p>\n<h3>What does installation require?</h3>\n<p>Camera mounting, Starlink placement with an unobstructed view of the sky, power connection, and trap connection. Trees, structures, and terrain can interfere with satellite connectivity.</p>\n<h3>How much does HogEye Mini Starlink cost?</h3>\n<p>The system is $2,999. Monthly service is $100 and includes Starlink connectivity.</p>\n<h3>What power hardware is included?</h3>\n<p>The system includes 12-24V DC input, a 12V 100Ah LiFePO4 battery, and a 300W solar panel. Continuous 24/7 power depends on suitable installation and sunlight conditions.</p>\n<h3>What should I try before Starlink?</h3>\n<p>Try an extended HogEye antenna, another carrier, or relocating the trap to a stronger-signal location when those options still leave you on a productive sounder zone.</p>\n<h2>Ready to Monitor the Sites Cellular Cannot Reach?</h2>\n<p>HogEye Mini Starlink puts live view and remote trigger control on trap sites where cellular will not carry the job.</p>\n<ul>\n<li><a href=\"https://hogeyecameras.com/buy-now/\">Pricing →</a></li>\n<li><a href=\"https://hogeyecameras.com/steel-camera/\">HogEye Steel Camera →</a></li>\n<li><a href=\"https://hogeyecameras.com/camera-resources/\">Setup &amp; Resources →</a></li>\n<li><a href=\"https://hogeyecameras.com/hog-traps/\">Hog Traps →</a></li>\n</ul>\n<p>Talk with the HogEye team about whether Starlink or a cellular fix fits your trap line →</p>",
+  "status": "draft",
+  "excerpt": "HogEye Mini Starlink brings remote hog trap monitoring and remote trigger control to sites where cellular service is unavailable or unreliable.",
+  "meta_title": "HogEye Mini Starlink Remote Hog Trap Monitoring",
+  "meta_description": "HogEye Mini Starlink for remote hog trap monitoring without reliable cellular: install, power, pricing, and when simpler signal fixes come first.",
+  "focus_keyword": "remote hog trap monitoring",
+  "categories": [
+    "Feral Hog Monitoring",
+    "Camera Guides"
+  ],
+  "tags": [
+    "Starlink",
+    "HogEye Mini",
+    "remote hog trap",
+    "wild hog"
+  ],
+  "faq_items": [
+    {
+      "question": "Does HogEye Mini Starlink work without cellular service?",
+      "answer": "Yes. It is designed for remote trapping locations where cellular service is unavailable or unreliable. The Mini connects to Starlink through Wi-Fi."
+    },
+    {
+      "question": "Can I use my own Starlink dish with a HogEye Mini?",
+      "answer": "Unsupported BYO Starlink setups are difficult for HogEye to support. Use the official HogEye Mini Starlink product when you need that path."
+    },
+    {
+      "question": "What does installation require?",
+      "answer": "Camera mounting, Starlink placement with an unobstructed view of the sky, power connection, and trap connection. Trees, structures, and terrain can interfere with satellite connectivity."
+    },
+    {
+      "question": "How much does HogEye Mini Starlink cost?",
+      "answer": "The system is $2,999. Monthly service is $100 and includes Starlink connectivity."
+    },
+    {
+      "question": "What power hardware is included?",
+      "answer": "The system includes 12-24V DC input, a 12V 100Ah LiFePO4 battery, and a 300W solar panel. Continuous 24/7 power depends on suitable installation and sunlight conditions."
+    },
+    {
+      "question": "What should I try before Starlink?",
+      "answer": "Try an extended HogEye antenna, another carrier, or relocating the trap to a stronger-signal location when those options still leave you on a productive sounder zone."
+    }
+  ],
+  "period": "2026-08"
+}
