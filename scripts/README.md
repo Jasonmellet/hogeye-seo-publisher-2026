@@ -2,6 +2,19 @@
 
 Repo-root Python is intentionally minimal: **WordPress publishing CLIs** live in **`publisher/`**, SEO tooling in **`seo/`**, Node content-system scripts at **`content-system/`**, plus **`images/`**, **`agents/`**, **`legacy/`**.
 
+Monthly cadence (hub → pull/apply → WP draft → email): [`docs/MONTHLY_PUBLISHING_WORKFLOW.md`](../docs/MONTHLY_PUBLISHING_WORKFLOW.md).
+
+## Dashboard (Wildlife Dominion)
+
+```bash
+npm run push:content                         # push finished posts as in_review
+npm run pull:approved                        # list approved items (pipeline-ready, not live)
+npm run pull:approved -- --check             # diff hub vs local (by externalId)
+npm run pull:approved -- --apply --period YYYY-MM   # write hub edits → content/posts
+```
+
+`pull-approved.mjs` never publishes. After `--apply`, publish from local files — do **not** re-ingest (resets to `in_review`).
+
 ## Publisher (WordPress)
 
 See [`publisher/README.md`](publisher/README.md). Typical commands:

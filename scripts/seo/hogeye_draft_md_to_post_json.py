@@ -2,7 +2,9 @@
 """
 Convert an approved monthly draft markdown (`<article_id>_draft.md`) into a JSON post file for publish_content_item.py.
 
-Expects the usual monthly draft shape: SEO Metadata list, ## Metadata list, then # Article title and body.
+Expects either:
+- **YAML frontmatter** (`---` … `---`) with `title`, `slug`, `meta_title`, `meta_description`, `focus_keyword`, `categories`, optional `excerpt`, then `# Article title` and body; or
+- **Legacy bullet metadata**: SEO Metadata list, ## Metadata list, then `# Draft:` / `# Article title` and body.
 Strips HTML comment blocks and optional ## Claims audit notes (and following) for the WordPress body.
 Does not put the article H1 into the HTML body (theme shows post title). Normalizes outline labels like `## H2: ...` → `## ...` and `## H3: ...` under FAQ → `### ...`, and drops a standalone `## Main sections` line.
 
@@ -31,7 +33,67 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import markdown
 
+try:
+    import yaml
+except ImportError:
+    yaml = None  # type: ignore[assignment]
+
 from repo_workspace import workspace_dir_under, workspace_rel_posix
+
+
+def _split_yaml_frontmatter(raw: str) -> Tuple[str, Dict[str, Any]]:
+    """If file starts with --- YAML ---, return (body_after, frontmatter dict)."""
+    m = re.match(r"^---\s*\r?\n(.*?)\r?\n---\s*\r?\n", raw, re.DOTALL)
+    if not m:
+        return raw, {}
+    if yaml is None:
+        print("Warning: PyYAML not installed; install requirements.txt — YAML frontmatter ignored.", file=sys.stderr)
+        return raw, {}
+    try:
+        fm = yaml.safe_load(m.group(1))
+    except Exception as e:
+        print(f"Warning: YAML frontmatter parse failed ({e}); continuing without it.", file=sys.stderr)
+        return raw, {}
+    if not isinstance(fm, dict):
+        return raw, {}
+    rest = raw[m.end() :]
+    return rest, fm
+
+
+def _yaml_dict_to_kv(yd: Dict[str, Any]) -> Dict[str, str]:
+    """Map YAML frontmatter keys to internal kv used by this script."""
+    kv: Dict[str, str] = {}
+    t = yd.get("title")
+    mt = yd.get("meta_title") or yd.get("seo_title")
+    if mt:
+        kv["seo_title"] = str(mt).strip()
+    elif t:
+        kv["seo_title"] = str(t).strip()
+    if yd.get("meta_description"):
+        kv["meta_description"] = str(yd["meta_description"]).strip()
+    fk = yd.get("focus_keyword") or yd.get("primary_keyword")
+    if fk:
+        kv["primary_keyword"] = str(fk).strip()
+    if yd.get("slug"):
+        kv["slug"] = str(yd["slug"]).strip().strip('"').strip("'")
+    # Stable dashboard identity, independent of the slug (slug is an SEO field that
+    # can change). Set once in frontmatter and never changed.
+    eid = yd.get("external_id") or yd.get("externalId")
+    if eid:
+        kv["external_id"] = str(eid).strip().strip('"').strip("'")
+    cats = yd.get("categories")
+    if isinstance(cats, list):
+        kv["categories"] = ", ".join(str(c).strip() for c in cats if c)
+    elif cats:
+        kv["categories"] = str(cats).strip()
+    tags = yd.get("tags")
+    if isinstance(tags, list):
+        kv["tags"] = ", ".join(str(t).strip() for t in tags if t)
+    elif tags:
+        kv["tags"] = str(tags).strip()
+    if yd.get("excerpt"):
+        kv["excerpt"] = str(yd["excerpt"]).strip()
+    return kv
 
 
 def _load_wp_taxonomy_defaults(project_root: Path) -> Tuple[List[str], List[str]]:
@@ -135,7 +197,13 @@ def _normalize_outline_headings(body_md: str) -> str:
 
 def _parse_faq_items_from_body_md(body_md: str) -> List[Dict[str, str]]:
     """
-    Parse ## Frequently Asked Questions … ### Q / answer blocks into AIOSEO-ready faq_items.
+    Parse FAQ section into AIOSEO-ready faq_items.
+
+    Supports:
+    - ## Frequently Asked Questions | ## FAQ
+    - ### Question (answer on following lines)
+    - **Question** (answer on following lines; May 2026 drafts)
+    - Ends at next ## heading, a horizontal rule (---), or end of file.
     """
     lines = body_md.splitlines()
     in_faq = False
@@ -153,11 +221,22 @@ def _parse_faq_items_from_body_md(body_md: str) -> List[Dict[str, str]]:
         current_q = None
         current_a = []
 
+    def is_faq_heading(heading: str) -> bool:
+        h = heading.strip().lower()
+        if h == "faq":
+            return True
+        return bool(re.search(r"frequently\s+asked\s+questions", heading, flags=re.I))
+
     for line in lines:
         s = line.strip()
+        if re.match(r"^[\s]*-{3,}[\s]*$", line) or re.match(r"^[\s]*\*{3,}[\s]*$", line):
+            if in_faq:
+                flush()
+                break
+            continue
         if s.startswith("## ") and not s.startswith("### "):
             heading = s[3:].strip()
-            if re.search(r"frequently\s+asked\s+questions", heading, flags=re.I):
+            if is_faq_heading(heading):
                 in_faq = True
                 flush()
                 continue
@@ -170,6 +249,12 @@ def _parse_faq_items_from_body_md(body_md: str) -> List[Dict[str, str]]:
         if m:
             flush()
             current_q = m.group(1).strip()
+            current_a = []
+            continue
+        m_bold = re.match(r"^\*\*(.+?)\*\*\s*$", s)
+        if m_bold:
+            flush()
+            current_q = m_bold.group(1).strip()
             current_a = []
             continue
         if current_q is not None and s:
@@ -210,8 +295,13 @@ def main() -> int:
     src = Path(args.draft_md)
     raw = src.read_text(encoding="utf-8")
 
-    kv = _parse_kv_bullets(raw)
-    cleaned = _strip_comment_blocks(raw)
+    body_wo_fm, yaml_fm = _split_yaml_frontmatter(raw)
+    text_for_kv = body_wo_fm if yaml_fm else raw
+    kv_yaml = _yaml_dict_to_kv(yaml_fm) if yaml_fm else {}
+    kv_bullets = _parse_kv_bullets(text_for_kv)
+    kv = {**kv_yaml, **kv_bullets}
+
+    cleaned = _strip_comment_blocks(text_for_kv)
 
     if not args.keep_claims_audit:
         # Re-apply claims strip on cleaned text
@@ -230,8 +320,8 @@ def main() -> int:
     meta_description = kv.get("meta_description") or ""
     focus = kv.get("primary_keyword") or ""
 
-    slug = (args.slug or "").strip() or _slugify(title)
-    excerpt = meta_description or _first_paragraph_excerpt(body_md)
+    slug = (args.slug or "").strip() or (kv.get("slug") or "").strip() or _slugify(title)
+    excerpt = (kv.get("excerpt") or "").strip() or meta_description or _first_paragraph_excerpt(body_md)
 
     faq_items = _parse_faq_items_from_body_md(body_md)
 
@@ -252,7 +342,13 @@ def main() -> int:
         )
         return 2
 
-    out_obj: Dict[str, Any] = {
+    out_obj: Dict[str, Any] = {}
+    external_id = (kv.get("external_id") or "").strip()
+    if external_id:
+        # Permanent identity used by the dashboard ingest (push-content.mjs). Stays
+        # the same even if `slug` changes, so a slug edit never orphans the post.
+        out_obj["externalId"] = external_id
+    out_obj.update({
         "title": seo_title,
         "slug": slug,
         "content": html,
@@ -263,7 +359,7 @@ def main() -> int:
         "focus_keyword": focus,
         "categories": categories,
         "tags": tags,
-    }
+    })
     if faq_items:
         out_obj["faq_items"] = faq_items
 

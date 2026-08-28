@@ -25,6 +25,9 @@ python-dateutil>=2.8.2
 # Markdown → HTML (HogEye monthly draft → post JSON bridge)
 markdown>=3.5
 
+# YAML frontmatter on monthly drafts (may26_*_draft.md)
+PyYAML>=6.0.1
+
 # Google APIs (SEO planning + Sheets/GSC/GA4)
 google-api-python-client>=2.130.0
 google-auth>=2.29.0

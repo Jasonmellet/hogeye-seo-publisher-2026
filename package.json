@@ -10,6 +10,19 @@
     "validate-artifact": "tsx scripts/content-system/validate_artifact.ts",
     "librarian:audit": "tsx scripts/content-system/librarian_audit.ts",
     "librarian:apply": "tsx scripts/content-system/librarian_apply.ts",
+    "google:doc": "tsx scripts/content-system/fetch_google_doc.ts",
+    "google:doc-comments": "tsx scripts/content-system/fetch_google_doc.ts --comments-only",
+    "google:doc-comments-open": "tsx scripts/content-system/fetch_google_doc.ts --comments-only --open-only",
+    "google:archive-comments": "tsx scripts/content-system/archive_google_doc_comments.ts",
+    "google:archive-comments-open": "tsx scripts/content-system/archive_google_doc_comments.ts --open-only",
+    "google:archive-suggestions": "tsx scripts/content-system/archive_google_doc_suggestions.ts",
+    "google:archive-doc-review": "tsx scripts/content-system/archive_google_doc_comments.ts --open-only && tsx scripts/content-system/archive_google_doc_suggestions.ts && tsx scripts/content-system/render_google_doc_review_bundle.ts",
+    "google:render-review-bundle": "tsx scripts/content-system/render_google_doc_review_bundle.ts",
+    "google:render-review-bundle-full": "tsx scripts/content-system/render_google_doc_review_bundle.ts --full",
+    "google:export-tab-plain": "tsx scripts/content-system/export_google_strategy_tab_plain.ts",
+    "google:push-tabs": "tsx scripts/content-system/push_google_strategy_tabs.ts",
+    "agent:batch-review": "tsx scripts/content-system/agent_batch_review.ts",
+    "google:redline-full": "tsx scripts/content-system/generate_google_redline.ts",
     "push:strategy": "node scripts/push-seo-strategy.mjs",
     "push:content": "node scripts/push-content.mjs",
     "pull:approved": "node scripts/pull-approved.mjs",
@@ -29,7 +42,9 @@
   "homepage": "https://github.com/Jasonmellet/hogeye-seo-publisher-2026#readme",
   "dependencies": {
     "dotenv": "^17.4.1",
-    "gray-matter": "^4.0.3"
+    "googleapis": "^144.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.6"
   },
   "devDependencies": {
     "@types/node": "^25.5.2",

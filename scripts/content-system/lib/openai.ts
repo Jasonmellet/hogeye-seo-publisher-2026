@@ -7,6 +7,26 @@ const OPENAI_API_BASE = "https://api.openai.com/v1";
 const DEFAULT_NOTES_MODEL = "gpt-5.4-mini";
 const DEFAULT_NOTES_TEMPERATURE = 0.2;
 
+/** Frontier GPT-5.5 models reject non-default temperature in Chat Completions. */
+function modelSupportsCustomTemperature(model: string): boolean {
+  return !/^gpt-5\.5/i.test(model);
+}
+
+function chatCompletionBody(params: {
+  model: string;
+  messages: { role: string; content: string }[];
+  temperature?: number;
+}): Record<string, unknown> {
+  const body: Record<string, unknown> = {
+    model: params.model,
+    messages: params.messages
+  };
+  if (modelSupportsCustomTemperature(params.model)) {
+    body.temperature = params.temperature ?? DEFAULT_NOTES_TEMPERATURE;
+  }
+  return body;
+}
+
 function authHeaders(): HeadersInit {
   return {
     Authorization: `Bearer ${getRequiredEnv("OPENAI_API_KEY")}`
@@ -59,14 +79,16 @@ export async function generateMarkdownFromPrompt(params: {
       ...authHeaders(),
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({
-      model: params.model || getOptionalEnv("OPENAI_NOTES_MODEL", DEFAULT_NOTES_MODEL),
-      temperature: params.temperature ?? DEFAULT_NOTES_TEMPERATURE,
-      messages: [
-        { role: "system", content: params.system },
-        { role: "user", content: params.user }
-      ]
-    })
+    body: JSON.stringify(
+      chatCompletionBody({
+        model: params.model || getOptionalEnv("OPENAI_NOTES_MODEL", DEFAULT_NOTES_MODEL),
+        temperature: params.temperature,
+        messages: [
+          { role: "system", content: params.system },
+          { role: "user", content: params.user }
+        ]
+      })
+    )
   });
 
   const json = await expectJson(response);
