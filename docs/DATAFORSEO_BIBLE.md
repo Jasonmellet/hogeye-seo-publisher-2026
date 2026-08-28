@@ -1,5 +1,7 @@
 # DataForSEO API Bible (v3)
 
+**Shared quality bar (canonical):** [DataForSEO quality bar](https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/327752/DataForSEO+quality+bar) on the AGT Docs Hub (coverage table / $10-tier SERP + ChatGPT bars). This file is a **vendor API reference** for scripts in this repo, not a fork of that bar.
+
 This doc is a **practical reference** for using DataForSEO’s API v3 inside this repo (TTT clients). It’s structured by DataForSEO “API families”, with consistent notes on **what it is**, **when to use it**, **Live vs Standard**, **cost/rate-limit gotchas**, and **safe starter patterns**.
 
 Primary vendor docs (overview pages):

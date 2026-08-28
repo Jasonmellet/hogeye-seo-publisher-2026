@@ -1,0 +1,22 @@
+---
+description: Shared AGT playbooks (SEO research, DataForSEO, monthly cycle, CMS drafts) live in Confluence, not a local fork.
+alwaysApply: true
+---
+
+# AGT Docs Hub
+
+Shared specs are in Confluence. This repo owns HogEye implementation and doctrine only.
+
+- Hub: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/overview
+- SEO Research Module: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65663/SEO+Research+Module
+- DataForSEO quality bar: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/327752/DataForSEO+quality+bar
+- Monthly content cycle: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/294943/Monthly+content+cycle
+- Draft-first CMS publishing: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65684/Draft-first+CMS+publishing
+- Content production system: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65811/Content+production+system
+- Publisher operator patterns: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/327877/Publisher+operator+patterns
+- Gap check: https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65786/Repo+vs+hub+gap+check
+- Skill: `agt-docs-hub` (`~/.cursor/skills/agt-docs-hub/SKILL.md`)
+
+When running or improving SEO research / DataForSEO / the monthly loop / CMS draft publish: fetch Confluence, then run the **gap check** (skill `agt-docs-hub` / page `65786`). Print at-bar / behind / ahead. If behind, improve this repo’s runner or defaults this sitting. If ahead on a shared gate, update Confluence. Do not fork playbooks into local docs.
+
+Local leftovers that stay in this repo: WordPress commands/paths, `client.config.json`, brand doctrine (`workspace/brand_truth/`), hub slug `hogeye-cameras`, evidence packs, and dated monthly folders. Not a second copy of the coverage table, $10-tier bar, or Approved-≠-live / create-only CMS rules.

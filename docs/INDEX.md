@@ -2,8 +2,11 @@
 
 All hand-written docs for this repo live under **`docs/`** (this file is the map).
 
+**Shared AGT playbooks:** [AGT Docs Hub](https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/overview) (SEO Research Module, DataForSEO quality bar, monthly cycle, draft-first CMS). Do not fork those quality bars into `docs/`.
+
 ## Essentials
 
+- **Monthly cycle (canonical):** [`MONTHLY_PUBLISHING_WORKFLOW.md`](MONTHLY_PUBLISHING_WORKFLOW.md) + [`.cursor/skills/he-monthly-cycle/SKILL.md`](../.cursor/skills/he-monthly-cycle/SKILL.md)
 - **Operator / agent runbook**: [`starter.md`](starter.md)
 - **Quick setup**: [`QUICK_START.md`](QUICK_START.md)
 - **Credential intake (short)**: [`STARTUP.md`](STARTUP.md)
@@ -19,6 +22,12 @@ All hand-written docs for this repo live under **`docs/`** (this file is the map
 - **Archived / superseded material (not active workflow)**: [`../archive/README.md`](../archive/README.md)
 - **Content-system folder layout + npm commands**: [`knowledge/content-system-replication-guide.md`](knowledge/content-system-replication-guide.md)
 
+## Technical SEO (Screaming Frog)
+
+- **MCP setup (HogEye):** [`SCREAMING_FROG_MCP.md`](SCREAMING_FROG_MCP.md)
+- **Tracker + comparison crawls:** [`../workspace/technical_seo/README.md`](../workspace/technical_seo/README.md)
+- **Crawl exports (local, gitignored):** [`../work/seo/screaming_frog/README.md`](../work/seo/screaming_frog/README.md)
+
 ## Cursor / AI agents
 
 - [`agents/README.md`](agents/README.md) — when to use which persona
@@ -28,9 +37,11 @@ All hand-written docs for this repo live under **`docs/`** (this file is the map
 
 ## Execution & planning
 
-- **Monthly publishing**: [`MONTHLY_PUBLISHING_WORKFLOW.md`](MONTHLY_PUBLISHING_WORKFLOW.md)
+- **Monthly publishing (hub → pull/apply → WP draft → email):** [`MONTHLY_PUBLISHING_WORKFLOW.md`](MONTHLY_PUBLISHING_WORKFLOW.md)
+- **Publish safety (HogEye WP detail):** [`PUBLISH_SAFETY_MANDATE.md`](PUBLISH_SAFETY_MANDATE.md) — shared rules: [Draft-first CMS publishing](https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65684/Draft-first+CMS+publishing)
 - **Roadmap**: [`ROADMAP.md`](ROADMAP.md)
-- **Project status**: [`PROJECT_STATUS.md`](PROJECT_STATUS.md)
+- **Project status (HogEye):** [`HOGEYE_PROJECT_STATUS.md`](HOGEYE_PROJECT_STATUS.md) — July live; August WP drafts
+- **June batch detail:** [`../workspace/content_pipeline/monthly/2026-06/STATUS.md`](../workspace/content_pipeline/monthly/2026-06/STATUS.md)
 - **Security**: [`SECURITY.md`](SECURITY.md)
 - **Troubleshooting WP auth**: [`CONNECTION_DIAGNOSTIC.md`](CONNECTION_DIAGNOSTIC.md)
 - **Backup/restore**: [`BACKUP_RESTORE.md`](BACKUP_RESTORE.md)
@@ -39,10 +50,11 @@ All hand-written docs for this repo live under **`docs/`** (this file is the map
 
 ## SEO planning (Sheets / Semrush / DataForSEO)
 
+- **Shared research + $10-tier quality bar:** [SEO Research Module](https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/65663/SEO+Research+Module) · [DataForSEO quality bar](https://allgreatthings-44087732.atlassian.net/wiki/spaces/MFS/pages/327752/DataForSEO+quality+bar)
 - **SEO metadata status**: [`SEO_METADATA_STATUS.md`](SEO_METADATA_STATUS.md)
 - **Tech spec (publisher)**: [`TECH_SPEC.md`](TECH_SPEC.md)
 - **Note**: This repo assumes a paid DataForSEO plan is available (Keywords/SERP + Backlinks; AI Optimization optional). Configure via `.env` (`DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD`).
-- **DataForSEO API Bible**: [`DATAFORSEO_BIBLE.md`](DATAFORSEO_BIBLE.md)
+- **DataForSEO API Bible** (vendor endpoint reference for this repo): [`DATAFORSEO_BIBLE.md`](DATAFORSEO_BIBLE.md)
 
 ## Benchmarking (present-state baseline)
 

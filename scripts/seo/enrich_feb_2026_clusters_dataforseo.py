@@ -189,6 +189,15 @@ def main() -> int:
     ap.add_argument("--supporting-limit", type=int, default=10, help="Supporting keywords per cluster to enrich")
     args = ap.parse_args()
 
+    import sys
+    print(
+        "NOTE: This is a keyword-metrics enricher for a dated plan CSV, NOT the $10-tier niche bundle. "
+        "Full research: Advanced SEO Analysis dataforseo_niche_bundle.py "
+        "(250+ SERP incl GSC extras, depth 20, 28+ ChatGPT force_web_search, 45+ LLM). "
+        "See AGT Docs Hub DataForSEO quality bar.",
+        file=sys.stderr,
+    )
+
     # Load .env (gitignored) if present
     load_dotenv(os.path.join(args.project_root, ".env"), override=False)
 

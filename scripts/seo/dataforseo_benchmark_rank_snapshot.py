@@ -151,6 +151,15 @@ def main() -> int:
     ap.add_argument("--output-dir", required=True, help="Directory to write CSVs")
     args = ap.parse_args()
 
+    import sys
+    print(
+        "NOTE: This is a SERP rank snapshot helper, NOT the $10-tier niche bundle. "
+        "Full research: Advanced SEO Analysis dataforseo_niche_bundle.py "
+        "(250+ SERP incl GSC extras, depth 20, 28+ ChatGPT force_web_search, 45+ LLM). "
+        "See AGT Docs Hub DataForSEO quality bar.",
+        file=sys.stderr,
+    )
+
     load_dotenv(os.path.join(args.project_root, ".env"), override=False)
 
     # Resolve defaults from project root if not explicitly provided

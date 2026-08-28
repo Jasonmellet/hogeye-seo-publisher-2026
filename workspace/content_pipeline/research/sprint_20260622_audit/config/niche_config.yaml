@@ -1,0 +1,325 @@
+# DataForSEO niche bundle — HogEye ($10 tier)
+# Budget target: ~$10 USD | Hard cap: $100
+# Prompt: prompts/tasks/run-dataforseo-3-6-month-research.md
+# Run: python3 analysis/dataforseo_niche_bundle.py --client hogeye
+
+client:
+  slug: hogeye
+  domain: hogeyecameras.com
+  display_name: HogEye Cameras
+  location_code: 2840
+  language_code: en
+  budget_target_usd: 10
+  brand_terms:
+  - hogeye
+  - hog-eye
+  - hog eye
+  - jager
+targets:
+  ranked:
+  - domain: hogeyecameras.com
+    label: HogEye (client)
+    is_client: true
+  - domain: vosker.com
+    label: Vosker
+  - domain: reolink.com
+    label: Reolink
+  - domain: spartancamera.com
+    label: Spartan
+  - domain: barnowltech.com
+    label: Barn Owl / RangeCam
+  historical:
+  - domain: hogeyecameras.com
+    label: HogEye
+  - domain: vosker.com
+    label: Vosker
+  - domain: reolink.com
+    label: Reolink
+  - domain: spartancamera.com
+    label: Spartan
+serp_extra_queries:
+- camera login
+- intitle:"login" intext:"camera"
+- hog camera
+- wildlife dominion
+- hogs eye
+- hog cam
+- camara login
+- boarbuster login
+- hogseye
+- vosker vs reolink
+- cameras login
+- hog trap remote trigger
+- hogcam
+- hogzooye
+- login camera
+- pig traps
+- ranch camera
+- remote hog trap trigger
+- sat cam
+- trap cameras
+- 4g vs 5g range
+- big pig traps
+- camera trap for sale
+- drop net trap
+- hog blanket trap
+- camera hog
+- hog view
+- hog cams
+- satcam
+- wild hog trap monitoring
+- big pig trap
+- drop trap camera system
+- best camera for hog trapping
+- smart hog trap technology
+- hog control system
+- remote hog trap systems
+- live feed hog trapping
+- big pig trap for sale
+- hogcams
+- off-grid hog control
+- big hog trap
+- big hog traps
+- feral hog trapping systems remote smartphone monitoring
+- hog net trap
+- wireless hog trap control
+- electronic hog trap
+- boar blanket vs gamechanger
+- camera price comparison 2026
+- cellular hog traps for sale
+- hogeye vs boarbuster
+- cellular hog trap
+- big pig hog trap
+- 4g vs 5g trade-off for rural areas
+- boar blanket hog trap
+- boar blanket trap system
+- boar buster
+- boar buster trap for sale
+- hog traps for sale in louisiana
+- texas remote pig tracking
+- hogeye texas
+- clay county, mississippi solar battery storage hybrid
+- hog traps for sale in texas
+- hog traps for sale louisiana
+- hog traps texas
+- hogeye festival elgin texas
+- texas remote pig tracking management
+- hogeye camera
+- hogeye
+- hog eye camera
+- hogeye camera system
+- hog eye
+- what is screwworm
+- new world screwworm spread
+- screwworm feral hogs ranch
+- feral hogs screwworm risk texas
+- how to spot screwworm cattle
+- screwworm wildlife monitoring ranch
+- texas hog trap camera ranch
+- mississippi feral hog monitoring camera
+- alabama wild hog trap camera
+- oklahoma ranch cellular security camera
+seeds:
+  keyword_suggestions:
+  - wild hog monitoring camera
+  - feral hog trail camera
+  - hog trap camera cellular
+  - cellular trail camera hog hunting
+  - ranch livestock monitoring camera
+  - wild pig trap camera
+  - feral hog monitoring
+  - best camera for hog trapping
+  - off grid ranch camera
+  - what is screwworm
+  - screwworm feral hogs
+  - wild hog trap monitoring
+  - hogeye vs vosker
+  - 4g vs 5g ranch camera
+  - hog traps for sale louisiana
+  - texas hog trap camera
+  - remote hog trap trigger
+  - drop trap camera system
+  - smart hog trap technology
+  - hogeye vs reolink
+  - cellular hog trap camera
+  - mississippi feral hog monitoring
+  - alabama wild hog camera
+  related:
+  - wild hog monitoring camera
+  - feral hog camera trap
+  - cellular trail camera for hogs
+  - hog hunting trail camera
+  - ranch security camera cellular
+  - wild pig monitoring
+  - trap camera feral hog
+  - cellular scouting camera ranch
+  - solar powered trail camera hog
+  - vosker vs reolink hog
+  - reolink cellular trail camera hunting
+  - spartan cellular trail camera
+  - screwworm feral hogs spread
+  - new world screwworm cattle ranch
+  - remote hog trap trigger camera
+  - texas hog trap camera
+  - hogeye vs vosker trap
+on_page_urls:
+- https://hogeyecameras.com/
+- https://hogeyecameras.com/buy-now
+- https://hogeyecameras.com/hog-traps
+- https://hogeyecameras.com/steel-camera
+- https://hogeyecameras.com/net-camera-trap-remote-hog-trapping
+- https://hogeyecameras.com/camera-resources
+- https://hogeyecameras.com/camera-login
+- https://hogeyecameras.com/trap-camera
+- https://hogeyecameras.com/blog-4g-vs-5g-cellular-cameras-ranch-monitoring-2025
+- https://hogeyecameras.com/blog-hogeye-vs-vosker-cellular-cameras-comparison
+- https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail
+- https://hogeyecameras.com/blog-ultimate-guide-setting-up-hogeye-camera-trap
+- https://hogeyecameras.com/blog
+- https://hogeyecameras.com/shop
+- https://hogeyecameras.com/contact
+niche_filter:
+  allow_pattern: (wild\s*hog|feral\s*hog|feral\s*pig|wild\s*pig|hog\s*trap|hog\s*hunting|hog\s*camera|hog\s*cam|hogeye|hog-eye|trail\s*cam|trail\s*camera|game\s*cam|game\s*camera|cellular\s*trail|cellular\s*game|scouting\s*cam|ranch\s*cam|range\s*cam|livestock|predator|boar|screwworm|new\s*world\s*screwworm|biosecurity|trap\s*camera|feral.*(cam|monitor)|wildlife.*(trail|cam)|monitoring.*(hog|ranch|trap|pig)|off[\s-]?grid.*(cam|ranch)|solar.*(trail|cam|hog)|(reolink|vosker|spartan)\s+\S|(\S+\s+){0,3}(reolink|vosker|spartan)\b|barn\s*owl\s+\S)
+  deny_pattern: (^|\b)(security camera|security cameras|alarms?|daylight\s+savings|carbon\s+monoxide|battery\s+plus|smart\s+door|when\s+is\s+summer|cms\s+to\s+inch|safari\s+internet|icloud\s+storage|open\s+store\s+on\s+christmas|hogeye\s+festival|clay\s+county)\b
+  bare_brand_deny_pattern: ^(reolink|vosker|spartan|barn\s*owl)\s*$
+  strict_intent_pattern: (wild\s*hog|feral\s*hog|hog\s*trap|hog\s*camera|hog\s*monitor|screwworm|trap\s*camera|remote\s*hog|cellular.*(hog|ranch|trap)|hog.*(texas|louisiana|oklahoma|mississippi|alabama)|vosker|reolink|hogeye)
+limits:
+  ranked: 500
+  suggest: 200
+  related_depth: 2
+  max_keywords_for_volume: 1000
+  volume_chunk: 700
+  serp_depth: 20
+  default_serp_limit: 250
+  backlinks: 50
+llm_queries:
+- wild hog monitoring camera system
+- feral hog trap camera cellular
+- best camera for hog trapping
+- hog trap remote trigger system
+- cellular trail camera hog hunting texas
+- HogEye vs Vosker cellular camera
+- HogEye vs Reolink Go hog trap
+- vosker vs reolink trail camera hunting
+- remote hog trap monitoring camera
+- smart hog trap technology
+- wild hog trap monitoring cellular
+- drop trap camera system remote trigger
+- ranch camera cellular no wifi
+- off grid solar trail camera hog
+- 4g vs 5g ranch camera rural
+- best cellular camera for hog trapping
+- trail camera vs cellular hog trap
+- feral hog monitoring ranch camera
+- hogeye camera reviews
+- hog camera cellular live feed
+- texas hog trap camera ranch
+- louisiana hog trap camera
+- mississippi feral hog monitoring
+- alabama wild hog camera trap
+- oklahoma ranch cellular camera
+- what is screwworm cattle ranch
+- screwworm feral hogs spread risk
+- new world screwworm texas landowner
+- feral hogs fly attraction ranch biosecurity
+- wildlife monitoring screwworm ranch
+- hogeye vs spartan cellular camera
+- barn owl rangecam vs hogeye
+- cellular hog trap camera buy
+- net trap camera remote monitoring
+- steel trap cage camera system
+- feral hog damage monitoring camera
+- livestock predator camera cellular ranch
+- hog control system remote camera
+- electronic hog trap camera trigger
+- wireless hog trap control camera
+- hog trapping cameras compared 2026
+- reolink cellular hog trapping
+- sim card ranch cameras lte multi carrier
+- buy hogeye camera system texas
+- camera login hog trap portal
+chatgpt_tasks:
+- keyword: wild hog monitoring cellular trail camera solar checklist texas louisiana
+  research_angle: Compare monitoring approaches for wild pigs; cellular, solar, trap integration.
+  tag: hog-monitor-south
+- keyword: HogEye vs Vosker vs Reolink Go hog trap camera 2026
+  research_angle: Decision criteria for trap-integrated cellular systems.
+  tag: hogeye-comp-stack
+- keyword: best camera for hog trapping remote trigger weak cell coverage
+  research_angle: Ranch/trapper use cases; carrier and trigger reliability.
+  tag: best-hog-camera
+- keyword: screwworm feral hogs spread texas ranch monitoring gap
+  research_angle: NWS education; hog movement; not veterinary treatment.
+  tag: screwworm-hogs-tx
+- keyword: what is screwworm new world screwworm cattle wildlife landowners
+  research_angle: Pillar topic 1; USDA/extension citations.
+  tag: screwworm-pillar
+- keyword: why feral hogs biggest threat screwworm spread fly attraction
+  research_angle: Pillar topic 2; monitoring angle.
+  tag: hogs-screwworm-threat
+- keyword: 4g vs 5g cellular ranch camera rural texas tradeoff
+  research_angle: Refresh low-CTR comparison post themes.
+  tag: 4g-5g-ranch
+- keyword: texas hog trap camera remote monitoring buy intent
+  research_angle: Geo-commercial TX 40% ad weight.
+  tag: tx-hog-camera
+- keyword: louisiana mississippi alabama hog trap camera cellular
+  research_angle: Geo MS LA AL cluster.
+  tag: geo-south-cameras
+- keyword: oklahoma ranch off grid cellular camera hog monitoring
+  research_angle: OK geo pillar.
+  tag: ok-ranch-camera
+- keyword: drop trap camera system remote trigger timing hog
+  research_angle: Drop/net trap workflow content.
+  tag: drop-trap-camera
+- keyword: net trap camera remote hog trapping workflow
+  research_angle: Net trap monitoring SOP angles.
+  tag: net-trap-workflow
+- keyword: steel cage hog trap camera integration
+  research_angle: Cage trap product page support.
+  tag: steel-cage-camera
+- keyword: hogeye buy now camera system conversion rancher
+  research_angle: Commercial funnel; Buy Now thin page context.
+  tag: buy-now-intent
+- keyword: trap camera 404 hogeye steel camera redirect strategy
+  research_angle: Technical SEO + product URL consolidation.
+  tag: trap-camera-fix
+- keyword: smart hog trap technology cellular trigger standards
+  research_angle: GSC striker cluster.
+  tag: smart-trap-tech
+- keyword: wild hog trap monitoring vs cattle monitoring ranch
+  research_angle: Monitoring gap narrative for HogEye.
+  tag: wildlife-vs-cattle
+- keyword: feral hog damage cost monitoring camera ROI ranch
+  research_angle: Damage + monitoring tie-in.
+  tag: damage-roi
+- keyword: reolink trap mods vs purpose built hog trap camera
+  research_angle: Comparison gap; DIY void warranty angle.
+  tag: reolink-mods
+- keyword: spartan cellular trail camera vs hogeye trap trigger
+  research_angle: Spartan competitor comparison.
+  tag: spartan-comp
+- keyword: barn owl rangecam ranch hog monitoring comparison
+  research_angle: Barn Owl / RangeCam comp.
+  tag: barnowl-comp
+- keyword: hogeye vs boarbuster cellular trap camera
+  research_angle: GSC comparison query.
+  tag: hogeye-boarbuster
+- keyword: big pig trap hogeye mini camera bundle operations
+  research_angle: Cross-brand WD portfolio.
+  tag: bigpig-bundle
+- keyword: screwworm symptoms landowner awareness not on feces
+  research_angle: Stakeholder phrase; extension sources.
+  tag: screwworm-spot
+- keyword: cellular trail camera AI overview cited brands edu gov 2026
+  research_angle: LLM visibility landscape.
+  tag: ai-overview-cameras
+- keyword: remote hog trap trigger readiness cellular weak coverage SOP
+  research_angle: Recent blog cluster support.
+  tag: trigger-readiness
+- keyword: year end hog trap gear audit camera trigger power 2026
+  research_angle: Seasonal gear audit content.
+  tag: gear-audit
+- keyword: hog trapping cameras compared trail cellular solar 2026
+  research_angle: Category comparison pillar refresh.
+  tag: cameras-compared-2026

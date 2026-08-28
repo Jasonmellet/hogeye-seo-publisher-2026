@@ -13,6 +13,7 @@ This intentionally replaces ad-hoc flows in older scripts.
 
 from __future__ import annotations
 
+import html
 import json
 import os
 import re
@@ -44,12 +45,16 @@ class PublishOptions:
     # Common
     status: str = "draft"  # always default to draft
     resolve_links: bool = False
+    # Opt-in only: overwrite an existing WP post/page for this exact URL/id.
+    # Default monthly flow creates a NEW draft (unique slug if collision).
+    allow_update_existing: bool = False
 
     # Blog-specific
     enable_toc: bool = False
     toc_auto_word_threshold: int = 1500
-    min_content_images: int = 2
-    max_content_images: int = 4
+    # Mandate default: never auto-insert images (featured or in-body).
+    min_content_images: int = 0
+    max_content_images: int = 0
     # If set, enforce EXACT visible FAQ question count. If None, do not enforce.
     required_faq_questions: Optional[int] = None
 
@@ -127,31 +132,52 @@ class TaxonomyManager:
         self._category_cache: Dict[str, int] = {}
         self._tag_cache: Dict[str, int] = {}
 
+    @staticmethod
+    def _norm_name(name: str) -> str:
+        # WP may return HTML entities in term names (&amp;).
+        return html.unescape((name or "").strip()).lower()
+
     def _get_or_create(self, endpoint: str, name: str, cache: Dict[str, int]) -> Optional[int]:
-        key = name.strip().lower()
+        key = self._norm_name(name)
         if not key:
             return None
         if key in cache:
             return cache[key]
 
-        # Search existing
-        r = self.wp.get_json(endpoint, params={"search": name, "per_page": 100})
-        if r.ok and isinstance(r.data, list):
-            for item in r.data:
-                if (item.get("name") or "").strip().lower() == key:
+        def _match_in(items: Any) -> Optional[int]:
+            if not isinstance(items, list):
+                return None
+            for item in items:
+                if self._norm_name(item.get("name") or "") == key:
                     cid = int(item.get("id") or 0)
                     if cid:
                         cache[key] = cid
                         return cid
+            return None
+
+        # Search existing (compare unescaped names — WP may return &amp;)
+        r = self.wp.get_json(endpoint, params={"search": name, "per_page": 100})
+        hit = _match_in(r.data) if r.ok else None
+        if hit:
+            return hit
+
+        # Fallback: list page (search can miss entity-encoded names)
+        r_all = self.wp.get_json(endpoint, params={"per_page": 100, "hide_empty": False})
+        hit = _match_in(r_all.data) if r_all.ok else None
+        if hit:
+            return hit
 
         # Create
-        r2 = self.wp.post_json(endpoint, {"name": name})
+        r2 = self.wp.post_json(endpoint, {"name": html.unescape(name.strip())})
         if r2.ok and isinstance(r2.data, dict):
             cid = int(r2.data.get("id") or 0)
             if cid:
                 cache[key] = cid
                 return cid
-        return None
+
+        # term_exists / race: list again
+        r3 = self.wp.get_json(endpoint, params={"per_page": 100, "hide_empty": False})
+        return _match_in(r3.data) if r3.ok else None
 
     def get_or_create_category_id(self, name: str) -> Optional[int]:
         return self._get_or_create("categories", name, self._category_cache)
@@ -252,20 +278,68 @@ class PublishPipeline:
     def _seo_plugin(self) -> str:
         if self.client and self.client.seoPlugin:
             return str(self.client.seoPlugin)
-        return "yoast"
+        # HogEye / WD default stack is AIOSEO. Never soft-fail as Yoast by accident.
+        return "aioseo"
+
+    def _auto_images_enabled(self) -> bool:
+        # Mandate: never auto-insert images unless client.config explicitly opts in.
+        if self.client and self.client.autoInsertImages is not None:
+            return bool(self.client.autoInsertImages)
+        return False
 
     def _seo_field_warnings(self, item: Dict[str, Any]) -> List[str]:
-        """When client uses AIOSEO, remind operators if JSON is missing fields we map to aioseo_meta_data."""
-        if not self.client or (self.client.seoPlugin or "").strip().lower() != "aioseo":
-            return []
+        """Soft reminders only when SEO hard-fail is not already gating (unused for AIOSEO path)."""
+        return []
+
+    def _aioseo_required_errors(self, item: Dict[str, Any]) -> List[str]:
+        """Hard-fail missing SEO meta — body-only publish is a failed publish (hub Draft-first)."""
         out: List[str] = []
         if not (str(item.get("meta_title") or "").strip()):
-            out.append("AIOSEO: meta_title is empty (SEO title not sent).")
+            out.append("SEO hard-fail: meta_title is empty (SEO title required).")
         if not (str(item.get("meta_description") or "").strip()):
-            out.append("AIOSEO: meta_description is empty (meta description not sent).")
+            out.append("SEO hard-fail: meta_description is empty (meta description required).")
         if not (str(item.get("focus_keyword") or "").strip()):
-            out.append("AIOSEO: focus_keyword is empty (focus keyphrase not sent).")
+            out.append("SEO hard-fail: focus_keyword is empty (focus keyphrase required).")
         return out
+
+    @staticmethod
+    def _update_existing_allowed(item: Dict[str, Any], *, options: PublishOptions) -> bool:
+        """Create-only by default. Stored wp_post_id / wp_page_id alone is NOT opt-in
+        (leftover ids must not silently overwrite). Require CLI --allow-update-existing
+        or JSON update_existing / _update_existing == true. Ids then target the update.
+        """
+        if options.allow_update_existing:
+            return True
+        if item.get("update_existing") is True or item.get("_update_existing") is True:
+            return True
+        return False
+
+    def _slug_collision(
+        self, slug: str
+    ) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]:
+        """Return (existing_post, existing_page) for slug across any status."""
+        if not slug:
+            return None, None
+        post_exists, post = self.wp.find_by_slug("posts", slug)
+        page_exists, page = self.wp.find_by_slug("pages", slug)
+        return (post if post_exists else None), (page if page_exists else None)
+
+    def _allocate_unique_slug(self, base_slug: str, *, period: Optional[str]) -> str:
+        """Prefer …-YYYY-MM-refresh, then numeric suffixes, until free on posts and pages."""
+        period_token = None
+        if isinstance(period, str) and re.match(r"^\d{4}-\d{2}$", period.strip()):
+            period_token = period.strip()
+        candidates = []
+        if period_token:
+            candidates.append(f"{base_slug}-{period_token}-refresh")
+        candidates.append(f"{base_slug}-refresh")
+        for n in range(2, 50):
+            candidates.append(f"{base_slug}-refresh-{n}")
+        for candidate in candidates:
+            post, page = self._slug_collision(candidate)
+            if not post and not page:
+                return candidate
+        raise ValueError(f"Could not allocate a unique slug from base '{base_slug}'.")
 
     def _backup_wp_object(self, endpoint: str, object_id: int, slug: str) -> None:
         """
@@ -333,9 +407,30 @@ class PublishPipeline:
         return self._publish_page(item, options=options)
 
     def _publish_post(self, item: Dict[str, Any], *, options: PublishOptions) -> Tuple[Optional[int], ValidationResult]:
-        slug = item.get("slug", "")
+        slug = (item.get("slug") or "").strip()
         title = item.get("title", "")
         raw_content = (item.get("content") or "").replace("\\n", "\n")
+        notes: List[str] = []
+
+        seo_errors = self._aioseo_required_errors(item)
+        if seo_errors:
+            return None, ValidationResult(ok=False, errors=seo_errors, warnings=[])
+
+        cat_names = [str(c).strip() for c in (item.get("categories") or []) if str(c).strip()]
+        if item.get("wp_category_id"):
+            pass  # explicit id allowed
+        elif not cat_names:
+            return None, ValidationResult(
+                ok=False,
+                errors=["Category hard-fail: assign a real WP category (never leave Uncategorized)."],
+                warnings=[],
+            )
+        elif any(c.lower() == "uncategorized" for c in cat_names):
+            return None, ValidationResult(
+                ok=False,
+                errors=["Category hard-fail: Uncategorized is not allowed."],
+                warnings=[],
+            )
 
         # Transform content safely
         content = fix_malformed_h2_styles(raw_content)
@@ -374,22 +469,28 @@ class PublishPipeline:
                         if isinstance(v, str) and "{{link:" in v:
                             row[key] = self.links.replace_link_placeholders(v, slug_map)
 
-        # Featured image selection
+        # Images only when client.config autoInsertImages=true AND CLI budgets allow it.
+        auto_images_enabled = (
+            self._auto_images_enabled()
+            and (options.max_content_images > 0 or bool(item.get("featured_media_id")) or bool(item.get("content_image_count")))
+        )
+        min_content_images_required = options.min_content_images if auto_images_enabled else 0
+
+        # Featured image selection (opt-in only)
         featured_media_id = int(item.get("featured_media_id") or 0)
-        if not featured_media_id:
+        if auto_images_enabled and not featured_media_id:
             seed = _keyword_seed(item)
             best = self.media.find_best_media_ids(seed, exclude_ids=[], limit=1)
             featured_media_id = best[0] if best else 0
 
         # Ensure featured image not in body: replace the first occurrence if present
-        if featured_media_id and f"wp-image-{featured_media_id}" in content:
+        if auto_images_enabled and featured_media_id and f"wp-image-{featured_media_id}" in content:
             seed = _keyword_seed(item)
             alt_ids = self.media.find_best_media_ids(seed, exclude_ids=[featured_media_id], limit=3)
             replacement_id = alt_ids[0] if alt_ids else 0
             if replacement_id:
                 url, alt = self.media.get_media_url_and_alt(replacement_id)
                 if url:
-                    # Replace only first occurrence of the featured image block reference
                     content = re.sub(
                         rf"(wp-image-){featured_media_id}",
                         rf"\g<1>{replacement_id}",
@@ -397,7 +498,6 @@ class PublishPipeline:
                         count=1,
                         flags=re.IGNORECASE,
                     )
-                    # Also replace src if the block is inline HTML (best-effort)
                     content = re.sub(
                         rf'(<img[^>]+class="[^"]*wp-image-{replacement_id}[^"]*"[^>]+src=")[^"]+(")',
                         rf"\g<1>{url}\2",
@@ -406,19 +506,60 @@ class PublishPipeline:
                         flags=re.IGNORECASE,
                     )
 
-        # Insert body images (2-3 total) - avoid featured id
-        desired = int(item.get("content_image_count") or options.max_content_images)
-        desired = max(options.min_content_images, min(desired, options.max_content_images))
-        existing_body_ids = set([int(x) for x in re.findall(r"wp-image-(\d+)", content)])
-        needed = max(0, desired - len(existing_body_ids))
-        if needed > 0:
-            seed = _keyword_seed(item)
-            candidates = self.media.find_best_media_ids(
-                seed,
-                exclude_ids=list(existing_body_ids) + ([featured_media_id] if featured_media_id else []),
-                limit=needed + 2,
-            )
-            content = _insert_images_blog(content, self.media, candidates[:needed])
+        # Insert body images only when auto-images is explicitly enabled and budgets > 0
+        if auto_images_enabled and options.max_content_images > 0:
+            desired = int(item.get("content_image_count") or options.max_content_images)
+            desired = max(options.min_content_images, min(desired, options.max_content_images))
+            existing_body_ids = set([int(x) for x in re.findall(r"wp-image-(\d+)", content)])
+            needed = max(0, desired - len(existing_body_ids))
+            if needed > 0:
+                seed = _keyword_seed(item)
+                candidates = self.media.find_best_media_ids(
+                    seed,
+                    exclude_ids=list(existing_body_ids) + ([featured_media_id] if featured_media_id else []),
+                    limit=needed + 2,
+                )
+                content = _insert_images_blog(content, self.media, candidates[:needed])
+
+        # Slug collision policy (posts OR pages, any status)
+        allow_update = self._update_existing_allowed(item, options=options)
+        existing_post, existing_page = self._slug_collision(slug) if slug else (None, None)
+        target_post_id: Optional[int] = None
+        if allow_update:
+            if item.get("wp_post_id"):
+                target_post_id = int(item["wp_post_id"])
+            elif existing_post and existing_post.get("id"):
+                target_post_id = int(existing_post["id"])
+            elif existing_page and existing_page.get("id") and not item.get("wp_page_id"):
+                return None, ValidationResult(
+                    ok=False,
+                    errors=[
+                        f"Slug '{slug}' matches an existing PAGE (id={existing_page.get('id')}). "
+                        "Refusing to overwrite a page from the posts publisher without wp_page_id / intentional page workflow."
+                    ],
+                    warnings=[],
+                )
+        else:
+            if existing_post or existing_page:
+                kind = "post" if existing_post else "page"
+                hit = existing_post or existing_page or {}
+                period = item.get("period") or item.get("month")
+                if not period:
+                    # Filename convention: jul26_01_… → 2026-07
+                    ext = str(item.get("externalId") or item.get("external_id") or "")
+                    m = re.match(r"^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)(\d{2})", ext.lower())
+                    months = {
+                        "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
+                        "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+                    }
+                    if m and m.group(1) in months:
+                        period = f"20{m.group(2)}-{months[m.group(1)]}"
+                new_slug = self._allocate_unique_slug(slug, period=str(period) if period else None)
+                notes.append(
+                    f"Slug '{slug}' already exists as {kind} id={hit.get('id')}; "
+                    f"creating NEW draft as '{new_slug}' (pass --allow-update-existing to overwrite intentionally)."
+                )
+                slug = new_slug
 
         # Final payload
         payload: Dict[str, Any] = {
@@ -432,12 +573,30 @@ class PublishPipeline:
 
         # Categories/tags (names in source -> IDs in WP)
         cat_ids: List[int] = []
-        for cat_name in item.get("categories", []) or []:
-            cid = self.tax.get_or_create_category_id(str(cat_name))
+        if item.get("wp_category_id"):
+            try:
+                cat_ids.append(int(item["wp_category_id"]))
+            except (TypeError, ValueError):
+                return None, ValidationResult(ok=False, errors=["Invalid wp_category_id"], warnings=[])
+        for cat_name in cat_names:
+            cid = self.tax.get_or_create_category_id(cat_name)
             if cid:
                 cat_ids.append(cid)
-        if cat_ids:
-            payload["categories"] = cat_ids
+        seen_cats: set[int] = set()
+        deduped_cats: List[int] = []
+        for cid in cat_ids:
+            if cid in seen_cats:
+                continue
+            seen_cats.add(cid)
+            deduped_cats.append(cid)
+        cat_ids = deduped_cats
+        if not cat_ids:
+            return None, ValidationResult(
+                ok=False,
+                errors=["Category hard-fail: could not resolve any WP category IDs."],
+                warnings=[],
+            )
+        payload["categories"] = cat_ids
 
         tag_ids: List[int] = []
         for tag_name in item.get("tags", []) or []:
@@ -449,61 +608,99 @@ class PublishPipeline:
 
         if item.get("date"):
             payload["date"] = item.get("date")
-        if featured_media_id:
+        # Mandate: do not set featured_media unless explicitly provided / auto-images opted in.
+        if featured_media_id and (auto_images_enabled or item.get("featured_media_id")):
             payload["featured_media"] = featured_media_id
+        else:
+            featured_media_id = 0
 
         if Config.DRY_RUN:
             validation = validate_blog_post(
                 content=content,
                 featured_media_id=featured_media_id,
-                min_content_images=options.min_content_images,
+                min_content_images=min_content_images_required,
                 max_content_images=options.max_content_images,
                 required_faq_questions=options.required_faq_questions,
+                require_featured_not_in_body=False if featured_media_id == 0 else True,
             )
             seo_w = self._seo_field_warnings(item)
             return None, ValidationResult(
                 ok=validation.ok,
                 errors=validation.errors,
-                warnings=["DRY_RUN=true: skipped WordPress write (no post created/updated)."] + validation.warnings + seo_w,
+                warnings=["DRY_RUN=true: skipped WordPress write (no post created/updated)."]
+                + validation.warnings
+                + seo_w
+                + notes,
             )
 
-        # Create or update by slug
-        exists, existing = self.wp.find_by_slug("posts", slug) if slug else (False, None)
-        if exists and existing and existing.get("id"):
-            post_id = int(existing["id"])
-            r = self.wp.post_json(f"posts/{post_id}", payload, params={"context": "edit"})
+        # Create new draft OR update only when explicitly allowed
+        if target_post_id:
+            self._backup_wp_object("posts", target_post_id, slug or str(target_post_id))
+            r = self.wp.post_json(f"posts/{target_post_id}", payload, params={"context": "edit"})
             if not r.ok:
-                return None, ValidationResult(ok=False, errors=[f"Failed updating post: HTTP {r.status_code}"], warnings=[])
+                return None, ValidationResult(ok=False, errors=[f"Failed updating post: HTTP {r.status_code}"], warnings=notes)
+            post_id = target_post_id
+            notes.append(f"Updated existing post id={post_id} (explicit allow-update).")
         else:
             r = self.wp.post_json("posts", payload, params={"context": "edit"})
             if not r.ok:
-                return None, ValidationResult(ok=False, errors=[f"Failed creating post: HTTP {r.status_code}"], warnings=[])
+                return None, ValidationResult(ok=False, errors=[f"Failed creating post: HTTP {r.status_code}"], warnings=notes)
             post_id = int((r.data or {}).get("id") or 0)
 
         # Verify
         got = self.wp.get_json(f"posts/{post_id}", params={"context": "edit"})
         content_raw = ""
         featured = featured_media_id
+        verify_errors: List[str] = []
         if got.ok and isinstance(got.data, dict):
             content_raw = ((got.data.get("content") or {}).get("raw") or (got.data.get("content") or {}).get("rendered") or "")
-            featured = int(got.data.get("featured_media") or featured_media_id or 0)
+            featured = int(got.data.get("featured_media") or 0)
+            status_got = (got.data.get("status") or "").strip()
+            if options.status == "draft" and status_got and status_got != "draft":
+                verify_errors.append(f"Expected status=draft, got status={status_got}.")
+            cats_got = got.data.get("categories") or []
+            if not cats_got:
+                verify_errors.append("WP draft has no categories after publish.")
+            aio = got.data.get("aioseo_meta_data") or {}
+            if isinstance(aio, dict):
+                if not str(aio.get("title") or "").strip():
+                    verify_errors.append("AIOSEO verify hard-fail: title missing on WP draft.")
+                if not str(aio.get("description") or "").strip():
+                    verify_errors.append("AIOSEO verify hard-fail: description missing on WP draft.")
+                focus = ((aio.get("keyphrases") or {}).get("focus") or {}) if isinstance(aio.get("keyphrases"), dict) else {}
+                if not str((focus or {}).get("keyphrase") or "").strip():
+                    verify_errors.append("AIOSEO verify hard-fail: focus keyphrase missing on WP draft.")
+            else:
+                verify_errors.append("AIOSEO verify hard-fail: aioseo_meta_data missing on WP draft.")
+            if featured:
+                verify_errors.append(f"featured_media={featured} but mandate requires 0 for this run (no auto images).")
+            if re.search(r"wp-image-\d+", content_raw or content) and not re.search(
+                r"wp-image-\d+", (item.get("content") or "")
+            ):
+                verify_errors.append("Body contains wp-image-* that was not in source (auto-insert suspected).")
 
         validation = validate_blog_post(
             content=content_raw or content,
             featured_media_id=featured,
-            min_content_images=options.min_content_images,
+            min_content_images=min_content_images_required,
             max_content_images=options.max_content_images,
             required_faq_questions=options.required_faq_questions,
+            require_featured_not_in_body=False if featured == 0 else True,
         )
         seo_w = self._seo_field_warnings(item)
-        if not seo_w:
-            return post_id, validation
-        return post_id, ValidationResult(ok=validation.ok, errors=list(validation.errors), warnings=list(validation.warnings) + seo_w)
+        errors = list(validation.errors) + verify_errors
+        warnings = list(validation.warnings) + seo_w + notes
+        ok = validation.ok and not verify_errors
+        return post_id, ValidationResult(ok=ok, errors=errors, warnings=warnings)
 
     def _publish_page(self, item: Dict[str, Any], *, options: PublishOptions) -> Tuple[Optional[int], ValidationResult]:
         slug = item.get("slug", "")
         title = item.get("title", "")
         raw_content = (item.get("content") or "").replace("\\n", "\n")
+
+        seo_errors = self._aioseo_required_errors(item)
+        if seo_errors:
+            return None, ValidationResult(ok=False, errors=seo_errors, warnings=[])
 
         # Existing page is required for our landing page workflow; also lets us avoid
         # duplicating the hero/featured image inside body image blocks.
