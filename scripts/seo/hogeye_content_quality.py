@@ -48,7 +48,7 @@ _INTERNAL_PATTERNS = (
         "article/page job label",
     ),
     (r"\b(?:claims\s+audit|research\s+pack|approved\s+brief)\b", "production label"),
-    (r"\b(?:placeholder|lorem\s+ipsum|to\s+do|todo|tbd)\b", "placeholder"),
+    (r"\b(?:placeholder|lorem\s+ipsum|todo|tbd)\b", "placeholder"),
     (r"\[\s*needs\s+source\s*\]", "source placeholder"),
     (
         r"\[\s*(?:replace|insert|add|write|fill|section|question|answer|h[1-6])\b[^\]]*\]",
@@ -69,7 +69,8 @@ _BRAND_POLICY_PATTERNS = (
     (r"\b(?:mini\s+ai|mini\s+starlink)\b", "unreleased product claim"),
     (r"\bunreleased\b", "unreleased product claim"),
     (
-        r"\b(?:treat(?:ment)?|medicat(?:e|ion)|apply|spray|drug)\b.{0,50}\bscrewworm\b",
+        r"\b(?:treat|medicate|apply|spray|administer)\b[^.!?]{0,50}\bscrewworm\b"
+        r"|\bscrewworm\b[^.!?]{0,50}\b(?:treat|medicate|apply|spray|administer)\b",
         "screwworm treatment advice",
     ),
 )
