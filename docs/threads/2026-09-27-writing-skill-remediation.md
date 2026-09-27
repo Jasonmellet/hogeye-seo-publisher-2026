@@ -2,7 +2,7 @@
 
 - Date: 2026-09-27
 - Agent: Cursor
-- Status: active
+- Status: ready-to-archive
 
 ## Goal
 
@@ -32,6 +32,8 @@ enjoyment, then remediate the five active September V2 posts.
 - Rewritten pilot `sep26_03-v2` passes native quality and editorial gates.
 - All five September V2 posts now include TL;DR blocks and pass the native and
   editorial gates.
+- All five existing V2 identities were re-pushed to the Hub without changing V1
+  or duplicating images.
 
 ## Open questions
 
