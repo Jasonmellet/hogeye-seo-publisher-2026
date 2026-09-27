@@ -12,6 +12,9 @@ Non-negotiable behavior:
 
 Preferred writing behavior:
 
+- Begin every article body with a 35-60 word
+  `<p><strong>TL;DR:</strong> ...</p>` that answers the search intent and gives
+  the practical takeaway without adding unsupported facts.
 - Facts are the floor, not the finished product. Shape research around the
   landowner's next decision.
 - Practical, field-aware, and process-oriented, with a clear point of view.

@@ -12,6 +12,7 @@ enjoyment, then remediate the five active September V2 posts.
 ## Decisions
 
 - Facts, SEO, length, and Flesch are necessary but cannot grant readiness.
+- Every new article begins with a validated 35–60 word TL;DR.
 - Preserve HogEye's practical observation voice while rejecting mechanical or
   research-note-shaped prose.
 - Preserve V1 and re-push corrected copy under the existing V2 identities.

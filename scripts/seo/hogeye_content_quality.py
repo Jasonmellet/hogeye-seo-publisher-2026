@@ -15,6 +15,12 @@ from typing import Any, Dict, Iterable, List, Optional
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WORD_RE = re.compile(r"\b[\w'-]+\b", re.UNICODE)
+_TLDR_RE = re.compile(
+    r"^\s*<p[^>]*>\s*<strong[^>]*>\s*TL;DR:\s*</strong>(.*?)</p>",
+    flags=re.I | re.S,
+)
+_TLDR_MIN_WORDS = 35
+_TLDR_MAX_WORDS = 60
 
 # These patterns target production scaffolding, not normal reader-facing
 # instructions such as "write a one-page SOP".
@@ -182,6 +188,29 @@ def _content_tail_findings(value: Any) -> List[Dict[str, str]]:
     return findings
 
 
+def _tldr_findings(value: Any) -> List[Dict[str, str]]:
+    raw = str(value or "")
+    match = _TLDR_RE.search(raw)
+    if not match:
+        return [
+            {
+                "field": "content",
+                "label": "missing first-block TL;DR",
+                "match": "",
+            }
+        ]
+    count = count_words(match.group(1))
+    if not _TLDR_MIN_WORDS <= count <= _TLDR_MAX_WORDS:
+        return [
+            {
+                "field": "content",
+                "label": f"TL;DR must be {_TLDR_MIN_WORDS}-{_TLDR_MAX_WORDS} words",
+                "match": f"{count} words",
+            }
+        ]
+    return []
+
+
 def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
     """Validate one native post object and return a machine-readable report."""
     errors: List[str] = []
@@ -223,6 +252,7 @@ def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
                     }
                 )
     if "content" in item:
+        findings.extend(_tldr_findings(item["content"]))
         findings.extend(_content_tail_findings(item["content"]))
     if findings:
         errors.append("output-hygiene findings present")
