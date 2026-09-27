@@ -6,7 +6,7 @@ import path from "node:path";
 const JEV_URL = "https://api.typesafe.ai/v1/systemone";
 const JEV_MODEL = "jev-latest";
 const TIMEOUT_MS = 30_000;
-const MIN_EDITORIAL_SCORE = 1.4;
+const MIN_EDITORIAL_SCORE = 1.3;
 const MAX_CONCERN_NOUL = 0.45;
 
 const QUESTIONS = {

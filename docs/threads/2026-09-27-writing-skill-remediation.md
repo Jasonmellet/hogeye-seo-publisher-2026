@@ -30,6 +30,8 @@ enjoyment, then remediate the five active September V2 posts.
 - Typecheck and syntax checks pass.
 - Existing September V2 copy triggers the new editorial gate.
 - Rewritten pilot `sep26_03-v2` passes native quality and editorial gates.
+- All five September V2 posts now include TL;DR blocks and pass the native and
+  editorial gates.
 
 ## Open questions
 
