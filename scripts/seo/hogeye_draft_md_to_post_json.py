@@ -3,7 +3,7 @@
 Convert an approved monthly draft markdown (`<article_id>_draft.md`) into a JSON post file for publish_content_item.py.
 
 Expects either:
-- **YAML frontmatter** (`---` … `---`) with `title`, `slug`, `meta_title`, `meta_description`, `focus_keyword`, `categories`, optional `excerpt`, then `# Article title` and body; or
+- **YAML frontmatter** (`---` … `---`) with `title`, `slug`, `meta_title`, `meta_description`, `focus_keyword`, `word_count`, `categories`, optional `excerpt`, then `# Article title` and body; or
 - **Legacy bullet metadata**: SEO Metadata list, ## Metadata list, then `# Draft:` / `# Article title` and body.
 Strips HTML comment blocks and optional ## Claims audit notes (and following) for the WordPress body.
 Does not put the article H1 into the HTML body (theme shows post title). Normalizes outline labels like `## H2: ...` → `## ...` and `## H3: ...` under FAQ → `### ...`, and drops a standalone `## Main sections` line.
@@ -39,6 +39,7 @@ except ImportError:
     yaml = None  # type: ignore[assignment]
 
 from repo_workspace import workspace_dir_under, workspace_rel_posix
+from hogeye_content_quality import validate_item
 
 
 def _split_yaml_frontmatter(raw: str) -> Tuple[str, Dict[str, Any]]:
@@ -93,6 +94,10 @@ def _yaml_dict_to_kv(yd: Dict[str, Any]) -> Dict[str, str]:
         kv["tags"] = str(tags).strip()
     if yd.get("excerpt"):
         kv["excerpt"] = str(yd["excerpt"]).strip()
+    for key in ("word_count", "target_word_count", "word_target"):
+        if yd.get(key) is not None:
+            kv["word_target"] = str(yd[key]).strip()
+            break
     return kv
 
 
@@ -120,6 +125,16 @@ def _split_taxonomy_value(val: str) -> List[str]:
 
 def _dedupe_preserve(seq: List[str]) -> List[str]:
     return list(dict.fromkeys(seq))
+
+
+def _parse_positive_int(value: Optional[str]) -> Optional[int]:
+    if value is None:
+        return None
+    try:
+        parsed = int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+    return parsed if parsed > 0 else None
 
 
 def _strip_comment_blocks(text: str) -> str:
@@ -300,6 +315,11 @@ def main() -> int:
     kv_yaml = _yaml_dict_to_kv(yaml_fm) if yaml_fm else {}
     kv_bullets = _parse_kv_bullets(text_for_kv)
     kv = {**kv_yaml, **kv_bullets}
+    if "word_target" not in kv:
+        for key in ("word_count", "target_word_count"):
+            if key in kv:
+                kv["word_target"] = kv[key]
+                break
 
     cleaned = _strip_comment_blocks(text_for_kv)
 
@@ -319,6 +339,7 @@ def main() -> int:
     seo_title = kv.get("seo_title") or title
     meta_description = kv.get("meta_description") or ""
     focus = kv.get("primary_keyword") or ""
+    target_words = _parse_positive_int(kv.get("word_target"))
 
     slug = (args.slug or "").strip() or (kv.get("slug") or "").strip() or _slugify(title)
     excerpt = (kv.get("excerpt") or "").strip() or meta_description or _first_paragraph_excerpt(body_md)
@@ -360,8 +381,23 @@ def main() -> int:
         "categories": categories,
         "tags": tags,
     })
+    if target_words is not None:
+        out_obj["targetWordCount"] = target_words
     if faq_items:
         out_obj["faq_items"] = faq_items
+
+    quality = validate_item(out_obj)
+    if not quality["ok"]:
+        print("Error: HogEye content-quality preflight failed:", file=sys.stderr)
+        for error in quality["errors"]:
+            print(f"- {error}", file=sys.stderr)
+        for finding in quality["findings"]:
+            print(
+                f"- {finding['field']}: {finding['label']} "
+                f"({finding['match']!r})",
+                file=sys.stderr,
+            )
+        return 2
 
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)

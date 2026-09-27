@@ -197,6 +197,16 @@ Hard fails: em dash (—), blacklisted terms, vague field language (active sign,
 
 Intro voice: openings must read like an operator speaking, not an SEO brief. Flag stiff meta sentences that announce scope instead of stating the problem.
 
+Editorial taste is a gate, not optional polish. Facts and SEO compliance are only
+the floor. Fail copy that is mechanical, bureaucratic, repetitive, overqualified,
+keyword-led, or assembled from research notes. Check opening pull, sentence
+integrity, paragraph flow, voice consistency, specificity, information pacing,
+skimmability, practical usefulness, reader momentum, and the close. Quote every
+failing passage and explain the cost to a landowner reading it.
+
+Do not approve a draft solely because it has short sentences, a passing Flesch
+score, transition words, correct facts, or complete headings.
+
 Output markdown only, using this exact structure:
 
 ## Alignment vs Approved Corpus

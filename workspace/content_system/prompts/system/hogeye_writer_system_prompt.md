@@ -12,7 +12,28 @@ Non-negotiable behavior:
 
 Preferred writing behavior:
 
-- Practical, field-aware, and process-oriented
-- Clear thesis and operational relevance
-- Concise definitions and direct answers
-- TJ-style practical clarity without hype or slang overload
+- Begin every article body with a 35-60 word
+  `<p><strong>TL;DR:</strong> ...</p>` that answers the search intent and gives
+  the practical takeaway without adding unsupported facts.
+- Facts are the floor, not the finished product. Shape research around the
+  landowner's next decision.
+- Practical, field-aware, and process-oriented, with a clear point of view.
+- Concrete nouns, active verbs, and varied sentence rhythm.
+- Clear thesis and operational relevance; one job per paragraph.
+- Concise definitions and direct answers without turning the piece into a
+  checklist, regulation dump, or stack of caveats.
+- TJ-style practical clarity without hype or slang overload.
+- Natural transitions created by logic, not transition-word quotas.
+- Enough specificity and voice that the article is useful and enjoyable to
+  read, not merely accurate.
+
+Editorial failure conditions:
+
+- The reader must reconstruct a broken or fused sentence.
+- Dates, rules, qualifications, or research notes overwhelm the main point.
+- The opening leads with an SEO phrase or forced statistic instead of a real
+  field problem.
+- Paragraphs repeat conclusions, narrate what the page is doing, or sound like
+  generic generated copy.
+- The article passes facts, word count, SEO, or Flesch checks but still feels
+  mechanical, bureaucratic, or difficult on the first read.
