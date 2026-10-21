@@ -1,0 +1,85 @@
+{
+  "brief_id": "oct26_02",
+  "external_id": "oct26_02",
+  "period": "2026-10",
+  "type": "update",
+  "title": "Best Camera for Hog Trapping: Live Video vs. Trail Cameras",
+  "slug": "hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+  "existing_url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/",
+  "target_keyword": "best camera for hog trapping",
+  "support_keywords": [
+    "hog cam",
+    "trail camera vs trap camera",
+    "hog trap camera"
+  ],
+  "reader_sentence": "The best camera for a hog trap is one that shows you live video and lets you close the gate from your phone, because a trail camera photo only tells you the hogs were there, not that the whole sounder is inside right now.",
+  "evidence": [
+    {
+      "source": "gsc",
+      "signal": "best camera for hog trapping: 403 impressions/90d (prior 229), position 9.4, 0 clicks, split across 6 HogEye URLs; this page 11 of them, page impressions 619 -> 480"
+    },
+    {
+      "source": "gsc",
+      "signal": "hog cam 1,709 impressions/90d at position 7.3, 0 clicks (SERP is mostly saloon webcams, folded in here)"
+    },
+    {
+      "source": "dataforseo",
+      "signal": "best cellular trail camera 5,400/mo, 9,900 Oct, 12,100 Nov"
+    }
+  ],
+  "key_points": [
+    "Most trail cameras take a photo or a short clip when something moves. Cellular ones send it to your phone, and the alert can arrive 30 to 90 seconds after the hogs set it off.",
+    "A sounder can walk into a trap, feed, and leave in a couple of minutes, so a late photo often shows hogs already leaving.",
+    "A trail camera photo shows a few hogs in the frame. It cannot show you whether the rest of the sounder is still outside.",
+    "A trail camera has no way to close a trap gate. Someone has to drive out and do it.",
+    "Trail cameras are good for scouting: finding where hogs are feeding and how many there are before you build or move a trap.",
+    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
+    "Closing on part of a sounder teaches the hogs that got away to avoid the trap.",
+    "The HogEye Mini Camera works with any trap: corral, panel, drop, net, or homemade.",
+    "The HogEye Mini Camera comes with a compact battery and a small solar panel.",
+    "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime.",
+    "For traps with no cell signal there is a Starlink version of the HogEye Mini Camera for $2,999.",
+    "The HogEye Mini Camera has a 3-year bumper-to-bumper replacement warranty and US-based support from people who trap."
+  ],
+  "h2_outline": [
+    "What a trail camera tells you at a trap",
+    "What a trap camera has to do",
+    "Where a trail camera still helps",
+    "What the HogEye Mini Camera costs"
+  ],
+  "internal_links": [
+    {
+      "anchor": "when hogs come to the trap",
+      "url": "https://hogeyecameras.com/wild-hog-behavior-trap-timing/"
+    },
+    {
+      "anchor": "camera setup guides",
+      "url": "https://hogeyecameras.com/camera-resources/"
+    },
+    {
+      "anchor": "HogEye Mini Camera",
+      "url": "https://hogeyecameras.com/buy-now/"
+    }
+  ],
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "trail camera",
+    "trap camera",
+    "live video",
+    "HogEye Mini Camera"
+  ],
+  "notes": "Refresh written fresh. The live page's price (~$2,200), ROI figures, IP ratings, and quotes are unsourced and are not reused.",
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-20"
+  },
+  "word_count": 750,
+  "min_words": 450,
+  "faq_questions": [],
+  "schema_types": [
+    "Article"
+  ]
+}

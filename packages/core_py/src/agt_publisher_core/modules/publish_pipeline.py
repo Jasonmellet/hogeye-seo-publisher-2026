@@ -34,6 +34,7 @@ from agt_publisher_core.modules.transforms import (
     insert_toc_after_intro,
     normalize_whitespace,
     remove_all_tocs,
+    strip_reviewer_tldr,
 )
 from agt_publisher_core.modules.validators import ValidationResult, validate_blog_post, validate_landing_page
 from agt_publisher_core.modules.wp_client import WordPressClient
@@ -409,7 +410,7 @@ class PublishPipeline:
     def _publish_post(self, item: Dict[str, Any], *, options: PublishOptions) -> Tuple[Optional[int], ValidationResult]:
         slug = (item.get("slug") or "").strip()
         title = item.get("title", "")
-        raw_content = (item.get("content") or "").replace("\\n", "\n")
+        raw_content = strip_reviewer_tldr((item.get("content") or "").replace("\\n", "\n"))
         notes: List[str] = []
 
         seo_errors = self._aioseo_required_errors(item)
@@ -696,7 +697,7 @@ class PublishPipeline:
     def _publish_page(self, item: Dict[str, Any], *, options: PublishOptions) -> Tuple[Optional[int], ValidationResult]:
         slug = item.get("slug", "")
         title = item.get("title", "")
-        raw_content = (item.get("content") or "").replace("\\n", "\n")
+        raw_content = strip_reviewer_tldr((item.get("content") or "").replace("\\n", "\n"))
 
         seo_errors = self._aioseo_required_errors(item)
         if seo_errors:

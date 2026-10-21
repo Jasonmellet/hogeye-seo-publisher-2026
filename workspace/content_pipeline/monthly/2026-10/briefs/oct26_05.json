@@ -1,0 +1,63 @@
+{
+  "brief_id": "oct26_05",
+  "external_id": "oct26_05",
+  "period": "2026-10",
+  "type": "update",
+  "title": "Are Hogs Nocturnal? When the Sounder Comes to Your Trap",
+  "slug": "wild-hog-behavior-trap-timing",
+  "existing_url": "https://hogeyecameras.com/wild-hog-behavior-trap-timing/",
+  "target_keyword": "are hogs nocturnal",
+  "support_keywords": [
+    "are wild hogs nocturnal",
+    "when are hogs most active",
+    "what time do hogs come out"
+  ],
+  "reader_sentence": "Hogs mostly come to your trap after dark, and later the more they've been pressured, so watch it live for a few nights to learn when the whole sounder shows up, then be ready to close it at that hour instead of checking it in the morning.",
+  "evidence": [
+    {
+      "source": "gsc",
+      "signal": "/wild-hog-behavior-trap-timing/ impressions 101 -> 520/90d, position 7.2"
+    },
+    {
+      "source": "dataforseo",
+      "signal": "are hogs nocturnal 70/mo, are wild hogs nocturnal 70, wild hog behavior 70, when are feral hogs most active 50, when are hogs most active 40, what time do hogs come out 40"
+    }
+  ],
+  "key_points": [
+    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
+    "Closing on part of a sounder teaches the hogs that got away to avoid the trap."
+  ],
+  "h2_outline": [
+    "When hogs come in",
+    "Count them for a few nights",
+    "Close at their hour"
+  ],
+  "internal_links": [
+    {
+      "anchor": "best camera for hog trapping",
+      "url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/"
+    }
+  ],
+  "categories": [
+    "Feral Hog Educational & Awareness"
+  ],
+  "tags": [
+    "hog behavior",
+    "trap timing",
+    "sounder"
+  ],
+  "facts_pending": [
+    "An extension or USDA source (Texas A&M AgriLife or USDA APHIS) for when hogs feed and how pressure pushes them later"
+  ],
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-20"
+  },
+  "word_count": 750,
+  "min_words": 450,
+  "faq_questions": [],
+  "schema_types": [
+    "Article"
+  ]
+}

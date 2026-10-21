@@ -28,7 +28,7 @@ Detail docs:
 | ------ | --- | ---- | ---- |
 | **2026-07** | 5/5 **approved** | **Live** | Do not overwrite live URLs. `jul26_01` hub vs local content drift stays parked unless a live refresh is ordered. |
 | **2026-08** | 4/5 **approved** (images on hub) | **WP drafts** (ids 500485–500488) | Schell done on hub. Lily publishes from WordPress when go-live is ordered. |
-| **2026-09** | 5/5 **in_review** | not in WP | Schell copy review (5-post contract). Overflow parked repo-local (hub hidden). |
+| **2026-09** | V1 5/5 **approved**; V2 5/5 **in_review** | not in WP | V2 content-quality remediation under Schell review. V1 rows remain preserved. Overflow parked repo-local (hub hidden). |
 | **aug26_02** | Not on hub | HOLD | Mini Starlink price / buy path. |
 
 Hub Approved ≠ live. Do not re-ingest after `--apply`. Status email sent 2026-08-24.

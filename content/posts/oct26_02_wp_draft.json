@@ -1,0 +1,84 @@
+{
+  "externalId": "oct26_02",
+  "period": "2026-10",
+  "title": "Best Camera for Hog Trapping: Live Video vs. Trail Cameras",
+  "slug": "hog-trapping-cameras-compared-2026-hogeye-vs-trail",
+  "content": "<p>If hogs are coming to your trap, the best camera for hog trapping is one that shows you live video and lets you close the gate from your phone. A trail camera can show that hogs were there, but it can’t tell you that the whole sounder is inside right now.</p>\n<h2>What a trail camera tells you at a trap</h2>\n<p>A trail camera takes a photo or short clip when something moves. A cellular model sends it to your phone, but the alert can arrive 30 to 90 seconds after the hogs set it off. A sounder can walk in, feed, and leave in a couple of minutes, so by the time you see the alert, the hogs may already be heading out.</p>\n<p>A trail camera also can’t close the gate. You still have to drive out and close it yourself, going on a photo that’s already old. Close on part of the sounder and the hogs that get away can learn to avoid the trap.</p>\n<h2>What a trap camera has to do</h2>\n<p>You need to see the hogs inside and outside the trap while they’re there. The HogEye Mini Camera streams live video to the HogEye app, day or night. Use digital pan, tilt, and zoom to check the trap, count the hogs inside and outside, and watch as the sounder comes in.</p>\n<p>When the whole sounder is inside, send the close command from your phone and the gate closes.</p>\n<p>The HogEye Mini Camera works with corral, panel, drop, net, and homemade traps. It comes with a compact battery and small solar panel.</p>\n<h2>Where a trail camera still helps</h2>\n<p>A trail camera is useful before you build or move a trap. Use photos to find where hogs are feeding and get an idea of how many are using the area. Look for fresh rooting, trails, wallows, and rubs as you choose a location. Once hogs are coming to the trap, live video gives you the view you need to judge when to close.</p>\n<h2>HogEye Mini Camera cost</h2>\n<p>The HogEye Mini Camera is $1,299 on AT&amp;T or Verizon. The data plan is $49.99 a month with no contract, and you can start or stop it anytime. The Starlink version for traps without cell signal is $2,999. The camera includes a 3-year bumper-to-bumper replacement warranty, with US-based support from people who trap.</p>\n<p><a href=\"https://hogeyecameras.com/buy-now/\">See the HogEye Mini Camera and connection options</a>.</p>",
+  "status": "draft",
+  "excerpt": "A trail camera can show hogs after they’ve moved on. Live video lets you check the whole sounder at the trap and close the gate from your phone.",
+  "meta_title": "Best Camera for Hog Trapping: Live Video vs. Trail Cams",
+  "meta_description": "Find the best camera for hog trapping. See why live video helps you count the whole sounder and close the gate from your phone.",
+  "focus_keyword": "best camera for hog trapping",
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "trail camera",
+    "trap camera",
+    "live video",
+    "HogEye Mini Camera"
+  ],
+  "targetWordCount": 750,
+  "briefPath": "workspace/content_pipeline/monthly/2026-10/briefs/oct26_02.json",
+  "minWords": 450,
+  "existing_url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/",
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  },
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 153.5,
+    "history": [
+      {
+        "step": "write",
+        "words": 523,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "When you can see that the whole sounder is inside, send the close command from your phone.",
+            "why": "The draft repeats the step to close the gate only when the whole sounder is inside, which it just taught the reader in the previous paragraph.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 503,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "You might see a few hogs at the feeder, but you can’t tell whether the rest of the sounder is still outside the trap.",
+            "why": "This repeats the point already made in the opening paragraph that a trail camera photo cannot tell you if the entire sounder is inside.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "You’re making the decision from the live view, instead of relying on a photo that arrived after the hogs moved.",
+            "why": "This repeats the point from the second paragraph that a trail camera alert can arrive after the hogs are already leaving.",
+            "quote_found": true
+          }
+        ],
+        "problems": []
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Merged the trail-camera paragraphs to cut the repeat Gemini named; 'feeder' became the trap",
+          "Replaced the repeated live-view sentence with the close step from the brief's facts (the fix pass had cut it)",
+          "Cut the first of two Starlink mentions",
+          "Meta title no longer ends on 'Trail'",
+          "Cut the earlier 'close only when the whole sounder is inside' clause so the close step is said once"
+        ]
+      }
+    ]
+  }
+}

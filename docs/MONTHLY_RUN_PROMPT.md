@@ -24,7 +24,7 @@ This is **HogEye Cameras**, not Boar Blanket and not Big Pig Traps.
 - Lens: cameras, monitoring, alerts, remote **gate** trigger / observation. Not BB landscape whole-sounder trapping. Not BPT drop/panel removal-at-scale.
 - Audience: landowners / land managers. Never "ranchers". No security / surveillance / theft framing.
 - Screwworm: unique vs BB and BPT. HE = monitoring gap / remote eyes. NWS on live animals, not feces. No treatment, no human symptoms.
-- Do not invent Mini AI, Mini Starlink, or any unreleased price / buy path. If a fact is missing, `[NEEDS SOURCE]` or hold the slot.
+- Do not invent Mini AI or any unreleased price / buy path. Prices come from `workspace/brand_truth/PRODUCT_FACTS.md` (bigpigtrap.com/products.json). If a fact is missing, `[NEEDS SOURCE]` or hold the slot.
 - Never copy Shopify publish commands from Big Pig Traps.
 - No em dashes in drafts or in the team email. Write ranges as words (5 to 10).
 
@@ -44,11 +44,11 @@ A. Close prior month
 - [ ] A4 Confirm draft vs live URLs (curl public slugs). Hub Approved ≠ live.
 B. Produce NEXT month
 - [ ] B1 Archive SEO_STRATEGY.md to a dated file under work/seo/ before rewriting
-- [ ] B2 SEO top-up research (DataForSEO / LLM cites / GSC / live URLs). HE lens only.
-- [ ] B3 Lock the slot map + CONTENT_PLAN + briefs with stable external_id (never key by slug)
-- [ ] B4 Hand-author drafts at brief word targets (do not land short). Review packets + READY_FOR_REVIEW
-- [ ] B5 Validate (this repo’s brief/rubric scripts if present)
-- [ ] B6 npm run push:content -- --period=YYYY-MM  (in_review only). push:strategy if Strategy changed.
+- [ ] B2 SEO research (GSC, DataForSEO). HE lens only. Every candidate needs a search signal.
+- [ ] B3 SHORTLIST.md: one reader sentence per piece (docs/WRITING_LOOP.md phase 0). STOP and show Jason. No drafting until he approves.
+- [ ] B4 One JSON brief per approved sentence (docs/BRIEF_TEMPLATE.md), reusing the month's hub external_id. validate_he_briefs.py must pass.
+- [ ] B5 Draft ONE piece: scripts/seo/draft_piece.py <brief>. It writes, runs the local gate, gets the Gemini check, and fixes once. Jason reads the preview.
+- [ ] B6 Push that ONE piece: node scripts/push-content.mjs content/posts/<id>_wp_draft.json --period YYYY-MM. Read the quality flag. Then the next piece.
 C. Email
 - [ ] C1 Gmail DRAFT only. To schell@clearmark.io and casey@tictactoemarketing.com. Cc lily@tictactoemarketing.com.
 - [ ] C2 Stop. Do not send unless I say send.
@@ -67,8 +67,10 @@ node scripts/pull-approved.mjs --apply --period=YYYY-MM
 ./.venv/bin/python scripts/publisher/publish_content_item.py \
   content/posts/<id>_wp_draft.json --type posts --status draft
 
-# Next month to hub
-npm run push:content -- --period=YYYY-MM
+# Next month: one piece at a time
+./.venv/bin/python scripts/seo/validate_he_briefs.py workspace/content_pipeline/monthly/YYYY-MM/briefs
+./.venv/bin/python scripts/seo/draft_piece.py workspace/content_pipeline/monthly/YYYY-MM/briefs/<id>.json
+node scripts/push-content.mjs content/posts/<id>_wp_draft.json --period YYYY-MM
 npm run push:strategy
 ```
 
@@ -78,9 +80,13 @@ WP safety: create-only; unique draft slug if the live slug exists unless I order
 
 ### Research + copy
 
-- Evidence before slots. Refresh what already ranks before net-new URLs when GSC says so.
+Writing follows `docs/WRITING_LOOP.md`, a copy of the canonical `WRITING_LOOP.md` in the Wildlife Dominion folder. If they differ, the canonical one wins; copy it over.
+
+- Evidence before slots. Refresh what already ranks before net-new URLs when GSC says so. If there are fewer real candidates than paid slots, say so and wait.
 - Unique title / slug / CTA vs BB and BPT, especially screwworm and deer-season.
-- Exact focus keyphrase in title, SEO title, meta, first ~120 words, one H2.
+- The focus keyphrase goes in the slug, title, SEO title, and meta description. It goes in the body only where a person would say it. The first paragraph is the reader sentence, said out loud.
+- Length is a range (October 2026: 450 to 750 words). Shorter than the floor is a warning, not a reason to pad.
+- The writer sees only reader-facing facts. Rules for the writer live in `workspace/content_system/prompts/system/hogeye_writer_system_prompt.md`, never in a brief.
 - Agency dates: name the agency and link it in the same paragraph, or hedge.
 - If you use tables, use Gutenberg `wp-block-table` with visible borders so the theme does not strip them.
 

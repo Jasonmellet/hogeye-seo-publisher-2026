@@ -1,20 +1,31 @@
 #!/usr/bin/env python3
-"""Shared fail-closed quality checks for HogEye publish JSON."""
+"""Shared fail-closed quality checks for HogEye publish JSON.
+
+These checks police what must never reach a reader: production labels, brand
+policy breaks, brief rules written as prose, repeats, and prices that are not in
+the product facts. They do not score keyword placement or force an exact length.
+Length is a ceiling with an optional floor (WRITING_LOOP.md phase 5).
+"""
 
 from __future__ import annotations
 
 import argparse
 import html
 import json
-import math
 import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
 
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+PRODUCT_FACTS = REPO_ROOT / "workspace" / "brand_truth" / "PRODUCT_FACTS.md"
+
 _TAG_RE = re.compile(r"<[^>]+>")
 _WORD_RE = re.compile(r"\b[\w'-]+\b", re.UNICODE)
+# The TL;DR is optional (WRITING_LOOP.md phase 6: "if the draft has one"). It is
+# for Schell in the hub and is stripped before WordPress. When present it stays
+# 35 to 60 words, the September rule.
 _TLDR_RE = re.compile(
     r"^\s*<p[^>]*>\s*<strong[^>]*>\s*TL;DR:\s*</strong>(.*?)</p>",
     flags=re.I | re.S,
@@ -54,7 +65,8 @@ _INTERNAL_PATTERNS = (
         "article/page job label",
     ),
     (r"\b(?:claims\s+audit|research\s+pack|approved\s+brief)\b", "production label"),
-    (r"\b(?:placeholder|lorem\s+ipsum|todo|tbd)\b", "placeholder"),
+    # "to do" is plain English ("what to do"); only a to-do label is a placeholder.
+    (r"\b(?:placeholder|lorem\s+ipsum|todo|tbd)\b|\bto[\s-]do\s*:", "placeholder"),
     (r"\[\s*needs\s+source\s*\]", "source placeholder"),
     (
         r"\[\s*(?:replace|insert|add|write|fill|section|question|answer|h[1-6])\b[^\]]*\]",
@@ -70,9 +82,15 @@ _BRAND_POLICY_PATTERNS = (
     (r"\branchers?\b", "banned audience term"),
     (r"\b(?:security|surveillance)\s+(?:camera|monitoring|system)\b", "security framing"),
     (r"\b(?:property|perimeter)\s+security\b", "security framing"),
-    (r"\b(?:trail|game|hunting)\s+camera\b", "generic camera framing"),
+    # "trail camera" is a phrase readers search for, so it may appear. HogEye
+    # itself is never called one.
+    (r"\bhogeye(?:\s+mini)?(?:\s+camera)?\s+(?:is|as)\s+an?\s+(?:trail|game|hunting)\s+cam", "HogEye called a trail camera"),
+    (r"\b(?:game|hunting)\s+camera\b", "generic camera framing"),
     (r"\brelease(?:\s+the)?\s+(?:net|gate)\b", "wrong trap action"),
-    (r"\b(?:mini\s+ai|mini\s+starlink)\b", "unreleased product claim"),
+    (r"\bmini\s+ai\b", "unreleased product claim"),
+    # Product names are "HogEye Camera" and "HogEye Mini Camera".
+    (r"\bhogeye\s+steel\b|\bsteel\s+cam(?:era)?s?\b", "retired product name (Steel)"),
+    (r"\u2014", "em dash"),
     (r"\bunreleased\b", "unreleased product claim"),
     (
         r"\b(?:treat|medicate|apply|spray|administer)\b[^.!?]{0,50}\bscrewworm\b"
@@ -80,6 +98,52 @@ _BRAND_POLICY_PATTERNS = (
         "screwworm treatment advice",
     ),
 )
+
+
+# Brief rules written as prose. The October 2026 drafts said "the camera does not
+# close the gate by itself" eight times across five articles. Show the reader
+# sending the command instead of reciting the rule.
+_RULE_LEAK_PATTERNS = (
+    (
+        # A trail camera that can't close a gate is a fair contrast; HogEye reciting it is not.
+        r"\b(?<!trail )(?<!game )(?:camera|cam|it|hogeye(?:\s+mini)?)\s+(?:does\s+not|doesn't|will\s+not|won't|cannot|can't|never)"
+        r"\s+(?:decide|close|shut|drop|trip|trigger)\b",
+        "gate rule written as prose (camera does not close/decide)",
+    ),
+    (r"\b(?:close|closes|shut|trigger|drop)s?\b[^.]{0,40}\b(?:by\s+itself|on\s+its\s+own)\b", "gate rule written as prose (by itself)"),
+    (
+        r"\bnot\s+(?:a\s+|an\s+)?(?:security|surveillance|general[-\s]property|property|perimeter)\s+"
+        r"(?:camera|cam|monitor|system|tool|device)\b",
+        "positioning rule written as prose (not a security camera)",
+    ),
+    (r"\bthis\s+(?:page|article|post|guide|hub)\b", "article talks about itself"),
+    (r"\bwhat\s+this\s+(?:page|article|post|piece|guide)\s+is\s+not\b", "article lists what it is not about"),
+    (
+        r"\b(?:do\s+not|don't|never)\s+(?:write|import|describe|mention|narrate|cite|quote|claim|invent)\b",
+        "writing rule from the brief",
+    ),
+    (r"\bkeywords?\b|\bsearch\s+intent\b|\bsearch\s+(?:phrase|demand)\b", "SEO planning language"),
+    (r"\bnorth\s+star\b|\bbrand\s+(?:truth|baseline)\b|\bapproved\s+language\b", "internal doc name"),
+    (r"\b(?:AI|ChatGPT|LLMs?)\s+(?:search|overviews?|citations?|retrieval)\b", "AI-search planning language"),
+)
+
+_PRICE_RE = re.compile(r"\$\s?\d[\d,]*(?:\.\d+)?(?:\s*(?:billion|million))?", re.I)
+_REPEAT_SENTENCE_MIN_WORDS = 6
+LENGTH_CEILING = 1.10
+_REPEAT_NGRAM = 8
+_REPEAT_NGRAM_LIMIT = 3
+
+
+def _norm_price(value: str) -> str:
+    return re.sub(r"[\s,]", "", value.lower()).removesuffix(".00")
+
+
+def allowed_prices() -> set[str]:
+    """Every dollar figure in PRODUCT_FACTS.md. A figure not in that file does not ship."""
+    try:
+        return {_norm_price(m) for m in _PRICE_RE.findall(PRODUCT_FACTS.read_text(encoding="utf-8"))}
+    except OSError:
+        return set()
 
 
 def visible_text(value: Any) -> str:
@@ -136,6 +200,62 @@ def _scan_fields(item: Dict[str, Any]) -> Iterable[tuple[str, Any]]:
                 yield f"faq_items[{index}].{key}", faq[key]
 
 
+def _repeat_findings(value: Any) -> List[Dict[str, str]]:
+    """A step said twice is a repeat. Questions are skipped: an H2 can echo an FAQ."""
+    text = visible_text(value)
+    findings: List[Dict[str, str]] = []
+    seen: Dict[str, int] = {}
+    for sentence in re.split(r"(?<=[.!])\s+", text):
+        norm = " ".join(re.findall(r"[a-z0-9']+", sentence.lower()))
+        if len(norm.split()) < _REPEAT_SENTENCE_MIN_WORDS:
+            continue
+        seen[norm] = seen.get(norm, 0) + 1
+        if seen[norm] == 2:
+            findings.append({"field": "content", "label": "repeated sentence", "match": sentence.strip()[:160]})
+    words = re.findall(r"[a-z0-9']+", text.lower())
+    grams: Dict[tuple, int] = {}
+    for i in range(len(words) - _REPEAT_NGRAM + 1):
+        gram = tuple(words[i : i + _REPEAT_NGRAM])
+        grams[gram] = grams.get(gram, 0) + 1
+        if grams[gram] == _REPEAT_NGRAM_LIMIT:
+            findings.append({"field": "content", "label": f"phrase repeated {_REPEAT_NGRAM_LIMIT}+ times", "match": " ".join(gram)})
+    return findings
+
+
+def _price_findings(fields: Iterable[tuple[str, Any]]) -> List[Dict[str, str]]:
+    allowed = allowed_prices()
+    findings: List[Dict[str, str]] = []
+    for field, value in fields:
+        for match in _PRICE_RE.findall(visible_text(value)):
+            if _norm_price(match) not in allowed:
+                findings.append({"field": field, "label": "price not in PRODUCT_FACTS.md", "match": match})
+    return findings
+
+
+def _length_bounds(item: Dict[str, Any]) -> tuple[Optional[int], Optional[int]]:
+    """(floor, ceiling). Ceiling is the brief's word_count; floor is optional min_words."""
+    nested = item.get("brief") or item.get("post") or item.get("data") or {}
+    floor = None
+    for source in (item, nested):
+        if not isinstance(source, dict):
+            continue
+        for key in ("minWords", "min_words"):
+            value = source.get(key)
+            if isinstance(value, int) and not isinstance(value, bool) and value > 0:
+                floor = value
+    return floor, _target_words(item)
+
+
+def _tldr_findings(value: Any) -> List[Dict[str, str]]:
+    match = _TLDR_RE.search(str(value or ""))
+    if not match:
+        return []
+    count = count_words(match.group(1))
+    if not _TLDR_MIN_WORDS <= count <= _TLDR_MAX_WORDS:
+        return [{"field": "content", "label": f"TL;DR must be {_TLDR_MIN_WORDS}-{_TLDR_MAX_WORDS} words", "match": f"{count} words"}]
+    return []
+
+
 def _content_tail_findings(value: Any) -> List[Dict[str, str]]:
     """Catch explicit truncation markers or a section with no reader-facing body."""
     if isinstance(value, dict):
@@ -188,29 +308,6 @@ def _content_tail_findings(value: Any) -> List[Dict[str, str]]:
     return findings
 
 
-def _tldr_findings(value: Any) -> List[Dict[str, str]]:
-    raw = str(value or "")
-    match = _TLDR_RE.search(raw)
-    if not match:
-        return [
-            {
-                "field": "content",
-                "label": "missing first-block TL;DR",
-                "match": "",
-            }
-        ]
-    count = count_words(match.group(1))
-    if not _TLDR_MIN_WORDS <= count <= _TLDR_MAX_WORDS:
-        return [
-            {
-                "field": "content",
-                "label": f"TL;DR must be {_TLDR_MIN_WORDS}-{_TLDR_MAX_WORDS} words",
-                "match": f"{count} words",
-            }
-        ]
-    return []
-
-
 def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
     """Validate one native post object and return a machine-readable report."""
     errors: List[str] = []
@@ -229,9 +326,11 @@ def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
             errors.append(f"missing reader-facing {field}")
 
     findings: List[Dict[str, str]] = []
-    for field, value in _scan_fields(item):
+    warnings: List[str] = []
+    fields = list(_scan_fields(item))
+    for field, value in fields:
         text = visible_text(value)
-        for pattern, label in _INTERNAL_PATTERNS:
+        for pattern, label in _INTERNAL_PATTERNS + _RULE_LEAK_PATTERNS:
             match = re.search(pattern, text, flags=re.I)
             if match:
                 findings.append(
@@ -254,30 +353,31 @@ def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
     if "content" in item:
         findings.extend(_tldr_findings(item["content"]))
         findings.extend(_content_tail_findings(item["content"]))
+        findings.extend(_repeat_findings(item["content"]))
+    findings.extend(_price_findings(fields))
     if findings:
         errors.append("output-hygiene findings present")
 
+    # Length is a ceiling, not a band. Over the ceiling by more than 10% fails;
+    # under the optional floor is a warning, because a short piece that answers
+    # the reader beats a padded one.
     body_words = count_words(item.get("content"))
-    target_words = _target_words(item)
-    if target_words is None:
-        errors.append("missing approved brief word target")
-    else:
-        if str(item.get("externalId", "")).endswith("-v2") and target_words != 800:
-            errors.append("September V2 content must use the August-standard 800-word target")
-        low = math.ceil(target_words * 0.95)
-        high = math.floor(target_words * 1.05)
-        if body_words < low or body_words > high:
-            errors.append(
-                f"body word count {body_words} outside ±5% target "
-                f"{target_words} ({low}-{high})"
-            )
+    floor, ceiling = _length_bounds(item)
+    if ceiling is None:
+        errors.append("missing approved brief word ceiling (word_count)")
+    elif body_words > ceiling * LENGTH_CEILING:
+        errors.append(f"body word count {body_words} over the brief ceiling {ceiling}; cut what the reader does not need")
+    if floor and body_words < floor:
+        warnings.append(f"body word count {body_words} under the brief floor {floor}")
 
     return {
         "ok": not errors,
         "errors": errors,
+        "warnings": warnings,
         "findings": findings,
         "wordCount": body_words,
-        "targetWordCount": target_words,
+        "targetWordCount": ceiling,
+        "minWords": floor,
     }
 
 
@@ -312,6 +412,8 @@ def main() -> int:
             )
             for error in report.get("errors", []):
                 print(f"  - {error}")
+            for warning in report.get("warnings", []):
+                print(f"  - warn: {warning}")
             for finding in report.get("findings", []):
                 print(
                     f"  - {finding['field']}: {finding['label']} "

@@ -45,13 +45,15 @@ It is **not** a security camera, trail camera, or general property monitoring pr
 
 ## Verified product facts
 
-Use these numbers. Do not guess or round from memory.
+Use these numbers. Do not guess or round from memory. `PRODUCT_FACTS.md` in this folder is the price list the content gate checks against; update it first when a price changes.
+
+Product names in copy: **HogEye Camera** and **HogEye Mini Camera**. Never "Steel" (the `/steel-camera/` URL is legacy).
 
 ### HogEye Mini Camera (current flagship)
 
 | Fact | Value |
 |---|---|
-| Price | **$1,299** |
+| Price | **$1,299** on AT&T or Verizon; **$2,999** Starlink version (bigpigtrap.com/products.json, Oct 20, 2026) |
 | Data plan | **$49.99/mo** on AT&T or Verizon; start/stop anytime, no contracts |
 | Warranty | **3-year bumper-to-bumper total replacement**; US-based support from trappers/tech experts |
 | Size / power | **75% smaller**; **60% less power**; compact battery + small solar panel included |
@@ -70,8 +72,8 @@ Use these numbers. Do not guess or round from memory.
 
 | System | Starting price |
 |---|---|
-| Drop trap + HogEye camera | **$4,499** |
-| 6-panel, 2-gate panel trap | **$5,695** (more with extra panels/gates) |
+| Drop trap + HogEye camera | **$4,499** (**$5,699** Starlink) |
+| 6-panel, 2-gate panel trap | **$5,695** (more with extra panels/gates; **$6,895** Starlink) |
 
 Gates and split gates can be added to DIY setups separately.
 

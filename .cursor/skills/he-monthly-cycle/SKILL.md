@@ -59,9 +59,9 @@ Parallel tech and Strategy/Overview stay optional extras, never a substitute for
 Full month (when starting a new cycle, not just status → email):
 
 ```
-- [ ] 8. Lock calendar / research cuts
-- [ ] 9. Briefs + drafts + READY_FOR_REVIEW
-- [ ] 10. push:content (in_review) → expand + re-push if still in_review
+- [ ] 8. Research (GSC, DataForSEO) → SHORTLIST.md with one reader sentence per piece. Stop: Jason approves the sentences.
+- [ ] 9. One JSON brief per approved sentence (docs/BRIEF_TEMPLATE.md), then draft ONE piece at a time with scripts/seo/draft_piece.py. Jason reads each draft.
+- [ ] 10. push:content for that one file (in_review). Read any quality flag. Next piece.
 - [ ] 11. Wait: Schell approve + Lily images
 - [ ] 12. Repeat phases 1–3 for this month, then live only after explicit ask
 ```
@@ -185,7 +185,8 @@ Update Current gate in `docs/HOGEYE_PROJECT_STATUS.md` and that month’s `READY
 
 | Action | Command |
 | ------ | ------- |
-| Push drafts to hub | `npm run push:content -- --period=YYYY-MM` |
+| Draft one piece | `./.venv/bin/python scripts/seo/draft_piece.py workspace/content_pipeline/monthly/YYYY-MM/briefs/<id>.json` |
+| Push one piece to hub | `node scripts/push-content.mjs content/posts/<id>_wp_draft.json --period YYYY-MM` |
 | Push strategy | `npm run push:strategy` |
 | List approved | `npm run pull:approved -- --period=YYYY-MM` |
 | Diff hub vs local | `node scripts/pull-approved.mjs --check --period=YYYY-MM` |

@@ -1,0 +1,64 @@
+{
+  "brief_id": "oct26_04",
+  "external_id": "oct26_04",
+  "period": "2026-10",
+  "type": "new",
+  "title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
+  "slug": "satellite-trail-camera",
+  "target_keyword": "satellite trail camera",
+  "support_keywords": [
+    "starlink camera",
+    "starlink trail camera",
+    "best satellite trail camera"
+  ],
+  "reader_sentence": "If your trap is out where your phone has no signal, a cellular camera can't reach you either, so use a camera that runs on Starlink, like the Starlink version of the HogEye Mini Camera, and you can still watch the trap live and close it from home.",
+  "evidence": [
+    {
+      "source": "dataforseo",
+      "signal": "satellite trail camera 720/mo (1,000 Aug-Nov), starlink camera 320, trail cam that sends pics to phone without wifi 260"
+    }
+  ],
+  "key_points": [
+    "The Starlink version of the HogEye Mini Camera is $2,999.",
+    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
+    "Closing on part of a sounder teaches the hogs that got away to avoid the trap."
+  ],
+  "h2_outline": [
+    "Why a cellular camera goes quiet",
+    "What the Starlink version needs at the trap",
+    "Watching and closing over Starlink"
+  ],
+  "internal_links": [
+    {
+      "anchor": "HogEye Mini Camera",
+      "url": "https://hogeyecameras.com/buy-now/"
+    },
+    {
+      "anchor": "trail camera live feed",
+      "url": "https://hogeyecameras.com/trail-camera-live-feed/"
+    }
+  ],
+  "categories": [
+    "Off-Grid Cameras"
+  ],
+  "tags": [
+    "Starlink",
+    "no cell signal",
+    "HogEye Mini Camera"
+  ],
+  "facts_pending": [
+    "What the Starlink version includes (dish, mount, power) and what Starlink service costs, from the client or hogeyecameras.com",
+    "Whether the held aug26_02 Starlink draft's claims (connects to Starlink over Wi-Fi) are correct"
+  ],
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-20"
+  },
+  "word_count": 750,
+  "min_words": 450,
+  "faq_questions": [],
+  "schema_types": [
+    "Article"
+  ]
+}

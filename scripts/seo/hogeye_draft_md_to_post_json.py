@@ -3,7 +3,7 @@
 Convert an approved monthly draft markdown (`<article_id>_draft.md`) into a JSON post file for publish_content_item.py.
 
 Expects either:
-- **YAML frontmatter** (`---` … `---`) with `title`, `slug`, `meta_title`, `meta_description`, `focus_keyword`, `word_count`, `categories`, optional `excerpt`, then `# Article title` and body; or
+- **YAML frontmatter** (`---` … `---`) with `title`, `slug`, `meta_title`, `meta_description`, `focus_keyword`, `word_count` (length ceiling), optional `min_words`, `categories`, optional `excerpt`, then `# Article title` and body; or
 - **Legacy bullet metadata**: SEO Metadata list, ## Metadata list, then `# Draft:` / `# Article title` and body.
 Strips HTML comment blocks and optional ## Claims audit notes (and following) for the WordPress body.
 Does not put the article H1 into the HTML body (theme shows post title). Normalizes outline labels like `## H2: ...` → `## ...` and `## H3: ...` under FAQ → `### ...`, and drops a standalone `## Main sections` line.
@@ -98,6 +98,8 @@ def _yaml_dict_to_kv(yd: Dict[str, Any]) -> Dict[str, str]:
         if yd.get(key) is not None:
             kv["word_target"] = str(yd[key]).strip()
             break
+    if yd.get("min_words") is not None:
+        kv["min_words"] = str(yd["min_words"]).strip()
     return kv
 
 
@@ -382,7 +384,11 @@ def main() -> int:
         "tags": tags,
     })
     if target_words is not None:
+        # A ceiling, not a target (WRITING_LOOP.md phase 5).
         out_obj["targetWordCount"] = target_words
+    min_words = _parse_positive_int(kv.get("min_words"))
+    if min_words is not None:
+        out_obj["minWords"] = min_words
     if faq_items:
         out_obj["faq_items"] = faq_items
 

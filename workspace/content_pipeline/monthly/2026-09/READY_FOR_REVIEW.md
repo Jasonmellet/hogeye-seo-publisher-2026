@@ -2,9 +2,9 @@
 
 **Period:** `2026-09`  
 **Hub brand:** `hogeye-cameras`  
-**Updated:** 2026-08-24 (trimmed to 5-post contract)
+**Updated:** 2026-09-25 (V2 compact reset in progress)
 
-Hub Approved ≠ live. Pull/apply hub body before any WordPress write. Do not re-ingest after `--apply`.
+Hub Approved ≠ live. V1 rows remain preserved as approved portal records. V2 rows are being reset to the August compact standard of 800 words ±5%. No WordPress write was performed.
 
 **Contract:** 5 posts/month (same as Jul–Aug). Five overflow drafts in `parked/` only (hidden from hub October tab).
 
@@ -12,11 +12,11 @@ Hub Approved ≠ live. Pull/apply hub body before any WordPress write. Do not re
 
 | Priority | ID | Title | Slug | Hub | Site |
 | -------- | -- | ----- | ---- | --- | ---- |
-| 1 | sep26_01 | Screwworm Monitoring Gap: What Landowners Miss Without Trap-Site Cameras | `screwworm-monitoring-gap-landowners` | in_review | not in WP |
-| 2 | sep26_02 | Wildlife vs Cattle Monitoring: The Screwworm Blind Spot on Feral Hog Lines | `screwworm-wildlife-cattle-monitoring-blind-spot` | in_review | not in WP |
-| 3 | sep26_03 | Texas Landowner Biosecurity Checklist: Remote Hog Trap Monitoring | `texas-hog-monitoring-biosecurity-checklist` | in_review | not in WP |
-| 4 | sep26_05 | HogEye vs Vosker for Hog Trapping: 2026 Trap Monitoring Comparison | `hogeye-vs-vosker-hog-trapping-2026` | in_review | not in WP |
-| 5 | sep26_06 | Oklahoma Off-Grid Hog Trap Monitoring: Camera Setup for Remote Lines | `oklahoma-hog-trap-monitoring-off-grid` | in_review | not in WP |
+| 1 | sep26_01-v2 | Screwworm Monitoring Camera Gap: What Landowners Miss at Trap Sites | `screwworm-monitoring-camera-landowners` | in_review | not in WP |
+| 2 | sep26_02-v2 | Screwworm Wildlife Monitoring: The Blind Spot on Feral Hog Lines | `screwworm-wildlife-monitoring-feral-hog-lines` | in_review | not in WP |
+| 3 | sep26_03-v2 | Texas Hog Monitoring Checklist for Landowners | `texas-hog-monitoring-checklist` | in_review | not in WP |
+| 4 | sep26_05-v2 | HogEye vs Vosker Hog Trapping: 2026 Comparison | `hogeye-vs-vosker-hog-trapping-2026` | in_review | not in WP |
+| 5 | sep26_06-v2 | Oklahoma Hog Trap Monitoring: Off-Grid Camera Setup for Remote Lines | `oklahoma-hog-trap-monitoring-off-grid` | in_review | not in WP |
 
 ## Parked (not in September review)
 
@@ -31,8 +31,10 @@ Hub Approved ≠ live. Pull/apply hub body before any WordPress write. Do not re
 ## Gates
 
 - [x] CONTENT_PLAN locked at **5 posts**
-- [x] Hub `in_review` for sep26_01–03, 05, 06 only
+- [x] V1 portal rows preserved as `approved`
+- [x] Local V2 quality gate passed at 800 words ±5%
+- [ ] Replace pre-deployment malformed V2 rows in the dashboard
 - [ ] Schell hub copy approval
 - [ ] Lily featured images on hub
-- [ ] pull --apply after approval
+- [ ] pull --apply after V2 approval
 - [ ] WordPress drafts (not live)
