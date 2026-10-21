@@ -64,7 +64,7 @@ The sound we are matching is Schell, on a dry bait site: "If you don't have any 
 - HogEye: a field operator talking to someone already at the trap. Outcome first. No em dash. Source: HogEye `BRAND_BASELINE.md` voice table and `HUMANIZER_STYLE_GUIDE.md`.
 - Big Pig: short, specific, and warm. "We love to talk pig." Lead with the steel and the job, not the price. Source: Big Pig `BRAND_BASELINE.md` "Voice and tone."
 
-The first paragraph is the approved sentence, in normal English. The keyword goes in the slug, the title, and the meta description. It goes in the first paragraph only when a person would actually say that phrase.
+The first paragraph of the blog is the first paragraph a reader sees on the site. The meta description is not that paragraph. The TL;DR is for Schell in the hub and is stripped before the site. Neither one can rescue a bad opening.
 
 Read the first paragraph out loud. It fails if it could not be said on a phone call, if it names the page, or if it opens with "Many landowners face the challenge."
 

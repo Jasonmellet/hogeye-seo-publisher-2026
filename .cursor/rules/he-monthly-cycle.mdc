@@ -14,3 +14,4 @@ For any monthly content, hub review, WordPress publish, SEO strategy/baseline pu
 5. Hub slug is `hogeye-cameras` (not `hogeye`)
 6. No em dashes in client-facing emails
 7. Hub Approved ≠ live; never re-push content after `pull-approved --apply`
+8. Writing new pieces follows `docs/WRITING_LOOP.md` (a copy of the canonical `WRITING_LOOP.md` in the Wildlife Dominion folder): approved reader sentence first, one piece at a time through `scripts/seo/draft_piece.py`, never a whole month in one sitting

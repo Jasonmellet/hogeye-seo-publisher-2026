@@ -15,6 +15,11 @@
 // Push the CURRENT batch only — never the whole folder by default (it may hold
 // back-catalog / already-published posts). A bare invocation is refused.
 //
+// From 2026-10 on (WRITING_LOOP.md phase 6), push ONE piece per call: pass that
+// piece's file. The post must carry a passing second-provider check and point at
+// a brief that passes scripts/seo/validate_he_briefs.py.
+//   node scripts/push-content.mjs content/posts/oct26_03_wp_draft.json --period 2026-10
+//
 // Usage:
 //   node scripts/push-content.mjs content/posts/jul26_*.json --period 2026-07  # explicit batch
 //   node scripts/push-content.mjs --period 2026-07                             # scope folder to one cycle
@@ -270,9 +275,62 @@ async function runQualityPreflight(files) {
   for (const entry of report.reports) {
     console.log(
       `[push:content] quality PASS ${path.basename(entry.path)} ` +
-        `words=${entry.wordCount} target=${entry.targetWordCount}`,
+        `words=${entry.wordCount} ceiling=${entry.targetWordCount}` +
+        (entry.minWords ? ` floor=${entry.minWords}` : ''),
+    );
+    for (const warning of entry.warnings || []) {
+      console.log(`[push:content] quality warn ${path.basename(entry.path)}: ${warning}`);
+    }
+  }
+}
+
+const ONE_PIECE_FROM_PERIOD = '2026-10';
+
+// WRITING_LOOP.md phases 0, 4, and 6 for periods from 2026-10 on: one piece per
+// push, an approved brief behind it, and a second-provider check that passed.
+async function runLoopPreflight(files) {
+  const loopFiles = [];
+  for (const file of files) {
+    let item;
+    try {
+      item = JSON.parse(await readFile(file, 'utf8'));
+    } catch {
+      continue; // the quality preflight already reported invalid JSON
+    }
+    const period = derivePeriod(item, file);
+    if (period && period >= ONE_PIECE_FROM_PERIOD) loopFiles.push({ file, item });
+  }
+  if (!loopFiles.length) return;
+  if (files.length > 1) {
+    fail(
+      `From ${ONE_PIECE_FROM_PERIOD} on, push one piece per call (${files.length} files given). ` +
+        'Pass that piece only, e.g.\n  node scripts/push-content.mjs content/posts/oct26_03_wp_draft.json --period 2026-10',
     );
   }
+  const { file, item } = loopFiles[0];
+  const name = path.basename(file);
+  const check = item.secondProviderCheck;
+  if (!check || check.verdict !== 'pass') {
+    fail(
+      `${name}: second-provider check is ${check ? `"${check.verdict}"` : 'missing'}. ` +
+        'Run scripts/seo/draft_piece.py (or check_draft_second_provider.py) and fix what it names first.',
+    );
+  }
+  if (!item.briefPath) fail(`${name}: no briefPath. Drafts from ${ONE_PIECE_FROM_PERIOD} on come from an approved JSON brief.`);
+  let python = process.env.PYTHON || path.join(REPO_ROOT, '.venv', 'bin', 'python');
+  try {
+    await stat(python);
+  } catch {
+    python = process.env.PYTHON || 'python3';
+  }
+  try {
+    await execFileAsync(python, [path.join(REPO_ROOT, 'scripts', 'seo', 'validate_he_briefs.py'), path.join(REPO_ROOT, item.briefPath)], {
+      cwd: REPO_ROOT,
+    });
+  } catch (error) {
+    fail(`${name}: brief contract failed:\n${error?.stdout || error?.stderr || error?.message || error}`);
+  }
+  console.log(`[push:content] loop PASS ${name} (brief approved, check=${check.model} pass)`);
 }
 
 // Guard: never bulk-push the whole content/posts folder by accident (it may hold
@@ -340,6 +398,7 @@ if (!qualityFiles.length) {
   fail(`No content JSON files found in cycle ${cliPeriod}.`);
 }
 await runQualityPreflight(qualityFiles);
+await runLoopPreflight(qualityFiles);
 
 let pushed = 0;
 let skipped = 0;
