@@ -19,10 +19,17 @@
     }
   ],
   "key_points": [
-    "The Starlink version of the HogEye Mini Camera is $2,999.",
+    "Without cell signal at the trap, a cellular camera can't send you video or take a close command.",
+    "The Starlink version of the HogEye Mini Camera is $2,999. It is the same camera and the same HogEye app, but it connects over Wi-Fi through a Starlink Mini receiver instead of a cell connection.",
+    "It works almost anywhere the receiver can see open sky.",
+    "Data and connectivity are $100 a month through Wildlife Dominion. There is no separate Starlink account or service to buy.",
+    "The kit includes the Starlink Mini receiver and a freestanding steel tripod stand: the receiver sits on top and the camera mounts on the side, so you don't need a T-post.",
+    "The kit includes a 12V 100Ah lithium battery and a 300W foldable solar panel sized to run both the camera and the receiver.",
+    "The kit includes the gate cable and latch adapter that connect the camera to the trap's gate.",
     "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
     "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
-    "Closing on part of a sounder teaches the hogs that got away to avoid the trap."
+    "Closing on part of a sounder teaches the hogs that got away to avoid the trap.",
+    "Several people can watch the same trap; the app allows unlimited users at no extra fee."
   ],
   "h2_outline": [
     "Why a cellular camera goes quiet",
@@ -35,8 +42,8 @@
       "url": "https://hogeyecameras.com/buy-now/"
     },
     {
-      "anchor": "trail camera live feed",
-      "url": "https://hogeyecameras.com/trail-camera-live-feed/"
+      "anchor": "Starlink setup resources",
+      "url": "https://hogeyecameras.com/camera-resources/"
     }
   ],
   "categories": [
@@ -47,10 +54,6 @@
     "no cell signal",
     "HogEye Mini Camera"
   ],
-  "facts_pending": [
-    "What the Starlink version includes (dish, mount, power) and what Starlink service costs, from the client or hogeyecameras.com",
-    "Whether the held aug26_02 Starlink draft's claims (connects to Starlink over Wi-Fi) are correct"
-  ],
   "sentence_approved": {
     "by": "Jason Mellet",
     "on": "2026-10-20"
@@ -60,5 +63,6 @@
   "faq_questions": [],
   "schema_types": [
     "Article"
-  ]
+  ],
+  "notes": "Facts from HogEye_Mini_Starlink_Technical_Specifications_2026.pdf (hogeyecameras.com, July 2026) and /camera-resources/. Replaces the held aug26_02 Starlink draft, which stays held."
 }

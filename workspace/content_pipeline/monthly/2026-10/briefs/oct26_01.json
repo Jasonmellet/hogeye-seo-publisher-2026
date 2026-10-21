@@ -20,10 +20,18 @@
   ],
   "key_points": [
     "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
-    "The HogEye Mini Camera comes with a compact battery and a small solar panel.",
+    "Live video from the HogEye Mini Camera is 720p at 10 frames per second with a 140-degree field of view, wide enough to see inside and outside the trap.",
+    "A live stream needs a usable cell signal right where the camera hangs, not just at the truck or the house.",
+    "Once the HogEye Mini Camera is powered up, the LOW, MED, and HIGH lights on the bottom show the signal strength at that spot, so you can check it before you finish the setup.",
+    "A paddle antenna comes with the camera. Omni-directional and directional antenna kits are available for weaker signal.",
+    "Mount the camera about 1 foot from the trap, above it and looking slightly down. Too far from the trap can cause missed notifications.",
+    "The HogEye Mini Camera runs on a 50Ah lithium battery charged by the solar panel that comes with it.",
+    "Face the solar panel south with nothing shading it. It needs at least 3 hours of sun a day to keep the battery charged.",
+    "A fully charged battery with no solar lasts 5 to 6 days on average. With solar and direct sun on the panel, it lasts several months.",
     "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime.",
-    "For traps with no cell signal there is a Starlink version of the HogEye Mini Camera for $2,999.",
-    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes."
+    "Where there is no cell signal, the Starlink version of the HogEye Mini Camera is $2,999, and its data and connectivity are $100 a month through Wildlife Dominion, with no separate Starlink account to set up.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
+    "Recordings stay on the camera for 14 days and can be downloaded in the app."
   ],
   "h2_outline": [
     "Check the signal where the camera hangs",
@@ -49,9 +57,6 @@
     "trail camera",
     "cell signal"
   ],
-  "facts_pending": [
-    "HogEye's own guidance on checking signal at the mount and on antenna placement, from /camera-resources/ or the client"
-  ],
   "sentence_approved": {
     "by": "Jason Mellet",
     "on": "2026-10-20"
@@ -61,5 +66,6 @@
   "faq_questions": [],
   "schema_types": [
     "Article"
-  ]
+  ],
+  "notes": "Facts from the HogEye user manual (Sept 2026), /camera-resources/ FAQ, and the Starlink spec sheet, read Oct 20; recorded in PRODUCT_FACTS.md."
 }
