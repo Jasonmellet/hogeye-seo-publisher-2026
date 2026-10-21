@@ -1,0 +1,8 @@
+[push:content] quality PASS oct26_05_wp_draft.json words=393 ceiling=750 floor=450
+[push:content] quality warn oct26_05_wp_draft.json: body word count 393 under the brief floor 450
+[push:content] loop PASS oct26_05_wp_draft.json (brief approved, check=gemini-pro-latest pass)
+[push:content] POST https://wildlife-dominion-dashboard.jason-17f.workers.dev/api/ingest (id=oct26_05 slug=wild-hog-behavior-trap-timing) -> 200 OK
+[push:content] quality=flag
+[push:content] reason[1]: May state product facts the Brand Baseline does not support (unsupported_claims p=0.76)
+
+[push:content] brand="hogeye-cameras" pushed=1 skipped=0 failed=0 (status=in_review)

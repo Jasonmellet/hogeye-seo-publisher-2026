@@ -24,7 +24,7 @@ Neither reason was a wrong fact or an opening that cannot be said aloud. With Ja
 - [x] oct26_02 pushed alone, in_review
 - [ ] Schell copy approval
 - [x] Facts for oct26_01, 03, 04, 05 sourced (PRODUCT_FACTS.md) and drafted; review page `REVIEW_drafts_2-5.html`
-- [x] Jason approved #2 to #5 (Oct 21); each pushed alone. Logs in `push_reports/`.
-- [x] oct26_04: retitled so "satellite trail camera" is only a contrast phrase; re-pushed alone, saved as in_review with a flag (log `push_reports/oct26_04_retry.log`).
+- [x] Jason approved #2 to #5 (Oct 21); each pushed alone. Push logs in `push_reports/*.txt`.
+- [x] oct26_04: retitled so "satellite trail camera" is only a contrast phrase; re-pushed alone, saved as in_review with a flag (log `push_reports/oct26_04_retry.txt`).
 - [ ] Hub baseline note #9 lacks the setup and Starlink facts these pieces use (manual, Starlink spec sheet); that is why three rows flag "unsupported facts". Needs Jason's OK to update.
 - [ ] pull --apply after approval, then WordPress draft (refresh: needs the explicit overwrite opt-in)
