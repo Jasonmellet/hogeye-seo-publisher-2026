@@ -24,7 +24,13 @@
     }
   ],
   "key_points": [
+    "Texas A&M AgriLife Extension says feral hogs are routinely nocturnal during summer heat.",
+    "Texas A&M AgriLife Extension says that in winter, hogs may become more active during the daytime as they search for food.",
+    "Texas A&M AgriLife Extension says hunting pressure can leave a sounder that is rarely seen in daylight, in any season.",
+    "The whole sounder does not always arrive together, so counting hogs over several nights tells you how many there are before you close.",
     "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "The camera sends a motion alert to your phone when hogs come into the trap.",
+    "Recordings stay on the camera for 14 days, so you can look back at what time the hogs came in each night.",
     "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
     "Closing on part of a sounder teaches the hogs that got away to avoid the trap."
   ],
@@ -47,9 +53,6 @@
     "trap timing",
     "sounder"
   ],
-  "facts_pending": [
-    "An extension or USDA source (Texas A&M AgriLife or USDA APHIS) for when hogs feed and how pressure pushes them later"
-  ],
   "sentence_approved": {
     "by": "Jason Mellet",
     "on": "2026-10-20"
@@ -59,5 +62,6 @@
   "faq_questions": [],
   "schema_types": [
     "Article"
-  ]
+  ],
+  "notes": "Behavior source: Texas A&M AgriLife Extension, Billy Higginbotham, 'Feral Hogs: The Good, The Bad or The Ugly?' (agrilifeextension.tamu.edu/wp-content/uploads/2026/03/Feral-hogs-the-good-the-bad-the-ugly.pdf), read Oct 20. 'Count over several nights' is the BRAND_BASELINE decision rule. The live page's unsourced claims are not reused."
 }

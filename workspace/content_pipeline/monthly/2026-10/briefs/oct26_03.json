@@ -23,10 +23,17 @@
     }
   ],
   "key_points": [
-    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "Spartan sells the GoLive 3 as a cellular scouting camera. It sends 8MP photos and 60-second HD video with sound to your phone, and it can live stream.",
+    "The Spartan GoLive 3 is $289.95 to $299.95 depending on camo, on Verizon or AT&T, from Spartan's store.",
+    "The GoLive 3 has a 96-degree field of view, motion detection out to 80 feet, no-glow infrared to 60 feet, and a 12V jack for solar or external power.",
+    "The Spartan GoLive 2 live streams at up to 30 frames per second.",
+    "Spartan's GoLive listings say nothing about connecting the camera to a trap gate or latch.",
+    "The HogEye Mini Camera comes with a gate cable and latch adapter that connect it to the trap's gate, so the same app you watch in sends the close command.",
+    "Live video from the HogEye Mini Camera is 720p at 10 frames per second with a 140-degree field of view, wide enough to see inside and outside the trap.",
     "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
     "Closing on part of a sounder teaches the hogs that got away to avoid the trap.",
-    "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime."
+    "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime.",
+    "A scouting camera like the GoLive is useful for finding where hogs are feeding before you set a trap."
   ],
   "h2_outline": [
     "What the GoLive does",
@@ -51,9 +58,6 @@
     "comparison",
     "live video"
   ],
-  "facts_pending": [
-    "Spartan GoLive facts from Spartan's own pages: live view, price, plan, and whether it can trigger anything"
-  ],
   "sentence_approved": {
     "by": "Jason Mellet",
     "on": "2026-10-20"
@@ -63,5 +67,6 @@
   "faq_questions": [],
   "schema_types": [
     "Article"
-  ]
+  ],
+  "notes": "Spartan facts from spartancamera.com/products.json (Oct 20, 2026); no plan prices published there, so none are used. Spartan's own copy mentions trespassers; leave that framing out."
 }

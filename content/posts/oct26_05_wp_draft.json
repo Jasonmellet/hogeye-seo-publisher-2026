@@ -1,0 +1,97 @@
+{
+  "externalId": "oct26_05",
+  "period": "2026-10",
+  "title": "Are Hogs Nocturnal? When the Sounder Comes to Your Trap",
+  "slug": "wild-hog-behavior-trap-timing",
+  "content": "<p>Hogs usually come to your trap after dark, and a pressured sounder may show up later as it learns to avoid people. Watch your trap live for a few nights, count the hogs as they come in, and use that pattern to be ready to close when the whole sounder is inside, rather than waiting to check the trap in the morning.</p>\n<h2>When hogs come in</h2>\n<p>If you’re asking, “are hogs nocturnal?”, the practical answer is that their activity can shift with the season and the pressure they’ve had. Texas A&amp;M AgriLife Extension says feral hogs are routinely nocturnal during summer heat. In winter, they may become more active during the day as they search for food. Hunting pressure can make a sounder rarely seen in daylight in any season.</p>\n<p>Use what you see around your trap to help make sense of the timing. Fresh rooting, trails, wallows, and rubs show where hogs have been moving, but they don’t tell you exactly when the sounder will enter. If they’re coming later after pressure, keep watching for the new pattern instead of relying on an earlier arrival time.</p>\n<h2>Count the sounder before you close</h2>\n<p>Don’t assume the whole sounder will arrive at once. Some hogs may enter while others are still outside, and closing on only part of the sounder teaches the hogs that get away to avoid the trap.</p>\n<p>The HogEye Mini Camera streams live video to the HogEye app day or night. Use the digital pan, tilt, and zoom to watch hogs inside and outside the trap. You can also review recordings stored on the camera for 14 days to check what time hogs came in on previous nights. For help comparing camera options, see <a href=\"https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/\">the best camera for hog trapping</a>.</p>\n<h2>Be ready at their hour</h2>\n<p>Once you know their hour, you don’t have to watch the screen all night. The camera sends a motion alert to your phone when hogs come into the trap. Open the live view, count until you reach the number you saw on earlier nights, then send the close command from your phone. The gate closes, and there’s no morning drive to find out whether the trap is empty.</p>\n<p>If the arrival time changes, keep using the live view and recordings to adjust when you’re ready to close.</p>",
+  "status": "draft",
+  "excerpt": "Hogs often come to your trap after dark, and pressure can push their visits later. Watch live for a few nights, learn the sounder’s timing, and close when every hog is inside.",
+  "meta_title": "Are Hogs Nocturnal? When to Close Your Trap",
+  "meta_description": "Are hogs nocturnal? See how season and pressure affect trap timing, then learn when to watch your sounder and close the gate.",
+  "focus_keyword": "are hogs nocturnal",
+  "categories": [
+    "Feral Hog Educational & Awareness"
+  ],
+  "tags": [
+    "hog behavior",
+    "trap timing",
+    "sounder"
+  ],
+  "targetWordCount": 750,
+  "briefPath": "workspace/content_pipeline/monthly/2026-10/briefs/oct26_05.json",
+  "minWords": 450,
+  "existing_url": "https://hogeyecameras.com/wild-hog-behavior-trap-timing/",
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  },
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 99.6,
+    "history": [
+      {
+        "step": "write",
+        "words": 467,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "Watch the trap over several nights and note the times hogs arrive.",
+            "why": "This repeats the instruction from the opening paragraph to watch the trap live for a few nights.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Counting over several nights gives you a better idea of how many hogs are using the trap before you make the close decision.",
+            "why": "This repeats the opening paragraph's instruction to count the hogs as they come in.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Wait until the whole sounder is inside, then send the close command from your phone.",
+            "why": "This repeats the opening paragraph's instruction to be ready to close when the whole sounder is inside.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 417,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "wrong_fact",
+            "quote": "The gate closes, and you don’t have to drive out in the morning to find out whether the trap is empty or whether some hogs are still outside.",
+            "why": "The draft implies the gate closes on its own after the reader counts the hogs, omitting the fact that the user must send the close command from their phone.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "When you watch the live video, count the hogs inside and outside the trap.",
+            "why": "This repeats the instruction to watch hogs inside and outside the trap from the previous paragraph, as well as repeating the instruction to count the hogs from the opening paragraph.",
+            "quote_found": true
+          }
+        ],
+        "problems": [
+          "body word count 417 under the brief floor 450"
+        ]
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Restored the close step the fix pass dropped, so the gate no longer reads as closing on its own (Gemini wrong_fact)",
+          "Cut the repeated watch-and-count line Gemini named",
+          "Tied the close step to the night-by-night count instead of restating the opening",
+          "Cut a repeated conclusion",
+          "Closing section now uses the motion alert and the earlier count as the cue, instead of restating the opening (Gemini)"
+        ]
+      }
+    ]
+  }
+}

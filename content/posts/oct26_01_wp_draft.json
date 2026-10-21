@@ -1,0 +1,95 @@
+{
+  "externalId": "oct26_01",
+  "period": "2026-10",
+  "title": "Trail Camera Live Feed: What It Takes at a Hog Trap",
+  "slug": "trail-camera-live-feed",
+  "content": "<p>A trail camera live feed is only as good as the cell signal and the power at your trap. Check the signal right where the camera will hang, and plan on a solar panel and a monthly data plan before you buy anything. Get those right and you can watch the sounder come in from your phone and close the gate when the last hog is inside.</p>\n<h2>Check the signal where the camera hangs</h2>\n<p>Bars at the truck or the house don't mean bars at the trap. Take the HogEye Mini Camera to the spot where it will hang and power it up there. Once it's ready, the LOW, MED, and HIGH lights on the bottom tell you the signal at that exact spot.</p>\n<p>If it reads low, try a better antenna before you give up on the site. The camera ships with a paddle antenna, and omni-directional and directional antenna kits are available for weak spots.</p>\n<p>Hang it about a foot from the trap, above it and looking slightly down. From there the 140-degree view takes in the hogs inside the trap and the ones still outside, in 720p at 10 frames per second. Hang it farther back and you can miss notifications.</p>\n<h2>Plan the power and the data</h2>\n<p>Streaming takes power, so the camera runs on a 50Ah lithium battery that the included solar panel keeps charged. Face the panel south and keep it out of the shade; it needs at least 3 hours of sun a day. With direct sun on the panel, the battery lasts several months. Without the panel, a full charge lasts 5 to 6 days on average.</p>\n<p>Then there's the monthly cost. On AT&amp;T or Verizon, the HogEye Mini Camera is $1,299 and the data plan is $49.99 a month, with no contract. You can start or stop the plan anytime, so you aren't paying for the months the trap sits idle.</p>\n<h2>If there's no signal at all</h2>\n<p>Some trap sites won't get a usable signal no matter where you hang the camera. For those, there's a Starlink version of the HogEye Mini Camera for $2,999. Its data runs $100 a month through Wildlife Dominion, and you don't need your own Starlink account.</p>\n<p>The <a href=\"https://hogeyecameras.com/camera-resources/\">camera setup guides</a> walk through the mount and the install once you've picked your spot.</p>",
+  "status": "draft",
+  "excerpt": "A live feed at your hog trap needs usable signal where the camera hangs, reliable power, and a data plan. Check the site and plan those costs before you buy.",
+  "meta_title": "Trail Camera Live Feed at a Hog Trap: What You Need",
+  "meta_description": "A trail camera live feed needs signal, power, and data at the trap. Check the site and plan your setup and monthly cost before you buy.",
+  "focus_keyword": "trail camera live feed",
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "live video",
+    "trail camera",
+    "cell signal"
+  ],
+  "targetWordCount": 750,
+  "briefPath": "workspace/content_pipeline/monthly/2026-10/briefs/oct26_01.json",
+  "minWords": 450,
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 159.4,
+    "history": [
+      {
+        "step": "write",
+        "words": 481,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "When the whole sounder is inside, send the close command from your phone and the gate closes.",
+            "why": "The draft repeats the step of watching the hogs and sending the close command from the phone when the entire sounder is inside, which it already explained in the opening paragraph.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 464,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "For a live feed over a cellular connection, you still need usable cell signal at the camera’s location.",
+            "why": "The draft repeats the requirement for a cell signal at the exact camera site, a point already established in the first and second paragraphs.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Once your camera is connected, watch the live video in the app and count the hogs inside and outside the trap.",
+            "why": "The draft repeats that the user will watch the hogs inside and outside the trap, which was already stated in the first and fourth paragraphs.",
+            "quote_found": true
+          }
+        ],
+        "problems": []
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Cut the repeated cell-signal sentence Gemini named",
+          "Cut the repeated watch-and-count paragraph Gemini named (with the recordings line it carried)"
+        ]
+      },
+      {
+        "step": "voice pass (writer)",
+        "problems": [
+          "Voice: an editor scored this 'competent but generic'; the setup and kit paragraphs read like a spec sheet. Rewrite those paragraphs the way a field operator tells a neighbor standing at the trap what to do and why, in order, with plain verbs. Keep every fact and number exactly as it is, add no new facts, say each step once, and keep the opening paragraph's meaning. Stay under 750 words."
+        ],
+        "local": [
+          "body word count 400 under the brief floor 450"
+        ]
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Voice rewrite of the setup, power, and cost paragraphs after the editorial gate scored style 1.28-1.29/2; facts and numbers unchanged"
+        ]
+      }
+    ]
+  },
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  }
+}
