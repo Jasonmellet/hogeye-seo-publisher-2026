@@ -1,13 +1,13 @@
 {
   "externalId": "oct26_04",
   "period": "2026-10",
-  "title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
+  "title": "Satellite Camera for Hog Traps With No Cell Signal",
   "slug": "satellite-trail-camera",
-  "content": "<p>If your trap sits where your phone shows no bars, a cellular camera can't reach you either: no live video, and no way to send the close command. You need a satellite trail camera, and on a hog trap that means one that can close the gate too. The Starlink version of the HogEye Mini Camera connects through a Starlink Mini receiver, so you can still watch the trap and close it from home.</p>\n<h2>What comes in the Starlink kit</h2>\n<p>It's the same HogEye Mini Camera and the same HogEye app. The only change is how it gets online: over Wi-Fi from a Starlink Mini receiver instead of a cell connection. As long as the receiver can see open sky, it works almost anywhere.</p>\n<p>The <a href=\"https://hogeyecameras.com/buy-now/\">Starlink kit</a> is $2,999, and it brings its own freestanding steel tripod, so you don't need a T-post. The receiver sits on top, the camera mounts on the side, and the included gate cable and latch adapter run from the camera to your trap's gate.</p>\n<p>Power is in the box too: a 12V 100Ah lithium battery and a 300W foldable solar panel, sized to run the camera and the receiver together. Data and connectivity run $100 a month through Wildlife Dominion, and there's no separate Starlink account or service to buy. The <a href=\"https://hogeyecameras.com/camera-resources/\">HogEye setup resources</a> cover the Starlink install.</p>\n<h2>Watching and closing over Starlink</h2>\n<p>From there it works just like the cellular version. Open the app at home and watch live, day or night, using digital pan, tilt, and zoom to check every corner. Count the hogs inside and the ones still hanging back outside. When the whole sounder is in, send the close command from your phone and the gate closes.</p>\n<p>That's what the camera saves you on a remote trap: no drive out to find it empty, and no closing on half the sounder, which teaches the hogs that got away to avoid the trap. Anyone you add in the app can watch too, with no fee for extra users.</p>",
+  "content": "<p>If your trap sits where your phone shows no bars, a cellular camera can't reach you either: no live video, and no way to send the close command. If you've been searching for a satellite trail camera, the job on a hog trap is bigger than getting a picture out: you need to watch the trap live and close the gate. The Starlink version of the HogEye Mini Camera does that through a Starlink Mini receiver, so you can still watch the trap and close it from home.</p>\n<h2>What comes in the Starlink kit</h2>\n<p>It's the same HogEye Mini Camera and the same HogEye app. The only change is how it gets online: over Wi-Fi from a Starlink Mini receiver instead of a cell connection. As long as the receiver can see open sky, it works almost anywhere.</p>\n<p>The <a href=\"https://hogeyecameras.com/buy-now/\">Starlink kit</a> is $2,999, and it brings its own freestanding steel tripod, so you don't need a T-post. The receiver sits on top, the camera mounts on the side, and the included gate cable and latch adapter run from the camera to your trap's gate.</p>\n<p>Power is in the box too: a 12V 100Ah lithium battery and a 300W foldable solar panel, sized to run the camera and the receiver together. Data and connectivity run $100 a month through Wildlife Dominion, and there's no separate Starlink account or service to buy. The <a href=\"https://hogeyecameras.com/camera-resources/\">HogEye setup resources</a> cover the Starlink install.</p>\n<h2>Watching and closing over Starlink</h2>\n<p>From there it works just like the cellular version. Open the app at home and watch live, day or night, using digital pan, tilt, and zoom to check every corner. Count the hogs inside and the ones still hanging back outside. When the whole sounder is in, send the close command from your phone and the gate closes.</p>\n<p>That's what the camera saves you on a remote trap: no drive out to find it empty, and no closing on half the sounder, which teaches the hogs that got away to avoid the trap. Anyone you add in the app can watch too, with no fee for extra users.</p>",
   "status": "draft",
   "excerpt": "When your hog trap is outside cell coverage, a cellular camera can’t reach you. The Starlink version of the HogEye Mini Camera lets you watch the sounder live and close the gate from home.",
-  "meta_title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
-  "meta_description": "No cell signal at your hog trap? See how a satellite trail camera lets you watch the sounder live and close the gate from home.",
+  "meta_title": "Satellite Camera for Hog Traps With No Cell Signal",
+  "meta_description": "Searching for a satellite trail camera for a hog trap with no cell signal? Watch the trap live over Starlink and close the gate from home.",
   "focus_keyword": "satellite trail camera",
   "categories": [
     "Off-Grid Cameras"
@@ -108,6 +108,14 @@
         "changes": [
           "Voice rewrite after the editorial gate scored style 1.02-1.16/2: kit paragraphs as steps instead of a parts list, cleaner opening, links folded into the copy; facts and numbers unchanged",
           "'any HogEye trap' became 'the cellular version' (Gemini wrong_fact: HogEye makes cameras, not traps)"
+        ]
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Retitled to 'Satellite Camera for Hog Traps With No Cell Signal' (title and meta title) after the hub 422, per Jason",
+          "Opening and meta description use 'satellite trail camera' only as a contrast phrase, never as a name for the HogEye camera"
         ]
       }
     ]

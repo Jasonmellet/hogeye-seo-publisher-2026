@@ -3,7 +3,7 @@
   "external_id": "oct26_04",
   "period": "2026-10",
   "type": "new",
-  "title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
+  "title": "Satellite Camera for Hog Traps With No Cell Signal",
   "slug": "satellite-trail-camera",
   "target_keyword": "satellite trail camera",
   "support_keywords": [
@@ -64,5 +64,5 @@
   "schema_types": [
     "Article"
   ],
-  "notes": "Facts from HogEye_Mini_Starlink_Technical_Specifications_2026.pdf (hogeyecameras.com, July 2026) and /camera-resources/. Replaces the held aug26_02 Starlink draft, which stays held."
+  "notes": "Facts from HogEye_Mini_Starlink_Technical_Specifications_2026.pdf (hogeyecameras.com, July 2026) and /camera-resources/. Replaces the held aug26_02 Starlink draft, which stays held. Retitled Oct 21 by Jason after a hub 422 (baseline: HogEye is never called a trail camera); 'satellite trail camera' stays the search keyword and appears only as a contrast phrase."
 }
