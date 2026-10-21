@@ -178,6 +178,11 @@ Never use in new content:
 **Contrast rule:** ✅ "Unlike standard trail cameras designed for wildlife observation…"  
 ❌ "Unlike other trail cameras…" (without context)
 
+### Additional forbidden topics
+
+- **Unreleased Mini AI camera:** Do not make claims about Mini AI camera features, availability, or dates. The current HogEye Mini Camera remains governed by the verified product facts in this document.
+- **Screwworm treatment or veterinary protocols:** Do not provide treatment advice, medication instructions, veterinary protocols, or other clinical guidance. Screwworm content is limited to awareness and monitoring context, with sources from USDA APHIS or a relevant state extension service.
+
 Full blacklist: `workspace/KEYWORD_BLACKLIST.md`
 
 ---
@@ -296,6 +301,8 @@ Use 4–6 internal links per post, distributed naturally. Do not stack in one se
 - Wrong pricing tiers
 - Calling Big Pig Traps DIY
 - Security/surveillance use cases
+- Claims about the unreleased Mini AI camera, including features, availability, or dates
+- Screwworm treatment advice or veterinary protocols
 
 **If you cannot source it, omit it.**
 

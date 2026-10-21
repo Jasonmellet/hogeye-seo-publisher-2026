@@ -74,6 +74,28 @@ def normalize_whitespace(content: str) -> str:
     return re.sub(r"\n{4,}", "\n\n", content)
 
 
+# Leading reviewer summary. Schell reads it in the hub. It must not ship to the site.
+_HTML_TLDR_RE = re.compile(
+    r"^\s*<p\b[^>]*>\s*(?:<(?:strong|b)>)?\s*TL;DR\s*:\s*(?:</(?:strong|b)>)?.*?</p>\s*",
+    re.IGNORECASE | re.DOTALL,
+)
+_MD_TLDR_RE = re.compile(
+    r"^\s*(?:\*\*|__)?TL;DR\s*:?\s*(?:\*\*|__)?\s*:?\s*\S[^\n]*(?:\n\s*\n|\n|$)",
+    re.IGNORECASE,
+)
+
+
+def strip_reviewer_tldr(content: str) -> str:
+    """Remove one leading TL;DR block. Later mentions in the article stay."""
+    if not content:
+        return content
+    text = content.replace("\r\n", "\n")
+    stripped = _HTML_TLDR_RE.sub("", text, count=1)
+    if stripped == text:
+        stripped = _MD_TLDR_RE.sub("", text, count=1)
+    return stripped.lstrip("\n")
+
+
 def remove_all_tocs(content: str) -> str:
     """
     Remove TOC blocks created by our scripts or manual inserts.

@@ -44,6 +44,11 @@ claims_policy:
     - invented testimonials
     - unsupported comparative claims
     - unsupported warranty claims
+    - claims about the unreleased Mini AI camera, including features, availability, or dates
+    - screwworm treatment advice or veterinary protocols
+
+  approved_context:
+    - screwworm awareness and monitoring context with USDA APHIS or relevant state extension sources
 
 replacement_map:
   ranchers: landowners, land managers, or trappers

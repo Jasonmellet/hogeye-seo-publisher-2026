@@ -1,0 +1,36 @@
+{
+  "externalId": "oct26_05",
+  "title": "How to Count a Sounder on Camera Before Closing",
+  "slug": "count-hogs-on-trail-camera",
+  "content": "<p><strong>TL;DR:</strong> Count the sounder on camera across several nights before you close. Separate hogs inside the trap from hogs still outside, and send the closure command only when the full group is settled. The camera shows the count. It does not close the gate by itself.</p>\n<p>A single frame with hogs in it is not a count. Landowners who close on that moment pull the bold animals and educate the rest. Learn the sounder size first. Close when tonight matches the group you already know.</p>\n<h2>Build the Count Before Catch Phase</h2>\n<p>Do this while the trap is still in conditioning, before you are tempted to trigger the gate.</p>\n<p>Watch several nights, not one. Note the largest group that feeds together, the time window, and whether the same animals return. A sounder is the group you are trying to remove together, so do not close on whoever happened to be in frame.</p>\n<p>Log four lines each night:</p>\n<ul>\n<li>How many are inside the trap</li>\n<li>How many are outside, including the edge and the approach</li>\n<li>Whether juveniles are with the adults or trailing</li>\n<li>Whether the group settled or blew out</li>\n</ul>\n<p>Fresh rooting, trails, wallows, and rubs do not give you the head count. <a href=\"https://hogeyecameras.com/wild-hog-behavior-trap-timing/\">Wild hog behavior and trap timing</a> is why that count has to be complete. The feed is how you get it.</p>\n<h2>Set the Camera So the Count Is Real</h2>\n<p>If you cannot see the interior and the edge in one view, you do not have a count. You have a crop of the bait. Mount for the closure decision: entry, bait, and the back of the trap.</p>\n<p>A <a href=\"https://hogeyecameras.com/steel-camera/\">HogEye steel camera</a> is a wild hog trap camera system for that read. Live video, day or night, plus digital pan, tilt, and zoom when a hog is half hidden by a panel. The Mini's wider field of view is there so inside and outside are the same look, not two installations.</p>\n<p>Check the view after dark before catch phase. Glare or a branch can hide the back corner, where the last hog stands. Fix the mount instead of closing early.</p>\n<p>A delayed observation frame can show that hogs visited. It cannot tell you who is still outside at the moment you would close. Do not make that the catch-site count.</p>\n<h2>Decide From the Count, Then Send the Command</h2>\n<p>Compare tonight with the log:</p>\n<ul>\n<li>If the inside count is short of the sounder you have been seeing, wait.</li>\n<li>If animals are still on the edge, wait.</li>\n<li>If the group is inside and settled, and the approach is clear, send the closure command.</li>\n</ul>\n<p>You send it. The camera does not close the gate, drop the net, or trip the actuator by itself. Remote trap monitoring and closure means the person on the feed owns the trigger.</p>\n<p>Partial capture is the expensive error. The hogs that escape learn the structure. <a href=\"https://hogeyecameras.com/hog-trapping-techniques-common-hog-trap-mistakes/\">Common hog trap mistakes</a> cover that failure in more detail. A smaller catch tonight can cost the whole program.</p>\n<p>On a net, keep conditioning in place until the full sounder is under it. The same person who counted sends the change to catch phase. See the <a href=\"https://hogeyecameras.com/net-camera-trap-remote-hog-trapping/\">net camera workflow</a> if that is the trap you run.</p>\n<h2>Keep the Count Honest Across the Line</h2>\n<p>Assign one person to review active feeds and a backup who can send the closure command. Sort sites by readiness, not by driveway order.</p>\n<p>Write the count in the same place every night, even when you do not close. The log is how the team knows that four hogs inside is short of the sounder you have been seeing. Without the log, every night starts from zero.</p>\n<p>Confirm the camera reports from the mount. The HogEye Mini uses about 60% less power than the legacy unit and includes a compact battery and small solar panel. Setup steps are in <a href=\"https://hogeyecameras.com/camera-resources/\">camera resources</a>. HogEye Mini is $1,299, and the data plan is $49.99 per month on AT&amp;T or Verizon with no contract. Starlink is also a carrier option. See <a href=\"https://hogeyecameras.com/buy-now/\">pricing and options</a>.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>How many nights should I count before closing?</h3>\n<p>Several nights. You want a repeatable sounder size, not a one-time group that happened to be in frame. Close when tonight's inside count matches that sounder and nobody is left outside.</p>\n<h3>Can the camera close the gate when the count looks right?</h3>\n<p>No. The camera shows who is inside and who is still outside. A person sends the closure command. Do not treat a notification as an automatic trigger.</p>\n<h3>What if the count changes from night to night?</h3>\n<p>Keep logging. A shifting count means you do not know the full sounder yet. Wait until the group is stable. Closing on the high night's first arrivals is how you educate the rest.</p>\n<h2>Close on the Full Count</h2>\n<p>Count hogs on camera before you close. Inside versus outside, several nights, then a command you send on purpose. That is the difference between a whole-sounder catch and a trap that teaches the survivors.</p>",
+  "status": "draft",
+  "excerpt": "Count the sounder on live video before you close. The camera shows who is inside. You send the closure command.",
+  "meta_title": "How to Count a Sounder on Camera Before Closing",
+  "meta_description": "Count the sounder on camera for several nights, separate hogs inside the trap from hogs outside, and send the closure command when the group is complete.",
+  "focus_keyword": "count hogs on trail camera",
+  "categories": [
+    "Feral Hog Monitoring"
+  ],
+  "tags": [
+    "sounder",
+    "wild hog",
+    "HogEye",
+    "trap monitoring"
+  ],
+  "targetWordCount": 800,
+  "faq_items": [
+    {
+      "question": "How many nights should I count before closing?",
+      "answer": "Several nights. You want a repeatable sounder size, not a one-time group that happened to be in frame. Close when tonight's inside count matches that sounder and nobody is left outside."
+    },
+    {
+      "question": "Can the camera close the gate when the count looks right?",
+      "answer": "No. The camera shows who is inside and who is still outside. A person sends the closure command. Do not treat a notification as an automatic trigger."
+    },
+    {
+      "question": "What if the count changes from night to night?",
+      "answer": "Keep logging. A shifting count means you do not know the full sounder yet. Wait until the group is stable. Closing on the high night's first arrivals is how you educate the rest."
+    }
+  ],
+  "period": "2026-10"
+}
