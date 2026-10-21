@@ -7,10 +7,10 @@ Built one piece at a time through `docs/WRITING_LOOP.md`. Sentences approved by 
 | Row | Piece | Brief | Draft | Hub | Site |
 |---|---|---|---|---|---|
 | oct26_02 | Best Camera for Hog Trapping (refresh of `/hog-trapping-cameras-compared-2026-hogeye-vs-trail/`) | ready | 407 words, Gemini pass, approved by Jason | **in_review**, re-pushed Oct 20, quality **pass** | not in WP |
-| oct26_01 | Trail Camera Live Feed (new) | ready | 390 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (unsupported facts p=0.90; on_brand 1.11; editing pass 1.02) | not in WP |
-| oct26_04 | Satellite Camera for Hog Traps With No Cell Signal (new; retitled Oct 21 by Jason) | ready | 352 words; approved by Jason Oct 21 | **in_review**, re-pushed Oct 21 after a 422, quality **flag** (may break a baseline rule p=0.72; on_brand 0.98; editing pass 0.93; unsupported facts 0.94) | not in WP |
-| oct26_03 | HogEye vs. Spartan GoLive (refresh) | ready | 398 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (unsupported facts p=0.87) | not in WP |
-| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | ready | 393 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (may state unsupported facts p=0.76) | not in WP |
+| oct26_01 | Trail Camera Live Feed (new) | ready | 390 words; approved by Jason Oct 21 | **in_review**, quality **pass** (re-pushed Oct 21 after the baseline update) | not in WP |
+| oct26_04 | Satellite Camera for Hog Traps With No Cell Signal (new; retitled Oct 21 by Jason) | ready | 352 words; approved by Jason Oct 21 | **in_review**, quality **pass** (first push 422; retitled; re-pushed after the baseline update) | not in WP |
+| oct26_03 | HogEye vs. Spartan GoLive (refresh) | ready | 398 words; approved by Jason Oct 21 | **in_review**, quality **flag**: unsupported facts p=0.85 (the Spartan specs are not in the HogEye baseline) | not in WP |
+| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | ready | 393 words; approved by Jason Oct 21 | **in_review**, quality **pass** (re-pushed Oct 21 after the baseline update) | not in WP |
 
 ## oct26_02 hub flag (Oct 20)
 
@@ -26,5 +26,5 @@ Neither reason was a wrong fact or an opening that cannot be said aloud. With Ja
 - [x] Facts for oct26_01, 03, 04, 05 sourced (PRODUCT_FACTS.md) and drafted; review page `REVIEW_drafts_2-5.html`
 - [x] Jason approved #2 to #5 (Oct 21); each pushed alone. Push logs in `push_reports/*.txt`.
 - [x] oct26_04: retitled so "satellite trail camera" is only a contrast phrase; re-pushed alone, saved as in_review with a flag (log `push_reports/oct26_04_retry.txt`).
-- [ ] Hub baseline note #9 lacks the setup and Starlink facts these pieces use (manual, Starlink spec sheet); that is why three rows flag "unsupported facts". Needs Jason's OK to update.
+- [x] Hub baseline note #9 given the setup and Starlink facts from `PRODUCT_FACTS.md` on Oct 21 with Jason's OK (backup: `Wildlife Dominion Client Dashboard/.scratch/he-brand-baseline-note9-backup-2026-10-21.md`). oct26_01, 03, 04, 05 re-pushed one at a time; 01, 04, 05 now pass.
 - [ ] pull --apply after approval, then WordPress draft (refresh: needs the explicit overwrite opt-in)
