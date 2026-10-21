@@ -111,6 +111,11 @@ def test_rule_as_prose_fails(sentence):
     assert not report["ok"], sentence
 
 
+def test_trail_camera_contrast_passes():
+    report = validate_item(_post(_body(40) + "<p>A trail camera can't close the gate, so you drive out to do it.</p>"))
+    assert report["ok"], report
+
+
 def test_reader_sending_the_command_passes():
     report = validate_item(_post(_body(40) + "<p>When all nine are inside, tap close in the app and the gate drops.</p>"))
     assert report["ok"], report
@@ -195,6 +200,11 @@ def test_slot_filler_fails():
 def test_rule_in_key_points_fails():
     errors = validate_brief(_brief(key_points=["Do not claim the camera closes the gate by itself."]))
     assert any("rule for the writer" in e for e in errors)
+
+
+def test_pending_facts_hold_the_brief():
+    errors = validate_brief(_brief(facts_pending=["Spartan GoLive price from Spartan's site"]))
+    assert any(e.startswith("facts_pending") for e in errors)
 
 
 def test_refresh_needs_existing_url():

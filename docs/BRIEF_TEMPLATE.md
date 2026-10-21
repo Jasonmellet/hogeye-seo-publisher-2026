@@ -65,6 +65,7 @@ Example values only; the evidence numbers here are not real.
 | `faq_questions` | yes | Optional. Leave empty unless people ask questions the body would not answer. |
 | `type`, `existing_url` | yes | `update` means a refresh of `existing_url`. The WordPress step still needs an explicit overwrite opt-in. |
 | `categories`, `tags` | no | Live WordPress taxonomy. |
+| `facts_pending` | no | Facts that must be confirmed before drafting. A non-empty list fails the brief, so the piece cannot be drafted until someone confirms them and empties it. |
 | `notes` | no | Anything for Jason or the next session. Never "fills the paid count". |
 
 Rules for the writer belong in `workspace/content_system/prompts/system/hogeye_writer_system_prompt.md`, product facts and prices in `workspace/brand_truth/PRODUCT_FACTS.md`, and policing in `scripts/seo/hogeye_content_quality.py` or the checker. They do not go in the brief.

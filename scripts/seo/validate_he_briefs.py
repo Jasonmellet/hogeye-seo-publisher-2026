@@ -77,6 +77,10 @@ def validate_brief(data: Dict[str, Any]) -> List[str]:
     if not (isinstance(data.get("categories"), list) and data["categories"]):
         errors.append("categories: at least one live WordPress category")
 
+    pending = data.get("facts_pending")
+    if pending:
+        errors.append(f"facts_pending: confirm these before drafting, then empty the list: {pending}")
+
     if _non_empty(period) and period >= SENTENCE_RULE_FROM_PERIOD:
         errors.extend(_sentence_errors(data))
     return errors

@@ -1,0 +1,67 @@
+{
+  "brief_id": "oct26_03",
+  "external_id": "oct26_03",
+  "period": "2026-10",
+  "type": "update",
+  "title": "HogEye vs. Spartan GoLive for Hog Traps",
+  "slug": "hogeye-vs-spartan-hog-trap-camera",
+  "existing_url": "https://hogeyecameras.com/hogeye-vs-spartan-hog-trap-camera/",
+  "target_keyword": "spartan golive",
+  "support_keywords": [
+    "spartan golive 2",
+    "spartan camera"
+  ],
+  "reader_sentence": "A Spartan GoLive will show you live video, but on a hog trap the question is whether you can close the gate from that same screen when the last hog walks in, so check that before you put any camera on your trap.",
+  "evidence": [
+    {
+      "source": "dataforseo",
+      "signal": "spartan golive 260/mo (390-480 Oct-Nov), spartan golive 2 110, spartan camera 6,600 (12,100 Oct-Nov)"
+    },
+    {
+      "source": "gsc",
+      "signal": "/hogeye-vs-spartan-hog-trap-camera/ 80 impressions/90d, none from Spartan searches"
+    }
+  ],
+  "key_points": [
+    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes.",
+    "Closing on part of a sounder teaches the hogs that got away to avoid the trap.",
+    "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime."
+  ],
+  "h2_outline": [
+    "What the GoLive does",
+    "What a trap needs",
+    "Side by side"
+  ],
+  "internal_links": [
+    {
+      "anchor": "best camera for hog trapping",
+      "url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/"
+    },
+    {
+      "anchor": "HogEye Mini Camera",
+      "url": "https://hogeyecameras.com/buy-now/"
+    }
+  ],
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "Spartan",
+    "comparison",
+    "live video"
+  ],
+  "facts_pending": [
+    "Spartan GoLive facts from Spartan's own pages: live view, price, plan, and whether it can trigger anything"
+  ],
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-20"
+  },
+  "word_count": 750,
+  "min_words": 450,
+  "faq_questions": [],
+  "schema_types": [
+    "Article"
+  ]
+}

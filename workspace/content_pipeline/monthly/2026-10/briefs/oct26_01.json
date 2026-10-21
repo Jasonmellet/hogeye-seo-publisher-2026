@@ -1,0 +1,65 @@
+{
+  "brief_id": "oct26_01",
+  "external_id": "oct26_01",
+  "period": "2026-10",
+  "type": "new",
+  "title": "Trail Camera Live Feed: What It Takes at a Hog Trap",
+  "slug": "trail-camera-live-feed",
+  "target_keyword": "trail camera live feed",
+  "support_keywords": [
+    "live feed trail camera",
+    "live trail camera",
+    "game camera with live feed to phone"
+  ],
+  "reader_sentence": "A live feed only works if your trap site has the cell signal and the power to stream video, so check your signal right where the camera will hang, and plan on a solar panel and a monthly data plan before you buy.",
+  "evidence": [
+    {
+      "source": "dataforseo",
+      "signal": "trail camera live feed 720/mo (1,000 Oct-Dec), live trail camera 260, game camera with live feed to phone 210, live view trail camera 140; no HogEye page"
+    }
+  ],
+  "key_points": [
+    "The HogEye Mini Camera streams live video to the HogEye app, day or night, with digital pan, tilt, and zoom.",
+    "The HogEye Mini Camera comes with a compact battery and a small solar panel.",
+    "The HogEye Mini Camera is $1,299 on AT&T or Verizon, and the data plan is $49.99 a month with no contract; you can start or stop it anytime.",
+    "For traps with no cell signal there is a Starlink version of the HogEye Mini Camera for $2,999.",
+    "You watch the hogs inside and outside the trap in the app, and when the whole sounder is inside you send the close command from your phone and the gate closes."
+  ],
+  "h2_outline": [
+    "Check the signal where the camera hangs",
+    "Power for a stream",
+    "The data plan",
+    "When there is no signal"
+  ],
+  "internal_links": [
+    {
+      "anchor": "camera setup guides",
+      "url": "https://hogeyecameras.com/camera-resources/"
+    },
+    {
+      "anchor": "best camera for hog trapping",
+      "url": "https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/"
+    }
+  ],
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "live video",
+    "trail camera",
+    "cell signal"
+  ],
+  "facts_pending": [
+    "HogEye's own guidance on checking signal at the mount and on antenna placement, from /camera-resources/ or the client"
+  ],
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-20"
+  },
+  "word_count": 750,
+  "min_words": 450,
+  "faq_questions": [],
+  "schema_types": [
+    "Article"
+  ]
+}

@@ -56,7 +56,8 @@ _INTERNAL_PATTERNS = (
         "article/page job label",
     ),
     (r"\b(?:claims\s+audit|research\s+pack|approved\s+brief)\b", "production label"),
-    (r"\b(?:placeholder|lorem\s+ipsum|to\s+do|todo|tbd)\b", "placeholder"),
+    # "to do" is plain English ("what to do"); only a to-do label is a placeholder.
+    (r"\b(?:placeholder|lorem\s+ipsum|todo|tbd)\b|\bto[\s-]do\s*:", "placeholder"),
     (r"\[\s*needs\s+source\s*\]", "source placeholder"),
     (
         r"\[\s*(?:replace|insert|add|write|fill|section|question|answer|h[1-6])\b[^\]]*\]",
@@ -94,7 +95,8 @@ _BRAND_POLICY_PATTERNS = (
 # sending the command instead of reciting the rule.
 _RULE_LEAK_PATTERNS = (
     (
-        r"\b(?:camera|cam|it|hogeye(?:\s+mini)?)\s+(?:does\s+not|doesn't|will\s+not|won't|cannot|can't|never)"
+        # A trail camera that can't close a gate is a fair contrast; HogEye reciting it is not.
+        r"\b(?<!trail )(?<!game )(?:camera|cam|it|hogeye(?:\s+mini)?)\s+(?:does\s+not|doesn't|will\s+not|won't|cannot|can't|never)"
         r"\s+(?:decide|close|shut|drop|trip|trigger)\b",
         "gate rule written as prose (camera does not close/decide)",
     ),
