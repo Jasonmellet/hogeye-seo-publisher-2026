@@ -7,10 +7,10 @@ Built one piece at a time through `docs/WRITING_LOOP.md`. Sentences approved by 
 | Row | Piece | Brief | Draft | Hub | Site |
 |---|---|---|---|---|---|
 | oct26_02 | Best Camera for Hog Trapping (refresh of `/hog-trapping-cameras-compared-2026-hogeye-vs-trail/`) | ready | 407 words, Gemini pass, approved by Jason | **in_review**, re-pushed Oct 20, quality **pass** | not in WP |
-| oct26_01 | Trail Camera Live Feed (new) | ready | 390 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
-| oct26_04 | Satellite Trail Camera (new) | ready | 338 words; local, Gemini, editorial pass (style 1.29 to 1.34 vs 1.30, borderline); **waiting for Jason** | placeholder | - |
-| oct26_03 | HogEye vs. Spartan GoLive (refresh) | ready | 398 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
-| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | ready | 393 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
+| oct26_01 | Trail Camera Live Feed (new) | ready | 390 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (unsupported facts p=0.90; on_brand 1.11; editing pass 1.02) | not in WP |
+| oct26_04 | Satellite Trail Camera (new) | ready | 338 words; approved by Jason Oct 21 | **422, not saved**: breaks a Brand Baseline rule (p=0.81), on_brand 0.92, editing pass 0.81, unsupported facts 0.94. Row is still the placeholder | - |
+| oct26_03 | HogEye vs. Spartan GoLive (refresh) | ready | 398 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (unsupported facts p=0.87) | not in WP |
+| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | ready | 393 words; approved by Jason Oct 21 | **in_review**, pushed Oct 21, quality **flag** (may state unsupported facts p=0.76) | not in WP |
 
 ## oct26_02 hub flag (Oct 20)
 
@@ -24,5 +24,7 @@ Neither reason was a wrong fact or an opening that cannot be said aloud. With Ja
 - [x] oct26_02 pushed alone, in_review
 - [ ] Schell copy approval
 - [x] Facts for oct26_01, 03, 04, 05 sourced (PRODUCT_FACTS.md) and drafted; review page `REVIEW_drafts_2-5.html`
-- [ ] Jason approves #2 to #5, then push each alone (editorial gate needs `TYPESAFE_API_KEY`, from the hub `.dev.vars`)
+- [x] Jason approved #2 to #5 (Oct 21); each pushed alone. Logs in `push_reports/`.
+- [ ] oct26_04: fix the 422 and push again. Likely cause: the draft presents the HogEye Mini Camera as a "satellite trail camera" (title, keyword, opening), which the hub baseline's trail-camera rule forbids.
+- [ ] Hub baseline note #9 lacks the setup and Starlink facts these pieces use (manual, Starlink spec sheet); that is why three rows flag "unsupported facts". Needs Jason's OK to update.
 - [ ] pull --apply after approval, then WordPress draft (refresh: needs the explicit overwrite opt-in)
