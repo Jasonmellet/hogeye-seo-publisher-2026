@@ -72,8 +72,8 @@ Product names in copy: **HogEye Camera** and **HogEye Mini Camera**. Never "Stee
 
 | System | Starting price |
 |---|---|
-| Drop trap + HogEye camera | **$4,499** |
-| 6-panel, 2-gate panel trap | **$5,695** (more with extra panels/gates) |
+| Drop trap + HogEye camera | **$4,499** (**$5,699** Starlink) |
+| 6-panel, 2-gate panel trap | **$5,695** (more with extra panels/gates; **$6,895** Starlink) |
 
 Gates and split gates can be added to DIY setups separately.
 
