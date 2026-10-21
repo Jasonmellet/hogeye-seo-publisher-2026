@@ -7,10 +7,10 @@ Built one piece at a time through `docs/WRITING_LOOP.md`. Sentences approved by 
 | Row | Piece | Brief | Draft | Hub | Site |
 |---|---|---|---|---|---|
 | oct26_02 | Best Camera for Hog Trapping (refresh of `/hog-trapping-cameras-compared-2026-hogeye-vs-trail/`) | ready | 407 words, Gemini pass, approved by Jason | **in_review**, re-pushed Oct 20, quality **pass** | not in WP |
-| oct26_01 | Trail Camera Live Feed (new) | held: facts_pending | - | placeholder | - |
-| oct26_04 | Satellite Trail Camera (new) | held: facts_pending | - | placeholder | - |
-| oct26_03 | HogEye vs. Spartan GoLive (refresh) | held: facts_pending | - | placeholder | - |
-| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | held: facts_pending | - | placeholder | - |
+| oct26_01 | Trail Camera Live Feed (new) | ready | 390 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
+| oct26_04 | Satellite Trail Camera (new) | ready | 338 words; local, Gemini, editorial pass (style 1.29 to 1.34 vs 1.30, borderline); **waiting for Jason** | placeholder | - |
+| oct26_03 | HogEye vs. Spartan GoLive (refresh) | ready | 398 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
+| oct26_05 | Are Hogs Nocturnal? (refresh of `/wild-hog-behavior-trap-timing/`) | ready | 393 words; local, Gemini, editorial pass; **waiting for Jason** | placeholder | - |
 
 ## oct26_02 hub flag (Oct 20)
 
@@ -23,5 +23,6 @@ Neither reason was a wrong fact or an opening that cannot be said aloud. With Ja
 
 - [x] oct26_02 pushed alone, in_review
 - [ ] Schell copy approval
-- [ ] Facts for oct26_01, 03, 04, 05, then draft each one alone
+- [x] Facts for oct26_01, 03, 04, 05 sourced (PRODUCT_FACTS.md) and drafted; review page `REVIEW_drafts_2-5.html`
+- [ ] Jason approves #2 to #5, then push each alone (editorial gate needs `TYPESAFE_API_KEY`, from the hub `.dev.vars`)
 - [ ] pull --apply after approval, then WordPress draft (refresh: needs the explicit overwrite opt-in)

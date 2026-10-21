@@ -36,7 +36,7 @@ Name only what fails. Do not rewrite the article and do not suggest style change
 
 1. wrong_fact: a claim that contradicts the facts file or the brief's facts; a price, number, spec, or capture result in neither; the camera closing the trap automatically; the reader called a rancher; HogEye framed as security, surveillance, or property watching; any claim about a Mini AI camera; screwworm treatment or medication advice; a product called anything but "HogEye Camera" or "HogEye Mini Camera".
 2. opening: the first paragraph could not be said out loud on a phone call to a landowner standing at their trap, names the page or article, or opens with a statistic or "Many landowners face the challenge".
-3. repeat: the draft says a step, rule, or point it already said, or duplicates an existing page listed below instead of answering this reader's sentence.
+3. repeat: the draft says a step, rule, or point it already said, or duplicates an existing page listed below instead of answering this reader's sentence. If "replaces_page" is set, the draft is the new version of that page; matching its topic or title is not a repeat.
 4. rule_as_prose: a sentence that recites a rule instead of helping the reader, such as what the camera does not do, what HogEye is not, or what the article covers.
 5. competitor_link: a link to a competitor's site.
 6. forced_keyword: the target keyword is forced into broken English.
@@ -62,10 +62,9 @@ def _text(markup: str) -> str:
 
 
 def existing_pages(brief: dict) -> list[str]:
-    pages = [link["url"] for link in brief.get("internal_links", []) if link.get("url")]
-    if brief.get("existing_url"):
-        pages.append(brief["existing_url"])
-    return pages
+    """Other pages on the site. A refresh's own page is not one of them: the draft replaces it."""
+    replaced = brief.get("existing_url") if brief.get("type") == "update" else None
+    return [link["url"] for link in brief.get("internal_links", []) if link.get("url") and link["url"] != replaced]
 
 
 def check(post: dict, brief: dict, api_key: str) -> dict:
@@ -74,6 +73,7 @@ def check(post: dict, brief: dict, api_key: str) -> dict:
         "target_keyword": brief.get("target_keyword"),
         "brief_facts": brief.get("key_points", []),
         "existing_pages_on_site": existing_pages(brief),
+        "replaces_page": brief.get("existing_url") if brief.get("type") == "update" else None,
         "draft": {
             "title": post.get("title"),
             "meta_description": post.get("meta_description"),

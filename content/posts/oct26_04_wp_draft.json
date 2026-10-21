@@ -1,0 +1,120 @@
+{
+  "externalId": "oct26_04",
+  "period": "2026-10",
+  "title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
+  "slug": "satellite-trail-camera",
+  "content": "<p>If your trap sits where your phone shows no bars, a cellular camera can't reach you either: no live video, and no way to send the close command. You need a satellite trail camera, and on a hog trap that means one that can close the gate too. The Starlink version of the HogEye Mini Camera connects through a Starlink Mini receiver, so you can still watch the trap and close it from home.</p>\n<h2>What comes in the Starlink kit</h2>\n<p>It's the same HogEye Mini Camera and the same HogEye app. The only change is how it gets online: over Wi-Fi from a Starlink Mini receiver instead of a cell connection. As long as the receiver can see open sky, it works almost anywhere.</p>\n<p>The <a href=\"https://hogeyecameras.com/buy-now/\">Starlink kit</a> is $2,999, and it brings its own freestanding steel tripod, so you don't need a T-post. The receiver sits on top, the camera mounts on the side, and the included gate cable and latch adapter run from the camera to your trap's gate.</p>\n<p>Power is in the box too: a 12V 100Ah lithium battery and a 300W foldable solar panel, sized to run the camera and the receiver together. Data and connectivity run $100 a month through Wildlife Dominion, and there's no separate Starlink account or service to buy. The <a href=\"https://hogeyecameras.com/camera-resources/\">HogEye setup resources</a> cover the Starlink install.</p>\n<h2>Watching and closing over Starlink</h2>\n<p>From there it works just like the cellular version. Open the app at home and watch live, day or night, using digital pan, tilt, and zoom to check every corner. Count the hogs inside and the ones still hanging back outside. When the whole sounder is in, send the close command from your phone and the gate closes.</p>\n<p>That's what the camera saves you on a remote trap: no drive out to find it empty, and no closing on half the sounder, which teaches the hogs that got away to avoid the trap. Anyone you add in the app can watch too, with no fee for extra users.</p>",
+  "status": "draft",
+  "excerpt": "When your hog trap is outside cell coverage, a cellular camera can’t reach you. The Starlink version of the HogEye Mini Camera lets you watch the sounder live and close the gate from home.",
+  "meta_title": "Satellite Trail Camera for Hog Traps With No Cell Signal",
+  "meta_description": "No cell signal at your hog trap? See how a satellite trail camera lets you watch the sounder live and close the gate from home.",
+  "focus_keyword": "satellite trail camera",
+  "categories": [
+    "Off-Grid Cameras"
+  ],
+  "tags": [
+    "Starlink",
+    "no cell signal",
+    "HogEye Mini Camera"
+  ],
+  "targetWordCount": 750,
+  "briefPath": "workspace/content_pipeline/monthly/2026-10/briefs/oct26_04.json",
+  "minWords": 450,
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 143.8,
+    "history": [
+      {
+        "step": "write",
+        "words": 427,
+        "problems": [
+          "body word count 427 under the brief floor 450"
+        ]
+      },
+      {
+        "step": "local fix",
+        "words": 523,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "That makes it an option for traps set beyond cell coverage, where a cellular camera can’t send video or receive a gate command.",
+            "why": "This repeats the opening paragraph's exact point that a cellular camera cannot send video or receive a close command without a signal.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "The stand gives you a place for both pieces of equipment at the trap, while the included cable and adapter connect the camera to the gate.",
+            "why": "This summarizes and recaps the equipment placement and connection steps already stated in the immediately preceding sentence.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "The receiver provides the Wi-Fi connection for the camera, and the camera continues to use the HogEye app you already use to watch the trap.",
+            "why": "This duplicates the information from the second paragraph explaining that it connects via Wi-Fi and uses the same HogEye app.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 448,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "Watch the live feed and count the hogs inside the trap and the ones still outside.",
+            "why": "The draft just told the reader in the previous paragraph to use the app to check the hogs inside and outside the trap.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Wait until the full sounder is inside before closing.",
+            "why": "The draft already instructed the reader in the preceding paragraph to send the close command when the whole sounder is inside.",
+            "quote_found": true
+          }
+        ],
+        "problems": [
+          "body word count 448 under the brief floor 450"
+        ]
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Opening no longer calls HogEye a trail camera outright",
+          "Cut the repeated inside-and-outside check and the repeated wait-for-the-sounder line Gemini named",
+          "Smoothed the gate-closes sentence",
+          "Cut the repeated open-sky line",
+          "Shortened the unlimited-users line that restated the close rule"
+        ]
+      },
+      {
+        "step": "voice pass (writer)",
+        "problems": [
+          "Voice: an editor scored this 'competent but generic'; the setup and kit paragraphs read like a spec sheet. Rewrite those paragraphs the way a field operator tells a neighbor standing at the trap what to do and why, in order, with plain verbs. Keep every fact and number exactly as it is, add no new facts, say each step once, and keep the opening paragraph's meaning. Stay under 750 words."
+        ],
+        "local": [
+          "body word count 387 under the brief floor 450"
+        ]
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Voice rewrite after the editorial gate scored style 1.02-1.16/2: kit paragraphs as steps instead of a parts list, cleaner opening, links folded into the copy; facts and numbers unchanged",
+          "'any HogEye trap' became 'the cellular version' (Gemini wrong_fact: HogEye makes cameras, not traps)"
+        ]
+      }
+    ]
+  },
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "externalId": "oct26_03",
+  "period": "2026-10",
+  "title": "HogEye vs. Spartan GoLive for Hog Traps",
+  "slug": "hogeye-vs-spartan-hog-trap-camera",
+  "content": "<p>If you’re considering a Spartan GoLive for a hog trap, check whether you can close the gate from the same screen you use to watch live video before you put any camera on the trap. Seeing the whole sounder is only useful if you can act when the last hog walks in.</p>\n<h2>What the Spartan GoLive does</h2>\n<p>The Spartan GoLive 3 is a cellular scouting camera that can send photos and video to your phone and live stream. It sends 8MP photos and 60-second HD video with sound. The GoLive 3 is listed at $289.95 to $299.95 depending on camo, and works on Verizon or AT&amp;T. It has a 96-degree field of view, motion detection out to 80 feet, no-glow infrared to 60 feet, and a 12V jack for solar or external power. The GoLive 2 live streams at up to 30 frames per second.</p>\n<p>That makes a GoLive useful for scouting where hogs are feeding before you set a trap. You can check activity around fresh rooting, trails, and wallows without making a trip out to the camera. But Spartan’s GoLive listings say nothing about connecting the camera to a trap gate or latch.</p>\n<h2>What your hog trap needs</h2>\n<p>At a trap, you need to see the hogs inside and outside the gate. If you close on part of the sounder, the hogs that get away can learn to avoid the trap. Live video alone does not complete that job: the camera has to connect to the gate.</p>\n<p>The HogEye Mini Camera comes with a gate cable and latch adapter that connect it to your trap’s gate. Its live video is 720p at 10 frames per second, with a 140-degree field of view wide enough to see inside and outside the trap. In the app, watch the hogs as they enter, count the ones inside and outside, and send the close command when the whole sounder is inside. The gate closes.</p>\n<p>The HogEye Mini Camera is $1,299 on AT&amp;T or Verizon. Its data plan is $49.99 a month with no contract, and you can start or stop it anytime. <a href=\"https://hogeyecameras.com/buy-now/\">See the HogEye Mini Camera</a> if you want a camera that connects to the gate and lets you close it from the app.</p>\n<p>If you’re comparing other options for trap use, see <a href=\"https://hogeyecameras.com/hog-trapping-cameras-compared-2026-hogeye-vs-trail/\">the camera comparison for hog trapping</a>.</p>",
+  "status": "draft",
+  "excerpt": "A Spartan GoLive can live stream, but a trap also needs a way to close the gate from your phone. Check the gate connection before mounting any camera.",
+  "meta_title": "Spartan GoLive for Hog Traps: Can It Close the Gate?",
+  "meta_description": "Considering a Spartan GoLive for your hog trap? Check whether you can close the gate from the same live-view screen before you mount a camera.",
+  "focus_keyword": "spartan golive",
+  "categories": [
+    "Camera Guides"
+  ],
+  "tags": [
+    "Spartan",
+    "comparison",
+    "live video"
+  ],
+  "targetWordCount": 750,
+  "briefPath": "workspace/content_pipeline/monthly/2026-10/briefs/oct26_03.json",
+  "minWords": 450,
+  "existing_url": "https://hogeyecameras.com/hogeye-vs-spartan-hog-trap-camera/",
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  },
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 87.5,
+    "history": [
+      {
+        "step": "write",
+        "words": 512,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "Before using one on your trap, confirm that the setup lets you send the gate-close command from the same app screen where you watch the live video.",
+            "why": "This repeats the opening paragraph's instruction to check whether you can close the gate from the same screen you use to watch live video.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "For a camera on an active trap, verify that you can watch the full trap and close its gate from the same app before you mount it.",
+            "why": "This states the exact same point about verifying the app's gate-closing capabilities before mounting the camera for a third time.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 458,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "A Spartan GoLive can help you find feeding activity and live stream, but its listings don’t describe a gate or latch connection.",
+            "why": "The draft repeats the point that the camera is useful for finding feeding activity and that its listings do not mention a gate or latch connection, which was already stated in the third paragraph.",
+            "quote_found": true
+          }
+        ],
+        "problems": []
+      },
+      {
+        "step": "operator edit",
+        "by": "Claude (Opus 5.5) for Jason",
+        "changes": [
+          "Cut the closing section that repeated the scouting and no-gate points (Gemini)",
+          "Cut the first of two 'close when the whole sounder is inside' lines",
+          "Meta title and description capitalize Spartan GoLive",
+          "Cut the earlier 'watch and send the close command' line so the close step is said once"
+        ]
+      }
+    ]
+  }
+}
