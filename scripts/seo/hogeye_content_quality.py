@@ -23,6 +23,15 @@ PRODUCT_FACTS = REPO_ROOT / "workspace" / "brand_truth" / "PRODUCT_FACTS.md"
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WORD_RE = re.compile(r"\b[\w'-]+\b", re.UNICODE)
+# The TL;DR is optional (WRITING_LOOP.md phase 6: "if the draft has one"). It is
+# for Schell in the hub and is stripped before WordPress. When present it stays
+# 35 to 60 words, the September rule.
+_TLDR_RE = re.compile(
+    r"^\s*<p[^>]*>\s*<strong[^>]*>\s*TL;DR:\s*</strong>(.*?)</p>",
+    flags=re.I | re.S,
+)
+_TLDR_MIN_WORDS = 35
+_TLDR_MAX_WORDS = 60
 
 # These patterns target production scaffolding, not normal reader-facing
 # instructions such as "write a one-page SOP".
@@ -84,7 +93,8 @@ _BRAND_POLICY_PATTERNS = (
     (r"\u2014", "em dash"),
     (r"\bunreleased\b", "unreleased product claim"),
     (
-        r"\b(?:treat(?:ment)?|medicat(?:e|ion)|apply|spray|drug)\b.{0,50}\bscrewworm\b",
+        r"\b(?:treat|medicate|apply|spray|administer)\b[^.!?]{0,50}\bscrewworm\b"
+        r"|\bscrewworm\b[^.!?]{0,50}\b(?:treat|medicate|apply|spray|administer)\b",
         "screwworm treatment advice",
     ),
 )
@@ -236,6 +246,16 @@ def _length_bounds(item: Dict[str, Any]) -> tuple[Optional[int], Optional[int]]:
     return floor, _target_words(item)
 
 
+def _tldr_findings(value: Any) -> List[Dict[str, str]]:
+    match = _TLDR_RE.search(str(value or ""))
+    if not match:
+        return []
+    count = count_words(match.group(1))
+    if not _TLDR_MIN_WORDS <= count <= _TLDR_MAX_WORDS:
+        return [{"field": "content", "label": f"TL;DR must be {_TLDR_MIN_WORDS}-{_TLDR_MAX_WORDS} words", "match": f"{count} words"}]
+    return []
+
+
 def _content_tail_findings(value: Any) -> List[Dict[str, str]]:
     """Catch explicit truncation markers or a section with no reader-facing body."""
     if isinstance(value, dict):
@@ -331,6 +351,7 @@ def validate_item(item: Dict[str, Any]) -> Dict[str, Any]:
                     }
                 )
     if "content" in item:
+        findings.extend(_tldr_findings(item["content"]))
         findings.extend(_content_tail_findings(item["content"]))
         findings.extend(_repeat_findings(item["content"]))
     findings.extend(_price_findings(fields))

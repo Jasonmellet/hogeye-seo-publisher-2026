@@ -129,6 +129,12 @@ def test_rejected_october_drafts_fail():
         assert not report["ok"], path.name
 
 
+def test_tldr_is_optional_but_sized_when_present():
+    assert validate_item(_post(_body(35)))["ok"]
+    short = "<p><strong>TL;DR:</strong> Close when they are all in.</p>\n"
+    assert "TL;DR must be 35-60 words" in _labels(validate_item(_post(short + _body(35))))
+
+
 # --- repeats ---------------------------------------------------------------------
 
 def test_repeated_sentence_fails():

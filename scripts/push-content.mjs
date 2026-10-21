@@ -333,6 +333,30 @@ async function runLoopPreflight(files) {
   console.log(`[push:content] loop PASS ${name} (brief approved, check=${check.model} pass)`);
 }
 
+async function runEditorialPreflight(files) {
+  const script = path.join(REPO_ROOT, 'scripts', 'editorial-gate.mjs');
+  const baseline = path.join(
+    REPO_ROOT,
+    'workspace',
+    'brand_truth',
+    'BRAND_BASELINE.md',
+  );
+  try {
+    await execFileAsync(
+      process.execPath,
+      [script, '--baseline', baseline, ...files],
+      {
+        cwd: REPO_ROOT,
+        env: process.env,
+        maxBuffer: 4 * 1024 * 1024,
+      },
+    );
+  } catch (error) {
+    const detail = error?.stdout || error?.stderr || error?.message || error;
+    fail(`HogEye editorial style/taste gate failed:\n${detail}`);
+  }
+}
+
 // Guard: never bulk-push the whole content/posts folder by accident (it may hold
 // back-catalog / already-published posts). Require explicit file paths, or a
 // --period that scopes the default folder to just that cycle's files.
@@ -399,6 +423,7 @@ if (!qualityFiles.length) {
 }
 await runQualityPreflight(qualityFiles);
 await runLoopPreflight(qualityFiles);
+await runEditorialPreflight(qualityFiles);
 
 let pushed = 0;
 let skipped = 0;

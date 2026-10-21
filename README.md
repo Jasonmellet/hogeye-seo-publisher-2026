@@ -44,4 +44,9 @@ npm run pull:approved -- --check --period 2026-07
 
 # Write hub title/slug/bodyMd(/focus_keyword) → local JSON, then publish from local files
 npm run pull:approved -- --apply --period 2026-07
+
+# After a post is live on WordPress: record its URL with the hub (starts article performance).
+# Needs WP_SITE_URL, WP_USERNAME, WP_APP_PASSWORD too. Dry-run unless --write.
+npm run mark:live -- --period 2026-07
+npm run mark:live -- --period 2026-07 --write
 ```

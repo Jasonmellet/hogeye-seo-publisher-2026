@@ -26,6 +26,7 @@
     "push:strategy": "node scripts/push-seo-strategy.mjs",
     "push:content": "node scripts/push-content.mjs",
     "pull:approved": "node scripts/pull-approved.mjs",
+    "mark:live": "node scripts/mark-live.mjs",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
