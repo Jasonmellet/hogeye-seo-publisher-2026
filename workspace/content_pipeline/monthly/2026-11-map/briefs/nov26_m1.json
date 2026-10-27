@@ -1,0 +1,112 @@
+{
+  "brief_id": "nov26_m1",
+  "slot_id": "HE-2026-11-M1",
+  "external_id": "nov26_m1",
+  "period": "2026-11",
+  "type": "new",
+  "page_type": "map_page",
+  "title": "Screwworm Map for Hog Trappers",
+  "slug": "screwworm-map",
+  "target_keyword": "screwworm map",
+  "support_keywords": [
+    "screwworm map texas",
+    "new world screwworm map",
+    "screwworm cases texas",
+    "where to report screwworm"
+  ],
+  "reader_sentence": "If you trap or shoot hogs where screwworm has turned up, check every animal for open, wormy wounds, take a photo, and call the number on the map for your state that same day.",
+  "evidence": [
+    {
+      "source": "client",
+      "signal": "Hog Map Scope of Work sent to Schell Oct 26, 2026: HogEye page 'Screwworm Map for Hog Trappers', monitoring angle, search term 'screwworm map'. Schell, Oct 20: move screwworm content from education to action, and report to APHIS and Texas animal health officials."
+    }
+  ],
+  "key_points": [
+    "The map shows the Texas Animal Health Commission's screwworm zones, the infested zone and the surveillance zone around it, refreshed every 6 hours from TAHC's public map.",
+    "The map also shows each county in Texas and New Mexico with a confirmed screwworm case in 2026, and which of those are still active.",
+    "As of October 26, 2026, 23 counties have had a confirmed case this year: 18 in Texas and 5 in New Mexico. TAHC lists 18 Texas counties with confirmed detections.",
+    "A calf in Zavala County, Texas, announced June 3, 2026, was the first U.S. animal case of the 2026 outbreak. That case has recovered and is no longer active.",
+    "On October 21, 2026, Texas Parks and Wildlife confirmed screwworm in a hunter-harvested elk in Pecos County. USDA APHIS calls it the first detection in U.S. wildlife.",
+    "After the Pecos County elk, TAHC said it would change the infested zone, and USDA and Texas Parks and Wildlife are adding wildlife surveillance.",
+    "USDA APHIS reported 1,947 active animal cases in Mexico as of October 19, 2026.",
+    "Texas Parks and Wildlife asks hunters to inspect an animal before field dressing or moving it: the eyes, ears, nose, mouth, genitals, and between the toes.",
+    "Screwworm maggots feed on living flesh, so they sit packed deep in a wound, not just on the surface.",
+    "If you find maggots in a wound, take clear photos, write down where and when you took the animal, and report it the same day.",
+    "In Texas, report screwworm in wildlife, including feral hogs, deer and elk, to Texas Parks and Wildlife at 512-389-4505 or your local TPWD wildlife biologist.",
+    "In Texas, report screwworm in livestock and pets to TAHC at 1-800-550-8242.",
+    "In New Mexico, report screwworm to the New Mexico Livestock Board at 505-841-6161.",
+    "Outside Texas, report screwworm in wildlife to USDA at 866-487-3297 or screwworm@usda.gov. The map lists each focus state's state veterinarian line.",
+    "USDA APHIS asks people to report anything suspicious right away, because each report shows officials where screwworm is and where to act.",
+    "The HogEye Mini Camera sends a notification to your phone when hogs are in the trap. With optional AI filtering, $10 a month, it notifies you only when 1+, 3+ or 5+ hogs are in the trap.",
+    "You watch the trap live in the HogEye app, and when the whole sounder is inside you send the close command from your phone and the gate closes. Then you know you have a catch to go check.",
+    "The Texas screwworm zones on the map refresh every 6 hours. The case counties are checked by hand each week against TAHC, New Mexico and USDA APHIS releases.",
+    "Other websites can show the map by copying its embed code, and its citation lists the sources and the date it was last updated.",
+    "A HogEye camera does not detect screwworm. It shows you the trap, and you check each animal yourself."
+  ],
+  "h2_outline": [
+    "Where is screwworm in Texas right now?",
+    "What happened in Pecos County?",
+    "Inspect. Document. Report.",
+    "Who do you call in your state?",
+    "How a camera helps you check every catch"
+  ],
+  "faq_questions": [
+    "How often is the screwworm map updated?",
+    "Can I put this map on my own website?",
+    "Can a camera tell me if a hog has screwworm?"
+  ],
+  "internal_links": [
+    {
+      "anchor": "how to spot New World screwworm",
+      "url": "https://hogeyecameras.com/how-to-spot-new-world-screwworm/"
+    },
+    {
+      "anchor": "what New World screwworm is",
+      "url": "https://hogeyecameras.com/what-is-new-world-screwworm/"
+    },
+    {
+      "anchor": "Texas hog monitoring checklist",
+      "url": "https://hogeyecameras.com/texas-hog-monitoring-checklist/"
+    },
+    {
+      "anchor": "camera setup guides",
+      "url": "https://hogeyecameras.com/camera-resources/"
+    },
+    {
+      "anchor": "feral hog map by state",
+      "url": "https://boarblanket.com/feral-hog-map/"
+    }
+  ],
+  "categories": [
+    "Feral Hog Educational & Awareness"
+  ],
+  "tags": [
+    "screwworm",
+    "map",
+    "Texas"
+  ],
+  "sentence_approved": {
+    "by": "Jason Mellet",
+    "on": "2026-10-27"
+  },
+  "word_count": 900,
+  "min_words": 550,
+  "schema_types": [
+    "WebPage",
+    "FAQPage"
+  ],
+  "source_data": {
+    "checked_2026_10_26": [
+      "https://www.tahc.texas.gov/emergency/nws.html",
+      "https://tpwd.texas.gov/newsmedia/releases/?req=20261021a",
+      "https://www.aphis.usda.gov/news/agency-announcements/usda-confirms-first-detection-new-world-screwworm-us-wildlife",
+      "https://www.aphis.usda.gov/news/agency-announcements/usda-confirms-presence-new-world-screwworm-united-states",
+      "https://www.aphis.usda.gov/animals/animal-health/livestock-and-poultry-disease/stop-screwworm/report-suspected-cases-screwworm",
+      "BB-hog-map/hog-map/data/static/screwworm-cases.json and report-it.json"
+    ],
+    "left_out": "Treatment advice of any kind. Any claim that the camera detects screwworm (Scope of Work: the angle is checking every catch). The 'game ranch' detail of the Pecos elk. Inspection detail beyond one short section, because Boar Blanket's November post BB-2026-11-03 covers field-dress inspection in full.",
+    "map_embed": "The page places the map right after the opening section: [wd_hog_map view=\"screwworm\"] on WordPress.",
+    "sister_link": "Boar Blanket's map page goes live the same day as this one."
+  },
+  "notes": "Case counts change weekly. Re-check TAHC and APHIS and the case file the day before this is pushed to the hub."
+}
