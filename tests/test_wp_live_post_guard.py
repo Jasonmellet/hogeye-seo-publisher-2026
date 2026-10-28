@@ -1,11 +1,14 @@
 """The WordPress client must never change a post that is not a draft."""
 
 import sys
+import types
 from pathlib import Path
 
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "packages" / "core_py" / "src"))
+# CI installs only pytest; config.py imports python-dotenv, which this test does not need.
+sys.modules.setdefault("dotenv", types.SimpleNamespace(load_dotenv=lambda *a, **k: None))
 
 from agt_publisher_core.modules.wp_client import LivePostGuardError, WordPressClient  # noqa: E402
 
