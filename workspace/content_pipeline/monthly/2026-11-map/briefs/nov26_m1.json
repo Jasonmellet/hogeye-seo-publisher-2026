@@ -24,7 +24,7 @@
   "key_points": [
     "The map shows the Texas Animal Health Commission's screwworm zones, the infested zone and the surveillance zone around it, refreshed every 6 hours from TAHC's public map.",
     "The map also shows each county in Texas and New Mexico with a confirmed screwworm case in 2026, and which of those are still active.",
-    "As of October 26, 2026, 23 counties have had a confirmed case this year: 18 in Texas and 5 in New Mexico. TAHC lists 18 Texas counties with confirmed detections.",
+    "As of October 28, 2026, TAHC lists 19 Texas counties and 49 premises with a confirmed screwworm case this year. New Mexico has reported cases in 5 counties. The map shows the 18 Texas counties that can be tied to a dated TAHC order.",
     "A calf in Zavala County, Texas, announced June 3, 2026, was the first U.S. animal case of the 2026 outbreak. That case has recovered and is no longer active.",
     "On October 21, 2026, Texas Parks and Wildlife confirmed screwworm in a hunter-harvested elk in Pecos County. USDA APHIS calls it the first detection in U.S. wildlife.",
     "After the Pecos County elk, TAHC said it would change the infested zone, and USDA and Texas Parks and Wildlife are adding wildlife surveillance.",
@@ -106,7 +106,10 @@
     ],
     "left_out": "Treatment advice of any kind. Any claim that the camera detects screwworm (Scope of Work: the angle is checking every catch). The 'game ranch' detail of the Pecos elk. Inspection detail beyond one short section, because Boar Blanket's November post BB-2026-11-03 covers field-dress inspection in full.",
     "map_embed": "The page places the map right after the opening section: [wd_hog_map view=\"screwworm\"] on WordPress.",
-    "sister_link": "Boar Blanket's map page goes live the same day as this one."
+    "sister_link": "Boar Blanket's map page goes live the same day as this one.",
+    "checked_2026_10_28": [
+      "https://www.tahc.texas.gov/emergency/nws.html (19 Texas counties, 49 premises)"
+    ]
   },
   "notes": "Case counts change weekly. Re-check TAHC and APHIS and the case file the day before this is pushed to the hub."
 }
