@@ -10,6 +10,7 @@ Centralizes:
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from typing import Any, Dict, Optional, Tuple
 
@@ -33,6 +34,16 @@ def clean_json_response(text: str) -> str:
         return text[obj_start:]
 
     return text[min(obj_start, arr_start) :]
+
+
+# We only ever push drafts; Jason publishes. Writes to an existing post/page are
+# allowed only while it is still a draft, and new ones can only be drafts.
+_EXISTING_ITEM = re.compile(r"(?:^|/)(posts|pages)/(\d+)/?$")
+_NEW_ITEM = re.compile(r"(?:^|/)(posts|pages)/?$")
+
+
+class LivePostGuardError(RuntimeError):
+    pass
 
 
 @dataclass(frozen=True)
@@ -72,6 +83,7 @@ class WordPressClient:
         params: Optional[Dict[str, Any]] = None,
         timeout: int = 30,
     ) -> WPResponse:
+        self._guard_write(endpoint, payload)
         resp = self.session.post(
             Config.get_api_url(endpoint),
             params=params or {},
@@ -87,6 +99,18 @@ class WordPressClient:
             return WPResponse(ok=True, status_code=resp.status_code, data=json.loads(cleaned), text=txt)
         except json.JSONDecodeError:
             return WPResponse(ok=True, status_code=resp.status_code, data=None, text=txt)
+
+    def _guard_write(self, endpoint: str, payload: Dict[str, Any]) -> None:
+        status = payload.get("status")
+        if (_EXISTING_ITEM.search(endpoint) or _NEW_ITEM.search(endpoint)) and status not in (None, "draft"):
+            raise LivePostGuardError(f"Refusing to set status={status!r} on {endpoint}: we only push drafts")
+        if _EXISTING_ITEM.search(endpoint):
+            cur = self.get_json(endpoint, params={"context": "edit", "_fields": "status"})
+            current = (cur.data or {}).get("status") if cur.ok and isinstance(cur.data, dict) else None
+            if current != "draft":
+                raise LivePostGuardError(
+                    f"Refusing to write {endpoint}: its status is {current!r}; we only touch drafts"
+                )
 
     def find_by_slug(self, content_type: str, slug: str) -> Tuple[bool, Optional[Dict[str, Any]]]:
         """
