@@ -1,0 +1,92 @@
+{
+  "externalId": "nov26_m1",
+  "period": "2026-11",
+  "title": "Screwworm Map for Hog Trappers",
+  "slug": "screwworm-map",
+  "content": "<p>If you trap or shoot hogs where screwworm has turned up, check every animal for open, wormy wounds, take a photo, and call the number on the screwworm map for your state that same day. Check the map before you head out so you know which areas have confirmed cases and which reporting contact to use.</p>\n[wd_hog_map view=\"screwworm\"]\n\n<h2>What the screwworm map shows</h2>\n<p>The map shows the Texas Animal Health Commission’s infested and surveillance zones. It also marks each county in Texas, New Mexico and Arizona with a confirmed screwworm case in 2026 and identifies which cases are still active. If you're new to it, start with <a href=\"https://hogeyecameras.com/what-is-new-world-screwworm/\">what New World screwworm is</a>.</p>\n<p>As of November 9, 2026, TAHC lists 22 Texas counties and 68 premises with a confirmed case this year. New Mexico reports 33 cases across 8 counties as of November 6, and on October 28 USDA APHIS confirmed Arizona’s first case, in a dog in Cochise County. The new cases run west along the Mexico border, through El Paso and Hudspeth counties in Texas and Doña Ana County in New Mexico. A county with a confirmed case is not necessarily still active, so check the map’s status rather than assuming every past detection is ongoing.</p>\n<p>The first U.S. animal case of the 2026 outbreak was a calf in Zavala County, announced June 3. That calf recovered, and its case is no longer active.</p>\n<h2>Why the Pecos County detection matters</h2>\n<p>On October 21, Texas Parks and Wildlife confirmed screwworm in a hunter-harvested elk in Pecos County. USDA APHIS called it the first detection in U.S. wildlife. After that detection, TAHC said it would change the infested zone, and USDA and Texas Parks and Wildlife are adding wildlife surveillance.</p>\n<p>That makes the map useful even if you’re checking a feral hog catch rather than livestock. USDA APHIS reported 1,947 active animal cases in Mexico as of October 19, 2026, and asks people to report anything suspicious right away. Reports help officials see where screwworm is and where to act.</p>\n<h2>Inspect. Document. Report.</h2>\n<p>Before field dressing or moving a hog, inspect it closely. Check the eyes, ears, nose, mouth, genitals and between the toes, as well as any open wounds. Screwworm maggots feed on living flesh, so they can be packed deep in a wound rather than sitting only on the surface. For more detail on what to look for, read <a href=\"https://hogeyecameras.com/how-to-spot-new-world-screwworm/\">how to spot New World screwworm</a>.</p>\n<p>Along with your photos, write down where and when you took the animal. Keep these numbers with your <a href=\"https://hogeyecameras.com/texas-hog-monitoring-checklist/\">Texas hog monitoring checklist</a>.</p>\n<ul>\n<li><strong>Texas wildlife, including feral hogs, deer and elk:</strong> Texas Parks and Wildlife at 512-389-4505, or your local TPWD wildlife biologist.</li>\n<li><strong>Texas livestock and pets:</strong> TAHC at 1-800-550-8242.</li>\n<li><strong>New Mexico:</strong> New Mexico Livestock Board at 505-841-6161.</li>\n<li><strong>Arizona:</strong> Arizona Game and Fish at 623-236-7201 for wildlife; Arizona Department of Agriculture at diseasereporting@azda.gov for livestock.</li>\n<li><strong>Wildlife outside Texas:</strong> USDA at 866-487-3297 or screwworm@usda.gov. The map lists each focus state’s state veterinarian line.</li>\n</ul>\n<h2>Use the trap camera to check your catch</h2>\n<p>The HogEye Mini Camera sends a notification to your phone when hogs are in the trap. With optional AI filtering for $10 a month, you can choose to get notified only when 1+, 3+ or 5+ hogs are in the trap. Placement and signal help is in the <a href=\"https://hogeyecameras.com/camera-resources/\">camera setup guides</a>.</p>\n<p>Open the HogEye app and watch the live video. Count the hogs inside and outside the trap. When the whole sounder is inside, send the close command from your phone and the gate closes. Then you know you have a catch to go check.</p>\n<p>To see where feral hogs live county by county, use Boar Blanket's <a href=\"https://boarblanket.com/feral-hog-map/\">feral hog map by state</a>.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>How often is the screwworm map updated?</h3>\n<p>The Texas zones refresh every 6 hours from TAHC's public map. The case counties are checked by hand each week against TAHC, New Mexico, Arizona and USDA APHIS releases.</p>\n<h3>Can I put this map on my own website?</h3>\n<p>Yes. Other websites can show the map by copying its embed code, and its citation lists the sources and the date it was last updated.</p>\n<h3>Can a camera tell me if a hog has screwworm?</h3>\n<p>No. A HogEye camera tells you when you have a catch. The check itself happens up close, at the trap.</p>\n",
+  "status": "draft",
+  "excerpt": "If screwworm has turned up where you trap or shoot hogs, inspect every animal for open, wormy wounds. Take clear photos and report suspicious finds using the number for your state on the map.",
+  "meta_title": "Screwworm Map for Hog Trappers: Check and Report",
+  "meta_description": "Use the screwworm map to check confirmed cases, inspect every hog you trap or shoot, and report suspicious wounds to the right number that same day.",
+  "focus_keyword": "screwworm map",
+  "categories": [
+    "Feral Hog Educational & Awareness"
+  ],
+  "tags": [
+    "screwworm",
+    "map",
+    "Texas"
+  ],
+  "targetWordCount": 900,
+  "briefPath": "workspace/content_pipeline/monthly/2026-11-map/briefs/nov26_m1.json",
+  "minWords": 550,
+  "secondProviderCheck": {
+    "verdict": "pass",
+    "failures": [],
+    "model": "gemini-pro-latest"
+  },
+  "generation": {
+    "model": "gpt-6-luna",
+    "seconds": 80.3,
+    "history": [
+      {
+        "step": "write",
+        "words": 649,
+        "problems": []
+      },
+      {
+        "step": "second-provider check",
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "rule_as_prose",
+            "quote": "A HogEye camera does not detect screwworm.",
+            "why": "This sentence recites a rule from the brief about what the camera does not do rather than translating the limitation into helpful guidance for the reader.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Its citation lists the sources and the date it was last updated.",
+            "why": "The draft repeats the exact point about the map's citation listing its sources and update date, which it already stated at the end of the third paragraph.",
+            "quote_found": true
+          }
+        ]
+      },
+      {
+        "step": "fix + re-check",
+        "words": 618,
+        "verdict": "fail",
+        "failures": [
+          {
+            "type": "repeat",
+            "quote": "If you find maggots in a wound, take clear photos and write down where and when you took the animal. Then call the appropriate number the same day.",
+            "why": "This repeats the instruction to take a photo of the wound and call to report it the same day, which was already stated in the opening paragraph.",
+            "quote_found": true
+          },
+          {
+            "type": "repeat",
+            "quote": "Then you know you have a catch to go check, inspect every animal before moving it, and report any suspicious wound that same day.",
+            "why": "This repeats the step to inspect the animal and report suspicious wounds the same day for a third time.",
+            "quote_found": true
+          }
+        ],
+        "problems": []
+      }
+    ],
+    "page_edits": "FAQ from brief facts and moved body sentences, map shortcode, brief links added (Claude, Oct 27)."
+  },
+  "faq_items": [
+    {
+      "question": "How often is the screwworm map updated?",
+      "answer": "The Texas zones refresh every 6 hours from TAHC's public map. The case counties are checked by hand each week against TAHC, New Mexico, Arizona and USDA APHIS releases."
+    },
+    {
+      "question": "Can I put this map on my own website?",
+      "answer": "Yes. Other websites can show the map by copying its embed code, and its citation lists the sources and the date it was last updated."
+    },
+    {
+      "question": "Can a camera tell me if a hog has screwworm?",
+      "answer": "No. A HogEye camera tells you when you have a catch. The check itself happens up close, at the trap."
+    }
+  ]
+}
