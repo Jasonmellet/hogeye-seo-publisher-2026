@@ -23,8 +23,8 @@
   ],
   "key_points": [
     "The map shows the Texas Animal Health Commission's screwworm zones, the infested zone and the surveillance zone around it, refreshed every 6 hours from TAHC's public map.",
-    "The map also shows each county in Texas and New Mexico with a confirmed screwworm case in 2026, and which of those are still active.",
-    "As of October 28, 2026, TAHC lists 19 Texas counties and 49 premises with a confirmed screwworm case this year. New Mexico has reported cases in 5 counties. The map shows the 18 Texas counties that can be tied to a dated TAHC order.",
+    "The map also shows each county in Texas, New Mexico and Arizona with a confirmed screwworm case in 2026, and which of those are still active.",
+    "As of November 9, 2026, TAHC lists 22 Texas counties and 68 premises with a confirmed screwworm case this year. New Mexico reports 33 cases across 8 counties as of November 6. USDA APHIS confirmed Arizona's first case, a dog in Cochise County, on October 28. The map shows the 21 Texas counties that can be tied to a dated TAHC order.",
     "A calf in Zavala County, Texas, announced June 3, 2026, was the first U.S. animal case of the 2026 outbreak. That case has recovered and is no longer active.",
     "On October 21, 2026, Texas Parks and Wildlife confirmed screwworm in a hunter-harvested elk in Pecos County. USDA APHIS calls it the first detection in U.S. wildlife.",
     "After the Pecos County elk, TAHC said it would change the infested zone, and USDA and Texas Parks and Wildlife are adding wildlife surveillance.",
@@ -34,12 +34,12 @@
     "If you find maggots in a wound, take clear photos, write down where and when you took the animal, and report it the same day.",
     "In Texas, report screwworm in wildlife, including feral hogs, deer and elk, to Texas Parks and Wildlife at 512-389-4505 or your local TPWD wildlife biologist.",
     "In Texas, report screwworm in livestock and pets to TAHC at 1-800-550-8242.",
-    "In New Mexico, report screwworm to the New Mexico Livestock Board at 505-841-6161.",
+    "In New Mexico, report screwworm to the New Mexico Livestock Board at 505-841-6161. In Arizona, report wildlife to Arizona Game and Fish at 623-236-7201 and livestock to the Arizona Department of Agriculture at diseasereporting@azda.gov.",
     "Outside Texas, report screwworm in wildlife to USDA at 866-487-3297 or screwworm@usda.gov. The map lists each focus state's state veterinarian line.",
     "USDA APHIS asks people to report anything suspicious right away, because each report shows officials where screwworm is and where to act.",
     "The HogEye Mini Camera sends a notification to your phone when hogs are in the trap. With optional AI filtering, $10 a month, it notifies you only when 1+, 3+ or 5+ hogs are in the trap.",
     "You watch the trap live in the HogEye app, and when the whole sounder is inside you send the close command from your phone and the gate closes. Then you know you have a catch to go check.",
-    "The Texas screwworm zones on the map refresh every 6 hours. The case counties are checked by hand each week against TAHC, New Mexico and USDA APHIS releases.",
+    "The Texas screwworm zones on the map refresh every 6 hours. The case counties are checked by hand each week against TAHC, New Mexico, Arizona and USDA APHIS releases.",
     "Other websites can show the map by copying its embed code, and its citation lists the sources and the date it was last updated.",
     "A HogEye camera does not detect screwworm. It shows you the trap, and you check each animal yourself."
   ],
@@ -108,7 +108,7 @@
     "map_embed": "The page places the map right after the opening section: [wd_hog_map view=\"screwworm\"] on WordPress.",
     "sister_link": "Boar Blanket's map page goes live the same day as this one.",
     "checked_2026_10_28": [
-      "https://www.tahc.texas.gov/emergency/nws.html (19 Texas counties, 49 premises)"
+      "https://www.tahc.texas.gov/emergency/nws.html (22 Texas counties, 68 premises, read Nov 9 2026)"
     ]
   },
   "notes": "Case counts change weekly. Re-check TAHC and APHIS and the case file the day before this is pushed to the hub."
