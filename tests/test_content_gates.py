@@ -223,8 +223,8 @@ def test_floor_must_be_below_ceiling():
 
 # --- canonical loop ----------------------------------------------------------------
 
-def test_writing_loop_copy_matches_canonical():
-    canonical = REPO_ROOT.parent / "WRITING_LOOP.md"
-    if not canonical.exists():
-        pytest.skip("canonical WRITING_LOOP.md is outside this checkout")
-    assert (REPO_ROOT / "docs" / "WRITING_LOOP.md").read_text() == canonical.read_text()
+def test_writing_loop_is_a_pointer_not_a_copy():
+    # One copy of the doctrine lives in the parent folder; the repo only points to it.
+    stub = (REPO_ROOT / "docs" / "WRITING_LOOP.md").read_text()
+    assert "../WRITING_LOOP.md" in stub
+    assert len(stub.splitlines()) < 15

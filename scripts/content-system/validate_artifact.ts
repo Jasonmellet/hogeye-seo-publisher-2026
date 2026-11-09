@@ -82,7 +82,9 @@ function checkBannedTerms(body: string, issues: string[]): void {
       continue;
     }
     for (const term of BANNED_TERMS) {
-      if (lowerLine.includes(term.toLowerCase())) {
+      // Whole words only, so "ranch" never matches a banned "ranchers".
+      const escapedTerm = term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      if (new RegExp(`\\b${escapedTerm}\\b`).test(lowerLine)) {
         issues.push(`Contains banned term or framing in content: ${term}`);
       }
     }

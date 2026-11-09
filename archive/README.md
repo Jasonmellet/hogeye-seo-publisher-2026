@@ -12,3 +12,7 @@ Material here is **historical, superseded, or duplicate**. Do not treat these pa
 | `images_root_duplicate_scripts_images/` | Byte-identical copy of what lives under **`scripts/images/`** (was an extra top-level `images/`). |
 
 New archival drops should get a dated subfolder under `archive/` and a one-line entry in this table.
+
+## 2026-10-28
+
+`2026-10-28/` holds scripts and docs nothing active referenced (image-agent batches, Feb 2026 builds, one-off WordPress audits and smoke tests). Paths mirror their old location. They predate the draft-only guard; do not run them as-is.
